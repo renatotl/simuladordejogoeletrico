@@ -1,0 +1,23 @@
+.retangulo {
+  width: 500px; /* largura do retângulo */
+  height: 200px; /* altura do retângulo */
+  display: flex; /* define o layout como flexbox */
+  flex-wrap: wrap; /* permite que os quadrados sejam exibidos em linhas */
+}
+
+.quadrado {
+  width: 20%; /* largura de cada quadrado */
+  height: 100%; /* altura de cada quadrado */
+  background-color: #ccc; /* cor de fundo de cada quadrado */
+  border: 1px solid #ddd; /* borda de cada quadrado */
+  cursor: pointer; /* define o cursor como um ponteiro */
+  transition: background-color 0.2s; /* efeito de transição ao clicar */
+}
+
+.quadrado:hover {
+  background-color: #aaa; /* cor de fundo ao passar o mouse */
+}
+
+.quadrado:active {
+  background-color: #888; /* cor de fundo ao clicar */
+}
