@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+nav {
+    position: fixed;
+    z-index: 9999;
+    width: 100vw;
+    height: 3rem;
+    background-color: #c2babb;
+  }
+
+main img {
+width: 3rem;
+height: 3rem;
+
+}
+
+
