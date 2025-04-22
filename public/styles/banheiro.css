@@ -12,10 +12,147 @@ nav {
     background-color: #c2babb;
   }
 
-main img {
-width: 3rem;
-height: 3rem;
+#foto1 {
+width: 4rem;
+height: 4rem;
 
+ position:absolute;
+
+ top:100px;
+ left: 1000px;
 }
 
 
+#foto2 {
+  width: 6rem;
+  height:6rem;
+  
+   position:absolute;
+  
+   top:400px;
+   left: 200px;
+   }
+
+#foto3 {
+    width: 3rem;
+    height:3rem;
+    
+     
+    
+    
+     position:absolute;
+     top:300px;
+     left: 500px;
+}
+  
+#foto4 {
+      width: 3rem;
+      height:3rem;
+      
+       position:absolute;
+      
+       top:150px;
+       left: 600px;
+}
+
+
+#foto5 {
+        width: 3rem;
+        height:3rem;
+        
+         position:absolute;
+        
+         top:300px;
+         left: 700px;
+}
+
+#botaoVoltar{
+
+        background-color:  #6864db;
+        width: 5rem;
+        height:3rem;
+        border: none;
+        cursor: pointer; /* define o cursor como um ponteiro */
+        transition: background-color 0.2s; /* efeito de transição ao clicar */
+        
+}
+
+#botaoVoltar:hover{
+          background-color:  aqua;
+}
+  
+
+
+
+ #fio1 {
+          width: 2.5rem;
+          height:3rem;
+          transition: background-color 0.2s; /* efeito de transição ao clicar */
+          cursor: pointer; /* define o cursor como um ponteiro */
+}
+
+#fio2 {
+            width: 2.5rem;
+            height:3rem;
+            transition: background-color 0.2s; /* efeito de transição ao clicar */
+            cursor: pointer; /* define o cursor como um ponteiro */
+             
+}
+
+#fio3 {
+              width: 2.5rem;
+              height:3rem;
+              transition: background-color 0.2s; /* efeito de transição ao clicar */
+              cursor: pointer; /* define o cursor como um ponteiro */
+}
+
+#fio4 {
+                width: 2.5rem;
+                height:3rem;
+                transition: background-color 0.2s; /* efeito de transição ao clicar */
+                cursor: pointer; /* define o cursor como um ponteiro */
+}
+
+#fio5 {
+                  width: 2.5rem;
+                  height:3rem;
+                  transition: background-color\ 0.2s; /* efeito de transição ao clicar */
+                  cursor: pointer; /* define o cursor como um ponteiro */ 
+}
+
+#fio1:hover{
+
+  width: 3rem;
+  height:3.5rem;
+  border-radius: 10%;
+}
+#fio2:hover{
+
+  width: 3rem;
+  height:3.5rem;
+  border-radius: 10%;
+}
+#fio3:hover{
+
+  width: 3rem;
+  height:3.5rem;
+  border-radius: 10%;
+}
+#fio4:hover{
+
+  width: 3rem;
+  height:3.5rem;
+  border-radius: 10%;
+}
+#fio5:hover{
+
+  width: 3rem;
+  height:3.5rem;
+  border-radius: 10%;
+}
+
+#menu{
+  display:flex;
+  position: absolute;
+  gap: 2rem; /* espaço entre os itens */
+}
