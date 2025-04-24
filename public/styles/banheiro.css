@@ -156,3 +156,67 @@ height: 4rem;
   position: absolute;
   gap: 2rem; /* espaço entre os itens */
 }
+
+#MAIN1 {
+  width: 10px;
+  height:10px;
+  
+   position:absolute;
+  
+   top:50px;
+   left: 20px;
+   }
+
+   #MAIN2 {
+    width: 10px;
+    height:10px;
+    
+     position:absolute;
+    
+     top:80px;
+     left: 20px;
+     }
+
+
+     #MAIN3 {
+      width: 10px;
+      height:10px;
+      
+       position:absolute;
+      
+       top:50px;
+       left: 1200px;
+       }
+    
+       #MAIN4 {
+        width: 10px;
+        height:10px;
+        
+         position:absolute;
+        
+         top:80px;
+         left: 1200px;
+         }
+
+
+#L1 {
+  width: 10px;
+  height:10px;
+  
+   position:absolute;
+  
+   top:150px;
+   left: 600px;
+   }
+
+   #L2 {
+    width: 10px;
+    height:10px;
+    
+     position:absolute;
+    
+     top:150px;
+     left: 640px;
+     }
+
+
