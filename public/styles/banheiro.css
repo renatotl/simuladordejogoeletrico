@@ -10,6 +10,10 @@ nav {
     width: 100vw;
     height: 3rem;
     background-color: #c2babb;
+    justify-content: space-between;
+   display: flex;
+   
+
   }
 
 #foto1 {
@@ -78,20 +82,24 @@ nav {
 }
 
 
-#resetar{
-
-  background-color:  #bcdbe2;
-   width: 5rem;
-   height:3rem;
-    border: none;
-    cursor: pointer; /* define o cursor como um ponteiro */
-    transition: background-color 0.2s; /* efeito de transição ao clicar */
-    text-align: center;
-       
-}
 
 #resetar:hover{
   background-color:  aqua;
+}
+
+
+#resetar{
+ display: flex;
+ background-color:  #bcdbe2;
+ width: 5rem;
+  height:3rem;
+  border: none;
+  cursor: pointer; /* define o cursor como um ponteiro */
+  transition: background-color 0.2s; /* efeito de transição ao clicar */
+  justify-content: center;
+  align-items: center;
+  margin-left: 72rem;
+  position: fixed;
 }
 
 
