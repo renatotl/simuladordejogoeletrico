@@ -46,7 +46,7 @@ let parte2 = false;
 
 
 
-
+let resetId = false;
 
 
 //=========PRIMEIRO FIO============
@@ -71,22 +71,22 @@ elementos2.forEach(elemento2 => {
 console.log(id)
 // se o id selecionado for diferente os valres abaixo se TRUE e ele grava a variavel
             if( id != "MAIN2" && id != "MAIN3" && id != "MAIN4" && id != "fio1" 
-               && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"){
+               && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu" && id !="resetar"){
            
            return  pontoSelecionado2 = "MAIN1", console.log(pontoSelecionado2);
             
          } else if(id != "MAIN1" && id != "MAIN3" && id != "MAIN4" && id != "fio1" 
-               && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"){
+               && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"&& id !="resetar"){
             
            return  pontoSelecionado2 = "MAIN2", console.log(pontoSelecionado2);
              
          } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN4" && id != "fio1" 
-               && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"){
+               && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"&& id !="resetar"){
             
            return  pontoSelecionado2 = "MAIN3", console.log(pontoSelecionado2);
              
          } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3" && id != "fio1" 
-               && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"){
+               && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"&& id !="resetar"){
             
           return  pontoSelecionado2 = "MAIN4", console.log(pontoSelecionado2);
             
@@ -127,6 +127,7 @@ elementos.forEach(elemento => {
          return   corFio = "marromRetorno",console.log(corFio);
             
         }
+        
 
 // ele grava o valor do primeiro click na variavel pontoSelecionado1 SO SE a pontoSelecionado2 for undefined
         if((id== "MAIN1" )&& (pontoSelecionado2 == undefined)){
@@ -187,22 +188,22 @@ elementos4.forEach(elemento4 => {
 
 // se o id selecionado for diferente os valres abaixo se TRUE e ele grava a variavel
             if( id != "MAIN2" && id != "MAIN3" && id != "MAIN4" && id != "pretoFase" 
-               && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && "marromRetorno"){
+               && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno"&& id != "resetar" && id != "menu"){
            
            return  pontoSelecionado4 = "MAIN1", console.log(pontoSelecionado4);
             
          } else if(id != "MAIN1" && id != "MAIN3" && id != "MAIN4" && id != "pretoFase" 
-            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && "marromRetorno"){
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"){
             
            return  pontoSelecionado4 = "MAIN2", console.log(pontoSelecionado4);
              
          } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN4" && id != "pretoFase" 
-            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && "marromRetorno"){
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"){
             
            return  pontoSelecionado4 = "MAIN3", console.log(pontoSelecionado4);
              
          } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3" && id != "pretoFase" 
-            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && "marromRetorno"){
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"){
             
           return  pontoSelecionado4 = "MAIN4", console.log(pontoSelecionado4);
             
@@ -642,15 +643,158 @@ function fioConectadoParte22(){
 
 
 };
+ function mostrar(){   
 
+console.log("corFio;",corFio);
+console.log("ligacaoPonto;",ligacaoPonto);
+console.log("preimeiraLigacao;",preimeiraLigacao);
+console.log("segundaLigacao;",segundaLigacao);
+console.log("pontoSelecionado1;",pontoSelecionado1);
+console.log("pontoSelecionado2;",pontoSelecionado2);
+console.log("verificador;",verificador);
 
-
-
-
-
+console.log("corFio2;",corFio2);
+console.log("ligacaoPonto2;",ligacaoPonto2);
+console.log("preimeiraLigacao2;",preimeiraLigacao2);
+console.log("segundaLigacao2;",segundaLigacao2);
+console.log("pontoSelecionado3;",pontoSelecionado3);
+console.log("pontoSelecionado4;",pontoSelecionado4);
+console.log("verificador2;",verificador2);
+console.log("parte2;",parte2)
+console.log("seretId;",resetId)
+ }
 
 //=========PRIMEIRO FIO===========
  function fioConectadoParte3(){
+
+
+    console.log( " e true ou false",resetId);
+ if(resetId == true ){
+
+   
+   let elementosCss = this.document.getElementById("MAIN10")
+   let elementosCss2 = this.document.getElementById("MAIN11")
+   let elementosCss3 = this.document.getElementById("MAIN12")
+   let elementosCss4 = this.document.getElementById("MAIN13")
+   let elementosCss5 = this.document.getElementById("MAIN14")
+
+
+   let elementosCss6 = this.document.getElementById("MAIN15")
+   let elementosCss7 = this.document.getElementById("MAIN16")
+   let elementosCss8 = this.document.getElementById("MAIN17")
+   let elementosCss9 = this.document.getElementById("MAIN18")
+   let elementosCss10 = this.document.getElementById("MAIN19")
+
+   console.log(elementosCss)
+   if( elementosCss != null || elementosCss != undefined ){ 
+   elementosCss.id = "MAIN1"
+   
+
+
+   console.log(elementosCss)
+   
+   }
+   if( elementosCss2 != null || elementosCss2 != undefined ){ 
+       
+      elementosCss2.id= "MAIN1"
+      
+   
+   
+      console.log(elementosCss)
+      
+   }
+
+   if( elementosCss3 != null || elementosCss3 != undefined ){ 
+      
+         
+         elementosCss3.id= "MAIN1"
+         
+      
+      
+         console.log(elementosCss)
+         
+   }
+   if( elementosCss4 != null || elementosCss4 != undefined ){ 
+      
+         
+           
+            elementosCss4.id= "MAIN1"
+          
+         
+         
+            console.log(elementosCss)
+            
+   }
+   if( elementosCss5 != null || elementosCss5 != undefined ){ 
+      
+         
+           
+               
+               elementosCss5.id= "MAIN1"
+            
+            
+               console.log(elementosCss)
+               
+   }        
+   if( elementosCss6 != null || elementosCss6 != undefined ){ 
+      elementosCss6.id = "MAIN2"
+      
+   
+   
+      console.log(elementosCss)
+      
+   }
+   if( elementosCss7 != null || elementosCss7 != undefined ){ 
+          
+         elementosCss7.id= "MAIN2"
+         
+      
+      
+         console.log(elementosCss)
+         
+   }
+   
+   if( elementosCss8 != null || elementosCss8 != undefined ){ 
+         
+            
+            elementosCss8.id= "MAIN2"
+            
+         
+         
+            console.log(elementosCss)
+            
+   }
+      if( elementosCss9 != null || elementosCss9 != undefined ){ 
+         
+            
+              
+               elementosCss9.id= "MAIN2"
+             
+            
+            
+               console.log(elementosCss)
+               
+   }
+      if( elementosCss10 != null || elementosCss10 != undefined ){ 
+         
+            
+              
+                  
+                  elementosCss10.id= "MAIN2"
+               
+               
+                  console.log(elementosCss)
+                  
+      }           
+
+
+   resetId = false
+
+
+
+
+ }else
+
 
    console.log(verificador);
     if( verificador == "MAIN1"   && ligacaoPonto == "pretoFase" && preimeiraLigacao =="pretoFase" && segundaLigacao == "pretoFase" ){
@@ -992,7 +1136,37 @@ console.log("fundionou");
 
 
 
+function resetButtom(){
 
+    corFio = "";
+    ligacaoPonto = "";
+    preimeiraLigacao = "";
+    segundaLigacao = "";
+    pontoSelecionado1 = undefined;
+    pontoSelecionado2 = undefined;
+    verificador = "";
+   
+   
+    corFio2 = "";
+    ligacaoPonto2 = "";
+    preimeiraLigacao2 = "";
+    segundaLigacao2 = "";
+    pontoSelecionado3 = undefined;
+    pontoSelecionado4 = undefined;
+    verificador2 = "";
+    parte2 = false  ;
+    console.log("resetar");
+
+
+    resetId = true
+    
+
+   
+
+
+  
+    
+}
 
 
 
@@ -1003,7 +1177,7 @@ fioConectado();//=========PRIMEIRO FIO========
 fioConectadoParte1();//=========PRIMEIRO FIO========
 fioConectadoParte2();//=========PRIMEIRO FIO========
 fioConectadoParte3();//=========PRIMEIRO FIO========
-
+mostrar()
 
 fioConectado2();// ===========SEGUNDO FIO==========
 fioConectadoParte12()//===========SEGUNDO FIO==========
@@ -1023,3 +1197,7 @@ setInterval(fioConectado2, 3000);// ===========SEGUNDO FIO==========
 setInterval(fioConectadoParte12, 3000);// ===========SEGUNDO FIO==========
 setInterval(fioConectadoParte22, 3000);// ===========SEGUNDO FIO==========
 setInterval(fioConectadoParte33, 3000);// ===========SEGUNDO FIO==========
+
+
+
+setInterval(mostrar, 3000);

@@ -77,6 +77,24 @@ nav {
         
 }
 
+
+#resetar{
+
+  background-color:  #bcdbe2;
+   width: 5rem;
+   height:3rem;
+    border: none;
+    cursor: pointer; /* define o cursor como um ponteiro */
+    transition: background-color 0.2s; /* efeito de transição ao clicar */
+    text-align: center;
+       
+}
+
+#resetar:hover{
+  background-color:  aqua;
+}
+
+
 #botaoVoltar:hover{
       background-color:  aqua;
 }
