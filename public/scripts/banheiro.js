@@ -107,6 +107,11 @@ elementos.forEach(elemento => {
     elemento.addEventListener("click", function(){
         const id = elemento.id;
         
+        console.log( "fio chato",corFio);
+        if( corFio != "fio1"&& corFio != "fio2" && corFio != "fio3"&& corFio != "fio4" && corFio != "fio5"  && corFio != "pretoFase"&& corFio != "verdeTerra"
+         && corFio != "brancoRetorno"&& corFio != "azulNeltro" && corFio != "marromRetorno"
+        ) {  
+
         if(id== "fio1"){
             
           return  corFio = "pretoFase" ,console.log(corFio);
@@ -127,6 +132,7 @@ elementos.forEach(elemento => {
          return   corFio = "marromRetorno",console.log(corFio);
             
         }
+      }
         
 
 // ele grava o valor do primeiro click na variavel pontoSelecionado1 SO SE a pontoSelecionado2 for undefined
@@ -184,26 +190,30 @@ elementos4.forEach(elemento4 => {
       pontoSelecionado4 != "MAIN2" && pontoSelecionado4 != "MAIN3" && pontoSelecionado4 != "MAIN4"
     ){
        
-
+console.log("id chato", id)
 
 // se o id selecionado for diferente os valres abaixo se TRUE e ele grava a variavel
             if( id != "MAIN2" && id != "MAIN3" && id != "MAIN4" && id != "pretoFase" 
-               && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno"&& id != "resetar" && id != "menu"){
+               && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno"&& id != "resetar" && id != "menu"
+               && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
            
            return  pontoSelecionado4 = "MAIN1", console.log(pontoSelecionado4);
             
          } else if(id != "MAIN1" && id != "MAIN3" && id != "MAIN4" && id != "pretoFase" 
-            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"){
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
+            && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
             
            return  pontoSelecionado4 = "MAIN2", console.log(pontoSelecionado4);
              
          } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN4" && id != "pretoFase" 
-            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"){
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
+            && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
             
            return  pontoSelecionado4 = "MAIN3", console.log(pontoSelecionado4);
              
          } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3" && id != "pretoFase" 
-            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"){
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
+            && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
             
           return  pontoSelecionado4 = "MAIN4", console.log(pontoSelecionado4);
             
@@ -230,22 +240,22 @@ elementos3.forEach(elemento3 => {
 
 
         
-        if(id== "fio1"){
+        if(id== "fio1" && corFio != undefined  ){
             
           return  corFio2 = "pretoFase" ,console.log(corFio2);
          
-        } else if(id=="fio2"){
+        } else if(id=="fio2"&& corFio != undefined ){
               
           return  corFio2 = "verdeTerra",console.log(corFio2);
-        } else if(id=="fio3"){
+        } else if(id=="fio3"&& corFio != undefined ){
             
           return  corFio2 = "brancoRetorno",console.log(corFio2);
            
-        } else if(id=="fio4"){
+        } else if(id=="fio4"&& corFio != undefined ){
             
            return corFio2 = "azulNeltro",console.log(corFio2);
             
-        }else if(id=="fio5"){
+        }else if(id=="fio5"&& corFio != undefined ){
             
          return   corFio2 = "marromRetorno",console.log(corFio2);
             
@@ -1029,6 +1039,136 @@ console.log("fundionou");
 //===========SEGUNDO FIO==========
  function fioConectadoParte33(){
 
+
+
+   console.log( " e true ou false",resetId);
+ if(resetId == true ){
+
+   
+   let elementosCss = this.document.getElementById("MAIN10")
+   let elementosCss2 = this.document.getElementById("MAIN11")
+   let elementosCss3 = this.document.getElementById("MAIN12")
+   let elementosCss4 = this.document.getElementById("MAIN13")
+   let elementosCss5 = this.document.getElementById("MAIN14")
+
+
+   let elementosCss6 = this.document.getElementById("MAIN15")
+   let elementosCss7 = this.document.getElementById("MAIN16")
+   let elementosCss8 = this.document.getElementById("MAIN17")
+   let elementosCss9 = this.document.getElementById("MAIN18")
+   let elementosCss10 = this.document.getElementById("MAIN19")
+
+   console.log(elementosCss)
+   if( elementosCss != null || elementosCss != undefined ){ 
+   elementosCss.id = "MAIN1"
+   
+
+
+   console.log(elementosCss)
+   
+   }
+   if( elementosCss2 != null || elementosCss2 != undefined ){ 
+       
+      elementosCss2.id= "MAIN1"
+      
+   
+   
+      console.log(elementosCss)
+      
+   }
+
+   if( elementosCss3 != null || elementosCss3 != undefined ){ 
+      
+         
+         elementosCss3.id= "MAIN1"
+         
+      
+      
+         console.log(elementosCss)
+         
+   }
+   if( elementosCss4 != null || elementosCss4 != undefined ){ 
+      
+         
+           
+            elementosCss4.id= "MAIN1"
+          
+         
+         
+            console.log(elementosCss)
+            
+   }
+   if( elementosCss5 != null || elementosCss5 != undefined ){ 
+      
+         
+           
+               
+               elementosCss5.id= "MAIN1"
+            
+            
+               console.log(elementosCss)
+               
+   }        
+   if( elementosCss6 != null || elementosCss6 != undefined ){ 
+      elementosCss6.id = "MAIN2"
+      
+   
+   
+      console.log(elementosCss)
+      
+   }
+   if( elementosCss7 != null || elementosCss7 != undefined ){ 
+          
+         elementosCss7.id= "MAIN2"
+         
+      
+      
+         console.log(elementosCss)
+         
+   }
+   
+   if( elementosCss8 != null || elementosCss8 != undefined ){ 
+         
+            
+            elementosCss8.id= "MAIN2"
+            
+         
+         
+            console.log(elementosCss)
+            
+   }
+      if( elementosCss9 != null || elementosCss9 != undefined ){ 
+         
+            
+              
+               elementosCss9.id= "MAIN2"
+             
+            
+            
+               console.log(elementosCss)
+               
+   }
+      if( elementosCss10 != null || elementosCss10 != undefined ){ 
+         
+            
+              
+                  
+                  elementosCss10.id= "MAIN2"
+               
+               
+                  console.log(elementosCss)
+                  
+      }           
+
+
+   resetId = false
+
+
+
+
+ }else
+
+ 
    console.log(verificador2);
     if(  verificador2 == "MAIN1" && ligacaoPonto2 == "pretoFase" && preimeiraLigacao2 =="pretoFase" && segundaLigacao2 == "pretoFase" ){
         let elementosCss = document.getElementById("MAIN1");
