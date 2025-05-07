@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+
+nav {
+    position: fixed;
+    z-index: 9999;
+    width: 100vw;
+    height: 3rem;
+    background-color: #c2babb;
+    justify-content: space-between;
+   display: flex;
+   
+
+  }
+
+  #botaoVoltar{
+
+    background-color:  #6864db;
+     width: 5rem;
+     height:3rem;
+      border: none;
+      cursor: pointer; /* define o cursor como um ponteiro */
+      transition: background-color 0.2s; /* efeito de transição ao clicar */
+         
+ }
+ 
+ 
+ 
+ #resetar:hover{
+   background-color:  aqua;
+ }
+ 
+ 
+ #resetar{
+  display: flex;
+  background-color:  #bcdbe2;
+  width: 5rem;
+   height:3rem;
+   border: none;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   transition: background-color 0.2s; /* efeito de transição ao clicar */
+   justify-content: center;
+   align-items: center;
+   margin-left: 72rem;
+   position: fixed;
+ }
+ 
+ 
+ #botaoVoltar:hover{
+       background-color:  aqua;
+ }
+   
+ 
+ 
+ 
+  #fio1 {
+       width: 2.5rem;
+        height:3rem;
+       transition: background-color 0.2s; /* efeito de transição ao clicar */
+       cursor: pointer; /* define o cursor como um ponteiro */
+ }
+ 
+ #fio2 {
+        width: 2.5rem;
+       height:3rem;
+        transition: background-color 0.2s; /* efeito de transição ao clicar */
+         cursor: pointer; /* define o cursor como um ponteiro */
+              
+ }
+ 
+ #fio3 {
+         width: 2.5rem;
+          height:3rem;
+         transition: background-color 0.2s; /* efeito de transição ao clicar */
+         cursor: pointer; /* define o cursor como um ponteiro */
+ }
+ 
+ #fio4 {
+          width: 2.5rem;
+           height:3rem;
+           transition: background-color 0.2s; /* efeito de transição ao clicar */
+          cursor: pointer; /* define o cursor como um ponteiro */
+ }
+ 
+ #fio5 {
+          width: 2.5rem;
+           height:3rem;
+          transition: background-color\ 0.2s; /* efeito de transição ao clicar */
+           cursor: pointer; /* define o cursor como um ponteiro */ 
+ }
+ 
+ #fio1:hover{
+ 
+   width: 3rem;
+   height:3.5rem;
+   border-radius: 10%;
+ }
+ #fio2:hover{
+ 
+   width: 3rem;
+   height:3.5rem;
+   border-radius: 10%;
+ }
+ #fio3:hover{
+ 
+   width: 3rem;
+   height:3.5rem;
+   border-radius: 10%;
+ }
+ #fio4:hover{
+ 
+   width: 3rem;
+   height:3.5rem;
+   border-radius: 10%;
+ }
+ #fio5:hover{
+ 
+   width: 3rem;
+   height:3.5rem;
+   border-radius: 10%;
+ }
+
+ #menu{
+    display:flex;
+    position: absolute;
+    gap: 2rem; /* espaço entre os itens */
+  }
