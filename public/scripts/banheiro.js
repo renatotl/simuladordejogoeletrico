@@ -50,7 +50,12 @@ let resetId = false;
 let resetId2 = false;
 let bug = false;
  let idioma = "portugues"
-
+let id2;
+let conexao;
+let conexacaoL11Alto;
+let conexacaoL12Alto;
+let conexacaoL11Baixo;
+let conexacaoL12Baixo;
 //=========PRIMEIRO FIO============
 //conectando os fios a os quadrados
 // pegando os click com os ids e validando
@@ -1193,12 +1198,13 @@ else  if(verificador == "MAIN1" && ligacaoPonto == "pretoFase" && preimeiraLigac
    if(elementosCss != null || elementosCss != undefined) { 
    
       if(pontoSelecionado2 == "MAIN2" || pontoSelecionado2 == "MAIN1"){ 
+         conexao = "1p2"
     console.log(elementosCss);
     parte2 = true;
     elementosCss.id = "MAIN20"
    
    console.log("fundionou"); 
-   abrirPopup()
+   abrirPopup(conexao)
     bug = true;
       }
    }
@@ -1211,8 +1217,9 @@ else  if(verificador == "MAIN1" && ligacaoPonto == "verdeTerra" && preimeiraLiga
          if(pontoSelecionado2 == "MAIN2" || pontoSelecionado2 == "MAIN1"){ 
        console.log(elementosCss);
        parte2 = true;
+       conexao = "1p2"
        elementosCss.id = "MAIN21"
-       abrirPopup()
+      abrirPopup(conexao)
       console.log("fundionou"); 
        bug = true;
          }
@@ -1225,8 +1232,9 @@ else  if(verificador == "MAIN1" && ligacaoPonto == "brancoRetorno" && preimeiraL
       if(pontoSelecionado2 == "MAIN2" || pontoSelecionado2 == "MAIN1"){ 
       console.log(elementosCss);
       parte2 = true;
+      conexao = "1p2"
       elementosCss.id = "MAIN22"
-      abrirPopup()
+      abrirPopup(conexao)
       console.log("fundionou"); 
       bug = true;
 }} }
@@ -1237,8 +1245,9 @@ else  if(verificador == "MAIN1" && ligacaoPonto == "azulNeltro" && preimeiraLiga
           if(pontoSelecionado2 == "MAIN2" || pontoSelecionado2 == "MAIN1"){ 
          console.log(elementosCss);
        parte2 = true;
+       conexao = "1p2"
        elementosCss.id = "MAIN23"
-       abrirPopup()
+       abrirPopup(conexao)
        console.log("fundionou"); 
          bug = true;
          }
@@ -1252,8 +1261,9 @@ else  if(verificador == "MAIN1" && ligacaoPonto == "azulNeltro" && preimeiraLiga
              if(pontoSelecionado2 == "MAIN2" || pontoSelecionado2 == "MAIN1"){ 
             console.log(elementosCss);
           parte2 = true;
+          conexao = "1p2"
             elementosCss.id = "MAIN24"
-            abrirPopup()
+            abrirPopup(conexao)
           console.log("fundionou"); 
           bug = true;
   }
@@ -2099,7 +2109,14 @@ function resetButtom(){
 
     resetId = true
     resetId2 = true
-    
+    id2 = undefined
+   conexao = undefined
+
+ conexacaoL11Alto= undefined
+ conexacaoL12Alto= undefined
+ conexacaoL11Baixo= undefined
+ conexacaoL12Baixo= undefined
+
 
 // texto do curto circuito 
     let textoVasio = ""
@@ -2116,6 +2133,34 @@ let lp2 = this.document.getElementById("L12");
 let lp3 = this.document.getElementById("L13");
 let lp4 = this.document.getElementById("L14");
 let lp5 = this.document.getElementById("L15");
+
+
+let lp6 = this.document.getElementById("L16");
+let lp7 = this.document.getElementById("L17");
+let lp8 = this.document.getElementById("L18");
+let lp9 = this.document.getElementById("L19");
+let lp10 = this.document.getElementById("L20");
+
+
+
+
+let lp11 = this.document.getElementById("L21");
+let lp12 = this.document.getElementById("L22");
+let lp13 = this.document.getElementById("L23");
+let lp14 = this.document.getElementById("L24");
+let lp15 = this.document.getElementById("L25");
+
+
+let lp16 = this.document.getElementById("L26");
+let lp17 = this.document.getElementById("L27");
+let lp18 = this.document.getElementById("L28");
+let lp19 = this.document.getElementById("L29");
+let lp20 = this.document.getElementById("L30");
+
+
+
+
+// 1para3 alta
 if(lp != null && lp != undefined) {   
       lp.id = "L1" 
 }else 
@@ -2131,23 +2176,302 @@ if(lp4 != null && lp4 != undefined) {
 if(lp5 != null && lp5 != undefined) {   
    lp5.id = "L1" 
 }
+else
+
+
+
+//2para4 baixa
+if(lp6 != null && lp6 != undefined) {   
+   lp6.id = "L1" 
+}else 
+if(lp7 != null && lp7 != undefined) {   
+lp7.id = "L1" 
+}else 
+if(lp8 != null && lp8 != undefined) {   
+lp8.id = "L1" 
+}else 
+if(lp9 != null && lp9 != undefined) {   
+lp9.id = "L1" 
+}else 
+if(lp10 != null && lp10 != undefined) {   
+lp10.id = "L1" 
+}
+
+
+
+
+// L2 1para3  alta
+if(lp11 != null && lp11 != undefined) {   
+      lp11.id = "L2" 
+}else 
+if(lp12 != null && lp12 != undefined) {   
+   lp12.id = "L2" 
+}else 
+if(lp13 != null && lp13 != undefined) {   
+   lp13.id = "L2" 
+}else 
+if(lp14 != null && lp14 != undefined) {   
+   lp14.id = "L2" 
+}else 
+if(lp15 != null && lp15 != undefined) {   
+   lp15.id = "L2" 
+}
+else
+
+
+
+//L2 2para4 baixa
+if(lp16 != null && lp16 != undefined) {   
+   lp16.id = "L2" 
+}else 
+if(lp17 != null && lp17 != undefined) {   
+lp17.id = "L2" 
+}else 
+if(lp18 != null && lp18 != undefined) {   
+lp18.id = "L2" 
+}else 
+if(lp19 != null && lp19 != undefined) {   
+lp19.id = "L2" 
+}else 
+if(lp20 != null && lp20 != undefined) {   
+lp20.id = "L2" 
+}
+
 
 
 
 }
 
-function abrirPopup(){
+function abrirPopup(valor){
    idioma;
    let texto1 = " Voce fechou o circuito! tente de novo."
-   let texto2 =""
+
+   let texto2 = ""
+       texto2 += " Voce ligou dois fios pretos a ";
+       texto2 +=  "lampada. neste caso se ela nao for";
+       texto2 +=   "bivolte 220 voltes ela queimara";
+       texto2 +=  " sem uma interruptor ela ficara";
+       texto2 += "ligada o tempo todo.";
+
+ 
+
+       let texto3 = ""
+       texto3 += " Voce ligou dois fios Verdes a ";
+       texto3 +=  "lampada. neste caso nao acendera";
+       texto3 +=   "pois os fios nao tem energia";
+       texto3 +=  " ";
+       texto3 += "";
+
+
+
+        let texto4 = ""
+       texto4 += " Voce ligou dois fios branos a ";
+       texto4 +=  "lampada. neste caso, nao acendera";
+       texto4 +=   "pois os fios nao tem energia";
+       texto4 +=  " sao dois fios retorno";
+       texto4 += "";
+
+
+         let texto5 = ""
+       texto5 += " Voce ligou dois fios azuis a ";
+       texto5 +=  "lampada. neste caso, nao acendera";
+       texto5 +=   "pois os fios nao tem energia";
+       texto5 +=  " sao dois fios neltros";
+       texto5 += "";
+
+
+          let texto6 = ""
+       texto6 += " Voce ligou dois fios marrom a ";
+       texto6 +=  "lampada. neste caso, nao acendera";
+       texto6 +=   "pois os fios nao tem energia";
+       texto6 +=  " sao dois fios retorno iguais";
+       texto6 += " o fio branco";
+
+
+
+if(valor == "L1PA") { 
+conexacaoL11Alto = valor
+} else
+
+if(valor == "L2PA") { 
+conexacaoL12Alto = valor
+}else
   
+if(valor == "L1VA") { 
+conexacaoL11Alto = valor
+} else
+
+if(valor == "L2VA") { 
+conexacaoL12Alto = valor
+} else 
+
+if(valor == "L1BA") { 
+conexacaoL11Alto = valor
+} else
+
+if(valor == "L2BA") { 
+conexacaoL12Alto = valor
+}else
+
+if(valor == "L1AA") { 
+conexacaoL11Alto = valor
+} else
+
+if(valor == "L2AA") { 
+conexacaoL12Alto = valor
+}else
+
+if(valor == "L1MA") { 
+conexacaoL11Alto = valor
+} else
+
+if(valor == "L2MA") { 
+conexacaoL12Alto = valor
+} else
+
+
+
+if(valor == "L1PB") { 
+conexacaoL11Baixo = valor
+} else
+
+if(valor == "L2PB") { 
+conexacaoL12Baixo = valor
+}else
+  
+if(valor == "L1VB") { 
+conexacaoL11Baixo = valor
+} else
+
+if(valor == "L2VB") { 
+conexacaoL12Baixo = valor
+} else 
+
+if(valor == "L1BB") { 
+conexacaoL11Baixo = valor
+} else
+
+if(valor == "L2BB") { 
+conexacaoL12Baixo = valor
+}else
+
+if(valor == "L1AB") { 
+conexacaoL11Baixo = valor
+} else
+
+if(valor == "L2AB") { 
+conexacaoL12Baixo = valor
+}else
+
+if(valor == "L1MB") { 
+conexacaoL11Baixo = valor
+} else
+
+if(valor == "L2MB") { 
+conexacaoL12Baixo = valor
+}
+
+
+
+
+
 if(idioma == "portugues"){
 
 
   let  message = document.getElementById("message")
   console.log(message)
-  message.id = "message2"
-  message.innerHTML = texto1
+ // message.id = "message2"
+  console.log(valor)
+  if(valor == "1p2"  ){
+   console.log(valor)
+message.id = "message2"
+   message.innerHTML = texto1
+
+  }
+  else
+  console.log(conexacaoL11Alto)
+console.log(conexacaoL12Alto)
+
+ console.log(conexacaoL11Baixo)
+console.log(conexacaoL12Baixo)
+
+
+if(conexacaoL11Alto == "L1PA" && conexacaoL12Alto == "L2PA" || 
+   conexacaoL11Baixo == "L1PB" && conexacaoL12Baixo == "L2PB"|| 
+   conexacaoL11Alto == "L1PA" && conexacaoL12Baixo == "L2PB"|| 
+   conexacaoL12Alto == "L2PA" && conexacaoL11Baixo == "L1PB"
+){
+   // conecao no mesmo fio preto alto
+   console.log("dentro do if")
+   console.log(texto2)
+   message.id = "message2"
+message.innerHTML = texto2
+
+  
+
+}else 
+
+if(conexacaoL11Alto == "L1VA" && conexacaoL12Alto == "L2VA"|| 
+   conexacaoL11Baixo == "L1VB" && conexacaoL12Baixo == "L2VB"|| 
+   conexacaoL11Alto == "L1VA" && conexacaoL12Baixo == "L2VB"|| 
+   conexacaoL12Alto == "L2VA" && conexacaoL11Baixo == "L1VB"){
+   // conecao no mesmo fio preto alto
+   console.log("dentro do if")
+   console.log(texto3)
+   message.id = "message2"
+message.innerHTML = texto3
+
+  
+
+} else
+
+if(conexacaoL11Alto == "L1BA" && conexacaoL12Alto == "L2BA"|| 
+   conexacaoL11Baixo == "L1BB" && conexacaoL12Baixo == "L2BB"|| 
+   conexacaoL11Alto == "L1BA" && conexacaoL12Baixo == "L2BB"|| 
+   conexacaoL12Alto == "L2BA" && conexacaoL11Baixo == "L1BB"){
+   // conecao no mesmo fio preto alto
+   console.log("dentro do if")
+   console.log(texto4)
+   message.id = "message2"
+message.innerHTML = texto4
+
+  
+
+}
+
+else
+
+if(conexacaoL11Alto == "L1AA" && conexacaoL12Alto == "L2AA"|| 
+   conexacaoL11Baixo == "L1AB" && conexacaoL12Baixo == "L2AB"|| 
+   conexacaoL11Alto == "L1AA" && conexacaoL12Baixo == "L2AB"|| 
+   conexacaoL12Alto == "L2AA" && conexacaoL11Baixo == "L1AB"){
+   // conecao no mesmo fio preto alto
+   console.log("dentro do if")
+   console.log(texto5)
+   message.id = "message2"
+message.innerHTML = texto5
+
+  
+
+}
+
+else
+
+if(conexacaoL11Alto == "L1MA" && conexacaoL12Alto == "L2MA"|| 
+   conexacaoL11Baixo == "L1MB" && conexacaoL12Baixo == "L2MB"|| 
+   conexacaoL11Alto == "L1MA" && conexacaoL12Baixo == "L2MB"|| 
+   conexacaoL12Alto == "L2MA" && conexacaoL11Baixo == "L1MB"){
+   // conecao no mesmo fio preto alto
+   console.log("dentro do if")
+   console.log(texto6)
+   message.id = "message2"
+message.innerHTML = texto6
+
+  
+
+}
+
+
   
   // setInterval(resetButtom(), 3000);
   // setInterval(message.innerHTML = textoVasio, 6000);
@@ -2168,12 +2492,113 @@ lamp.forEach(lp => {
     lp.addEventListener("click", function(){
         const id = lp.id;
 
+ id2 ;
+ console.log(id)
+        if(id == "MAIN10"){
+           return id2 = "MAIN10"
+        }else
+   if(id == "MAIN11"){
+
+      return id2 = "MAIN11"
+   }else
+
+if(id == "MAIN12"){
+return id2 = "MAIN12"
+
+}else
+if(id == "MAIN13"){
+   return id2 = "MAIN13"
+   
+   }else
+
+   if(id == "MAIN14"){
+      return id2 = "MAIN14"
+      
+      }
+else
+
+
+
+if(id == "MAIN15"){
+   return id2 = "MAIN15"
+}else
+if(id == "MAIN16"){
+
+return id2 = "MAIN16"
+}else
+
+if(id == "MAIN17"){
+return id2 = "MAIN17"
+
+}else
+if(id == "MAIN18"){
+return id2 = "MAIN18"
+
+}else
+
+if(id == "MAIN19"){
+return id2 = "MAIN19"
+
+}
+
+else
+
+
+// equivale ao segundo fio da lampada
+if(id == "MAIN20"){
+   return id2 = "MAIN20"
+}else
+if(id == "MAIN21"){
+
+return id2 = "MAIN21"
+}else
+
+if(id == "MAIN22"){
+return id2 = "MAIN22"
+
+}else
+if(id == "MAIN23"){
+return id2 = "MAIN23"
+
+}else
+
+if(id == "MAIN24"){
+return id2 = "MAIN24"
+
+}
+else
+
+
+
+if(id == "MAIN25"){
+return id2 = "MAIN25"
+}else
+if(id == "MAIN26"){
+
+return id2 = "MAIN26"
+}else
+
+if(id == "MAIN27"){
+return id2 = "MAIN27"
+
+}else
+if(id == "MAIN28"){
+return id2 = "MAIN28"
+
+}else
+
+if(id == "MAIN29"){
+return id2 = "MAIN29"
+
+}
+
+
      console.log(lamp)
      console.log(lp.id)
        
-   if(id == "L1"){
+   if(id == "L1" || id == "L2" ){
 
-      lampadaConect(id)
+      lampadaConect(id,id2)
     return id
    }
 
@@ -2186,44 +2611,436 @@ lamp.forEach(lp => {
 
 
 
-function lampadaConect(id){
+function lampadaConect(id,id2){
    
    console.log(id)
-   if(segundaLigacao == "pretoFase"&& id == "L1"){
+   console.log(id2)
 
-      let lp = document.getElementById("L1");
-      lp.id = "L11"
+   //1para3alto
+   if(segundaLigacao == "pretoFase"&& id == "L1" && id2 == "MAIN10"){
       
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) { 
+      conexacaoL11Alto = "L1PA";
+      lp.id = "L11"
+      abrirPopup(conexacaoL11Alto)
+   }
     } else 
 
-    if(segundaLigacao == "verdeTerra"&& id == "L1"){
-
+    if(segundaLigacao == "verdeTerra"&& id == "L1"&& id2 == "MAIN11"){
+     
       let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) { 
+         conexacaoL11Alto = "L1VA"; 
       lp.id = "L12"
-      
+      abrirPopup(conexacaoL11Alto)
+    }
     } else
 
-    if(segundaLigacao == "brancoRetorno"&& id == "L1"){
+    if(segundaLigacao == "brancoRetorno"&& id == "L1"&& id2 == "MAIN12"){
 
       let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) { 
+         conexacaoL11Alto = "L1BA";  
       lp.id = "L13"
+      abrirPopup(conexacaoL11Alto)
+      }
       
     } else
-    if(segundaLigacao == "azulNeltro"&& id == "L1"){
+    if(segundaLigacao == "azulNeltro"&& id == "L1"&& id2 == "MAIN13"){
 
       let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {  
+         conexacaoL11Alto = "L1AA";
       lp.id = "L14"
+      abrirPopup(conexacaoL11Alto)
+      }
       
     }else
 
-    if(segundaLigacao == "marromRetorno"&& id == "L1"){
+    if(segundaLigacao == "marromRetorno"&& id == "L1"&& id2 == "MAIN14"){
 
       let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) { 
+         conexacaoL11Alto = "L1MA"; 
       lp.id = "L15"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    }else
+
+
+
+
+//2para4baixo
+  if(segundaLigacao == "pretoFase"&& id == "L1" && id2 == "MAIN15"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {
+         conexacaoL11Baixo = "L1PB"; 
+      lp.id = "L16"
+      abrirPopup(conexacaoL11Baixo)
+      }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L1"&& id2 == "MAIN16"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {
+         conexacaoL11Baixo = "L1VB";  
+      lp.id = "L17"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L1"&& id2 == "MAIN17"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) { 
+         conexacaoL11Baixo = "L1BB";
+      lp.id = "L18"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L1"&& id2 == "MAIN18"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {
+         conexacaoL11Baixo = "L1AB"; 
+      lp.id = "L19"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L1"&& id2 == "MAIN19"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) { 
+         conexacaoL11Baixo = "L1MB"; 
+      lp.id = "L20"
+      abrirPopup(conexacaoL11Baixo)
+      }
       
     }
-   
 
+
+
+
+
+    else
+//equivale a segunda conexao   1para3 alta
+    if(segundaLigacao == "pretoFase"&& id == "L2" && id2 == "MAIN10"){
+      
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+      conexacaoL12Alto = "L2PA";
+      lp.id = "L21"
+      abrirPopup(conexacaoL12Alto)
+    }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L2"&& id2 == "MAIN11"){
+     
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+         conexacaoL12Alto = "L2VA";
+      lp.id = "L22"
+      abrirPopup(conexacaoL12Alto)
+      }
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L2"&& id2 == "MAIN12"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+         conexacaoL12Alto = "L2BA";
+      lp.id = "L23"
+      abrirPopup(conexacaoL12Alto)
+      }
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L2"&& id2 == "MAIN13"){
+
+      let lp = document.getElementById("L2");
+    if(lp != null && lp != undefined) { 
+      conexacaoL12Alto = "L2AA"; 
+      lp.id = "L24"
+      abrirPopup(conexacaoL12Alto)
+    }
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L2"&& id2 == "MAIN14"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+          conexacaoL12Alto = "L2MA";
+      lp.id = "L25"
+      abrirPopup(conexacaoL12Alto)
+      }
+      
+    }else
+
+
+
+
+//equivale a segunda conexao   2para4 baixa
+  if(segundaLigacao == "pretoFase"&& id == "L2" && id2 == "MAIN15"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {
+         conexacaoL12Baixo = "L2PB";  
+      lp.id = "L26"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L2"&& id2 == "MAIN16"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {
+         conexacaoL12Baixo = "L2VB";  
+      lp.id = "L27"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L2"&& id2 == "MAIN17"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+         conexacaoL12Baixo = "L2BB";
+      lp.id = "L28"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L2"&& id2 == "MAIN18"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {
+         conexacaoL12Baixo = "L2AB";  
+      lp.id = "L29"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L2"&& id2 == "MAIN19"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) { 
+         conexacaoL12Baixo = "L2MB"; 
+      lp.id = "L30"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    }
+
+     
+
+
+
+
+
+
+
+
+
+
+
+    //1para3alto
+   if(segundaLigacao2 == "pretoFase"&& id == "L1" && id2 == "MAIN10"){
+
+      let lp = document.getElementById("L1");
+      if(lp!=null && lp!=undefined ){
+      lp.id = "L11"
+      abrirPopup()
+   }
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L1"&& id2 == "MAIN11"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L12"
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN12"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L13"
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L1"&& id2 == "MAIN13"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L14"
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L1"&& id2 == "MAIN14"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L15"
+      }
+    }else
+
+
+
+
+//2para4baixo
+  if(segundaLigacao2 == "pretoFase"&& id == "L1" && id2 == "MAIN15"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L16"
+      }
+      
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L1"&& id2 == "MAIN16"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L17"
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN17"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L18"
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L1"&& id2 == "MAIN18"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L19"
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L1"&& id2 == "MAIN19"){
+
+      let lp = document.getElementById("L1");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L20"
+      }
+      
+    }
+
+
+
+
+
+    else
+//equivale a segunda conexao   1para3 alta
+    if(segundaLigacao2 == "pretoFase"&& id == "L2" && id2 == "MAIN10"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null){ 
+      lp.id = "L21"
+      }
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L2"&& id2 == "MAIN11"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L22"
+      }
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN12"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L23"
+      }
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN13"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L24"
+      }
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L2"&& id2 == "MAIN14"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L25"
+      }
+      
+    }else
+
+
+
+
+//equivale a segunda conexao   2para4 baixa
+  if(segundaLigacao2 == "pretoFase"&& id == "L2" && id2 == "MAIN15"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L26"
+      }
+      
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L2"&& id2 == "MAIN16"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L27"
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN17"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L28"
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN18"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L29"
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L2"&& id2 == "MAIN19"){
+
+      let lp = document.getElementById("L2");
+      if(lp != null && lp != undefined) {  
+      lp.id = "L30"
+      }
+      
+    }
+
+    //if((lp.id == "L11" &&id == "L1") && (lp.id == "L16"&& lp.id == "L16")){  
+   // abrirPopup()
+   // }
 
 }
 
