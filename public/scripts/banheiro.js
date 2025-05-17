@@ -14,6 +14,11 @@ const elementos4 = document.querySelectorAll("[id]");
 // ===========SEGUNDO FIO==========
 
 
+// ===========TERCEIRO FIO==========
+const elementos5 = document.querySelectorAll("[id]");
+const elementos6 = document.querySelectorAll("[id]");
+// ===========TERCEIRO FIO==========
+
 
 
 
@@ -45,9 +50,24 @@ let parte2 = false;
 // ===========SEGUNDO FIO==========
 
 
+// ===========TERCEIRO FIO==========
+// declarando variaveis
+let corFio3 ;// a cor do fio selecionado
+let ligacaoPonto3;
+let preimeiraLigacao3;
+let segundaLigacao3;
+let pontoSelecionado5;
+let pontoSelecionado6;
+let verificador3;
+let parte3 = false;
+// ===========TERCEIRO FIO==========
 
+
+
+// VARIAVEIS AUXILIARES
 let resetId = false;
 let resetId2 = false;
+let resetId3 = false;
 let bug = false;
  let idioma = "portugues"
 let id2;
@@ -56,6 +76,12 @@ let conexacaoL11Alto;
 let conexacaoL12Alto;
 let conexacaoL11Baixo;
 let conexacaoL12Baixo;
+// VARIAVEIS AUXILIARES
+
+
+
+
+
 //=========PRIMEIRO FIO============
 //conectando os fios a os quadrados
 // pegando os click com os ids e validando
@@ -71,31 +97,45 @@ elementos2.forEach(elemento2 => {
         // com isso ele primeiro grava a primeira informacao na pontoSelecionado1 e so depois na 2
         // evita o erro de gravar o primeiro click em ambar as variaveis ao mesmo tempo
     if( pontoSelecionado1 != undefined && pontoSelecionado1 != id && pontoSelecionado2 != "MAIN1" &&
-      pontoSelecionado2 != "MAIN2" && pontoSelecionado2 != "MAIN3" && pontoSelecionado2 != "MAIN4"
+      pontoSelecionado2 != "MAIN2" && pontoSelecionado2 != "MAIN3" && pontoSelecionado2 != "MAIN4"&&
+       pontoSelecionado2 != "MAIN5" && pontoSelecionado2 != "MAIN6"&&pontoSelecionado2 == undefined
     ){
        
  
-console.log(id)
+console.log(" id do elementos2",id);
 // se o id selecionado for diferente os valres abaixo se TRUE e ele grava a variavel
-            if( id != "MAIN2" && id != "MAIN3" && id != "MAIN4" && id != "fio1" 
+            if( id != "MAIN2" && id != "MAIN3" && id != "MAIN4" && id != "MAIN5"&& id != "MAIN6" && id != "fio1" 
                && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu" && id !="resetar"){
            
-           return  pontoSelecionado2 = "MAIN1", console.log(pontoSelecionado2);
+           return  pontoSelecionado2 = "MAIN1", console.log( "pontoSelecionado2",pontoSelecionado2);
             
-         } else if(id != "MAIN1" && id != "MAIN3" && id != "MAIN4" && id != "fio1" 
+         } else if(id != "MAIN1" && id != "MAIN3" && id != "MAIN4"&& id != "MAIN5"&& id != "MAIN6" && id != "fio1" 
                && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"&& id !="resetar"){
             
-           return  pontoSelecionado2 = "MAIN2", console.log(pontoSelecionado2);
+           return  pontoSelecionado2 = "MAIN2", console.log("pontoSelecionado2",pontoSelecionado2);
              
-         } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN4" && id != "fio1" 
+         } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN4"&& id != "MAIN5"&& id != "MAIN6" && id != "fio1" 
                && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"&& id !="resetar"){
             
-           return  pontoSelecionado2 = "MAIN3", console.log(pontoSelecionado2);
+           return  pontoSelecionado2 = "MAIN3", console.log("pontoSelecionado2",pontoSelecionado2);
              
-         } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3" && id != "fio1" 
+         } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3"&& id != "MAIN5"&& id != "MAIN6" && id != "fio1" 
                && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"&& id !="resetar"){
             
-          return  pontoSelecionado2 = "MAIN4", console.log(pontoSelecionado2);
+          return  pontoSelecionado2 = "MAIN4", console.log("pontoSelecionado2",pontoSelecionado2);
+            
+         } 
+         else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3"&& id != "MAIN4"&& id != "MAIN6" && id != "fio1" 
+               && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"&& id !="resetar"){
+            
+          return  pontoSelecionado2 = "MAIN5", console.log("pontoSelecionado2",pontoSelecionado2);
+            
+         } 
+
+         else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3"&& id != "MAIN4"&& id != "MAIN5" && id != "fio1" 
+               && id != "fio2" && id != "fio3" && id != "fio4" && id != "fio5"&& id !="menu"&& id !="resetar"){
+            
+          return  pontoSelecionado2 = "MAIN6", console.log("pontoSelecionado2",pontoSelecionado2);
             
          } 
 }
@@ -108,58 +148,79 @@ console.log(id)
 );
 
 
+
+
+
 // pegando os fios do menu
 // estesegundo forEach varre as variaveis do fio selecionado e o primeiro click do ponto de conexao do fio da rede
 elementos.forEach(elemento => {
     elemento.addEventListener("click", function(){
         const id = elemento.id;
         
+         console.log( "fio chato",id);
         console.log( "fio chato",corFio);
+
+     
+
         if( corFio != "fio1"&& corFio != "fio2" && corFio != "fio3"&& corFio != "fio4" && corFio != "fio5"  && corFio != "pretoFase"&& corFio != "verdeTerra"
-         && corFio != "brancoRetorno"&& corFio != "azulNeltro" && corFio != "marromRetorno"
+         && corFio != "brancoRetorno"&& corFio != "azulNeltro" && corFio != "marromRetorno"&& corFio == undefined
         ) {  
 
         if(id== "fio1"){
             
-          return  corFio = "pretoFase" ,console.log(corFio);
+          return  corFio = "pretoFase" ,console.log("corFio",corFio);
          
         } else if(id=="fio2"){
               
-          return  corFio = "verdeTerra",console.log(corFio);
+          return  corFio = "verdeTerra",console.log("corFio",corFio);
         } else if(id=="fio3"){
             
-          return  corFio = "brancoRetorno",console.log(corFio);
+          return  corFio = "brancoRetorno",console.log("corFio",corFio);
            
         } else if(id=="fio4"){
             
-           return corFio = "azulNeltro",console.log(corFio);
+           return corFio = "azulNeltro",console.log("corFio",corFio);
             
         }else if(id=="fio5"){
             
-         return   corFio = "marromRetorno",console.log(corFio);
+         return   corFio = "marromRetorno",console.log("corFio",corFio);
             
         }
       }
         
+        if(pontoSelecionado2 == undefined &&pontoSelecionado3 == undefined &&
+         pontoSelecionado4 == undefined &&pontoSelecionado5 == undefined &&
+         pontoSelecionado6 == undefined
+       ){ 
 
 // ele grava o valor do primeiro click na variavel pontoSelecionado1 SO SE a pontoSelecionado2 for undefined
         if((id== "MAIN1" )&& (pontoSelecionado2 == undefined)){
          verificador = "MAIN1";
-          return  pontoSelecionado1 = "MAIN1" ,console.log(pontoSelecionado1),verificador = "MAIN1";
+          return  pontoSelecionado1 = "MAIN1" ,console.log("pontoSelecionado1",pontoSelecionado1),verificador = "MAIN1";
             
         } else if((id=="MAIN2") && (pontoSelecionado2 == undefined)){
          verificador = "MAIN2";
-          return  pontoSelecionado1 = "MAIN2",console.log(pontoSelecionado1),verificador = "MAIN2",console.log( "verificador",verificador);
+          return  pontoSelecionado1 = "MAIN2",console.log("pontoSelecionado1",pontoSelecionado1),verificador = "MAIN2",console.log( "verificador",verificador);
 
         } else if((id=="MAIN3") &&( pontoSelecionado2 == undefined)){
          verificador = "MAIN3";
-          return  pontoSelecionado1 = "MAIN3",console.log(pontoSelecionado1),verificador = "MAIN3";
+          return  pontoSelecionado1 = "MAIN3",console.log("pontoSelecionado1",pontoSelecionado1),verificador = "MAIN3";
 
         } else if((id=="MAIN4") && (pontoSelecionado2 == undefined)){
          verificador = "MAIN4";
-          return  pontoSelecionado1 = "MAIN4",console.log(pontoSelecionado1),verificador = "MAIN4";
+          return  pontoSelecionado1 = "MAIN4",console.log("pontoSelecionado1",pontoSelecionado1),verificador = "MAIN4";
 
         } 
+        else if((id=="MAIN5") && (pontoSelecionado2 == undefined)){
+         verificador = "MAIN5";
+          return  pontoSelecionado1 = "MAIN5",console.log("pontoSelecionado1",pontoSelecionado1),verificador = "MAIN5";
+
+        }
+        else if((id=="MAIN6") && (pontoSelecionado2 == undefined)){
+         verificador = "MAIN6";
+          return  pontoSelecionado1 = "MAIN6",console.log("pontoSelecionado1",pontoSelecionado1),verificador = "MAIN6";
+
+        }
         
         
         
@@ -170,7 +231,7 @@ elementos.forEach(elemento => {
 // as variaveis  pontoSelecionado1 e  pontoSelecionado2 ja terao valor
         
         
-    });
+ } });
 }
 
 
@@ -194,35 +255,52 @@ elementos4.forEach(elemento4 => {
         // com isso ele primeiro grava a primeira informacao na pontoSelecionado1 e so depois na 2
         // evita o erro de gravar o primeiro click em ambar as variaveis ao mesmo tempo
     if( pontoSelecionado3 != undefined && pontoSelecionado3 != id && pontoSelecionado4 != "MAIN1" &&
-      pontoSelecionado4 != "MAIN2" && pontoSelecionado4 != "MAIN3" && pontoSelecionado4 != "MAIN4"
+      pontoSelecionado4 != "MAIN2" && pontoSelecionado4 != "MAIN3" && pontoSelecionado4 != "MAIN4"&&
+       pontoSelecionado4 != "MAIN5"&& pontoSelecionado4 != "MAIN6"&& pontoSelecionado4 == undefined
     ){
        
 console.log("id chato", id)
 
 // se o id selecionado for diferente os valres abaixo se TRUE e ele grava a variavel
-            if( id != "MAIN2" && id != "MAIN3" && id != "MAIN4" && id != "pretoFase" 
+            if( id != "MAIN2" && id != "MAIN3" && id != "MAIN4" && id != "MAIN5" && id != "MAIN6" && id != "pretoFase" 
                && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno"&& id != "resetar" && id != "menu"
                && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
            
-           return  pontoSelecionado4 = "MAIN1", console.log(pontoSelecionado4);
+           return  pontoSelecionado4 = "MAIN1", console.log("pontoSelecionado4",pontoSelecionado4);
             
-         } else if(id != "MAIN1" && id != "MAIN3" && id != "MAIN4" && id != "pretoFase" 
+         } else if(id != "MAIN1" && id != "MAIN3" && id != "MAIN4" && id != "MAIN5"&& id != "MAIN6"&& id != "pretoFase" 
             && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
             && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
             
-           return  pontoSelecionado4 = "MAIN2", console.log(pontoSelecionado4);
+           return  pontoSelecionado4 = "MAIN2", console.log("pontoSelecionado4",pontoSelecionado4);
              
-         } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN4" && id != "pretoFase" 
+         } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN4"&& id != "MAIN5"&& id != "MAIN6" && id != "pretoFase" 
             && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
             && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
             
-           return  pontoSelecionado4 = "MAIN3", console.log(pontoSelecionado4);
+           return  pontoSelecionado4 = "MAIN3", console.log("pontoSelecionado4",pontoSelecionado4);
              
-         } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3" && id != "pretoFase" 
+         } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3"&& id != "MAIN5"&& id != "MAIN6" && id != "pretoFase" 
             && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
             && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
             
-          return  pontoSelecionado4 = "MAIN4", console.log(pontoSelecionado4);
+          return  pontoSelecionado4 = "MAIN4", console.log("pontoSelecionado4",pontoSelecionado4);
+            
+         } 
+
+         else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3"&& id != "MAIN4"&& id != "MAIN6" && id != "pretoFase" 
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
+            && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
+            
+          return  pontoSelecionado4 = "MAIN5", console.log("pontoSelecionado4",pontoSelecionado4);
+            
+         } 
+
+         else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3"&& id != "MAIN4"&& id != "MAIN5" && id != "pretoFase" 
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
+            && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
+            
+          return  pontoSelecionado4 = "MAIN6", console.log("pontoSelecionado4",pontoSelecionado4);
             
          } 
 }
@@ -235,57 +313,70 @@ console.log("id chato", id)
 );
 
 
+
 // pegando os fios do menu
 // estesegundo forEach varre as variaveis do fio selecionado e o primeiro click do ponto de conexao do fio da rede
 elementos3.forEach(elemento3 => {
     elemento3.addEventListener("click", function(){
         const id = elemento3.id;
          
-        if(parte2 == true){
+        if(parte2 == true && corFio2 == undefined){
 
 
 
 
         
-        if(id== "fio1" && corFio != undefined  ){
+        if(id== "fio1" && corFio != undefined && corFio3 == undefined  ){
             
-          return  corFio2 = "pretoFase" ,console.log(corFio2);
+          return  corFio2 = "pretoFase" ,console.log("corFio2",corFio2);
          
-        } else if(id=="fio2"&& corFio != undefined ){
+        } else if(id=="fio2"&& corFio != undefined && corFio3 == undefined  ){
               
-          return  corFio2 = "verdeTerra",console.log(corFio2);
-        } else if(id=="fio3"&& corFio != undefined ){
+          return  corFio2 = "verdeTerra",console.log("corFio2",corFio2);
+        } else if(id=="fio3"&& corFio != undefined && corFio3 == undefined ){
             
-          return  corFio2 = "brancoRetorno",console.log(corFio2);
+          return  corFio2 = "brancoRetorno",console.log("corFio2",corFio2);
            
-        } else if(id=="fio4"&& corFio != undefined ){
+        } else if(id=="fio4"&& corFio != undefined && corFio3 == undefined ){
             
-           return corFio2 = "azulNeltro",console.log(corFio2);
+           return corFio2 = "azulNeltro",console.log("corFio2",corFio2);
             
-        }else if(id=="fio5"&& corFio != undefined ){
+        }else if(id=="fio5"&& corFio != undefined && corFio3 == undefined ){
             
-         return   corFio2 = "marromRetorno",console.log(corFio2);
+         return   corFio2 = "marromRetorno",console.log("corFio2",corFio2);
             
         }
 
 // ele grava o valor do primeiro click na variavel pontoSelecionado1 SO SE a pontoSelecionado2 for undefined
         if((id== "MAIN1" )&& (pontoSelecionado4 == undefined)){
          verificador2 = "MAIN1";
-          return  pontoSelecionado3 = "MAIN1" ,console.log(pontoSelecionado3),verificador2 = "MAIN1";
+          return  pontoSelecionado3 = "MAIN1" ,console.log("pontoSelecionado3",pontoSelecionado3),verificador2 = "MAIN1";
             
         } else if((id=="MAIN2") && (pontoSelecionado4 == undefined)){
          verificador2 = "MAIN2";
-          return  pontoSelecionado3 = "MAIN2",console.log(pontoSelecionado3),verificador2 = "MAIN2",console.log( "verificador2",verificador2);
+          return  pontoSelecionado3 = "MAIN2",console.log("pontoSelecionado3",pontoSelecionado3),verificador2 = "MAIN2",console.log( "verificador2",verificador2);
 
         } else if((id=="MAIN3") &&( pontoSelecionado4 == undefined)){
          verificador2 = "MAIN3";
-          return  pontoSelecionado3 = "MAIN3",console.log(pontoSelecionado3),verificador2 = "MAIN3";
+          return  pontoSelecionado3 = "MAIN3",console.log("pontoSelecionado3",pontoSelecionado3),verificador2 = "MAIN3";
 
         } else if((id=="MAIN4") && (pontoSelecionado4 == undefined)){
          verificador2 = "MAIN4";
-          return  pontoSelecionado3 = "MAIN4",console.log(pontoSelecionado3),verificador2 = "MAIN4";
+          return  pontoSelecionado3 = "MAIN4",console.log("pontoSelecionado3",pontoSelecionado3),verificador2 = "MAIN4";
 
         } 
+
+        else if((id=="MAIN5") && (pontoSelecionado4 == undefined)){
+         verificador2 = "MAIN5";
+          return  pontoSelecionado3 = "MAIN5",console.log("pontoSelecionado3",pontoSelecionado3),verificador2 = "MAIN5";
+
+        }
+
+        else if((id=="MAIN6") && (pontoSelecionado4 == undefined)){
+         verificador2 = "MAIN6";
+          return  pontoSelecionado3 = "MAIN6",console.log("pontoSelecionado3",pontoSelecionado3),verificador2 = "MAIN6";
+
+        }
         
         
         
@@ -306,6 +397,157 @@ elementos3.forEach(elemento3 => {
 
 
 
+// ===========TERCEIRO FIO==============
+elementos6.forEach(elemento6 => {
+   // depois de varrer a variavel elemntos2 add um evento
+    elemento6.addEventListener("click", function(){
+        const id = elemento6.id;
+
+        // valida se o pontoSelecionado1 for diferente de  undefined E pontoSelecionado1 
+        // for diferente do id selecionado  se as duas for diferente e TRUE
+        // com isso ele primeiro grava a primeira informacao na pontoSelecionado1 e so depois na 2
+        // evita o erro de gravar o primeiro click em ambar as variaveis ao mesmo tempo
+    if( pontoSelecionado5 != undefined && pontoSelecionado5 != id && pontoSelecionado6 != "MAIN1" &&
+      pontoSelecionado6 != "MAIN2" && pontoSelecionado6 != "MAIN3" && pontoSelecionado6 != "MAIN4"&&
+       pontoSelecionado6 != "MAIN5"&& pontoSelecionado6 != "MAIN6"&& pontoSelecionado6 == undefined&&
+       pontoSelecionado1 != undefined&&pontoSelecionado2 != undefined
+    ){
+       
+console.log("id chato", id)
+
+// se o id selecionado for diferente os valres abaixo se TRUE e ele grava a variavel
+            if( id != "MAIN2" && id != "MAIN3" && id != "MAIN4" && id != "MAIN5" && id != "MAIN6" && id != "pretoFase" 
+               && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno"&& id != "resetar" && id != "menu"
+               && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
+           
+           return  pontoSelecionado6 = "MAIN1", console.log("pontoSelecionado6",pontoSelecionado6);
+            
+         } else if(id != "MAIN1" && id != "MAIN3" && id != "MAIN4" && id != "MAIN5"&& id != "MAIN6"&& id != "pretoFase" 
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
+            && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
+            
+           return  pontoSelecionado6 = "MAIN2", console.log("pontoSelecionado6",pontoSelecionado6);
+             
+         } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN4"&& id != "MAIN5"&& id != "MAIN6" && id != "pretoFase" 
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
+            && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
+            
+           return  pontoSelecionado6 = "MAIN3", console.log("pontoSelecionado6",pontoSelecionado6);
+             
+         } else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3"&& id != "MAIN5"&& id != "MAIN6" && id != "pretoFase" 
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
+            && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
+            
+          return  pontoSelecionado6 = "MAIN4", console.log("pontoSelecionado6",pontoSelecionado6);
+            
+         } 
+
+         else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3"&& id != "MAIN4"&& id != "MAIN6" && id != "pretoFase" 
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
+            && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
+            
+          return  pontoSelecionado6 = "MAIN5", console.log("pontoSelecionado6",pontoSelecionado6);
+            
+         } 
+
+         else if(id != "MAIN1" && id != "MAIN2" && id != "MAIN3"&& id != "MAIN4"&& id != "MAIN5" && id != "pretoFase" 
+            && id != "verdeTerra" && id != "brancoRetorno" && id != "azulNeltro" && id != "marromRetorno" && id != "resetar" && id != "menu"
+            && id != "fio1"&& id != "fio2"&& id != "fio3"&& id != "fio4"&& id != "fio5"){
+            
+          return  pontoSelecionado6 = "MAIN6", console.log("pontoSelecionado6",pontoSelecionado6);
+            
+         } 
+}
+
+
+    });
+}
+
+
+);
+
+
+
+
+//
+// pegando os fios do menu
+// estesegundo forEach varre as variaveis do fio selecionado e o primeiro click do ponto de conexao do fio da rede
+elementos5.forEach(elemento5 => {
+    elemento5.addEventListener("click", function(){
+        const id = elemento5.id;
+         
+        if(parte3 == true && corFio != undefined && corFio2 != undefined ){
+
+console.log("corFio",corFio)
+console.log("corFio2",corFio2)
+
+        
+        if(id== "fio1" && corFio != undefined&& corFio2 != undefined  ){
+            
+          return  corFio3 = "pretoFase" ,console.log("corFio3",corFio3);
+         
+        } else if(id=="fio2"&& corFio != undefined && corFio2 != undefined){
+              
+          return  corFio3 = "verdeTerra",console.log("corFio3",corFio3);
+        } else if(id=="fio3"&& corFio != undefined&& corFio2 != undefined ){
+            
+          return  corFio3 = "brancoRetorno",console.log("corFio3",corFio3);
+           
+        } else if(id=="fio4"&& corFio != undefined && corFio2 != undefined){
+            
+           return corFio3 = "azulNeltro",console.log("corFio3",corFio3);
+            
+        }else if(id=="fio5"&& corFio != undefined && corFio2 != undefined){
+            
+         return   corFio3 = "marromRetorno",console.log("corFio3",corFio3);
+            
+        }
+
+// ele grava o valor do primeiro click na variavel pontoSelecionado1 SO SE a pontoSelecionado2 for undefined
+        if((id== "MAIN1" )&& (pontoSelecionado6 == undefined)){
+         verificador3 = "MAIN1";
+          return  pontoSelecionado5 = "MAIN1" ,console.log("pontoSelecionado5",pontoSelecionado5),verificador3 = "MAIN1";
+            
+        } else if((id=="MAIN2") && (pontoSelecionado6 == undefined)){
+         verificador3 = "MAIN2";
+          return  pontoSelecionado5 = "MAIN2",console.log("pontoSelecionado5",pontoSelecionado5),verificador3 = "MAIN2",console.log( "verificador3",verificador3);
+
+        } else if((id=="MAIN3") &&( pontoSelecionado6 == undefined)){
+         verificador3 = "MAIN3";
+          return  pontoSelecionado5 = "MAIN3",console.log("pontoSelecionado5",pontoSelecionado5),verificador3 = "MAIN3";
+
+        } else if((id=="MAIN4") && (pontoSelecionado6 == undefined)){
+         verificador3 = "MAIN4";
+          return  pontoSelecionado5 = "MAIN4",console.log("pontoSelecionado5",pontoSelecionado5),verificador3 = "MAIN4";
+
+        } 
+
+        else if((id=="MAIN5") && (pontoSelecionado6 == undefined)){
+         verificador3 = "MAIN5";
+          return  pontoSelecionado5 = "MAIN5",console.log("pontoSelecionado5",pontoSelecionado5),verificador3 = "MAIN5";
+
+        }
+
+        else if((id=="MAIN6") && (pontoSelecionado6 == undefined)){
+         verificador3 = "MAIN6";
+          return  pontoSelecionado5 = "MAIN6",console.log("pontoSelecionado5",pontoSelecionado5),verificador3 = "MAIN6";
+
+        }
+        
+        
+        
+// ate esse ponto as validacoes estao corrende bem
+// a  pontoSelecionado1 so recebe valor se  pontoSelecionado2 for undefined
+// e foi veio uma validacao que nao deixa a  pontoSelecionado1 receber o mesmo valor 
+// ate esse ponto o corFio ja pode ter valor ou nao 
+// as variaveis  pontoSelecionado1 e  pontoSelecionado2 ja terao valor
+        
+        
+ } });
+}
+
+
+);
 
 
 
@@ -326,23 +568,23 @@ function fioConectado(){
 
     if(corFio == "pretoFase"){
 
-      return  ligacaoPonto = "pretoFase",console.log(ligacaoPonto);
+      return  ligacaoPonto = "pretoFase",console.log("ligacaoPonto",ligacaoPonto);
         
     }else if(corFio == "verdeTerra"){
 
-       return ligacaoPonto = "verdeTerra",console.log(ligacaoPonto);
+       return ligacaoPonto = "verdeTerra",console.log("ligacaoPonto",ligacaoPonto);
         
     }else if(corFio == "brancoRetorno"){
 
-       return ligacaoPonto = "brancoRetorno",console.log(ligacaoPonto);
+       return ligacaoPonto = "brancoRetorno",console.log("ligacaoPonto",ligacaoPonto);
         
     }else if(corFio == "azulNeltro"){
 
-       return ligacaoPonto = "azulNeltro",console.log(ligacaoPonto);
+       return ligacaoPonto = "azulNeltro",console.log("ligacaoPonto",ligacaoPonto);
        
     }else if(corFio == "marromRetorno"){
 
-       return ligacaoPonto = "marromRetorno",console.log(ligacaoPonto);
+       return ligacaoPonto = "marromRetorno",console.log("ligacaoPonto",ligacaoPonto);
         
     }
  // funcionando ok
@@ -371,23 +613,23 @@ function fioConectado(){
 
    if(corFio2 == "pretoFase"){
 
-     return  ligacaoPonto2 = "pretoFase",console.log(ligacaoPonto2);
+     return  ligacaoPonto2 = "pretoFase",console.log("ligacaoPonto2",ligacaoPonto2);
        
    }else if(corFio2 == "verdeTerra"){
 
-      return ligacaoPonto2 = "verdeTerra",console.log(ligacaoPonto2);
+      return ligacaoPonto2 = "verdeTerra",console.log("ligacaoPonto2",ligacaoPonto2);
        
    }else if(corFio2 == "brancoRetorno"){
 
-      return ligacaoPonto2 = "brancoRetorno",console.log(ligacaoPonto2);
+      return ligacaoPonto2 = "brancoRetorno",console.log("ligacaoPonto2",ligacaoPonto2);
        
    }else if(corFio2 == "azulNeltro"){
 
-      return ligacaoPonto2 = "azulNeltro",console.log(ligacaoPonto2);
+      return ligacaoPonto2 = "azulNeltro",console.log("ligacaoPonto2",ligacaoPonto2);
       
    }else if(corFio2 == "marromRetorno"){
 
-      return ligacaoPonto2 = "marromRetorno",console.log(ligacaoPonto2);
+      return ligacaoPonto2 = "marromRetorno",console.log("ligacaoPonto2",ligacaoPonto2);
        
    }
 // funcionando ok
@@ -407,6 +649,49 @@ function fioConectado(){
 
 
 
+// ===========TERCEIRO FIO===============
+ function fioConectado3(){
+    
+
+   if(parte3 == true){  
+
+
+   if(corFio3 == "pretoFase"){
+
+     return  ligacaoPonto3 = "pretoFase",console.log("ligacaoPonto3",ligacaoPonto3);
+       
+   }else if(corFio3 == "verdeTerra"){
+
+      return ligacaoPonto3 = "verdeTerra",console.log("ligacaoPonto3",ligacaoPonto3);
+       
+   }else if(corFio3 == "brancoRetorno"){
+
+      return ligacaoPonto3 = "brancoRetorno",console.log("ligacaoPonto3",ligacaoPonto3);
+       
+   }else if(corFio3 == "azulNeltro"){
+
+      return ligacaoPonto3 = "azulNeltro",console.log("ligacaoPonto3",ligacaoPonto3);
+      
+   }else if(corFio3 == "marromRetorno"){
+
+      return ligacaoPonto3 = "marromRetorno",console.log("ligacaoPonto3",ligacaoPonto3);
+       
+   }
+// funcionando ok
+// ate esse ponto ja temos os variaveis com valores 
+// corFio   
+//ligacaoPonto  
+//pontoSelecionado1  
+//pontoSelecionado2  
+
+   }
+};
+// ===========TERCEIRO FIO===============
+
+
+
+
+
 
 
 //=========PRIMEIRO FIO===========
@@ -415,73 +700,103 @@ function fioConectadoParte1(){
 
     if(pontoSelecionado1 == "MAIN1" && corFio == "pretoFase"){
       
-       return preimeiraLigacao  = "pretoFase",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "pretoFase",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
     }else if(pontoSelecionado1 == "MAIN2" && corFio == "pretoFase"){
-      return  preimeiraLigacao  = "pretoFase",console.log(preimeiraLigacao),console.log(corFio);
+      return  preimeiraLigacao  = "pretoFase",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
        
     }else if(pontoSelecionado1 == "MAIN3" && corFio == "pretoFase"){
-       return preimeiraLigacao  = "pretoFase",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "pretoFase",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
     }else if(pontoSelecionado1 == "MAIN4" && corFio == "pretoFase"){
-       return preimeiraLigacao  = "pretoFase",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "pretoFase",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
+       
+    }else if(pontoSelecionado1 == "MAIN5" && corFio == "pretoFase"){
+       return preimeiraLigacao  = "pretoFase",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
+       
+    }else if(pontoSelecionado1 == "MAIN6" && corFio == "pretoFase"){
+       return preimeiraLigacao  = "pretoFase",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
        
     }
     
     else if(pontoSelecionado1 == "MAIN1" && corFio == "verdeTerra"){
-       return preimeiraLigacao  = "verdeTerra",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "verdeTerra",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
     }else if(pontoSelecionado1 == "MAIN2" && corFio == "verdeTerra"){
-       return preimeiraLigacao  = "verdeTerra",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "verdeTerra",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
     }else if(pontoSelecionado1 == "MAIN3" && corFio == "verdeTerra"){
-       return preimeiraLigacao  = "verdeTerra",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "verdeTerra",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
     }else if(pontoSelecionado1 == "MAIN4" && corFio == "verdeTerra"){
-       return preimeiraLigacao  = "verdeTerra",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "verdeTerra",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
+    }else if(pontoSelecionado1 == "MAIN5" && corFio == "verdeTerra"){
+       return preimeiraLigacao  = "verdeTerra",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
+       
+    }else if(pontoSelecionado1 == "MAIN6" && corFio == "verdeTerra"){
+       return preimeiraLigacao  = "verdeTerra",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
+       
     }
 
     else if(pontoSelecionado1 == "MAIN1" && corFio == "brancoRetorno"){
-       return preimeiraLigacao  = "brancoRetorno",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "brancoRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
     }else if(pontoSelecionado1 == "MAIN2" && corFio == "brancoRetorno"){
-       return preimeiraLigacao  = "brancoRetorno",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "brancoRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
     }else if(pontoSelecionado1 == "MAIN3" && corFio == "brancoRetorno"){
-       return preimeiraLigacao  = "brancoRetorno",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "brancoRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
       
     }else if(pontoSelecionado1 == "MAIN4" && corFio == "brancoRetorno"){
-       return preimeiraLigacao  = "brancoRetorno",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "brancoRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
+    }else if(pontoSelecionado1 == "MAIN5" && corFio == "brancoRetorno"){
+       return preimeiraLigacao  = "brancoRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
+       
+    }else if(pontoSelecionado1 == "MAIN6" && corFio == "brancoRetorno"){
+       return preimeiraLigacao  = "brancoRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
+       
     }
 
     else if(pontoSelecionado1 == "MAIN1" && corFio == "azulNeltro"){
-       return preimeiraLigacao  = "azulNeltro",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "azulNeltro",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
     }else if(pontoSelecionado1 == "MAIN2" && corFio == "azulNeltro"){
-       return preimeiraLigacao  = "azulNeltro",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "azulNeltro",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
        
     }else if(pontoSelecionado1 == "MAIN3" && corFio == "azulNeltro"){
-       return preimeiraLigacao  = "azulNeltro",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "azulNeltro",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
        
     }else if(pontoSelecionado1 == "MAIN4" && corFio == "azulNeltro"){
-       return preimeiraLigacao  = "azulNeltro",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "azulNeltro",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
+    }else if(pontoSelecionado1 == "MAIN5" && corFio == "azulNeltro"){
+       return preimeiraLigacao  = "azulNeltro",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
+       
+    }else if(pontoSelecionado1 == "MAIN6" && corFio == "azulNeltro"){
+       return preimeiraLigacao  = "azulNeltro",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
+       
     }
 
     else if(pontoSelecionado1 == "MAIN1" && corFio == "marromRetorno"){
-       return preimeiraLigacao  = "marromRetorno",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "marromRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
      
     }else if(pontoSelecionado1 == "MAIN2" && corFio == "marromRetorno"){
-       return preimeiraLigacao  = "marromRetorno",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "marromRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
     }else if(pontoSelecionado1 == "MAIN3" && corFio == "marromRetorno"){
-       return preimeiraLigacao  = "marromRetorno",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "marromRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
       
     }else if(pontoSelecionado1 == "MAIN4" && corFio == "marromRetorno"){
-       return preimeiraLigacao  = "marromRetorno",console.log(preimeiraLigacao),console.log(corFio);
+       return preimeiraLigacao  = "marromRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
         
+    }else if(pontoSelecionado1 == "MAIN5" && corFio == "marromRetorno"){
+       return preimeiraLigacao  = "marromRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
+       
+    }else if(pontoSelecionado1 == "MAIN6" && corFio == "marromRetorno"){
+       return preimeiraLigacao  = "marromRetorno",console.log("preimeiraLigacao",preimeiraLigacao),console.log(corFio);
+       
     }
 
  
@@ -499,78 +814,223 @@ function fioConectadoParte12(){
 
    if(pontoSelecionado3 == "MAIN1" && corFio2 == "pretoFase"){
      
-      return preimeiraLigacao2  = "pretoFase",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "pretoFase",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }else if(pontoSelecionado3 == "MAIN2" && corFio2 == "pretoFase"){
-     return  preimeiraLigacao2  = "pretoFase",console.log(preimeiraLigacao2),console.log(corFio2);
+     return  preimeiraLigacao2  = "pretoFase",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
       
    }else if(pontoSelecionado3 == "MAIN3" && corFio2 == "pretoFase"){
-      return preimeiraLigacao2  = "pretoFase",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "pretoFase",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }else if(pontoSelecionado3 == "MAIN4" && corFio2 == "pretoFase"){
-      return preimeiraLigacao2  = "pretoFase",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "pretoFase",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
+      
+   }else if(pontoSelecionado3 == "MAIN5" && corFio2 == "pretoFase"){
+      return preimeiraLigacao2  = "pretoFase",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
+      
+   }else if(pontoSelecionado3 == "MAIN6" && corFio2 == "pretoFase"){
+      return preimeiraLigacao2  = "pretoFase",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
       
    }
    
    else if(pontoSelecionado3 == "MAIN1" && corFio2 == "verdeTerra"){
-      return preimeiraLigacao2  = "verdeTerra",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "verdeTerra",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }else if(pontoSelecionado3 == "MAIN2" && corFio2 == "verdeTerra"){
-      return preimeiraLigacao2  = "verdeTerra",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "verdeTerra",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }else if(pontoSelecionado3 == "MAIN3" && corFio2 == "verdeTerra"){
-      return preimeiraLigacao2  = "verdeTerra",console.log(preimeiraLigacao),console.log(corFio2);
+      return preimeiraLigacao2  = "verdeTerra",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }else if(pontoSelecionado3 == "MAIN4" && corFio2 == "verdeTerra"){
-      return preimeiraLigacao2  = "verdeTerra",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "verdeTerra",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
+   }else if(pontoSelecionado3 == "MAIN5" && corFio2 == "verdeTerra"){
+      return preimeiraLigacao2  = "verdeTerra",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
+      
+   }else if(pontoSelecionado3 == "MAIN6" && corFio2 == "verdeTerra"){
+      return preimeiraLigacao2  = "verdeTerra",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
+      
    }
 
    else if(pontoSelecionado3 == "MAIN1" && corFio2 == "brancoRetorno"){
-      return preimeiraLigacao2  = "brancoRetorno",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "brancoRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }else if(pontoSelecionado3 == "MAIN2" && corFio2 == "brancoRetorno"){
-      return preimeiraLigacao2  = "brancoRetorno",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "brancoRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }else if(pontoSelecionado3 == "MAIN3" && corFio2 == "brancoRetorno"){
-      return preimeiraLigacao2  = "brancoRetorno",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "brancoRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
      
    }else if(pontoSelecionado3 == "MAIN4" && corFio2 == "brancoRetorno"){
-      return preimeiraLigacao2  = "brancoRetorno",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "brancoRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
+       
+   }else if(pontoSelecionado3 == "MAIN5" && corFio2 == "brancoRetorno"){
+      return preimeiraLigacao2  = "brancoRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
+       
+   }else if(pontoSelecionado3 == "MAIN6" && corFio2 == "brancoRetorno"){
+      return preimeiraLigacao2  = "brancoRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }
 
    else if(pontoSelecionado3 == "MAIN1" && corFio2 == "azulNeltro"){
-      return preimeiraLigacao2  = "azulNeltro",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "azulNeltro",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }else if(pontoSelecionado3 == "MAIN2" && corFio2 == "azulNeltro"){
-      return preimeiraLigacao2  = "azulNeltro",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "azulNeltro",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
       
    }else if(pontoSelecionado3 == "MAIN3" && corFio2 == "azulNeltro"){
-      return preimeiraLigacao2 = "azulNeltro",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2 = "azulNeltro",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
       
    }else if(pontoSelecionado3 == "MAIN4" && corFio2 == "azulNeltro"){
-      return preimeiraLigacao2  = "azulNeltro",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "azulNeltro",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
+       
+   }else if(pontoSelecionado3 == "MAIN5" && corFio2 == "azulNeltro"){
+      return preimeiraLigacao2  = "azulNeltro",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
+       
+   }else if(pontoSelecionado3 == "MAIN6" && corFio2 == "azulNeltro"){
+      return preimeiraLigacao2  = "azulNeltro",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }
 
    else if(pontoSelecionado3 == "MAIN1" && corFio2 == "marromRetorno"){
-      return preimeiraLigacao2  = "marromRetorno",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "marromRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
     
    }else if(pontoSelecionado3 == "MAIN2" && corFio2 == "marromRetorno"){
-      return preimeiraLigacao2  = "marromRetorno",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "marromRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }else if(pontoSelecionado3 == "MAIN3" && corFio2 == "marromRetorno"){
-      return preimeiraLigacao2  = "marromRetorno",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "marromRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
      
    }else if(pontoSelecionado3 == "MAIN4" && corFio2 == "marromRetorno"){
-      return preimeiraLigacao2  = "marromRetorno",console.log(preimeiraLigacao2),console.log(corFio2);
+      return preimeiraLigacao2  = "marromRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
+       
+   }else if(pontoSelecionado3 == "MAIN5" && corFio2 == "marromRetorno"){
+      return preimeiraLigacao2  = "marromRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
+       
+   }else if(pontoSelecionado3 == "MAIN6" && corFio2 == "marromRetorno"){
+      return preimeiraLigacao2  = "marromRetorno",console.log("preimeiraLigacao2",preimeiraLigacao2),console.log(corFio2);
        
    }
 
 
 };
 //===========SEGUNDO FIO==========
+
+
+
+
+
+
+//===========TERCEIRO FIO==========
+//conectando os fios a os quadrados
+function fioConectadoParte123(){
+
+   if(pontoSelecionado5 == "MAIN1" && corFio3 == "pretoFase"){
+     
+      return preimeiraLigacao3  = "pretoFase",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN2" && corFio3 == "pretoFase"){
+     return  preimeiraLigacao3  = "pretoFase",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+      
+   }else if(pontoSelecionado3 == "MAIN3" && corFio3 == "pretoFase"){
+      return preimeiraLigacao3  = "pretoFase",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN4" && corFio3 == "pretoFase"){
+      return preimeiraLigacao3  = "pretoFase",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+      
+   }else if(pontoSelecionado3 == "MAIN5" && corFio3 == "pretoFase"){
+      return preimeiraLigacao3  = "pretoFase",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+      
+   }else if(pontoSelecionado3 == "MAIN6" && corFio3 == "pretoFase"){
+      return preimeiraLigacao3  = "pretoFase",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+      
+   }
+   
+   else if(pontoSelecionado3 == "MAIN1" && corFio3 == "verdeTerra"){
+      return preimeiraLigacao3  = "verdeTerra",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN2" && corFio3 == "verdeTerra"){
+      return preimeiraLigacao3  = "verdeTerra",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN3" && corFio3 == "verdeTerra"){
+      return preimeiraLigacao3  = "verdeTerra",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN4" && corFio3 == "verdeTerra"){
+      return preimeiraLigacao3  = "verdeTerra",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN5" && corFio3 == "verdeTerra"){
+      return preimeiraLigacao3  = "verdeTerra",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN6" && corFio3 == "verdeTerra"){
+      return preimeiraLigacao3  = "verdeTerra",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }
+
+   else if(pontoSelecionado3 == "MAIN1" && corFio3 == "brancoRetorno"){
+      return preimeiraLigacao3  = "brancoRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN2" && corFio3 == "brancoRetorno"){
+      return preimeiraLigacao3  = "brancoRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN3" && corFio3 == "brancoRetorno"){
+      return preimeiraLigacao3  = "brancoRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+     
+   }else if(pontoSelecionado3 == "MAIN4" && corFio3 == "brancoRetorno"){
+      return preimeiraLigacao3  = "brancoRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN5" && corFio3 == "brancoRetorno"){
+      return preimeiraLigacao3  = "brancoRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN6" && corFio3 == "brancoRetorno"){
+      return preimeiraLigacao3  = "brancoRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }
+
+   else if(pontoSelecionado3 == "MAIN1" && corFio3 == "azulNeltro"){
+      return preimeiraLigacao3  = "azulNeltro",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN2" && corFio3 == "azulNeltro"){
+      return preimeiraLigacao3  = "azulNeltro",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+      
+   }else if(pontoSelecionado3 == "MAIN3" && corFio3 == "azulNeltro"){
+      return preimeiraLigacao3 = "azulNeltro",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+      
+   }else if(pontoSelecionado3 == "MAIN4" && corFio3 == "azulNeltro"){
+      return preimeiraLigacao3  = "azulNeltro",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN5" && corFio3 == "azulNeltro"){
+      return preimeiraLigacao3  = "azulNeltro",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN6" && corFio3 == "azulNeltro"){
+      return preimeiraLigacao3  = "azulNeltro",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }
+
+   else if(pontoSelecionado3 == "MAIN1" && corFio3 == "marromRetorno"){
+      return preimeiraLigacao3  = "marromRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+    
+   }else if(pontoSelecionado3 == "MAIN2" && corFio3 == "marromRetorno"){
+      return preimeiraLigacao3  = "marromRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN3" && corFio3 == "marromRetorno"){
+      return preimeiraLigacao3  = "marromRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+     
+   }else if(pontoSelecionado3 == "MAIN4" && corFio3 == "marromRetorno"){
+      return preimeiraLigacao3  = "marromRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN5" && corFio3 == "marromRetorno"){
+      return preimeiraLigacao3  = "marromRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }else if(pontoSelecionado3 == "MAIN6" && corFio3 == "marromRetorno"){
+      return preimeiraLigacao3  = "marromRetorno",console.log("preimeiraLigacao3",preimeiraLigacao3),console.log(corFio3);
+       
+   }
+
+
+};
+//===========TERCEIRO FIO==========
+
 
 
 
@@ -585,31 +1045,31 @@ function fioConectadoParte2(){
 
     if(pontoSelecionado2 != pontoSelecionado1 && pontoSelecionado2 != undefined  && ligacaoPonto == "pretoFase"){
 
-      return  segundaLigacao  = "pretoFase",console.log(segundaLigacao);
+      return  segundaLigacao  = "pretoFase",console.log("segundaLigacao",segundaLigacao);
         
     }else 
 
     if(pontoSelecionado2 != pontoSelecionado1 && pontoSelecionado2 != undefined &&  ligacaoPonto == "verdeTerra"){
 
-       return segundaLigacao  = "verdeTerra",console.log(segundaLigacao);
+       return segundaLigacao  = "verdeTerra",console.log("segundaLigacao",segundaLigacao);
         
     }else 
 
     if(pontoSelecionado2 != pontoSelecionado1 && pontoSelecionado2 != undefined && ligacaoPonto == "brancoRetorno"){
 
-       return segundaLigacao  = "brancoRetorno",console.log(segundaLigacao);
+       return segundaLigacao  = "brancoRetorno",console.log("segundaLigacao",segundaLigacao);
         
     }else 
 
     if(pontoSelecionado2 != pontoSelecionado1 && pontoSelecionado2 != undefined && ligacaoPonto == "azulNeltro"){
 
-       return segundaLigacao  = "azulNeltro",console.log(segundaLigacao);
+       return segundaLigacao  = "azulNeltro",console.log("segundaLigacao",segundaLigacao);
         
     }else 
 
     if(pontoSelecionado2 != pontoSelecionado1 && pontoSelecionado2 != undefined && ligacaoPonto == "marromRetorno"){
 
-       return segundaLigacao  = "marromRetorno",console.log(segundaLigacao);
+       return segundaLigacao  = "marromRetorno",console.log("segundaLigacao",segundaLigacao);
        
     }
 
@@ -630,36 +1090,83 @@ function fioConectadoParte22(){
 
    if(pontoSelecionado4 != pontoSelecionado3 && pontoSelecionado4 != undefined  && ligacaoPonto2 == "pretoFase"){
 
-     return  segundaLigacao2  = "pretoFase",console.log(segundaLigacao2);
+     return  segundaLigacao2  = "pretoFase",console.log("segundaLigacao2",segundaLigacao2);
        
    }else 
 
    if(pontoSelecionado4 != pontoSelecionado3 && pontoSelecionado4 != undefined &&  ligacaoPonto2 == "verdeTerra"){
 
-      return segundaLigacao2  = "verdeTerra",console.log(segundaLigacao2);
+      return segundaLigacao2  = "verdeTerra",console.log("segundaLigacao2",segundaLigacao2);
        
    }else 
 
    if(pontoSelecionado4 != pontoSelecionado3 && pontoSelecionado4 != undefined && ligacaoPonto2 == "brancoRetorno"){
 
-      return segundaLigacao2  = "brancoRetorno",console.log(segundaLigacao2);
+      return segundaLigacao2  = "brancoRetorno",console.log("segundaLigacao2",segundaLigacao2);
        
    }else 
 
    if(pontoSelecionado4 != pontoSelecionado3 && pontoSelecionado4 != undefined && ligacaoPonto2 == "azulNeltro"){
 
-      return segundaLigacao2  = "azulNeltro",console.log(segundaLigacao2);
+      return segundaLigacao2  = "azulNeltro",console.log("segundaLigacao2",segundaLigacao2);
        
    }else 
 
    if(pontoSelecionado4 != pontoSelecionado3 && pontoSelecionado4 != undefined && ligacaoPonto2 == "marromRetorno"){
 
-      return segundaLigacao2  = "marromRetorno",console.log(segundaLigacao2);
+      return segundaLigacao2  = "marromRetorno",console.log("segundaLigacao2",segundaLigacao2);
       
    }
 
 
 };
+
+
+
+
+///////////TERCEIRO FIO/////////
+// neste ponto se pontoSelecionado2 for diferente de pontoSelecionado1 
+// exemplo eles nao podem ter o mesmo valor "main1" E ligacaoPonto FOR IGUAL A pretoFase
+// segundaLigacao ligacao recebe pretoFase
+function fioConectadoParte222(){
+
+   if(pontoSelecionado6 != pontoSelecionado5 && pontoSelecionado6 != undefined  && ligacaoPonto3 == "pretoFase"){
+
+     return  segundaLigacao3  = "pretoFase",console.log("segundaLigacao3",segundaLigacao3);
+       
+   }else 
+
+   if(pontoSelecionado6 != pontoSelecionado5 && pontoSelecionado6 != undefined &&  ligacaoPonto3 == "verdeTerra"){
+
+      return segundaLigacao3  = "verdeTerra",console.log("segundaLigacao3",segundaLigacao3);
+       
+   }else 
+
+   if(pontoSelecionado6 != pontoSelecionado5 && pontoSelecionado6 != undefined && ligacaoPonto3 == "brancoRetorno"){
+
+      return segundaLigacao3  = "brancoRetorno",console.log("segundaLigacao3",segundaLigacao3);
+       
+   }else 
+
+   if(pontoSelecionado6 != pontoSelecionado5 && pontoSelecionado6 != undefined && ligacaoPonto3 == "azulNeltro"){
+
+      return segundaLigacao3  = "azulNeltro",console.log("segundaLigacao3",segundaLigacao3);
+       
+   }else 
+
+   if(pontoSelecionado6 != pontoSelecionado5 && pontoSelecionado6 != undefined && ligacaoPonto3 == "marromRetorno"){
+
+      return segundaLigacao3  = "marromRetorno",console.log("segundaLigacao3",segundaLigacao3);
+      
+   }
+
+
+};
+///////////TERCEIRO FIO/////////    
+
+
+
+
  function mostrar(){   
 
 console.log("corFio;",corFio);
@@ -681,6 +1188,16 @@ console.log("parte2;",parte2)
 console.log("seretId;",resetId)
 console.log("seretId;",resetId2)
 console.log("idioma;",idioma)
+
+console.log("corFio3;",corFio3);
+console.log("ligacaoPonto3;",ligacaoPonto3);
+console.log("preimeiraLigacao3;",preimeiraLigacao3);
+console.log("segundaLigacao3;",segundaLigacao3);
+console.log("pontoSelecionado5;",pontoSelecionado5);
+console.log("pontoSelecionado6;",pontoSelecionado6);
+console.log("verificador3;",verificador3);
+console.log("parte3;",parte3)
+console.log("seretId;",resetId3)
  }
 
 //=========PRIMEIRO FIO===========
@@ -690,19 +1207,28 @@ console.log("idioma;",idioma)
     console.log( " e true ou false",resetId);
  if(resetId == true ){
 
-   
+   //MAIN1
    let elementosCss = this.document.getElementById("MAIN10")
    let elementosCss2 = this.document.getElementById("MAIN11")
    let elementosCss3 = this.document.getElementById("MAIN12")
    let elementosCss4 = this.document.getElementById("MAIN13")
    let elementosCss5 = this.document.getElementById("MAIN14")
 
-
+//MAIN2
    let elementosCss6 = this.document.getElementById("MAIN15")
    let elementosCss7 = this.document.getElementById("MAIN16")
    let elementosCss8 = this.document.getElementById("MAIN17")
    let elementosCss9 = this.document.getElementById("MAIN18")
    let elementosCss10 = this.document.getElementById("MAIN19")
+
+
+       //MAIN5
+   let elementosCss16 = this.document.getElementById("MAIN30")
+   let elementosCss17 = this.document.getElementById("MAIN31")
+   let elementosCss18 = this.document.getElementById("MAIN32")
+   let elementosCss19 = this.document.getElementById("MAIN33")
+   let elementosCss20 = this.document.getElementById("MAIN34")
+
 
 
 // tratar bug
@@ -810,6 +1336,57 @@ console.log("idioma;",idioma)
               
                   
                   elementosCss10.id= "MAIN2"
+               
+               
+                  console.log(elementosCss)
+                  
+      } else
+
+          if( elementosCss16 != null || elementosCss16 != undefined ){ 
+      elementosCss16.id = "MAIN5"
+      
+   
+   
+      console.log(elementosCss)
+      
+   }
+   if( elementosCss17 != null || elementosCss17 != undefined ){ 
+          
+         elementosCss17.id= "MAIN5"
+         
+      
+      
+         console.log(elementosCss)
+         
+   }
+   
+   if( elementosCss18 != null || elementosCss18 != undefined ){ 
+         
+            
+            elementosCss18.id= "MAIN5"
+            
+         
+         
+            console.log(elementosCss)
+            
+   }
+      if( elementosCss19 != null || elementosCss19 != undefined ){ 
+         
+            
+              
+               elementosCss19.id= "MAIN5"
+             
+            
+            
+               console.log(elementosCss)
+               
+   }
+      if( elementosCss20 != null || elementosCss20 != undefined ){ 
+         
+            
+              
+                  
+                  elementosCss20.id= "MAIN5"
                
                
                   console.log(elementosCss)
@@ -1188,7 +1765,169 @@ console.log("fundionou");
 
    }
 } 
+}else
+
+//ligacao do 5 para o 6
+if( pontoSelecionado2 == "MAIN6" && verificador == "MAIN5"   && ligacaoPonto == "pretoFase" && preimeiraLigacao =="pretoFase" && segundaLigacao == "pretoFase" ){
+   let elementosCss = document.getElementById("MAIN5");
+    if(elementosCss != null || elementosCss != undefined) { 
+    
+
+
+      if(pontoSelecionado2 == "MAIN6"){ 
+    console.log(elementosCss);
+    parte2 = true;
+    elementosCss.id = "MAIN30"
+    }
+console.log("fundionou"); 
+   }
 }
+//ligacao do 5 para o 6 
+else if( pontoSelecionado2 == "MAIN6" &&verificador == "MAIN5" && ligacaoPonto == "verdeTerra" && preimeiraLigacao =="verdeTerra" && segundaLigacao == "verdeTerra"){
+   let elementosCss = document.getElementById("MAIN5");
+    console.log(elementosCss);
+   if(elementosCss != null || elementosCss != undefined) { 
+ console.log("tttttt");
+      if(pontoSelecionado2 == "MAIN6"){ 
+   console.log(elementosCss);
+   parte2 = true;
+   elementosCss.id = "MAIN31"
+
+console.log("fundionou");
+      }
+}
+ }
+//ligacao do 5 para o 6
+ else if( pontoSelecionado2 == "MAIN6" &&verificador == "MAIN5" && ligacaoPonto == "brancoRetorno" && preimeiraLigacao =="brancoRetorno" && segundaLigacao == "brancoRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      if(pontoSelecionado2 == "MAIN6"){ 
+   console.log(elementosCss);
+   parte2 = true;
+   elementosCss.id = "MAIN32"
+
+console.log("fundionou");
+
+      }
+}
+ }
+ //ligacao do 5 para o 6
+ else if( pontoSelecionado2 == "MAIN6" &&verificador == "MAIN5" && ligacaoPonto == "azulNeltro" && preimeiraLigacao =="azulNeltro" && segundaLigacao == "azulNeltro"){
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      if(pontoSelecionado2 == "MAIN6"){ 
+   console.log(elementosCss);
+   parte2 = true;
+   elementosCss.id = "MAIN33"
+
+console.log("fundionou");
+      }
+}
+
+ }
+
+//ligacao do 5 para o 6
+ else if(pontoSelecionado2 == "MAIN6" &&verificador == "MAIN5" && ligacaoPonto == "marromRetorno" && preimeiraLigacao =="marromRetorno" && segundaLigacao == "marromRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      if(pontoSelecionado2 == "MAIN6"){ 
+   console.log(elementosCss);
+   parte2 = true;
+   elementosCss.id = "MAIN34"
+
+   
+
+console.log("fundionou");
+      }
+}
+ }
+
+ else
+
+//ligacao do 6 para o 5
+if( pontoSelecionado2 == "MAIN5" && verificador == "MAIN6"   && ligacaoPonto == "pretoFase" && preimeiraLigacao =="pretoFase" && segundaLigacao == "pretoFase" ){
+   let elementosCss = document.getElementById("MAIN5");
+    if(elementosCss != null || elementosCss != undefined) { 
+    
+
+
+      if(pontoSelecionado2 == "MAIN5"){ 
+    console.log(elementosCss);
+    parte2 = true;
+    elementosCss.id = "MAIN30"
+    }
+console.log("fundionou"); 
+   }
+}
+//ligacao do 6 para o 5 
+else if( pontoSelecionado2 == "MAIN5" &&verificador == "MAIN6" && ligacaoPonto == "verdeTerra" && preimeiraLigacao =="verdeTerra" && segundaLigacao == "verdeTerra"){
+   let elementosCss = document.getElementById("MAIN5");
+    console.log(elementosCss);
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      if(pontoSelecionado2 == "MAIN5"){ 
+   console.log(elementosCss);
+   parte2 = true;
+   elementosCss.id = "MAIN31"
+
+console.log("fundionou");
+      }
+}
+ }
+//ligacao do 6 para o 5
+ else if( pontoSelecionado2 == "MAIN5" &&verificador == "MAIN6" && ligacaoPonto == "brancoRetorno" && preimeiraLigacao =="brancoRetorno" && segundaLigacao == "brancoRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      if(pontoSelecionado2 == "MAIN5"){ 
+   console.log(elementosCss);
+   parte2 = true;
+   elementosCss.id = "MAIN32"
+
+console.log("fundionou");
+
+      }
+}
+ }
+ //ligacao do 6 para o 5
+ else if( pontoSelecionado2 == "MAIN5" &&verificador == "MAIN6" && ligacaoPonto == "azulNeltro" && preimeiraLigacao =="azulNeltro" && segundaLigacao == "azulNeltro"){
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      if(pontoSelecionado2 == "MAIN5"){ 
+   console.log(elementosCss);
+   parte2 = true;
+   elementosCss.id = "MAIN33"
+
+console.log("fundionou");
+      }
+}
+
+ }
+
+//ligacao do 6 para o 6
+ else if(pontoSelecionado2 == "MAIN5" &&verificador == "MAIN6" && ligacaoPonto == "marromRetorno" && preimeiraLigacao =="marromRetorno" && segundaLigacao == "marromRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      if(pontoSelecionado2 == "MAIN5"){ 
+   console.log(elementosCss);
+   parte2 = true;
+   elementosCss.id = "MAIN34"
+
+   
+
+console.log("fundionou");
+      }
+}
+ }
 
 
 
@@ -1518,19 +2257,27 @@ else  if(verificador == "MAIN2" && ligacaoPonto == "verdeTerra" && preimeiraLiga
    console.log( " e true ou false",resetId2);
  if(resetId2 == true ){
 
-   
+   //MAIN1
    let elementosCss = this.document.getElementById("MAIN10")
    let elementosCss2 = this.document.getElementById("MAIN11")
    let elementosCss3 = this.document.getElementById("MAIN12")
    let elementosCss4 = this.document.getElementById("MAIN13")
    let elementosCss5 = this.document.getElementById("MAIN14")
 
-
+//MAIN2
    let elementosCss6 = this.document.getElementById("MAIN15")
    let elementosCss7 = this.document.getElementById("MAIN16")
    let elementosCss8 = this.document.getElementById("MAIN17")
    let elementosCss9 = this.document.getElementById("MAIN18")
    let elementosCss10 = this.document.getElementById("MAIN19")
+
+
+     //MAIN5
+   let elementosCss16 = this.document.getElementById("MAIN30")
+   let elementosCss17 = this.document.getElementById("MAIN31")
+   let elementosCss18 = this.document.getElementById("MAIN32")
+   let elementosCss19 = this.document.getElementById("MAIN33")
+   let elementosCss20 = this.document.getElementById("MAIN34")
 
 
    // tratar bug 2
@@ -1645,6 +2392,57 @@ else  if(verificador == "MAIN2" && ligacaoPonto == "verdeTerra" && preimeiraLiga
                   
       } 
 
+          if( elementosCss16 != null || elementosCss16 != undefined ){ 
+      elementosCss16.id = "MAIN5"
+      
+   
+   
+      console.log(elementosCss)
+      
+   }
+   if( elementosCss17 != null || elementosCss17 != undefined ){ 
+          
+         elementosCss17.id= "MAIN5"
+         
+      
+      
+         console.log(elementosCss)
+         
+   }
+   
+   if( elementosCss18 != null || elementosCss18 != undefined ){ 
+         
+            
+            elementosCss18.id= "MAIN5"
+            
+         
+         
+            console.log(elementosCss)
+            
+   }
+      if( elementosCss19 != null || elementosCss19 != undefined ){ 
+         
+            
+              
+               elementosCss19.id= "MAIN5"
+             
+            
+            
+               console.log(elementosCss)
+               
+   }
+      if( elementosCss20 != null || elementosCss20 != undefined ){ 
+         
+            
+              
+                  
+                  elementosCss20.id= "MAIN5"
+               
+               
+                  console.log(elementosCss)
+                  
+      } 
+
 
 // BUG   2 
 console.log(bug)
@@ -1729,12 +2527,12 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
 
  
    console.log(verificador2);
-    if(pontoSelecionado2 == "MAIN1"&&  verificador2 == "MAIN1" && ligacaoPonto2 == "pretoFase" && preimeiraLigacao2 =="pretoFase" && segundaLigacao2 == "pretoFase" ){
+    if(  verificador2 == "MAIN1" && ligacaoPonto2 == "pretoFase" && preimeiraLigacao2 =="pretoFase" && segundaLigacao2 == "pretoFase" ){
         let elementosCss = document.getElementById("MAIN1");
          if(elementosCss != null || elementosCss != undefined) { 
          
          console.log(elementosCss);
-        // parte2 = true;
+         parte3 = true;
          elementosCss.id = "MAIN10"
          }
     console.log("fundionou"); 
@@ -1743,7 +2541,7 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
       let elementosCss = document.getElementById("MAIN1");
       if(elementosCss != null || elementosCss != undefined) { 
       console.log(elementosCss);
-     // parte2 = true;
+      parte3 = true;
       elementosCss.id = "MAIN11"
    
  console.log("fundionou");
@@ -1753,7 +2551,7 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
       let elementosCss = document.getElementById("MAIN1");
       if(elementosCss != null || elementosCss != undefined) { 
       console.log(elementosCss);
-     // parte2 = true;
+      parte3 = true;
       elementosCss.id = "MAIN12"
    
  console.log("fundionou");
@@ -1762,7 +2560,7 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
       let elementosCss = document.getElementById("MAIN1");
       if(elementosCss != null || elementosCss != undefined) { 
       console.log(elementosCss);
-     // parte2 = true;
+      parte3 = true;
       elementosCss.id = "MAIN13"
 
  console.log("fundionou");
@@ -1773,7 +2571,7 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
       let elementosCss = document.getElementById("MAIN1");
       if(elementosCss != null || elementosCss != undefined) { 
       console.log(elementosCss);
-      //parte2 = true;
+      parte3 = true;
       elementosCss.id = "MAIN14"
  
       
@@ -1784,7 +2582,7 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
       let elementosCss2 = document.getElementById("MAIN2");
       if(elementosCss2 != null || elementosCss2 != undefined) { 
        console.log(elementosCss2);
-      // parte2 = true;
+       parte3 = true;
        elementosCss2.id = "MAIN15"
       }
   console.log("fundionou"); 
@@ -1792,7 +2590,7 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
    let elementosCss2 = document.getElementById("MAIN2");
    if(elementosCss2 != null || elementosCss2 != undefined) { 
     console.log(elementosCss2);
-  //  parte2 = true;
+    parte3 = true;
     elementosCss2.id = "MAIN16"
    }
 console.log("fundionou"); 
@@ -1800,7 +2598,7 @@ console.log("fundionou");
    let elementosCss2 = document.getElementById("MAIN2");
    if(elementosCss2 != null || elementosCss2 != undefined) { 
     console.log(elementosCss2);
-   // parte2 = true;
+    parte3 = true;
     elementosCss2.id = "MAIN17"
    }
 console.log("fundionou"); 
@@ -1808,7 +2606,7 @@ console.log("fundionou");
    let elementosCss2 = document.getElementById("MAIN2");
    if(elementosCss2 != null || elementosCss2 != undefined) { 
     console.log(elementosCss2);
-   // parte2 = true;
+    parte3 = true;
     elementosCss2.id = "MAIN18"
    }
 console.log("fundionou"); 
@@ -1816,7 +2614,7 @@ console.log("fundionou");
    let elementosCss2 = document.getElementById("MAIN2");
    if(elementosCss2 != null || elementosCss2 != undefined) { 
     console.log(elementosCss2);
-   // parte2 = true;
+ parte3 = true;
     elementosCss2.id = "MAIN19"
 
 console.log("fundionou"); 
@@ -1836,7 +2634,7 @@ else
          if(elementosCss != null || elementosCss != undefined) { 
          
          console.log(elementosCss);
-        // parte2 = true;
+         parte3 = true;
          elementosCss.id = "MAIN10"
          }
     console.log("fundionou"); 
@@ -1845,7 +2643,7 @@ else
       let elementosCss = document.getElementById("MAIN1");
       if(elementosCss != null || elementosCss != undefined) { 
       console.log(elementosCss);
-     // parte2 = true;
+      parte3 = true;
       elementosCss.id = "MAIN11"
    
  console.log("fundionou");
@@ -1855,7 +2653,7 @@ else
       let elementosCss = document.getElementById("MAIN1");
       if(elementosCss != null || elementosCss != undefined) { 
       console.log(elementosCss);
-     // parte2 = true;
+      parte3 = true;
       elementosCss.id = "MAIN12"
    
  console.log("fundionou");
@@ -1864,7 +2662,7 @@ else
       let elementosCss = document.getElementById("MAIN1");
       if(elementosCss != null || elementosCss != undefined) { 
       console.log(elementosCss);
-     // parte2 = true;
+      parte3 = true;
       elementosCss.id = "MAIN13"
 
  console.log("fundionou");
@@ -1875,7 +2673,7 @@ else
       let elementosCss = document.getElementById("MAIN1");
       if(elementosCss != null || elementosCss != undefined) { 
       console.log(elementosCss);
-      //parte2 = true;
+   parte3 = true;
       elementosCss.id = "MAIN14"
  
       
@@ -1886,7 +2684,7 @@ else
       let elementosCss2 = document.getElementById("MAIN2");
       if(elementosCss2 != null || elementosCss2 != undefined) { 
        console.log(elementosCss2);
-      // parte2 = true;
+       parte3 = true;
        elementosCss2.id = "MAIN15"
       }
   console.log("fundionou"); 
@@ -1894,7 +2692,7 @@ else
    let elementosCss2 = document.getElementById("MAIN2");
    if(elementosCss2 != null || elementosCss2 != undefined) { 
     console.log(elementosCss2);
-  //  parte2 = true;
+    parte3 = true;
     elementosCss2.id = "MAIN16"
    }
 console.log("fundionou"); 
@@ -1902,7 +2700,7 @@ console.log("fundionou");
    let elementosCss2 = document.getElementById("MAIN2");
    if(elementosCss2 != null || elementosCss2 != undefined) { 
     console.log(elementosCss2);
-   // parte2 = true;
+    parte3 = true;
     elementosCss2.id = "MAIN17"
    }
 console.log("fundionou"); 
@@ -1910,7 +2708,7 @@ console.log("fundionou");
    let elementosCss2 = document.getElementById("MAIN2");
    if(elementosCss2 != null || elementosCss2 != undefined) { 
     console.log(elementosCss2);
-   // parte2 = true;
+    parte3 = true;
     elementosCss2.id = "MAIN18"
    }
 console.log("fundionou"); 
@@ -1918,12 +2716,176 @@ console.log("fundionou");
    let elementosCss2 = document.getElementById("MAIN2");
    if(elementosCss2 != null || elementosCss2 != undefined) { 
     console.log(elementosCss2);
-   // parte2 = true;
+    parte3 = true;
     elementosCss2.id = "MAIN19"
 
 console.log("fundionou"); 
    }
+}else
+
+//ligacao do 5 para o 6
+if(   verificador2 == "MAIN5"   && ligacaoPonto2 == "pretoFase" && preimeiraLigacao2 =="pretoFase" && segundaLigacao2 == "pretoFase" ){
+   let elementosCss = document.getElementById("MAIN5");
+    if(elementosCss != null || elementosCss != undefined) { 
+    
+
+
+      
+    console.log(elementosCss);
+    parte3 = true;
+    elementosCss.id = "MAIN30"
+    
+console.log("fundionou"); 
+   }
 }
+//ligacao do 5 para o 6 
+else if(  verificador2 == "MAIN5" && ligacaoPonto2 == "verdeTerra" && preimeiraLigacao2 =="verdeTerra" && segundaLigacao2 == "verdeTerra"){
+   let elementosCss = document.getElementById("MAIN5");
+    console.log(elementosCss);
+   if(elementosCss != null || elementosCss != undefined) { 
+ 
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN31"
+
+console.log("fundionou");
+      
+}
+ }
+//ligacao do 5 para o 6
+ else if( verificador2 == "MAIN5" && ligacaoPonto2 == "brancoRetorno" && preimeiraLigacao2 =="brancoRetorno" && segundaLigacao2 == "brancoRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN32"
+
+console.log("fundionou");
+
+      
+}
+ }
+ //ligacao do 5 para o 6
+ else if( verificador2 == "MAIN5" && ligacaoPonto2 == "azulNeltro" && preimeiraLigacao2 =="azulNeltro" && segundaLigacao2 == "azulNeltro"){
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN33"
+
+console.log("fundionou");
+      
+}
+
+ }
+
+//ligacao do 5 para o 6
+ else if(verificador2 == "MAIN5" && ligacaoPonto2 == "marromRetorno" && preimeiraLigacao2 =="marromRetorno" && segundaLigacao2 == "marromRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+       
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN34"
+
+   
+
+console.log("fundionou");
+      
+}
+ }
+
+
+
+ else
+
+//ligacao do 6 para o 5
+if(  verificador2 == "MAIN6"   && ligacaoPonto2 == "pretoFase" && preimeiraLigacao2 =="pretoFase" && segundaLigacao2 == "pretoFase" ){
+   let elementosCss = document.getElementById("MAIN5");
+    if(elementosCss != null || elementosCss != undefined) { 
+    
+
+
+      
+    console.log(elementosCss);
+    parte3 = true;
+    elementosCss.id = "MAIN30"
+    
+console.log("fundionou"); 
+   }
+}
+//ligacao do 5 para o 6 
+else if(verificador2 == "MAIN6" && ligacaoPonto2 == "verdeTerra" && preimeiraLigacao2 =="verdeTerra" && segundaLigacao2 == "verdeTerra"){
+   let elementosCss = document.getElementById("MAIN5");
+    console.log(elementosCss);
+   if(elementosCss != null || elementosCss != undefined) { 
+ console.log("tttttt");
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN31"
+
+console.log("fundionou");
+     
+}
+ }
+//ligacao do 5 para o 6
+ else if( verificador2 == "MAIN6" && ligacaoPonto2 == "brancoRetorno" && preimeiraLigacao2 =="brancoRetorno" && segundaLigacao2 == "brancoRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+     
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN32"
+
+console.log("fundionou");
+
+      
+}
+ }
+ //ligacao do 5 para o 6
+ else if( verificador2 == "MAIN6" && ligacaoPonto2 == "azulNeltro" && preimeiraLigacao2 =="azulNeltro" && segundaLigacao2 == "azulNeltro"){
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN33"
+
+console.log("fundionou");
+      
+}
+
+ }
+
+//ligacao do 5 para o 6
+ else if(verificador2 == "MAIN6" && ligacaoPonto2 == "marromRetorno" && preimeiraLigacao2 =="marromRetorno" && segundaLigacao2 == "marromRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN34"
+
+   
+
+console.log("fundionou");
+      
+}
+ }
 
 
  ///// BUG DE CIRCUITO 2
@@ -2085,30 +3047,848 @@ console.log("fundionou");
 
 
 
+
+
+
+//===========TERCEIRO FIO==========
+ function fioConectadoParte333(){
+
+
+
+   console.log( " e true ou false",resetId3);
+ if(resetId3 == true ){
+
+   //MAIN1
+   let elementosCss = this.document.getElementById("MAIN10")
+   let elementosCss2 = this.document.getElementById("MAIN11")
+   let elementosCss3 = this.document.getElementById("MAIN12")
+   let elementosCss4 = this.document.getElementById("MAIN13")
+   let elementosCss5 = this.document.getElementById("MAIN14")
+
+//MAIN2
+   let elementosCss6 = this.document.getElementById("MAIN15")
+   let elementosCss7 = this.document.getElementById("MAIN16")
+   let elementosCss8 = this.document.getElementById("MAIN17")
+   let elementosCss9 = this.document.getElementById("MAIN18")
+   let elementosCss10 = this.document.getElementById("MAIN19")
+
+   //MAIN5
+   let elementosCss16 = this.document.getElementById("MAIN30")
+   let elementosCss17 = this.document.getElementById("MAIN31")
+   let elementosCss18 = this.document.getElementById("MAIN32")
+   let elementosCss19 = this.document.getElementById("MAIN33")
+   let elementosCss20 = this.document.getElementById("MAIN34")
+
+
+   // tratar bug 2
+   let elementosCss11 = this.document.getElementById("MAIN25")
+   let elementosCss12 = this.document.getElementById("MAIN26")
+   let elementosCss13 = this.document.getElementById("MAIN27")
+   let elementosCss14 = this.document.getElementById("MAIN28")
+   let elementosCss15 = this.document.getElementById("MAIN29")
+
+
+
+
+   console.log(elementosCss)
+   if( elementosCss != null || elementosCss != undefined ){ 
+   elementosCss.id = "MAIN1"
+   
+
+
+   console.log(elementosCss)
+   
+   }
+   if( elementosCss2 != null || elementosCss2 != undefined ){ 
+       
+      elementosCss2.id= "MAIN1"
+      
+   
+   
+      console.log(elementosCss)
+      
+   }
+
+   if( elementosCss3 != null || elementosCss3 != undefined ){ 
+      
+         
+         elementosCss3.id= "MAIN1"
+         
+      
+      
+         console.log(elementosCss)
+         
+   }
+   if( elementosCss4 != null || elementosCss4 != undefined ){ 
+      
+         
+           
+            elementosCss4.id= "MAIN1"
+          
+         
+         
+            console.log(elementosCss)
+            
+   }
+   if( elementosCss5 != null || elementosCss5 != undefined ){ 
+      
+         
+           
+               
+               elementosCss5.id= "MAIN1"
+            
+            
+               console.log(elementosCss)
+               
+   }        
+   if( elementosCss6 != null || elementosCss6 != undefined ){ 
+      elementosCss6.id = "MAIN2"
+      
+   
+   
+      console.log(elementosCss)
+      
+   }
+   if( elementosCss7 != null || elementosCss7 != undefined ){ 
+          
+         elementosCss7.id= "MAIN2"
+         
+      
+      
+         console.log(elementosCss)
+         
+   }
+   
+   if( elementosCss8 != null || elementosCss8 != undefined ){ 
+         
+            
+            elementosCss8.id= "MAIN2"
+            
+         
+         
+            console.log(elementosCss)
+            
+   }
+      if( elementosCss9 != null || elementosCss9 != undefined ){ 
+         
+            
+              
+               elementosCss9.id= "MAIN2"
+             
+            
+            
+               console.log(elementosCss)
+               
+   }
+      if( elementosCss10 != null || elementosCss10 != undefined ){ 
+         
+            
+              
+                  
+                  elementosCss10.id= "MAIN2"
+               
+               
+                  console.log(elementosCss)
+                  
+      } 
+
+
+
+      if( elementosCss16 != null || elementosCss16 != undefined ){ 
+      elementosCss16.id = "MAIN5"
+      
+   
+   
+      console.log(elementosCss)
+      
+   }
+   if( elementosCss17 != null || elementosCss17 != undefined ){ 
+          
+         elementosCss17.id= "MAIN5"
+         
+      
+      
+         console.log(elementosCss)
+         
+   }
+   
+   if( elementosCss18 != null || elementosCss18 != undefined ){ 
+         
+            
+            elementosCss18.id= "MAIN5"
+            
+         
+         
+            console.log(elementosCss)
+            
+   }
+      if( elementosCss19 != null || elementosCss19 != undefined ){ 
+         
+            
+              
+               elementosCss19.id= "MAIN5"
+             
+            
+            
+               console.log(elementosCss)
+               
+   }
+      if( elementosCss20 != null || elementosCss20 != undefined ){ 
+         
+            
+              
+                  
+                  elementosCss20.id= "MAIN5"
+               
+               
+                  console.log(elementosCss)
+                  
+      } 
+
+
+
+// BUG   2 
+console.log(bug)
+console.log(elementosCss11)
+
+if( elementosCss11 != null || elementosCss11 != undefined && bug == true ){ 
+        
+
+   console.log(bug)
+
+   elementosCss11.id = "MAIN3"
+   
+
+
+   console.log(elementosCss11)
+   
+   }else
+
+if( elementosCss12 != null || elementosCss12 != undefined && bug == true ){ 
+  
+
+   console.log(bug)
+
+   elementosCss12.id = "MAIN3"
+   
+
+
+   console.log(elementosCss12)
+   
+   }
+   else
+
+if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){ 
+  
+
+   console.log(bug)
+
+   elementosCss13.id = "MAIN3"
+   
+
+
+   console.log(elementosCss13)
+   
+   }
+   else
+
+   if( elementosCss14 != null || elementosCss14 != undefined && bug == true ){ 
+     
+
+      console.log(bug)
+
+      elementosCss14.id = "MAIN3"
+      
+   
+   
+      console.log(elementosCss14)
+      
+      }
+      else
+
+      if( elementosCss15 != null || elementosCss15 != undefined && bug == true ){ 
+        
+
+         console.log(bug)
+
+         elementosCss15.id = "MAIN3"
+         
+      
+      
+         console.log(elementosCss15)
+         
+         } 
+             
+
+
+   resetId3 = false
+
+
+
+
+ }else
+
+ 
+   console.log(verificador3);
+    if(  verificador3 == "MAIN1" && ligacaoPonto3 == "pretoFase" && preimeiraLigacao3 =="pretoFase" && segundaLigacao3 == "pretoFase" ){
+        let elementosCss = document.getElementById("MAIN5");
+         if(elementosCss != null || elementosCss != undefined) { 
+         
+         console.log(elementosCss);
+         parte3 = true;
+         elementosCss.id = "MAIN10"
+         }
+    console.log("fundionou"); 
+    }
+    else if(verificador3 == "MAIN1" && ligacaoPonto3 == "verdeTerra" && preimeiraLigacao3 =="verdeTerra" && segundaLigacao3 == "verdeTerra"){
+      let elementosCss = document.getElementById("MAIN5");
+      if(elementosCss != null || elementosCss != undefined) { 
+      console.log(elementosCss);
+      parte3 = true;
+      elementosCss.id = "MAIN11"
+   
+ console.log("fundionou");
+}
+    } else if(verificador3 == "MAIN1" && ligacaoPonto3 == "brancoRetorno" && preimeiraLigacao3 =="brancoRetorno" && segundaLigacao3 == "brancoRetorno"){
+
+      let elementosCss = document.getElementById("MAIN5");
+      if(elementosCss != null || elementosCss != undefined) { 
+      console.log(elementosCss);
+      parte3 = true;
+      elementosCss.id = "MAIN12"
+   
+ console.log("fundionou");
+}
+    } else if(verificador3 == "MAIN1" && ligacaoPonto3 == "azulNeltro" && preimeiraLigacao3 =="azulNeltro" && segundaLigacao3 == "azulNeltro"){
+      let elementosCss = document.getElementById("MAIN5");
+      if(elementosCss != null || elementosCss != undefined) { 
+      console.log(elementosCss);
+      parte3 = true;
+      elementosCss.id = "MAIN13"
+
+ console.log("fundionou");
+}
+
+    } else if(verificador3 == "MAIN1" && ligacaoPonto3 == "marromRetorno" && preimeiraLigacao3 =="marromRetorno" && segundaLigacao3 == "marromRetorno"){
+
+      let elementosCss = document.getElementById("MAIN1");
+      if(elementosCss != null || elementosCss != undefined) { 
+      console.log(elementosCss);
+   parte3 = true;
+      elementosCss.id = "MAIN14"
+ 
+      
+
+ console.log("fundionou");
+}
+    } else  if(verificador3 == "MAIN2" && ligacaoPonto3 == "pretoFase" && preimeiraLigacao3 =="pretoFase" && segundaLigacao3 == "pretoFase" ){
+      let elementosCss2 = document.getElementById("MAIN2");
+      if(elementosCss2 != null || elementosCss2 != undefined) { 
+       console.log(elementosCss2);
+       parte3 = true;
+       elementosCss2.id = "MAIN15"
+      }
+  console.log("fundionou"); 
+  } else  if(verificador3 == "MAIN2" && ligacaoPonto3 == "verdeTerra" && preimeiraLigacao3 =="verdeTerra" && segundaLigacao3 == "verdeTerra" ){
+   let elementosCss2 = document.getElementById("MAIN2");
+   if(elementosCss2 != null || elementosCss2 != undefined) { 
+    console.log(elementosCss2);
+    parte3 = true;
+    elementosCss2.id = "MAIN16"
+   }
+console.log("fundionou"); 
+} else  if(verificador3 == "MAIN2" && ligacaoPonto3 == "brancoRetorno" && preimeiraLigacao3 =="brancoRetorno" && segundaLigacao3 == "brancoRetorno" ){
+   let elementosCss2 = document.getElementById("MAIN2");
+   if(elementosCss2 != null || elementosCss2 != undefined) { 
+    console.log(elementosCss2);
+    parte3 = true;
+    elementosCss2.id = "MAIN17"
+   }
+console.log("fundionou"); 
+} else  if(verificador3 == "MAIN2" && ligacaoPonto3 == "azulNeltro" && preimeiraLigacao3 =="azulNeltro" && segundaLigacao3 == "azulNeltro" ){
+   let elementosCss2 = document.getElementById("MAIN2");
+   if(elementosCss2 != null || elementosCss2 != undefined) { 
+    console.log(elementosCss2);
+    parte3 = true;
+    elementosCss2.id = "MAIN18"
+   }
+console.log("fundionou"); 
+} else  if(verificador3 == "MAIN2" && ligacaoPonto3 == "marromRetorno" && preimeiraLigacao3 =="marromRetorno" && segundaLigacao3 == "marromRetorno" ){
+   let elementosCss2 = document.getElementById("MAIN2");
+   if(elementosCss2 != null || elementosCss2 != undefined) { 
+    console.log(elementosCss2);
+    parte3 = true;
+    elementosCss2.id = "MAIN19"
+
+console.log("fundionou"); 
+   }
+}
+ 
+
+else
+
+
+
+
+ 
+   console.log(verificador3);
+    if(  verificador3 == "MAIN3" && ligacaoPonto3 == "pretoFase" && preimeiraLigacao3 =="pretoFase" && segundaLigacao3 == "pretoFase" ){
+        let elementosCss = document.getElementById("MAIN1");
+         if(elementosCss != null || elementosCss != undefined) { 
+         
+         console.log(elementosCss);
+         parte3 = true;
+         elementosCss.id = "MAIN10"
+         }
+    console.log("fundionou"); 
+    }
+    else if(verificador3 == "MAIN3" && ligacaoPonto3 == "verdeTerra" && preimeiraLigacao3 =="verdeTerra" && segundaLigacao3 == "verdeTerra"){
+      let elementosCss = document.getElementById("MAIN1");
+      if(elementosCss != null || elementosCss != undefined) { 
+      console.log(elementosCss);
+      parte3 = true;
+      elementosCss.id = "MAIN11"
+   
+ console.log("fundionou");
+}
+    } else if(verificador3 == "MAIN3" && ligacaoPonto3 == "brancoRetorno" && preimeiraLigacao3 =="brancoRetorno" && segundaLigacao3 == "brancoRetorno"){
+
+      let elementosCss = document.getElementById("MAIN1");
+      if(elementosCss != null || elementosCss != undefined) { 
+      console.log(elementosCss);
+      parte3 = true;
+      elementosCss.id = "MAIN12"
+   
+ console.log("fundionou");
+}
+    } else if(verificador3 == "MAIN3" && ligacaoPonto3 == "azulNeltro" && preimeiraLigacao3 =="azulNeltro" && segundaLigacao3 == "azulNeltro"){
+      let elementosCss = document.getElementById("MAIN1");
+      if(elementosCss != null || elementosCss != undefined) { 
+      console.log(elementosCss);
+      parte3 = true;
+      elementosCss.id = "MAIN13"
+
+ console.log("fundionou");
+}
+
+    } else if(verificador3 == "MAIN3" && ligacaoPonto3 == "marromRetorno" && preimeiraLigacao3 =="marromRetorno" && segundaLigacao3 == "marromRetorno"){
+
+      let elementosCss = document.getElementById("MAIN1");
+      if(elementosCss != null || elementosCss != undefined) { 
+      console.log(elementosCss);
+      parte3 = true;
+      elementosCss.id = "MAIN14"
+ 
+      
+
+ console.log("fundionou");
+}
+    } else  if(verificador3 == "MAIN4" && ligacaoPonto3 == "pretoFase" && preimeiraLigacao3 =="pretoFase" && segundaLigacao3 == "pretoFase" ){
+      let elementosCss2 = document.getElementById("MAIN2");
+      if(elementosCss2 != null || elementosCss2 != undefined) { 
+       console.log(elementosCss2);
+       parte3 = true;
+       elementosCss2.id = "MAIN15"
+      }
+  console.log("fundionou"); 
+  } else  if(verificador3 == "MAIN4" && ligacaoPonto3 == "verdeTerra" && preimeiraLigacao3 =="verdeTerra" && segundaLigacao3 == "verdeTerra" ){
+   let elementosCss2 = document.getElementById("MAIN2");
+   if(elementosCss2 != null || elementosCss2 != undefined) { 
+    console.log(elementosCss2);
+    parte3 = true;
+    elementosCss2.id = "MAIN16"
+   }
+console.log("fundionou"); 
+} else  if(verificador3 == "MAIN4" && ligacaoPonto3 == "brancoRetorno" && preimeiraLigacao3 =="brancoRetorno" && segundaLigacao3 == "brancoRetorno" ){
+   let elementosCss2 = document.getElementById("MAIN2");
+   if(elementosCss2 != null || elementosCss2 != undefined) { 
+    console.log(elementosCss2);
+    parte3 = true;
+    elementosCss2.id = "MAIN17"
+   }
+console.log("fundionou"); 
+} else  if(verificador3 == "MAIN4" && ligacaoPonto3 == "azulNeltro" && preimeiraLigacao3 =="azulNeltro" && segundaLigacao3 == "azulNeltro" ){
+   let elementosCss2 = document.getElementById("MAIN2");
+   if(elementosCss2 != null || elementosCss2 != undefined) { 
+    console.log(elementosCss2);
+    parte3 = true;
+    elementosCss2.id = "MAIN18"
+   }
+console.log("fundionou"); 
+} else  if(verificador3 == "MAIN4" && ligacaoPonto3 == "marromRetorno" && preimeiraLigacao3 =="marromRetorno" && segundaLigacao3 == "marromRetorno" ){
+   let elementosCss2 = document.getElementById("MAIN2");
+   if(elementosCss2 != null || elementosCss2 != undefined) { 
+    console.log(elementosCss2);
+    parte3 = true;
+    elementosCss2.id = "MAIN19"
+
+console.log("fundionou"); 
+   }
+}else
+
+//ligacao do 5 para o 6
+if(   verificador3 == "MAIN5"   && ligacaoPonto3 == "pretoFase" && preimeiraLigacao3 =="pretoFase" && segundaLigacao3 == "pretoFase" ){
+   let elementosCss = document.getElementById("MAIN5");
+    if(elementosCss != null || elementosCss != undefined) { 
+    
+
+
+      
+    console.log(elementosCss);
+    parte3 = true;
+    elementosCss.id = "MAIN30"
+    
+console.log("fundionou"); 
+   }
+}
+//ligacao do 5 para o 6 
+else if(  verificador3 == "MAIN5" && ligacaoPonto3 == "verdeTerra" && preimeiraLigacao3 =="verdeTerra" && segundaLigacao3 == "verdeTerra"){
+   let elementosCss = document.getElementById("MAIN5");
+    console.log(elementosCss);
+   if(elementosCss != null || elementosCss != undefined) { 
+ 
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN31"
+
+console.log("fundionou");
+      
+}
+ }
+//ligacao do 5 para o 6
+ else if( verificador3 == "MAIN5" && ligacaoPonto3 == "brancoRetorno" && preimeiraLigacao3 =="brancoRetorno" && segundaLigacao3 == "brancoRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN32"
+
+console.log("fundionou");
+
+      
+}
+ }
+ //ligacao do 5 para o 6
+ else if( verificador3 == "MAIN5" && ligacaoPonto3 == "azulNeltro" && preimeiraLigacao3 =="azulNeltro" && segundaLigacao3 == "azulNeltro"){
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN33"
+
+console.log("fundionou");
+      
+}
+
+ }
+
+//ligacao do 5 para o 6
+ else if(verificador3 == "MAIN5" && ligacaoPonto3 == "marromRetorno" && preimeiraLigacao3 =="marromRetorno" && segundaLigacao3 == "marromRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+       
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN34"
+
+   
+
+console.log("fundionou");
+      
+}
+ }
+
+
+
+
+ else
+
+//ligacao do 6 para o 5
+if(  verificador3 == "MAIN6"   && ligacaoPonto3 == "pretoFase" && preimeiraLigacao3 =="pretoFase" && segundaLigacao3 == "pretoFase" ){
+   let elementosCss = document.getElementById("MAIN5");
+    if(elementosCss != null || elementosCss != undefined) { 
+    
+
+
+      
+    console.log(elementosCss);
+    parte3 = true;
+    elementosCss.id = "MAIN30"
+    
+console.log("fundionou"); 
+   }
+}
+//ligacao do 5 para o 6 
+else if(verificador3 == "MAIN6" && ligacaoPonto3 == "verdeTerra" && preimeiraLigacao3 =="verdeTerra" && segundaLigacao3 == "verdeTerra"){
+   let elementosCss = document.getElementById("MAIN5");
+    console.log(elementosCss);
+   if(elementosCss != null || elementosCss != undefined) { 
+ console.log("tttttt");
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN31"
+
+console.log("fundionou");
+     
+}
+ }
+//ligacao do 5 para o 6
+ else if( verificador3 == "MAIN6" && ligacaoPonto3 == "brancoRetorno" && preimeiraLigacao3 =="brancoRetorno" && segundaLigacao3 == "brancoRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+     
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN32"
+
+console.log("fundionou");
+
+      
+}
+ }
+ //ligacao do 5 para o 6
+ else if( verificador3 == "MAIN6" && ligacaoPonto3 == "azulNeltro" && preimeiraLigacao3 =="azulNeltro" && segundaLigacao3 == "azulNeltro"){
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN33"
+
+console.log("fundionou");
+      
+}
+
+ }
+
+//ligacao do 5 para o 6
+ else if(verificador3 == "MAIN6" && ligacaoPonto3 == "marromRetorno" && preimeiraLigacao3 =="marromRetorno" && segundaLigacao3 == "marromRetorno"){
+
+   let elementosCss = document.getElementById("MAIN5");
+   if(elementosCss != null || elementosCss != undefined) { 
+
+      
+   console.log(elementosCss);
+   parte3 = true;
+   elementosCss.id = "MAIN34"
+
+   
+
+console.log("fundionou");
+      
+}
+ }
+
+
+ ///// BUG DE CIRCUITO 2
+//  else  if(verificador2 == "MAIN3" && ligacaoPonto2 == "pretoFase" && preimeiraLigacao2 =="pretoFase" && segundaLigacao2 == "pretoFase" ){
+//    let elementosCss = document.getElementById("MAIN3");
+//    if(elementosCss != null || elementosCss != undefined) { 
+   
+//       console.log( "pontoSelecionado4",pontoSelecionado4)
+//       if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN4"){ 
+//     console.log(elementosCss);
+//     parte2 = true;
+//     elementosCss.id = "MAIN25"
+   
+//    console.log("fundionou"); 
+//     bug = true;
+//       }
+//    }
+//    }
+   
+// else  if(verificador2 == "MAIN3" && ligacaoPonto2 == "verdeTerra" && preimeiraLigacao2 =="verdeTerra" && segundaLigacao2 == "verdeTerra" ){
+//       let elementosCss = document.getElementById("MAIN3");
+//       if(elementosCss != null || elementosCss != undefined) { 
+      
+//          if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN4"){ 
+//        console.log(elementosCss);
+//        parte2 = true;
+//        elementosCss.id = "MAIN26"
+      
+//       console.log("fundionou"); 
+//        bug = true;
+//          }
+//       }
+//       }
+// else  if(verificador2 == "MAIN3" && ligacaoPonto2 == "brancoRetorno" && preimeiraLigacao2 =="brancoRetorno" && segundaLigacao2 == "brancoRetorno" ){
+//       let elementosCss = document.getElementById("MAIN3");
+//       if(elementosCss != null || elementosCss != undefined) { 
+         
+//       if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN4"){ 
+//       console.log(elementosCss);
+//       parte2 = true;
+//       elementosCss.id = "MAIN27"
+         
+//       console.log("fundionou"); 
+//       bug = true;
+// }} }
+// else  if(verificador2 == "MAIN3" && ligacaoPonto2 == "azulNeltro" && preimeiraLigacao2 =="azulNeltro" && segundaLigacao2 == "azulNeltro" ){
+//       let elementosCss = document.getElementById("MAIN3");
+//       if(elementosCss != null || elementosCss != undefined) { 
+            
+//           if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN4"){ 
+//          console.log(elementosCss);
+//        parte2 = true;
+//        elementosCss.id = "MAIN28"
+            
+//        console.log("fundionou"); 
+//          bug = true;
+//          }
+//        }
+//        }
+
+//  else  if(verificador2 == "MAIN3" && ligacaoPonto2 == "marromRetorno" && preimeiraLigacao2 =="marromRetorno" && segundaLigacao2 == "marromRetorno" ){
+//          let elementosCss = document.getElementById("MAIN3");
+//           if(elementosCss != null || elementosCss != undefined) { 
+               
+//              if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN4"){ 
+//             console.log(elementosCss);
+//           parte2 = true;
+//             elementosCss.id = "MAIN29"
+               
+//           console.log("fundionou"); 
+//           bug = true;
+//   }
+//        }
+//    }
+               
+//  else  if(verificador2 == "MAIN4" && ligacaoPonto2 == "pretoFase" && preimeiraLigacao2 =="pretoFase" && segundaLigacao2 == "pretoFase" ){
+//          let elementosCss = document.getElementById("MAIN3");
+//          if(elementosCss != null || elementosCss != undefined) { 
+                  
+//             if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN4"){ 
+//          console.log(elementosCss);
+//           parte2 = true;
+//          elementosCss.id = "MAIN25"
+                  
+//           console.log("fundionou"); 
+//             bug = true;
+//           }
+//        }
+//     }
+                  
+// else  if(verificador2 == "MAIN4" && ligacaoPonto2 == "verdeTerra" && preimeiraLigacao2 =="verdeTerra" && segundaLigacao2 == "verdeTerra" ){
+//          let elementosCss = document.getElementById("MAIN3");
+//        if(elementosCss != null || elementosCss != undefined) { 
+                     
+//          if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN4"){ 
+//        console.log(elementosCss);
+//        parte2 = true;
+//        elementosCss.id = "MAIN26"
+                     
+//        console.log("fundionou"); 
+//        bug = true;
+//  }
+//    }
+//    }
+//    else  if(verificador2 == "MAIN4" && ligacaoPonto2 == "brancoRetorno" && preimeiraLigacao2 =="brancoRetorno" && segundaLigacao2 == "brancoRetorno" ){
+//           let elementosCss = document.getElementById("MAIN3");
+//           if(elementosCss != null || elementosCss != undefined) { 
+                        
+//            if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN4"){ 
+//              console.log(elementosCss);
+//              parte2 = true;
+//               elementosCss.id = "MAIN27"
+                        
+//               console.log("fundionou"); 
+//               bug = true;
+//    }
+//     }
+//     }
+//     else  if(verificador2 == "MAIN4" && ligacaoPonto2 == "azulNeltro" && preimeiraLigacao2 =="azulNeltro" && segundaLigacao2 == "azulNeltro" ){
+//        let elementosCss = document.getElementById("MAIN3");
+//           if(elementosCss != null || elementosCss != undefined) { 
+                           
+//           if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN4"){ 
+//            console.log(elementosCss);
+//              parte2 = true;
+//               elementosCss.id = "MAIN28"
+                           
+//                console.log("fundionou"); 
+//             bug = true;
+//      }
+//      }
+//     }
+//  else  if(verificador2 == "MAIN4" && ligacaoPonto2 == "marromRetorno" && preimeiraLigacao2 =="marromRetorno" && segundaLigacao2 == "marromRetorno" ){
+//              let elementosCss = document.getElementById("MAIN3");
+//             if(elementosCss != null || elementosCss != undefined) { 
+                              
+//                if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN4"){ 
+//                 console.log(elementosCss);
+//                 parte2 = true;
+//                 elementosCss.id = "MAIN29"
+                        
+//                console.log("fundionou"); 
+//                 bug = true;
+//   }
+//     }
+     // }         
+
+
+
+    
+    
+    console.log(ligacaoPonto3);
+    console.log(preimeiraLigacao3);
+    console.log(segundaLigacao3);
+ 
+ 
+ };
+//===========TERCEIRO FIO==========
+
+
+
+
+
 function resetButtom(){
 
-    corFio = "";
-    ligacaoPonto = "";
-    preimeiraLigacao = "";
-    segundaLigacao = "";
+    corFio = undefined;
+    ligacaoPonto = undefined;
+    preimeiraLigacao = undefined;
+    segundaLigacao = undefined;
     pontoSelecionado1 = undefined;
     pontoSelecionado2 = undefined;
-    verificador = "";
+    verificador = undefined;
    
    
-    corFio2 = "";
-    ligacaoPonto2 = "";
-    preimeiraLigacao2 = "";
-    segundaLigacao2 = "";
+    corFio2 = undefined;
+    ligacaoPonto2 = undefined;
+    preimeiraLigacao2 = undefined;
+    segundaLigacao2 = undefined;
     pontoSelecionado3 = undefined;
     pontoSelecionado4 = undefined;
-    verificador2 = "";
+    verificador2 = undefined;;
     parte2 = false  ;
     console.log("resetar");
 
 
+    corFio3 = undefined;
+    ligacaoPonto3 = undefined;
+    preimeiraLigacao3 = undefined;
+    segundaLigacao3 = undefined;
+    pontoSelecionado5 = undefined;
+    pontoSelecionado6 = undefined;
+    verificador3 = undefined;
+    parte3 = false  ;
+
+
     resetId = true
     resetId2 = true
+    resetId3 = true
+
     id2 = undefined
    conexao = undefined
 
@@ -2287,7 +4067,7 @@ function abrirPopup(valor){
        texto6 +=  " sao dois fios retorno iguais";
        texto6 += " o fio branco";
 
-
+  let messageFio = "Fio preto fase 110V"
 
 if(valor == "L1PA") { 
 conexacaoL11Alto = valor
@@ -2478,6 +4258,12 @@ message.innerHTML = texto6
  // setTimeout(message.innerHTML = textoVasio, 6000)
 }
 
+if(valor == true )
+{
+
+   message.id = "janela"
+   message.innerHTML = messageFio
+}
 
 }
 
@@ -3045,12 +4831,34 @@ function lampadaConect(id,id2){
 }
 
 
+function fioHover(){
+let fio1 = this.document.getElementById("fio1");
+let fio2 = this.document.getElementById("fio2");
+let fio3 = this.document.getElementById("fio3");
+let fio4 = this.document.getElementById("fio4");
+let fio5 = this.document.getElementById("fio5");
+
+
+const janela = document.getElementById("janela")
+
+
+
+
+ fio1.addEventListener('mouseover',function() {
+  let fio = true
+ // abrirPopup(fio)
+ })
+
+
+}
+
 //chamando a funcao
 fioConectado();//=========PRIMEIRO FIO========
 fioConectadoParte1();//=========PRIMEIRO FIO========
 fioConectadoParte2();//=========PRIMEIRO FIO========
 fioConectadoParte3();//=========PRIMEIRO FIO========
 mostrar()
+fioHover()
 
 fioConectado2();// ===========SEGUNDO FIO==========
 fioConectadoParte12()//===========SEGUNDO FIO==========
@@ -3073,4 +4881,18 @@ setInterval(fioConectadoParte33, 3000);// ===========SEGUNDO FIO==========
 
 
 
+
+fioConectado3();// ===========TERCEIRO FIO==========
+fioConectadoParte123()// ===========TERCEIRO FIO==========
+fioConectadoParte222()// ===========TERCEIRO FIO==========
+fioConectadoParte333()// ===========TERCEIRO FIO==========
+
+setInterval(fioConectado3, 3000);// ===========TERCEIRO FIO==========
+setInterval(fioConectadoParte123, 3000);// ===========TERCEIRO FIO==========
+setInterval(fioConectadoParte222, 3000);// ===========TERCEIRO FIO==========
+setInterval(fioConectadoParte333, 3000);// ===========TERCEIRO FIO==========
+
+
+
 setInterval(mostrar, 3000);
+setInterval(fioHover, 1000);
