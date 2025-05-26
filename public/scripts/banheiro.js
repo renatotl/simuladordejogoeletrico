@@ -4087,13 +4087,24 @@ if(lp30 != null && lp30 != undefined) {
 
 }
 
+
+function resetButtom2(){
+
+ let textoVasio = ""
+    let  message = this.document.getElementById("message3")
+    if(message != null && message != undefined) {   
+         message.id = "message"
+         message.innerHTML = textoVasio
+    }
+
+}
 function abrirPopup(valor){
    idioma;
    let texto1 = " Voce fechou o circuito! tente de novo."
 
    let texto2 = ""
        texto2 += " Voce ligou dois fios pretos a ";
-       texto2 +=  "lampada. neste caso se ela nao for";
+       texto2 +=  "lampada. neste caso se ela nao for ";
        texto2 +=   "bivolte 220 voltes ela queimara";
        texto2 +=  " sem uma interruptor ela ficara";
        texto2 += "ligada o tempo todo.";
@@ -4214,6 +4225,48 @@ conexacaoL11Baixo = valor
 
 if(valor == "L2MB") { 
 conexacaoL12Baixo = valor
+}else
+
+
+
+if(valor == "L1PBB") { 
+conexacaoL11BaixoBaixo = valor
+} else
+
+if(valor == "L2PBB") { 
+conexacaoL12BaixoBaixo = valor
+}else
+  
+if(valor == "L1VBB") { 
+conexacaoL11BaixoBaixo = valor
+} else
+
+if(valor == "L2VBB") { 
+conexacaoL12BaixoBaixo = valor
+} else 
+
+if(valor == "L1BBB") { 
+conexacaoL11BaixoBaixo = valor
+} else
+
+if(valor == "L2BBB") { 
+conexacaoL12BaixoBaixo = valor
+}else
+
+if(valor == "L1ABB") { 
+conexacaoL11BaixoBaixo = valor
+} else
+
+if(valor == "L2ABB") { 
+conexacaoL12BaixoBaixo = valor
+}else
+
+if(valor == "L1MBB") { 
+conexacaoL11BaixoBaixo = valor
+} else
+
+if(valor == "L2MBB") { 
+conexacaoL12BaixoBaixo = valor
 }
 
 
@@ -4240,11 +4293,14 @@ console.log(conexacaoL12Alto)
  console.log(conexacaoL11Baixo)
 console.log(conexacaoL12Baixo)
 
+console.log(conexacaoL11BaixoBaixo)
+console.log(conexacaoL12BaixoBaixo)
 
 if(conexacaoL11Alto == "L1PA" && conexacaoL12Alto == "L2PA" || 
    conexacaoL11Baixo == "L1PB" && conexacaoL12Baixo == "L2PB"|| 
    conexacaoL11Alto == "L1PA" && conexacaoL12Baixo == "L2PB"|| 
-   conexacaoL12Alto == "L2PA" && conexacaoL11Baixo == "L1PB"
+   conexacaoL12Alto == "L2PA" && conexacaoL11Baixo == "L1PB" ||
+   conexacaoL11BaixoBaixo  == "L1PBB" && conexacaoL12BaixoBaixo == "L2PBB"
 ){
    // conecao no mesmo fio preto alto
    console.log("dentro do if")
@@ -4259,7 +4315,10 @@ message.innerHTML = texto2
 if(conexacaoL11Alto == "L1VA" && conexacaoL12Alto == "L2VA"|| 
    conexacaoL11Baixo == "L1VB" && conexacaoL12Baixo == "L2VB"|| 
    conexacaoL11Alto == "L1VA" && conexacaoL12Baixo == "L2VB"|| 
-   conexacaoL12Alto == "L2VA" && conexacaoL11Baixo == "L1VB"){
+   conexacaoL12Alto == "L2VA" && conexacaoL11Baixo == "L1VB"||
+   conexacaoL11BaixoBaixo == "L1VBB" && conexacaoL12BaixoBaixo == "L2VBB"
+
+){
    // conecao no mesmo fio preto alto
    console.log("dentro do if")
    console.log(texto3)
@@ -4273,7 +4332,9 @@ message.innerHTML = texto3
 if(conexacaoL11Alto == "L1BA" && conexacaoL12Alto == "L2BA"|| 
    conexacaoL11Baixo == "L1BB" && conexacaoL12Baixo == "L2BB"|| 
    conexacaoL11Alto == "L1BA" && conexacaoL12Baixo == "L2BB"|| 
-   conexacaoL12Alto == "L2BA" && conexacaoL11Baixo == "L1BB"){
+   conexacaoL12Alto == "L2BA" && conexacaoL11Baixo == "L1BB"||
+   conexacaoL11BaixoBaixo == "L1BBB" && conexacaoL12BaixoBaixo=="L2BBB"
+){
    // conecao no mesmo fio preto alto
    console.log("dentro do if")
    console.log(texto4)
@@ -4289,7 +4350,9 @@ else
 if(conexacaoL11Alto == "L1AA" && conexacaoL12Alto == "L2AA"|| 
    conexacaoL11Baixo == "L1AB" && conexacaoL12Baixo == "L2AB"|| 
    conexacaoL11Alto == "L1AA" && conexacaoL12Baixo == "L2AB"|| 
-   conexacaoL12Alto == "L2AA" && conexacaoL11Baixo == "L1AB"){
+   conexacaoL12Alto == "L2AA" && conexacaoL11Baixo == "L1AB"||
+   conexacaoL11BaixoBaixo == "L1ABB" && conexacaoL12BaixoBaixo=="L2ABB"
+){
    // conecao no mesmo fio preto alto
    console.log("dentro do if")
    console.log(texto5)
@@ -4305,7 +4368,9 @@ else
 if(conexacaoL11Alto == "L1MA" && conexacaoL12Alto == "L2MA"|| 
    conexacaoL11Baixo == "L1MB" && conexacaoL12Baixo == "L2MB"|| 
    conexacaoL11Alto == "L1MA" && conexacaoL12Baixo == "L2MB"|| 
-   conexacaoL12Alto == "L2MA" && conexacaoL11Baixo == "L1MB"){
+   conexacaoL12Alto == "L2MA" && conexacaoL11Baixo == "L1MB"||
+   conexacaoL11BaixoBaixo == "L1MBB" && conexacaoL12BaixoBaixo=="L2MBB"
+){
    // conecao no mesmo fio preto alto
    console.log("dentro do if")
    console.log(texto6)
@@ -4331,6 +4396,65 @@ if(valor == true )
 }
 
 }
+
+
+
+
+function abrirPopup2(valor){
+idioma;
+let janela = document.getElementById("message")
+
+
+let texto1 = " O fio preto e o fio fase energizado."
+let texto2 = " O fio verde e o fio terra."
+let texto3 = " O fio branco e o fio retorno."
+let texto4 = " O fio azul e o fio neltro."
+let texto5 = " O fio marrom tabem e um retorno como segunda opcao."
+
+if(idioma == "portugues" &&  janela != null){
+
+
+
+
+  if(valor == "PRETO"){  
+   
+    janela.id = "message3"
+   janela.innerHTML = texto1
+  }else 
+
+   if(valor == "VERDE"){  
+   
+    janela.id = "message3"
+   janela.innerHTML = texto2
+  }else 
+
+   if(valor == "BRANCO"){  
+   
+    janela.id = "message3"
+   janela.innerHTML = texto3
+  }else 
+
+   if(valor == "AZUL"){  
+   
+    janela.id = "message3"
+   janela.innerHTML = texto4
+  }else 
+
+   if(valor == "MARROM"){  
+   
+    janela.id = "message3"
+   janela.innerHTML = texto5
+  }
+
+
+
+
+  }
+
+}
+
+
+
 
 
 
@@ -4797,9 +4921,9 @@ function lampadaConect(id,id2){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
-         conexacaoL11BaixoBaixo = "L2PBB"; 
+         conexacaoL12BaixoBaixo = "L2PBB"; 
       lp.id = "L36"
-      abrirPopup(conexacaoL11BaixoBaixo)
+      abrirPopup(conexacaoL12BaixoBaixo)
       }
     } else 
 
@@ -4807,9 +4931,9 @@ function lampadaConect(id,id2){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
-         conexacaoL11BaixoBaixo = "L2VBB";  
+         conexacaoL12BaixoBaixo = "L2VBB";  
       lp.id = "L37"
-      abrirPopup(conexacaoL11BaixoBaixo)
+      abrirPopup(conexacaoL12BaixoBaixo)
       }
       
     } else
@@ -4818,9 +4942,9 @@ function lampadaConect(id,id2){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) { 
-         conexacaoL11BaixoBaixo = "L2BBB";
+         conexacaoL12BaixoBaixo = "L2BBB";
       lp.id = "L38"
-      abrirPopup(conexacaoL11BaixoBaixo)
+      abrirPopup(conexacaoL12BaixoBaixo)
       }
       
     } else
@@ -4828,9 +4952,9 @@ function lampadaConect(id,id2){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
-         conexacaoL11BaixoBaixo = "L2ABB"; 
+         conexacaoL12BaixoBaixo = "L2ABB"; 
       lp.id = "L39"
-      abrirPopup(conexacaoL11BaixoBaixo)
+      abrirPopup(conexacaoL12BaixoBaixo)
       }
       
     }else
@@ -4839,9 +4963,9 @@ function lampadaConect(id,id2){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) { 
-         conexacaoL11BaixoBaixo = "L2MBB"; 
+         conexacaoL12BaixoBaixo = "L2MBB"; 
       lp.id = "L40"
-      abrirPopup(conexacaoL11BaixoBaixo)
+      abrirPopup(conexacaoL12BaixoBaixo)
       }
       
     }
@@ -4863,8 +4987,9 @@ function lampadaConect(id,id2){
 
       let lp = document.getElementById("L1");
       if(lp!=null && lp!=undefined ){
+         conexacaoL11Alto = "L1PA"
       lp.id = "L11"
-      abrirPopup()
+      abrirPopup(conexacaoL11Alto)
    }
     } else 
 
@@ -4872,7 +4997,9 @@ function lampadaConect(id,id2){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {  
+          conexacaoL11Alto = "L1VA"
       lp.id = "L12"
+      abrirPopup(conexacaoL11Alto)
       }
       
     } else
@@ -4880,16 +5007,20 @@ function lampadaConect(id,id2){
     if(segundaLigacao2 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN12"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) {
+          conexacaoL11Alto = "L1BA"  
       lp.id = "L13"
+      abrirPopup(conexacaoL11Alto)
       }
       
     } else
     if(segundaLigacao2 == "azulNeltro"&& id == "L1"&& id2 == "MAIN13"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) {
+          conexacaoL11Alto = "L1AA"  
       lp.id = "L14"
+      abrirPopup(conexacaoL11Alto)
       }
       
     }else
@@ -4897,8 +5028,10 @@ function lampadaConect(id,id2){
     if(segundaLigacao2 == "marromRetorno"&& id == "L1"&& id2 == "MAIN14"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) {
+          conexacaoL11Alto = "L1MA"  
       lp.id = "L15"
+      abrirPopup(conexacaoL11Alto)
       }
     }else
 
@@ -4909,8 +5042,10 @@ function lampadaConect(id,id2){
   if(segundaLigacao2 == "pretoFase"&& id == "L1" && id2 == "MAIN15"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) {
+         conexacaoL11Baixo = "L1PB"  
       lp.id = "L16"
+      abrirPopup(conexacaoL11Baixo)
       }
       
     } else 
@@ -4918,8 +5053,10 @@ function lampadaConect(id,id2){
     if(segundaLigacao2 == "verdeTerra"&& id == "L1"&& id2 == "MAIN16"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) {
+         conexacaoL11Baixo = "L1VB"    
       lp.id = "L17"
+      abrirPopup(conexacaoL11Baixo)
       }
       
     } else
@@ -4927,16 +5064,20 @@ function lampadaConect(id,id2){
     if(segundaLigacao2 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN17"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) {
+         conexacaoL11Baixo = "L1BB"    
       lp.id = "L18"
+      abrirPopup(conexacaoL11Baixo)
       }
       
     } else
     if(segundaLigacao2 == "azulNeltro"&& id == "L1"&& id2 == "MAIN18"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) {
+         conexacaoL11Baixo = "L1AB"    
       lp.id = "L19"
+      abrirPopup(conexacaoL11Baixo)
       }
       
     }else
@@ -4944,8 +5085,10 @@ function lampadaConect(id,id2){
     if(segundaLigacao2 == "marromRetorno"&& id == "L1"&& id2 == "MAIN19"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) {
+         conexacaoL11Baixo = "L1MB"    
       lp.id = "L20"
+      abrirPopup(conexacaoL11Baixo)
       }
       
     }
@@ -4958,7 +5101,9 @@ function lampadaConect(id,id2){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {  
+         conexacaoL11BaixoBaixo = "L1PBB"
       lp.id = "L31"
+      abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else 
@@ -4966,8 +5111,10 @@ function lampadaConect(id,id2){
     if(segundaLigacao2 == "verdeTerra"&& id == "L1"&& id2 == "MAIN31"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) { 
+         conexacaoL11BaixoBaixo = "L1VBB" 
       lp.id = "L32"
+      abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else
@@ -4975,16 +5122,20 @@ function lampadaConect(id,id2){
     if(segundaLigacao2 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN32"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) {
+         conexacaoL11BaixoBaixo = "L1BBB"  
       lp.id = "L33"
+      abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else
     if(segundaLigacao2 == "azulNeltro"&& id == "L1"&& id2 == "MAIN33"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) {
+         conexacaoL11BaixoBaixo = "L1ABB"  
       lp.id = "L34"
+      abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     }else
@@ -4992,8 +5143,10 @@ function lampadaConect(id,id2){
     if(segundaLigacao2 == "marromRetorno"&& id == "L1"&& id2 == "MAIN34"){
 
       let lp = document.getElementById("L1");
-      if(lp != null && lp != undefined) {  
+      if(lp != null && lp != undefined) {
+         conexacaoL11BaixoBaixo = "L1MBB"  
       lp.id = "L35"
+      abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     }
@@ -5498,14 +5651,44 @@ let fio4 = this.document.getElementById("fio4");
 let fio5 = this.document.getElementById("fio5");
 
 
-const janela = document.getElementById("janela")
+
 
 
 
 
  fio1.addEventListener('mouseover',function() {
-  let fio = true
- // abrirPopup(fio)
+  let fio = "PRETO"
+  
+  abrirPopup2(fio)
+  
+ })
+
+ fio2.addEventListener('mouseover',function() {
+  let fio = "VERDE"
+  
+  abrirPopup2(fio)
+  
+ })
+
+ fio3.addEventListener('mouseover',function() {
+  let fio = "BRANCO"
+  
+  abrirPopup2(fio)
+  
+ })
+
+ fio4.addEventListener('mouseover',function() {
+  let fio = "AZUL"
+  
+  abrirPopup2(fio)
+  
+ })
+
+ fio5.addEventListener('mouseover',function() {
+  let fio = "MARROM"
+  
+  abrirPopup2(fio)
+  
  })
 
 
@@ -5555,3 +5738,4 @@ setInterval(fioConectadoParte333, 3000);// ===========TERCEIRO FIO==========
 
 setInterval(mostrar, 3000);
 setInterval(fioHover, 1000);
+setInterval(resetButtom2,4000)

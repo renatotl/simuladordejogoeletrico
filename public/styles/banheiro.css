@@ -151,6 +151,7 @@ nav {
   width: 3rem;
   height:3.5rem;
   border-radius: 10%;
+
  
 }
 #fio2:hover{
@@ -741,7 +742,7 @@ cursor: pointer; /* define o cursor como um ponteiro */
   width: 400px;
   background-color: #c2babb;
   border-radius: 2%;
-   
+   position: fixed;/*ficou a janela em cima do resto */
    
    color:black;
    text-align: center;
@@ -750,7 +751,20 @@ cursor: pointer; /* define o cursor como um ponteiro */
    margin-top: 60px;
 }
 
+#message3{
 
+  height: 100px;
+  width: 200px;
+  background-color: #c2babb;
+  border-radius: 2%;
+   position: fixed;/*ficou a janela em cima do resto */
+   
+   color:black;
+   text-align: center;
+   line-height: 1oopx;
+   display: flex;
+   margin-top: 60px;
+}
 
 #L1 {
   width: 10px;
