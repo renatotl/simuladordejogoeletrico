@@ -1015,7 +1015,7 @@ cursor: pointer; /* define o cursor como um ponteiro */
              filter: grayscale(100%);
             
              filter: hue-rotate(240deg);
-             } 
+} 
          
              #L25 {
    width: 10px;
@@ -1246,35 +1246,618 @@ cursor: pointer; /* define o cursor como um ponteiro */
  
 
 #L3{
-
+/* chuveiro */
  width: 10px;
   height:10px;
   position:absolute;
 
-  top:135px;
+  top:145px;
    left: 985px;
    cursor: pointer; /* define o cursor como um ponteiro */
 }   
 
 #L4{
-
+/* chuveiro */
  width: 10px;
   height:10px;
   position:absolute;
-  top:135px;
+  top:145px;
   left: 1075px;
   cursor: pointer; /* define o cursor como um ponteiro */
 } 
    
 
   #L3:hover {
+    /* chuveiro */
       width: 17px;
       height:17px;
       border-radius: 10%;
        }
 
    #L4:hover {
+    /* chuveiro */
       width: 17px;
       height:17px;
       border-radius: 10%;
        }      
+
+
+ #L5{
+/* interruptor */
+ width: 10px;
+  height:10px;
+  position:absolute;
+
+  top:320px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+}   
+
+
+#L51{
+/* interruptor */
+/* cor preto */
+/* 1 para 3 */
+ width: 10px;
+  height:280px;
+  position:absolute;
+
+  top:50px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%)
+   brightness(0);
+
+}   
+
+#L52{
+/* interruptor */
+/* cor verde */
+/* 1 para 3 */
+ width: 10px;
+  height:280px;
+  position:absolute;
+
+  top:50px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}   
+
+#L53{
+/* interruptor */
+/* cor preto */
+/* 1 para 3 */
+ width: 10px;
+  height:280px;
+  position:absolute;
+
+  top:50px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+      filter: brightness(700%)saturate(0);
+
+}   
+
+#L54{
+/* interruptor */
+/* cor preto */
+/* 1 para 3 */
+ width: 10px;
+  height:280px;
+  position:absolute;
+
+  top:50px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}  
+
+#L55{
+/* interruptor */
+/* cor preto */
+/* 1 para 3 */
+ width: 10px;
+  height:280px;
+  position:absolute;
+
+  top:50px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}   
+
+
+
+#L56{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+  height:250px;
+  position:absolute;
+
+  top:80px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%)
+   brightness(0);
+
+}   
+
+#L57{
+/* interruptor */
+/* cor verde */
+/* 2 para 4 */
+ width: 10px;
+  height:250px;
+  position:absolute;
+
+  top:80px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}   
+
+#L58{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+  height:250px;
+  position:absolute;
+
+  top:80px;;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+      filter: brightness(700%)saturate(0);
+
+}   
+
+#L59{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+  height:250px;
+  position:absolute;
+
+  top:80px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}  
+
+#L591{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+  height:210px;
+  position:absolute;
+
+  top:120px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}   
+
+
+#L592{
+/* interruptor */
+/* cor preto */
+/* 5 para 6 */
+ width: 10px;
+  height:210px;
+  position:absolute;
+
+  top:120px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%)
+   brightness(0);
+
+}   
+
+#L593{
+/* interruptor */
+/* cor verde */
+/* 5 para 6 */
+ width: 10px;
+  height:210px;
+  position:absolute;
+
+  top:120px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}   
+
+#L594{
+/* interruptor */
+/* cor preto */
+/* 5 para 6 */
+ width: 10px;
+  height:210px;
+  position:absolute;
+
+  top:120px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+      filter: brightness(700%)saturate(0);
+
+}   
+
+#L595{
+/* interruptor */
+/* cor preto */
+/* 5 para 6 */
+ width: 10px;
+  height:210px;
+  position:absolute;
+
+  top:120px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}  
+
+#L596{
+/* interruptor */
+/* cor preto */
+/* 5 para 6 */
+ width: 10px;
+  height:210px;
+  position:absolute;
+
+  top:120px;
+   left: 685px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}
+
+
+#L6{
+/* chuveiro */
+ width: 10px;
+  height:10px;
+  position:absolute;
+  top:320px;
+   left: 753px;
+  cursor: pointer; /* define o cursor como um ponteiro */
+} 
+   
+
+  #L5:hover {
+    /* chuveiro */
+      width: 17px;
+      height:17px;
+      border-radius: 10%;
+       }
+
+   #L6:hover {
+    /* chuveiro */
+      width: 17px;
+      height:17px;
+      border-radius: 10%;
+       }            
+
+       #L61{
+/* interruptor */
+/* cor preto */
+/* 1 para 3 */
+ width: 10px;
+  height:280px;
+  position:absolute;
+
+  top:50px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%)
+   brightness(0);
+
+}   
+
+#L62{
+/* interruptor */
+/* cor verde */
+/* 1 para 3 */
+ width: 10px;
+  height:280px;
+  position:absolute;
+
+  top:50px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}   
+
+#L63{
+/* interruptor */
+/* cor preto */
+/* 1 para 3 */
+ width: 10px;
+  height:280px;
+  position:absolute;
+
+  top:50px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+      filter: brightness(700%)saturate(0);
+
+}   
+
+#L64{
+/* interruptor */
+/* cor preto */
+/* 1 para 3 */
+ width: 10px;
+  height:280px;
+  position:absolute;
+
+  top:50px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}  
+
+#L65{
+/* interruptor */
+/* cor preto */
+/* 1 para 3 */
+ width: 10px;
+  height:280px;
+  position:absolute;
+
+  top:50px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}
+
+
+       #L66{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+  height:250px;
+  position:absolute;
+
+  top:80px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%)
+   brightness(0);
+
+}   
+
+#L67{
+/* interruptor */
+/* cor verde */
+/* 2 para 4 */
+ width: 10px;
+  height:250px;
+  position:absolute;
+
+  top:80px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}   
+
+#L68{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+  height:250px;
+  position:absolute;
+
+  top:80px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+      filter: brightness(700%)saturate(0);
+
+}   
+
+#L69{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+  height:250px;
+  position:absolute;
+
+  top:80px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}  
+
+#L691{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+ height:250px;
+  position:absolute;
+
+  top:80px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}
+
+
+
+       #L692{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+  height:220px;
+  position:absolute;
+
+  top:110px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%)
+   brightness(0);
+
+}   
+
+#L693{
+/* interruptor */
+/* cor verde */
+/* 2 para 4 */
+ width: 10px;
+  height:220px;
+  position:absolute;
+
+  top:110px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+    filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}   
+
+#L694{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+  height:220px;
+  position:absolute;
+
+  top:110px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+      filter: brightness(700%)saturate(0);
+
+}   
+
+#L695{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+  height:220px;
+  position:absolute;
+
+  top:110px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}  
+
+#L696{
+/* interruptor */
+/* cor preto */
+/* 2 para 4 */
+ width: 10px;
+ height:220px;
+  position:absolute;
+
+  top:110px;
+   left: 750px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}
+
+
+
+
+ #L7{
+/* tomada */
+ width: 10px;
+  height:10px;
+  position:absolute;
+
+  top:320px;
+   left: 485px;
+   cursor: pointer; /* define o cursor como um ponteiro */
+}   
+
+#L8{
+/* tomada */
+ width: 10px;
+  height:10px;
+  position:absolute;
+  top:320px;
+   left: 553px;
+  cursor: pointer; /* define o cursor como um ponteiro */
+} 
+   
+
+  #L7:hover {
+    /* tomada */
+      width: 17px;
+      height:17px;
+      border-radius: 10%;
+       }
+
+   #L8:hover {
+    /* tomada */
+      width: 17px;
+      height:17px;
+      border-radius: 10%;
+       }                  
+
+ #L9{
+/* tomada */
+ width: 10px;
+  height:10px;
+  position:absolute;
+  top:288px;
+   left: 520px;
+  cursor: pointer; /* define o cursor como um ponteiro */
+} 
+
+   #L9:hover {
+    /* tomada */
+      width: 17px;
+      height:17px;
+      border-radius: 10%;
+       } 

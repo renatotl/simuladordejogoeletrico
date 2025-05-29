@@ -3928,13 +3928,15 @@ function resetButtom(){
     
 
 // resetando lamp
+
+//1 pata 3
 let lp = this.document.getElementById("L11");
 let lp2 = this.document.getElementById("L12");
 let lp3 = this.document.getElementById("L13");
 let lp4 = this.document.getElementById("L14");
 let lp5 = this.document.getElementById("L15");
 
-
+// 2 para 4
 let lp6 = this.document.getElementById("L16");
 let lp7 = this.document.getElementById("L17");
 let lp8 = this.document.getElementById("L18");
@@ -3943,14 +3945,14 @@ let lp10 = this.document.getElementById("L20");
 
 
 
-
+// L2 1 para 3
 let lp11 = this.document.getElementById("L21");
 let lp12 = this.document.getElementById("L22");
 let lp13 = this.document.getElementById("L23");
 let lp14 = this.document.getElementById("L24");
 let lp15 = this.document.getElementById("L25");
 
-
+//L2 2para4 baixa
 let lp16 = this.document.getElementById("L26");
 let lp17 = this.document.getElementById("L27");
 let lp18 = this.document.getElementById("L28");
@@ -4085,6 +4087,166 @@ if(lp30 != null && lp30 != undefined) {
 
 
 
+
+
+// resetando interruptor
+
+ // 1 para 3  L5
+let it = this.document.getElementById("L51");
+let it2 = this.document.getElementById("L52");
+let it3 = this.document.getElementById("L53");
+let it4 = this.document.getElementById("L54");
+let it5 = this.document.getElementById("L55");
+
+ // 2 para 4 L5
+let it6 = this.document.getElementById("L56");
+let it7 = this.document.getElementById("L57");
+let it8 = this.document.getElementById("L58");
+let it9 = this.document.getElementById("L59");
+let it10 = this.document.getElementById("L591");
+
+ // 5 para 6 L5
+let it11 = this.document.getElementById("L592");
+let it12 = this.document.getElementById("L593");
+let it13 = this.document.getElementById("L594");
+let it14 = this.document.getElementById("L595");
+let it15 = this.document.getElementById("L596");
+
+
+
+// 1para3 alta
+if(it != null && it != undefined) {   
+      it.id = "L5" 
+}else 
+if(it2 != null && it2 != undefined) {   
+   it2.id = "L5" 
+}else 
+if(it3 != null && it3 != undefined) {   
+   it3.id = "L5" 
+}else 
+if(it4 != null && it4 != undefined) {   
+   it4.id = "L5" 
+}else 
+if(it5 != null && it5 != undefined) {   
+   it5.id = "L5" 
+}
+else
+
+
+
+//2para4 baixa
+if(it6 != null && it6 != undefined) {   
+   it6.id = "L5" 
+}else 
+if(it7 != null && it7 != undefined) {   
+it7.id = "L5" 
+}else 
+if(it8 != null && it8 != undefined) {   
+it8.id = "L5" 
+}else 
+if(it9 != null && it9 != undefined) {   
+it9.id = "L5" 
+}else 
+if(it10 != null && it10 != undefined) {   
+it10.id = "L5" 
+}else
+
+// 5para6 
+if(it11 != null && it11 != undefined) {   
+      it11.id = "L5" 
+}else 
+if(it12 != null && it12 != undefined) {   
+   it12.id = "L5" 
+}else 
+if(it13 != null && it13 != undefined) {   
+   it13.id = "L5" 
+}else 
+if(it14 != null && it14 != undefined) {   
+   it14.id = "L5" 
+}else 
+if(it15 != null && it15 != undefined) {   
+   it15.id = "L5" 
+}
+
+
+// 1 para 3  L6
+let it31 = this.document.getElementById("L61");
+let it32 = this.document.getElementById("L62");
+let it33 = this.document.getElementById("L63");
+let it34 = this.document.getElementById("L64");
+let it35 = this.document.getElementById("L65");
+
+ // 2 para 4 L6
+let it36 = this.document.getElementById("L66");
+let it37 = this.document.getElementById("L67");
+let it38 = this.document.getElementById("L68");
+let it39 = this.document.getElementById("L69");
+let it40 = this.document.getElementById("L691");
+
+ // 5 para 6 L6
+let it41 = this.document.getElementById("L692");
+let it42 = this.document.getElementById("L693");
+let it43 = this.document.getElementById("L694");
+let it44 = this.document.getElementById("L695");
+let it45 = this.document.getElementById("L696");
+
+
+// 1para3 alta
+if(it31 != null && it31 != undefined) {   
+      it31.id = "L6" 
+}else 
+if(it32 != null && it32 != undefined) {   
+   it32.id = "L6" 
+}else 
+if(it33 != null && it33 != undefined) {   
+   it33.id = "L6" 
+}else 
+if(it34 != null && it34 != undefined) {   
+   it34.id = "L6" 
+}else 
+if(it35 != null && it35 != undefined) {   
+   it35.id = "L6" 
+}
+else
+
+
+
+//2para4 baixa
+if(it36 != null && it36 != undefined) {   
+   it36.id = "L6" 
+}else 
+if(it37 != null && it37 != undefined) {   
+it37.id = "L6" 
+}else 
+if(it38 != null && it38 != undefined) {   
+it38.id = "L6" 
+}else 
+if(it39 != null && it39 != undefined) {   
+it39.id = "L6" 
+}else 
+if(it40 != null && it40 != undefined) {   
+it40.id = "L6" 
+}else
+
+// 5para6 
+if(it41 != null && it41 != undefined) {   
+      it41.id = "L6" 
+}else 
+if(it42 != null && it42 != undefined) {   
+   it42.id = "L6" 
+}else 
+if(it43 != null && it43 != undefined) {   
+   it43.id = "L6" 
+}else 
+if(it44 != null && it44 != undefined) {   
+   it44.id = "L6" 
+}else 
+if(it45 != null && it45 != undefined) {   
+   it45.id = "L6" 
+}
+
+
+
 }
 
 
@@ -4098,6 +4260,10 @@ function resetButtom2(){
     }
 
 }
+
+
+
+
 function abrirPopup(valor){
    idioma;
    let texto1 = " Voce fechou o circuito! tente de novo."
@@ -5628,6 +5794,1198 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
           conexacaoL12BaixoBaixo = "L2MB";
       lp.id = "L40"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+      
+    }
+
+
+
+
+    //if((lp.id == "L11" &&id == "L1") && (lp.id == "L16"&& lp.id == "L16")){  
+   // abrirPopup()
+   // }
+
+}
+
+
+
+
+/////INTERRUPTOR CONEXAO
+const inter = document.querySelectorAll("[id]");
+
+
+inter.forEach(it => {
+   // depois de varrer a variavel it add um evento
+    it.addEventListener("click", function(){
+        const id = it.id;
+
+ id2 ;
+ console.log(id)
+        if(id == "MAIN10"){
+           return id2 = "MAIN10"
+        }else
+   if(id == "MAIN11"){
+
+      return id2 = "MAIN11"
+   }else
+
+if(id == "MAIN12"){
+return id2 = "MAIN12"
+
+}else
+if(id == "MAIN13"){
+   return id2 = "MAIN13"
+   
+   }else
+
+   if(id == "MAIN14"){
+      return id2 = "MAIN14"
+      
+      }
+else
+
+
+
+if(id == "MAIN15"){
+   return id2 = "MAIN15"
+}else
+if(id == "MAIN16"){
+
+return id2 = "MAIN16"
+}else
+
+if(id == "MAIN17"){
+return id2 = "MAIN17"
+
+}else
+if(id == "MAIN18"){
+return id2 = "MAIN18"
+
+}else
+
+if(id == "MAIN19"){
+return id2 = "MAIN19"
+
+}
+
+else
+
+
+// equivale ao segundo fio da lampada
+if(id == "MAIN20"){
+   return id2 = "MAIN20"
+}else
+if(id == "MAIN21"){
+
+return id2 = "MAIN21"
+}else
+
+if(id == "MAIN22"){
+return id2 = "MAIN22"
+
+}else
+if(id == "MAIN23"){
+return id2 = "MAIN23"
+
+}else
+
+if(id == "MAIN24"){
+return id2 = "MAIN24"
+
+}
+else
+
+
+
+if(id == "MAIN25"){
+return id2 = "MAIN25"
+}else
+if(id == "MAIN26"){
+
+return id2 = "MAIN26"
+}else
+
+if(id == "MAIN27"){
+return id2 = "MAIN27"
+
+}else
+if(id == "MAIN28"){
+return id2 = "MAIN28"
+
+}else
+
+if(id == "MAIN29"){
+return id2 = "MAIN29"
+
+}else
+
+
+// equivale ao terceiro fio
+if(id == "MAIN30"){
+   return id2 = "MAIN30"
+}else
+if(id == "MAIN31"){
+
+return id2 = "MAIN31"
+}else
+
+if(id == "MAIN32"){
+return id2 = "MAIN32"
+
+}else
+if(id == "MAIN33"){
+return id2 = "MAIN33"
+
+}else
+if(id == "MAIN34"){
+return id2 = "MAIN34"
+
+}else
+
+
+
+if(id == "MAIN35"){
+   return id2 = "MAIN35"
+}else
+if(id == "MAIN36"){
+
+return id2 = "MAIN36"
+}else
+
+if(id == "MAIN37"){
+return id2 = "MAIN37"
+
+}else
+if(id == "MAIN38"){
+return id2 = "MAIN38"
+
+}else
+if(id == "MAIN39"){
+return id2 = "MAIN39"
+
+}
+
+     console.log(inter)
+     console.log(it.id)
+       
+   if(id == "L5" || id == "L6" ){
+
+      interruptorConect(id,id2)
+    return id
+   }
+
+
+    });
+}
+
+
+);
+
+
+
+
+
+
+
+
+function interruptorConect(id,id2){
+   
+   console.log(id)
+   console.log(id2)
+
+   //1para3alto primeiro fio conectado L5
+   if(segundaLigacao == "pretoFase"&& id == "L5" && id2 == "MAIN10"){
+      
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+      conexacaoL11Alto = "L5PA";
+      it.id = "L51"
+      abrirPopup(conexacaoL11Alto)
+   }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L5"&& id2 == "MAIN11"){
+     
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L5VA"; 
+      it.id = "L52"
+      abrirPopup(conexacaoL11Alto)
+    }
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L5"&& id2 == "MAIN12"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L5BA";  
+      it.id = "L53"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L5"&& id2 == "MAIN13"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {  
+         conexacaoL11Alto = "L5AA";
+      it.id = "L54"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L5"&& id2 == "MAIN14"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L5MA"; 
+      it.id = "L55"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    }else
+
+
+
+
+//2para4baixo primeiro fio conectado L5
+  if(segundaLigacao == "pretoFase"&& id == "L5" && id2 == "MAIN15"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L5PB"; 
+      it.id = "L56"
+      abrirPopup(conexacaoL11Baixo)
+      }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L5"&& id2 == "MAIN16"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L5VB";  
+      it.id = "L57"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L5"&& id2 == "MAIN17"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11Baixo = "L5BB";
+      it.id = "L58"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L5"&& id2 == "MAIN18"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L5AB"; 
+      it.id = "L59"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L5"&& id2 == "MAIN19"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11Baixo = "L5MB"; 
+      it.id = "L591"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }
+
+
+
+    //5para6 primeiro fio conectado L5
+  if(segundaLigacao == "pretoFase"&& id == "L5" && id2 == "MAIN30"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L5PBB"; 
+      it.id = "L592"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L5"&& id2 == "MAIN31"){
+
+      let itp = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L5VBB";  
+      it.id = "L593"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L5"&& id2 == "MAIN32"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L5BBB";
+      it.id = "L594"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L5"&& id2 == "MAIN33"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L5ABB"; 
+      it.id = "L595"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L5"&& id2 == "MAIN34"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L5MBB"; 
+      it.id = "L596"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }
+
+
+
+
+    else
+//equivale a segunda conexao   1para3 alta L2
+    if(segundaLigacao == "pretoFase"&& id == "L6" && id2 == "MAIN10"){
+      
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) {  
+      conexacaoL12Alto = "L6PA";
+      it.id = "L61"
+      abrirPopup(conexacaoL12Alto)
+    }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L6"&& id2 == "MAIN11"){
+     
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) {  
+         conexacaoL12Alto = "L6VA";
+      it.id = "L62"
+      abrirPopup(conexacaoL12Alto)
+      }
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L6"&& id2 == "MAIN12"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) {  
+         conexacaoL12Alto = "L6BA";
+      it.id = "L63"
+      abrirPopup(conexacaoL12Alto)
+      }
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L6"&& id2 == "MAIN13"){
+
+      let it = document.getElementById("L6");
+    if(it != null && it != undefined) { 
+      conexacaoL12Alto = "L6AA"; 
+      it.id = "L64"
+      abrirPopup(conexacaoL12Alto)
+    }
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L6"&& id2 == "MAIN14"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) {  
+          conexacaoL12Alto = "L6MA";
+      it.id = "L65"
+      abrirPopup(conexacaoL12Alto)
+      }
+      
+    }else
+
+
+
+
+//equivale a segunda conexao   2para4 baixa L2
+  if(segundaLigacao == "pretoFase"&& id == "L6" && id2 == "MAIN15"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) {
+         conexacaoL12Baixo = "L6PB";  
+      it.id = "L66"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L6"&& id2 == "MAIN16"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) {
+         conexacaoL12Baixo = "L6VB";  
+      it.id = "L67"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L6"&& id2 == "MAIN17"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) {  
+         conexacaoL12Baixo = "L6BB";
+      it.id = "L68"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L6"&& id2 == "MAIN18"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) {
+         conexacaoL12Baixo = "L6AB";  
+      it.id = "L69"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L6"&& id2 == "MAIN19"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) { 
+         conexacaoL12Baixo = "L6MB"; 
+      it.id = "L691"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    }
+
+
+    //5para6 baixa baixa  L2
+  if(segundaLigacao == "pretoFase"&& id == "L6" && id2 == "MAIN30"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) {
+         conexacaoL12BaixoBaixo = "L6PBB"; 
+      it.id = "L692"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L6"&& id2 == "MAIN31"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) {
+         conexacaoL12BaixoBaixo = "L6VBB";  
+      it.id = "L693"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+      
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L6"&& id2 == "MAIN32"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) { 
+         conexacaoL12BaixoBaixo = "L6BBB";
+      it.id = "L694"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L6"&& id2 == "MAIN33"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) {
+         conexacaoL12BaixoBaixo = "L6ABB"; 
+      it.id = "L695"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L6"&& id2 == "MAIN34"){
+
+      let it = document.getElementById("L6");
+      if(it != null && it != undefined) { 
+         conexacaoL12BaixoBaixo = "L6MBB"; 
+      it.id = "L696"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+      
+    }
+
+     
+
+
+
+
+
+
+
+
+
+   // SEGUNDO FIO CONECTADO 
+
+    //1para3alto L5
+   if(segundaLigacao2 == "pretoFase"&& id == "L5" && id2 == "MAIN10"){
+
+      let it = document.getElementById("L5");
+      if(it!=null && it!=undefined ){
+         conexacaoL11Alto = "L5PA"
+      it.id = "L11"
+      abrirPopup(conexacaoL11Alto)
+   }
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L5"&& id2 == "MAIN11"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {  
+          conexacaoL11Alto = "L5VA"
+      it.id = "L12"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L5"&& id2 == "MAIN12"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+          conexacaoL11Alto = "L5BA"  
+      it.id = "L13"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L5"&& id2 == "MAIN13"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+          conexacaoL11Alto = "L5AA"  
+      it.id = "L14"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L5"&& id2 == "MAIN14"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+          conexacaoL11Alto = "L5MA"  
+      it.id = "L15"
+      abrirPopup(conexacaoL11Alto)
+      }
+    }else
+
+
+
+
+//2para4baixo L5 
+  if(segundaLigacao2 == "pretoFase"&& id == "L5" && id2 == "MAIN15"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L5PB"  
+      it.id = "L16"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L5"&& id2 == "MAIN16"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L5VB"    
+      it.id = "L17"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L5"&& id2 == "MAIN17"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L5BB"    
+      it.id = "L18"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L5"&& id2 == "MAIN18"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L5AB"    
+      it.id = "L19"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L5"&& id2 == "MAIN19"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L5MB"    
+      it.id = "L20"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }
+
+
+
+
+    //5para6baixo L5 
+  if(segundaLigacao2 == "pretoFase"&& id == "L5" && id2 == "MAIN30"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {  
+         conexacaoL11BaixoBaixo = "L5PBB"
+      it.id = "L31"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L5"&& id2 == "MAIN31"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L5VBB" 
+      it.id = "L32"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L5"&& id2 == "MAIN32"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L1BBB"  
+      it.id = "L33"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L5"&& id2 == "MAIN33"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L1ABB"  
+      it.id = "L34"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L5"&& id2 == "MAIN34"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L5MBB"  
+      it.id = "L35"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }
+
+
+
+
+
+
+
+
+    else
+//equivale a segunda conexao   1para3 alta  L2
+    if(segundaLigacao2 == "pretoFase"&& id == "L2" && id2 == "MAIN10"){
+
+      let it = document.getElementById("L2");
+      if(it != null){ 
+      it.id = "L21"
+      }
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L2"&& id2 == "MAIN11"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L22"
+      }
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN12"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L23"
+      }
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN13"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L24"
+      }
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L2"&& id2 == "MAIN14"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L25"
+      }
+      
+    }else
+
+
+
+
+//equivale a segunda conexao   2para4 baixa  L2
+  if(segundaLigacao2 == "pretoFase"&& id == "L2" && id2 == "MAIN15"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L26"
+      }
+      
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L2"&& id2 == "MAIN16"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L27"
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN17"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L28"
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN18"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L29"
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L2"&& id2 == "MAIN19"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L30"
+      }
+      
+    }else
+
+
+
+
+    //equivale a segunda conexao   5para6 baixa  L2
+  if(segundaLigacao2 == "pretoFase"&& id == "L2" && id2 == "MAIN30"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L36"
+      }
+      
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L2"&& id2 == "MAIN31"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L37"
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN32"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L38"
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN33"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L39"
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L2"&& id2 == "MAIN34"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      it.id = "L40"
+      }
+      
+    }else
+
+
+
+    //TERCEIRA COEXAO L1  //1para3baixo L1 
+   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN10"){
+      
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+      conexacaoL11BaixoBaixo = "L1PBB";
+      it.id = "L11"
+      abrirPopup(conexacaoL11BaixoBaixo)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN11"){
+     
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1VBB"; 
+      it.id = "L12"
+      abrirPopup(conexacaoL11BaixoBaixo)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN12"){
+
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1BBB";  
+      it.id = "L13"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN13"){
+
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) {  
+         conexacaoL11BaixoBaixo = "L1ABB";
+      it.id = "L14"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN14"){
+
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1MBB"; 
+      it.id = "L15"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+
+
+
+    //TERCEIRA COEXAO L1  //2para4baixo L1 
+   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN15"){
+      
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+      conexacaoL11BaixoBaixo = "L1PBB";
+      it.id = "L16"
+      abrirPopup(conexacaoL11BaixoBaixo)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN16"){
+     
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1VBB"; 
+      it.id = "L17"
+      abrirPopup(conexacaoL11BaixoBaixo)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN17"){
+
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1BBB";  
+      it.id = "L18"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN18"){
+
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) {  
+         conexacaoL11BaixoBaixo = "L1ABB";
+      it.id = "L19"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN19"){
+
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1MBB"; 
+      it.id = "L20"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }
+
+
+
+
+    //TERCEIRA COEXAO L1  //5para6baixo L1 
+   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN30"){
+      
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+      conexacaoL11BaixoBaixo = "L1PBB";
+      it.id = "L31"
+      abrirPopup(conexacaoL11BaixoBaixo)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN31"){
+     
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1VBB"; 
+      it.id = "L32"
+      abrirPopup(conexacaoL11BaixoBaixo)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN32"){
+
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1BBB";  
+      it.id = "L33"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN33"){
+
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) {  
+         conexacaoL11BaixoBaixo = "L1ABB";
+      it.id = "L34"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN34"){
+
+      let it = document.getElementById("L1");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1MBB"; 
+      it.id = "L35"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }
+
+
+
+    else
+
+
+
+
+
+
+     //TERCEIRA COEXAO L2  //1para3baixo L2 
+   if(segundaLigacao3 == "pretoFase"&& id == "L2" && id2 == "MAIN10"){
+      
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) { 
+      conexacaoL11BaixoBaixo = "L1PBB";
+      it.id = "L21"
+      abrirPopup(conexacaoL11BaixoBaixo)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L2"&& id2 == "MAIN11"){
+     
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1VBB"; 
+      it.id = "L22"
+      abrirPopup(conexacaoL11BaixoBaixo)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN12"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1BBB";  
+      it.id = "L23"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L2"&& id2 == "MAIN13"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+         conexacaoL11BaixoBaixo = "L1ABB";
+      it.id = "L24"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L2"&& id2 == "MAIN14"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1MBB"; 
+      it.id = "L25"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+
+
+    //TERCEIRA COEXAO L1  //2para4baixo L2 
+   if(segundaLigacao3 == "pretoFase"&& id == "L2" && id2 == "MAIN15"){
+      
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) { 
+      conexacaoL11BaixoBaixo = "L1PBB";
+      it.id = "L26"
+      abrirPopup(conexacaoL11BaixoBaixo)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L2"&& id2 == "MAIN16"){
+     
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1VBB"; 
+      it.id = "L27"
+      abrirPopup(conexacaoL11BaixoBaixo)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN17"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1BBB";  
+      it.id = "L28"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L2"&& id2 == "MAIN18"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+         conexacaoL11BaixoBaixo = "L1ABB";
+      it.id = "L29"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L2"&& id2 == "MAIN19"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L1MBB"; 
+      it.id = "L30"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+
+
+//TERCEIRO FIO L2 //5para6baixo L2 
+    if(segundaLigacao3 == "pretoFase"&& id == "L2" && id2 == "MAIN30"){
+      
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+      conexacaoL12BaixoBaixo = "L2PB";
+      it.id = "L36"
+      abrirPopup(conexacaoL12BaixoBaixo)
+    }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L2"&& id2 == "MAIN31"){
+     
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+         conexacaoL12BaixoBaixo = "L2VB";
+      it.id = "L37"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+    } else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN32"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+         conexacaoL12BaixoBaixo = "L2BB";
+      it.id = "L38"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L2"&& id2 == "MAIN33"){
+
+      let it = document.getElementById("L2");
+    if(it != null && it != undefined) { 
+      conexacaoL12BaixoBaixo = "L2AB"; 
+      it.id = "L39"
+      abrirPopup(conexacaoL12BaixoBaixo)
+    }
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L2"&& id2 == "MAIN34"){
+
+      let it = document.getElementById("L2");
+      if(it != null && it != undefined) {  
+          conexacaoL12BaixoBaixo = "L2MB";
+      it.id = "L40"
       abrirPopup(conexacaoL12BaixoBaixo)
       }
       
