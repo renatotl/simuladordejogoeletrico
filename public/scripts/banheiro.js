@@ -2942,7 +2942,7 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN16"
-   }
+   
 
    if(pontoSelecionado4 == "MAIN2" || pontoSelecionado4 == "MAIN4" && elementosCss2.id == "MAIN16"){   
             
@@ -2952,7 +2952,7 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
 
 
          }
-
+      }
 console.log("fundionou"); 
 } else  if(verificador2 == "MAIN2" && ligacaoPonto2 == "brancoRetorno" && preimeiraLigacao2 =="brancoRetorno" && segundaLigacao2 == "brancoRetorno" ){
    let elementosCss2 = document.getElementById("MAIN2");
@@ -2960,7 +2960,7 @@ console.log("fundionou");
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN17"
-   }
+   
 
    if(pontoSelecionado4 == "MAIN2" || pontoSelecionado4 == "MAIN4" && elementosCss2.id == "MAIN17"){   
             
@@ -2970,7 +2970,7 @@ console.log("fundionou");
 
 
          }
-
+      }
 console.log("fundionou"); 
 } else  if(verificador2 == "MAIN2" && ligacaoPonto2 == "azulNeltro" && preimeiraLigacao2 =="azulNeltro" && segundaLigacao2 == "azulNeltro" ){
    let elementosCss2 = document.getElementById("MAIN2");
@@ -2978,7 +2978,7 @@ console.log("fundionou");
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN18"
-   }
+   
 
    if(pontoSelecionado4 == "MAIN2" || pontoSelecionado4 == "MAIN4" && elementosCss2.id == "MAIN18"){   
             
@@ -2988,7 +2988,7 @@ console.log("fundionou");
 
 
          }
-
+      }
 console.log("fundionou"); 
 } else  if(verificador2 == "MAIN2" && ligacaoPonto2 == "marromRetorno" && preimeiraLigacao2 =="marromRetorno" && segundaLigacao2 == "marromRetorno" ){
    let elementosCss2 = document.getElementById("MAIN2");
@@ -2998,8 +2998,7 @@ console.log("fundionou");
     elementosCss2.id = "MAIN19"
 
 console.log("fundionou"); 
-   }
-
+   
    if(pontoSelecionado4 == "MAIN2" || pontoSelecionado4 == "MAIN4" && elementosCss2.id == "MAIN19"){   
             
    
@@ -3008,7 +3007,7 @@ console.log("fundionou");
 
 
          }
-
+      }
 }
  
 
@@ -3026,7 +3025,7 @@ else
          console.log(elementosCss);
          parte3 = true;
          elementosCss.id = "MAIN10"
-         }
+         
 
          if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN1" && elementosCss.id == "MAIN10"){   
             
@@ -3034,6 +3033,8 @@ else
    filtro2 = "1para3Preto"
    console.log(filtro);
 
+
+         }
 
          }
     console.log("fundionou"); 
@@ -3122,7 +3123,7 @@ if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN1" && elementosCss.
        console.log(elementosCss2);
        parte3 = true;
        elementosCss2.id = "MAIN15"
-      }
+      
 
       if(pontoSelecionado4 == "MAIN4" || pontoSelecionado4 == "MAIN2" && elementosCss2.id == "MAIN15"){   
             
@@ -3132,6 +3133,7 @@ if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN1" && elementosCss.
 
 
          }
+      }
   console.log("fundionou"); 
   } else  if(verificador2 == "MAIN4" && ligacaoPonto2 == "verdeTerra" && preimeiraLigacao2 =="verdeTerra" && segundaLigacao2 == "verdeTerra" ){
    let elementosCss2 = document.getElementById("MAIN2");
@@ -3139,7 +3141,7 @@ if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN1" && elementosCss.
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN16"
-   }
+   
 
    if(pontoSelecionado4 == "MAIN4" || pontoSelecionado4 == "MAIN2" && elementosCss2.id == "MAIN16"){   
             
@@ -3149,7 +3151,7 @@ if(pontoSelecionado4 == "MAIN3" || pontoSelecionado4 == "MAIN1" && elementosCss.
 
 
          }
-
+      }
 console.log("fundionou"); 
 } else  if(verificador2 == "MAIN4" && ligacaoPonto2 == "brancoRetorno" && preimeiraLigacao2 =="brancoRetorno" && segundaLigacao2 == "brancoRetorno" ){
    let elementosCss2 = document.getElementById("MAIN2");
@@ -3157,7 +3159,7 @@ console.log("fundionou");
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN17"
-   }
+   
 
    if(pontoSelecionado4 == "MAIN4" || pontoSelecionado4 == "MAIN2" && elementosCss2.id == "MAIN17"){   
             
@@ -3167,7 +3169,7 @@ console.log("fundionou");
 
 
          }
-
+      }
 console.log("fundionou"); 
 } else  if(verificador2 == "MAIN4" && ligacaoPonto2 == "azulNeltro" && preimeiraLigacao2 =="azulNeltro" && segundaLigacao2 == "azulNeltro" ){
    let elementosCss2 = document.getElementById("MAIN2");
@@ -3175,7 +3177,7 @@ console.log("fundionou");
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN18"
-   }
+   
 
    if(pontoSelecionado4 == "MAIN4" || pontoSelecionado4 == "MAIN2" && elementosCss2.id == "MAIN18"){   
             
@@ -3185,7 +3187,7 @@ console.log("fundionou");
 
 
          }
-
+      }
 
 console.log("fundionou"); 
 } else  if(verificador2 == "MAIN4" && ligacaoPonto2 == "marromRetorno" && preimeiraLigacao2 =="marromRetorno" && segundaLigacao2 == "marromRetorno" ){
@@ -3915,7 +3917,17 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
          console.log(elementosCss);
          parte3 = true;
          elementosCss.id = "MAIN10"
+
+         if(pontoSelecionado6 == "MAIN3" || pontoSelecionado6 == "MAIN1" && elementosCss.id == "MAIN10"){   
+            
+   
+   filtro3 = "1para3Preto"
+   console.log(filtro);
+
+
          }
+         }
+
     console.log("fundionou"); 
     }
     else if(verificador3 == "MAIN1" && ligacaoPonto3 == "verdeTerra" && preimeiraLigacao3 =="verdeTerra" && segundaLigacao3 == "verdeTerra"){
@@ -3925,6 +3937,15 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
       parte3 = true;
       elementosCss.id = "MAIN11"
    
+        if(pontoSelecionado6 == "MAIN3" || pontoSelecionado6 == "MAIN1" && elementosCss.id == "MAIN11"){   
+            
+   
+   filtro3 = "1para3Verde"
+   console.log(filtro);
+
+
+         }
+
  console.log("fundionou");
 }
     } else if(verificador3 == "MAIN1" && ligacaoPonto3 == "brancoRetorno" && preimeiraLigacao3 =="brancoRetorno" && segundaLigacao3 == "brancoRetorno"){
@@ -3934,7 +3955,14 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
       console.log(elementosCss);
       parte3 = true;
       elementosCss.id = "MAIN12"
+     if(pontoSelecionado6 == "MAIN3" || pontoSelecionado6 == "MAIN1" && elementosCss.id == "MAIN12"){   
+            
    
+   filtro3 = "1para3Branco"
+   console.log(filtro);
+
+
+         }
  console.log("fundionou");
 }
     } else if(verificador3 == "MAIN1" && ligacaoPonto3 == "azulNeltro" && preimeiraLigacao3 =="azulNeltro" && segundaLigacao3 == "azulNeltro"){
@@ -3943,7 +3971,14 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
       console.log(elementosCss);
       parte3 = true;
       elementosCss.id = "MAIN13"
+  if(pontoSelecionado6 == "MAIN3" || pontoSelecionado6 == "MAIN1" && elementosCss.id == "MAIN13"){   
+            
+   
+   filtro3 = "1para3AzulNeltro"
+   console.log(filtro);
 
+
+         }
  console.log("fundionou");
 }
 
@@ -3955,7 +3990,14 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
    parte3 = true;
       elementosCss.id = "MAIN14"
  
-      
+        if(pontoSelecionado6 == "MAIN3" || pontoSelecionado6 == "MAIN1" && elementosCss.id == "MAIN14"){   
+            
+   
+   filtro3 = "1para3Marrom"
+   console.log(filtro);
+
+
+         }
 
  console.log("fundionou");
 }
@@ -3969,6 +4011,16 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
        console.log(elementosCss2);
        parte3 = true;
        elementosCss2.id = "MAIN15"
+
+         if(pontoSelecionado6 == "MAIN2" || pontoSelecionado6 == "MAIN4" && elementosCss2.id == "MAIN15"){   
+            
+   
+   filtro3 = "2para4Preto"
+   console.log(filtro);
+
+
+         }
+
       }
   console.log("fundionou"); 
   } else  if(verificador3 == "MAIN2" && ligacaoPonto3 == "verdeTerra" && preimeiraLigacao3 =="verdeTerra" && segundaLigacao3 == "verdeTerra" ){
@@ -3976,7 +4028,20 @@ if( elementosCss13 != null || elementosCss13 != undefined && bug == true ){
    if(elementosCss2 != null || elementosCss2 != undefined) { 
     console.log(elementosCss2);
     parte3 = true;
+
+
     elementosCss2.id = "MAIN16"
+
+     if(pontoSelecionado6 == "MAIN2" || pontoSelecionado6 == "MAIN4" && elementosCss2.id == "MAIN16"){   
+            
+   
+   filtro3 = "2para4Verde"
+   console.log(filtro);
+
+
+         }
+
+    
    }
 console.log("fundionou"); 
 } else  if(verificador3 == "MAIN2" && ligacaoPonto3 == "brancoRetorno" && preimeiraLigacao3 =="brancoRetorno" && segundaLigacao3 == "brancoRetorno" ){
@@ -3985,6 +4050,16 @@ console.log("fundionou");
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN17"
+
+    if(pontoSelecionado6 == "MAIN2" || pontoSelecionado6 == "MAIN4" && elementosCss2.id == "MAIN17"){   
+            
+   
+   filtro3 = "2para4Branco"
+   console.log(filtro);
+
+
+         }
+
    }
 console.log("fundionou"); 
 } else  if(verificador3 == "MAIN2" && ligacaoPonto3 == "azulNeltro" && preimeiraLigacao3 =="azulNeltro" && segundaLigacao3 == "azulNeltro" ){
@@ -3993,6 +4068,16 @@ console.log("fundionou");
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN18"
+
+    if(pontoSelecionado6 == "MAIN2" || pontoSelecionado6 == "MAIN4" && elementosCss2.id == "MAIN18"){   
+            
+   
+   filtro3 = "2para4AzulNeltro"
+   console.log(filtro);
+
+
+         }
+
    }
 console.log("fundionou"); 
 } else  if(verificador3 == "MAIN2" && ligacaoPonto3 == "marromRetorno" && preimeiraLigacao3 =="marromRetorno" && segundaLigacao3 == "marromRetorno" ){
@@ -4003,6 +4088,17 @@ console.log("fundionou");
     elementosCss2.id = "MAIN19"
 
 console.log("fundionou"); 
+
+if(pontoSelecionado6 == "MAIN2" || pontoSelecionado6 == "MAIN4" && elementosCss2.id == "MAIN19"){   
+            
+   
+   filtro3 = "2para4Marrom"
+   console.log(filtro);
+
+
+         }
+
+
    }
 }
  
@@ -4023,6 +4119,16 @@ else
          console.log(elementosCss);
          parte3 = true;
          elementosCss.id = "MAIN10"
+
+         if(pontoSelecionado6 == "MAIN3" || pontoSelecionado6 == "MAIN1" && elementosCss.id == "MAIN10"){   
+            
+   
+   filtro3 = "1para3Preto"
+   console.log(filtro);
+
+
+         }
+
          }
     console.log("fundionou"); 
     }
@@ -4033,6 +4139,17 @@ else
       parte3 = true;
       elementosCss.id = "MAIN11"
    
+
+
+      if(pontoSelecionado6 == "MAIN3" || pontoSelecionado6 == "MAIN1" && elementosCss.id == "MAIN11"){   
+            
+   
+   filtro3 = "1para3Verde"
+   console.log(filtro);
+
+
+         }
+
  console.log("fundionou");
 }
     } else if(verificador3 == "MAIN3" && ligacaoPonto3 == "brancoRetorno" && preimeiraLigacao3 =="brancoRetorno" && segundaLigacao3 == "brancoRetorno"){
@@ -4042,6 +4159,17 @@ else
       console.log(elementosCss);
       parte3 = true;
       elementosCss.id = "MAIN12"
+
+
+      if(pontoSelecionado6 == "MAIN3" || pontoSelecionado6 == "MAIN1" && elementosCss.id == "MAIN12"){   
+            
+   
+   filtro3 = "1para3Branco"
+   console.log(filtro);
+
+
+         }
+
    
  console.log("fundionou");
 }
@@ -4051,6 +4179,17 @@ else
       console.log(elementosCss);
       parte3 = true;
       elementosCss.id = "MAIN13"
+
+
+      if(pontoSelecionado6 == "MAIN3" || pontoSelecionado6 == "MAIN1" && elementosCss.id == "MAIN13"){   
+            
+   
+   filtro3 = "1para3AzulNeltro"
+   console.log(filtro);
+
+
+         }
+
 
  console.log("fundionou");
 }
@@ -4063,7 +4202,14 @@ else
       parte3 = true;
       elementosCss.id = "MAIN14"
  
-      
+      if(pontoSelecionado6 == "MAIN3" || pontoSelecionado6 == "MAIN1" && elementosCss.id == "MAIN14"){   
+            
+   
+   filtro3 = "1para3Marrom"
+   console.log(filtro);
+
+
+         }
 
  console.log("fundionou");
 }
@@ -4080,6 +4226,17 @@ else
        console.log(elementosCss2);
        parte3 = true;
        elementosCss2.id = "MAIN15"
+
+       if(pontoSelecionado6 == "MAIN4" || pontoSelecionado6 == "MAIN2" && elementosCss2.id == "MAIN15"){   
+            
+   
+   filtro3 = "2para4Preto"
+   console.log(filtro);
+
+
+         }
+
+
       }
   console.log("fundionou"); 
   } else  if(verificador3 == "MAIN4" && ligacaoPonto3 == "verdeTerra" && preimeiraLigacao3 =="verdeTerra" && segundaLigacao3 == "verdeTerra" ){
@@ -4088,6 +4245,17 @@ else
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN16"
+
+    if(pontoSelecionado6 == "MAIN4" || pontoSelecionado6 == "MAIN2" && elementosCss2.id == "MAIN16"){   
+            
+   
+   filtro3 = "2para4Verde"
+   console.log(filtro);
+
+
+         }
+
+
    }
 console.log("fundionou"); 
 } else  if(verificador3 == "MAIN4" && ligacaoPonto3 == "brancoRetorno" && preimeiraLigacao3 =="brancoRetorno" && segundaLigacao3 == "brancoRetorno" ){
@@ -4096,6 +4264,17 @@ console.log("fundionou");
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN17"
+
+    if(pontoSelecionado6 == "MAIN4" || pontoSelecionado6 == "MAIN2" && elementosCss2.id == "MAIN17"){   
+            
+   
+   filtro3 = "2para4Branco"
+   console.log(filtro);
+
+
+         }
+
+
    }
 console.log("fundionou"); 
 } else  if(verificador3 == "MAIN4" && ligacaoPonto3 == "azulNeltro" && preimeiraLigacao3 =="azulNeltro" && segundaLigacao3 == "azulNeltro" ){
@@ -4104,6 +4283,17 @@ console.log("fundionou");
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN18"
+
+    if(pontoSelecionado6 == "MAIN4" || pontoSelecionado6 == "MAIN2" && elementosCss2.id == "MAIN18"){   
+            
+   
+   filtro3 = "2para4AzulNeltro"
+   console.log(filtro);
+
+
+         }
+
+
    }
 console.log("fundionou"); 
 } else  if(verificador3 == "MAIN4" && ligacaoPonto3 == "marromRetorno" && preimeiraLigacao3 =="marromRetorno" && segundaLigacao3 == "marromRetorno" ){
@@ -4112,6 +4302,17 @@ console.log("fundionou");
     console.log(elementosCss2);
     parte3 = true;
     elementosCss2.id = "MAIN19"
+
+
+    if(pontoSelecionado6 == "MAIN4" || pontoSelecionado6 == "MAIN2" && elementosCss2.id == "MAIN19"){   
+            
+   
+   filtro3 = "2para4Marrom"
+   console.log(filtro);
+
+
+         }
+
 
 console.log("fundionou"); 
    }
@@ -4131,6 +4332,15 @@ if(   verificador3 == "MAIN5"   && ligacaoPonto3 == "pretoFase" && preimeiraLiga
     console.log(elementosCss);
     parte3 = true;
     elementosCss.id = "MAIN30"
+
+    if(pontoSelecionado6 == "MAIN5" || pontoSelecionado6 == "MAIN6" && elementosCss.id == "MAIN30"){   
+            
+   
+   filtro3 = "5para6Preto"
+   console.log(filtro);
+
+
+         }
     
 console.log("fundionou"); 
    }
@@ -4145,6 +4355,16 @@ else if(  verificador3 == "MAIN5" && ligacaoPonto3 == "verdeTerra" && preimeiraL
    console.log(elementosCss);
    parte3 = true;
    elementosCss.id = "MAIN31"
+
+
+   if(pontoSelecionado6 == "MAIN5" || pontoSelecionado6 == "MAIN6" && elementosCss.id == "MAIN31"){   
+            
+   
+   filtro3 = "5para6Verde"
+   console.log(filtro);
+
+
+         }
 
 console.log("fundionou");
       
@@ -4161,6 +4381,17 @@ console.log("fundionou");
    parte3 = true;
    elementosCss.id = "MAIN32"
 
+
+   if(pontoSelecionado6 == "MAIN5" || pontoSelecionado6 == "MAIN6" && elementosCss.id == "MAIN32"){   
+            
+   
+   filtro3 = "5para6Branco"
+   console.log(filtro);
+
+
+         }
+
+
 console.log("fundionou");
 
       
@@ -4175,6 +4406,17 @@ console.log("fundionou");
    console.log(elementosCss);
    parte3 = true;
    elementosCss.id = "MAIN33"
+
+
+   if(pontoSelecionado6 == "MAIN5" || pontoSelecionado6 == "MAIN6" && elementosCss.id == "MAIN33"){   
+            
+   
+   filtro3 = "5para6AzulNeltro"
+   console.log(filtro);
+
+
+         }
+
 
 console.log("fundionou");
       
@@ -4193,7 +4435,14 @@ console.log("fundionou");
    parte3 = true;
    elementosCss.id = "MAIN34"
 
+   if(pontoSelecionado6 == "MAIN5" || pontoSelecionado6 == "MAIN6" && elementosCss.id == "MAIN34"){   
+            
    
+   filtro3 = "5para6Marrom"
+   console.log(filtro);
+
+
+         }
 
 console.log("fundionou");
       
@@ -4217,6 +4466,17 @@ if(  verificador3 == "MAIN6"   && ligacaoPonto3 == "pretoFase" && preimeiraLigac
     parte3 = true;
     elementosCss.id = "MAIN30"
     
+
+    if(pontoSelecionado6 == "MAIN6" || pontoSelecionado6 == "MAIN5" && elementosCss.id == "MAIN30"){   
+            
+   
+   filtro3 = "5para6Preto"
+   console.log(filtro);
+
+
+         }
+
+
 console.log("fundionou"); 
    }
 }
@@ -4230,7 +4490,14 @@ else if(verificador3 == "MAIN6" && ligacaoPonto3 == "verdeTerra" && preimeiraLig
    console.log(elementosCss);
    parte3 = true;
    elementosCss.id = "MAIN31"
+if(pontoSelecionado6 == "MAIN5" || pontoSelecionado6 == "MAIN6" && elementosCss.id == "MAIN31"){   
+            
+   
+   filtro3 = "5para6Verde"
+   console.log(filtro);
 
+
+         }
 console.log("fundionou");
      
 }
@@ -4245,6 +4512,17 @@ console.log("fundionou");
    console.log(elementosCss);
    parte3 = true;
    elementosCss.id = "MAIN32"
+
+
+   if(pontoSelecionado6 == "MAIN5" || pontoSelecionado6 == "MAIN6" && elementosCss.id == "MAIN32"){   
+            
+   
+   filtro3 = "5para6Branco"
+   console.log(filtro);
+
+
+         }
+
 
 console.log("fundionou");
 
@@ -4262,7 +4540,15 @@ console.log("fundionou");
    elementosCss.id = "MAIN33"
 
 console.log("fundionou");
-      
+      if(pontoSelecionado6 == "MAIN5" || pontoSelecionado6 == "MAIN6" && elementosCss.id == "MAIN33"){   
+            
+   
+   filtro3 = "5para6AzulNeltro"
+   console.log(filtro);
+
+
+         }
+
 }
 
  }
@@ -4278,7 +4564,14 @@ console.log("fundionou");
    parte3 = true;
    elementosCss.id = "MAIN34"
 
+   if(pontoSelecionado6 == "MAIN5" || pontoSelecionado6 == "MAIN6" && elementosCss.id == "MAIN34"){   
+            
    
+   filtro3 = "5para6Marrom"
+   console.log(filtro);
+
+
+         }
 
 console.log("fundionou");
       
@@ -5379,53 +5672,58 @@ function lampadaConect(id,id2){
    console.log(id2)
 
    //1para3alto primeiro fio conectado L1
-   if(segundaLigacao == "pretoFase"&& id == "L1" && id2 == "MAIN10"){
+   if(segundaLigacao == "pretoFase"&& id == "L1" && id2 == "MAIN10"&& filtro=="1para3Preto"){
       
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
       conexacaoL11Alto = "L1PA";
       lp.id = "L11"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
    }
     } else 
 
-    if(segundaLigacao == "verdeTerra"&& id == "L1"&& id2 == "MAIN11"){
+    if(segundaLigacao == "verdeTerra"&& id == "L1"&& id2 == "MAIN11"&& filtro=="1para3Verde"){
      
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11Alto = "L1VA"; 
       lp.id = "L12"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
     }
     } else
 
-    if(segundaLigacao == "brancoRetorno"&& id == "L1"&& id2 == "MAIN12"){
+    if(segundaLigacao == "brancoRetorno"&& id == "L1"&& id2 == "MAIN12"&& filtro=="1para3Branco"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11Alto = "L1BA";  
       lp.id = "L13"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
       }
       
     } else
-    if(segundaLigacao == "azulNeltro"&& id == "L1"&& id2 == "MAIN13"){
+    if(segundaLigacao == "azulNeltro"&& id == "L1"&& id2 == "MAIN13"&& filtro=="1para3AzulNeltro"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {  
          conexacaoL11Alto = "L1AA";
       lp.id = "L14"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
       }
       
     }else
 
-    if(segundaLigacao == "marromRetorno"&& id == "L1"&& id2 == "MAIN14"){
+    if(segundaLigacao == "marromRetorno"&& id == "L1"&& id2 == "MAIN14"&& filtro=="1para3Marrom"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11Alto = "L1MA"; 
       lp.id = "L15"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
       }
       
@@ -5435,54 +5733,59 @@ function lampadaConect(id,id2){
 
 
 //2para4baixo primeiro fio conectado L1
-  if(segundaLigacao == "pretoFase"&& id == "L1" && id2 == "MAIN15"){
+  if(segundaLigacao == "pretoFase"&& id == "L1" && id2 == "MAIN15"&& filtro=="2para4Preto"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1PB"; 
       lp.id = "L16"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
       }
     } else 
 
-    if(segundaLigacao == "verdeTerra"&& id == "L1"&& id2 == "MAIN16"){
+    if(segundaLigacao == "verdeTerra"&& id == "L1"&& id2 == "MAIN16"&& filtro=="2para4Verde"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1VB";  
       lp.id = "L17"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
       }
       
     } else
 
-    if(segundaLigacao == "brancoRetorno"&& id == "L1"&& id2 == "MAIN17"){
+    if(segundaLigacao == "brancoRetorno"&& id == "L1"&& id2 == "MAIN17"&& filtro=="2para4Branco"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11Baixo = "L1BB";
       lp.id = "L18"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
       }
       
     } else
-    if(segundaLigacao == "azulNeltro"&& id == "L1"&& id2 == "MAIN18"){
+    if(segundaLigacao == "azulNeltro"&& id == "L1"&& id2 == "MAIN18"&& filtro=="2para4AzulNeltro"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1AB"; 
       lp.id = "L19"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
       }
       
     }else
 
-    if(segundaLigacao == "marromRetorno"&& id == "L1"&& id2 == "MAIN19"){
+    if(segundaLigacao == "marromRetorno"&& id == "L1"&& id2 == "MAIN19"&& filtro=="2para4Marrom"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11Baixo = "L1MB"; 
       lp.id = "L20"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
       }
       
@@ -5491,53 +5794,58 @@ function lampadaConect(id,id2){
 
 
     //5para6 primeiro fio conectado L1
-  if(segundaLigacao == "pretoFase"&& id == "L1" && id2 == "MAIN30"){
+  if(segundaLigacao == "pretoFase"&& id == "L1" && id2 == "MAIN30"&& filtro=="5para6Preto"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1PBB"; 
       lp.id = "L31"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
     } else 
 
-    if(segundaLigacao == "verdeTerra"&& id == "L1"&& id2 == "MAIN31"){
+    if(segundaLigacao == "verdeTerra"&& id == "L1"&& id2 == "MAIN31"&& filtro=="5para6Verde"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1VBB";  
       lp.id = "L32"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else
 
-    if(segundaLigacao == "brancoRetorno"&& id == "L1"&& id2 == "MAIN32"){
+    if(segundaLigacao == "brancoRetorno"&& id == "L1"&& id2 == "MAIN32"&& filtro=="5para6Branco"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1BBB";
       lp.id = "L33"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else
-    if(segundaLigacao == "azulNeltro"&& id == "L1"&& id2 == "MAIN33"){
+    if(segundaLigacao == "azulNeltro"&& id == "L1"&& id2 == "MAIN33"&& filtro=="5para6AzulNeltro"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1ABB"; 
       lp.id = "L34"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     }else
 
-    if(segundaLigacao == "marromRetorno"&& id == "L1"&& id2 == "MAIN34"){
+    if(segundaLigacao == "marromRetorno"&& id == "L1"&& id2 == "MAIN34"&& filtro=="5para6Marrom"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1MBB"; 
+         console.log("funcionou")
       lp.id = "L35"
       abrirPopup(conexacaoL11BaixoBaixo)
       }
@@ -5549,51 +5857,56 @@ function lampadaConect(id,id2){
 
     else
 //equivale a segunda conexao   1para3 alta L2
-    if(segundaLigacao == "pretoFase"&& id == "L2" && id2 == "MAIN10"){
+    if(segundaLigacao == "pretoFase"&& id == "L2" && id2 == "MAIN10"&& filtro=="1para3Preto"){
       
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       conexacaoL12Alto = "L2PA";
       lp.id = "L21"
+      console.log("funcionou")
       abrirPopup(conexacaoL12Alto)
     }
     } else 
 
-    if(segundaLigacao == "verdeTerra"&& id == "L2"&& id2 == "MAIN11"){
+    if(segundaLigacao == "verdeTerra"&& id == "L2"&& id2 == "MAIN11"&& filtro=="1para3Verde"){
      
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
          conexacaoL12Alto = "L2VA";
       lp.id = "L22"
+      console.log("funcionou")
       abrirPopup(conexacaoL12Alto)
       }
     } else
 
-    if(segundaLigacao == "brancoRetorno"&& id == "L2"&& id2 == "MAIN12"){
+    if(segundaLigacao == "brancoRetorno"&& id == "L2"&& id2 == "MAIN12"&& filtro=="1para3Branco"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
          conexacaoL12Alto = "L2BA";
       lp.id = "L23"
+      console.log("funcionou")
       abrirPopup(conexacaoL12Alto)
       }
     } else
-    if(segundaLigacao == "azulNeltro"&& id == "L2"&& id2 == "MAIN13"){
+    if(segundaLigacao == "azulNeltro"&& id == "L2"&& id2 == "MAIN13"&& filtro=="1para3AzulNeltro"){
 
       let lp = document.getElementById("L2");
     if(lp != null && lp != undefined) { 
       conexacaoL12Alto = "L2AA"; 
       lp.id = "L24"
+      console.log("funcionou")
       abrirPopup(conexacaoL12Alto)
     }
     }else
 
-    if(segundaLigacao == "marromRetorno"&& id == "L2"&& id2 == "MAIN14"){
+    if(segundaLigacao == "marromRetorno"&& id == "L2"&& id2 == "MAIN14"&& filtro=="1para3Marrom"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
           conexacaoL12Alto = "L2MA";
       lp.id = "L25"
+      console.log("funcionou")
       abrirPopup(conexacaoL12Alto)
       }
       
@@ -5603,55 +5916,60 @@ function lampadaConect(id,id2){
 
 
 //equivale a segunda conexao   2para4 baixa L2
-  if(segundaLigacao == "pretoFase"&& id == "L2" && id2 == "MAIN15"){
+  if(segundaLigacao == "pretoFase"&& id == "L2" && id2 == "MAIN15"&& filtro=="2para4Preto"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
          conexacaoL12Baixo = "L2PB";  
       lp.id = "L26"
+      console.log("funcionou")
       abrirPopup(conexacaoL12Baixo)
       }
       
     } else 
 
-    if(segundaLigacao == "verdeTerra"&& id == "L2"&& id2 == "MAIN16"){
+    if(segundaLigacao == "verdeTerra"&& id == "L2"&& id2 == "MAIN16"&& filtro=="2para4Verde"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
          conexacaoL12Baixo = "L2VB";  
       lp.id = "L27"
+      console.log("funcionou")
       abrirPopup(conexacaoL12Baixo)
       }
       
     } else
 
-    if(segundaLigacao == "brancoRetorno"&& id == "L2"&& id2 == "MAIN17"){
+    if(segundaLigacao == "brancoRetorno"&& id == "L2"&& id2 == "MAIN17"&& filtro=="2para4Branco"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
          conexacaoL12Baixo = "L2BB";
       lp.id = "L28"
+      console.log("funcionou")
       abrirPopup(conexacaoL12Baixo)
       }
       
     } else
-    if(segundaLigacao == "azulNeltro"&& id == "L2"&& id2 == "MAIN18"){
+    if(segundaLigacao == "azulNeltro"&& id == "L2"&& id2 == "MAIN18"&& filtro=="2para4AzulNeltro"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
          conexacaoL12Baixo = "L2AB";  
       lp.id = "L29"
+      console.log("funcionou")
       abrirPopup(conexacaoL12Baixo)
       }
       
     }else
 
-    if(segundaLigacao == "marromRetorno"&& id == "L2"&& id2 == "MAIN19"){
+    if(segundaLigacao == "marromRetorno"&& id == "L2"&& id2 == "MAIN19"&& filtro=="2para4Marrom"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) { 
          conexacaoL12Baixo = "L2MB"; 
       lp.id = "L30"
+      console.log("funcionou")
       abrirPopup(conexacaoL12Baixo)
       }
       
@@ -5659,54 +5977,59 @@ function lampadaConect(id,id2){
 
 
     //5para6 baixa baixa  L2
-  if(segundaLigacao == "pretoFase"&& id == "L2" && id2 == "MAIN30"){
+  if(segundaLigacao == "pretoFase"&& id == "L2" && id2 == "MAIN30"&& filtro=="5para6Preto"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
          conexacaoL12BaixoBaixo = "L2PBB"; 
       lp.id = "L36"
+      console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
       }
     } else 
 
-    if(segundaLigacao == "verdeTerra"&& id == "L2"&& id2 == "MAIN31"){
+    if(segundaLigacao == "verdeTerra"&& id == "L2"&& id2 == "MAIN31"&& filtro=="5para6Verde"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
          conexacaoL12BaixoBaixo = "L2VBB";  
       lp.id = "L37"
+      console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
       }
       
     } else
 
-    if(segundaLigacao == "brancoRetorno"&& id == "L2"&& id2 == "MAIN32"){
+    if(segundaLigacao == "brancoRetorno"&& id == "L2"&& id2 == "MAIN32"&& filtro=="5para6Branco"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) { 
          conexacaoL12BaixoBaixo = "L2BBB";
       lp.id = "L38"
+      console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
       }
       
     } else
-    if(segundaLigacao == "azulNeltro"&& id == "L2"&& id2 == "MAIN33"){
+    if(segundaLigacao == "azulNeltro"&& id == "L2"&& id2 == "MAIN33"&& filtro=="5para6AzulNeltro"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
          conexacaoL12BaixoBaixo = "L2ABB"; 
       lp.id = "L39"
+      console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
       }
       
     }else
 
-    if(segundaLigacao == "marromRetorno"&& id == "L2"&& id2 == "MAIN34"){
+    if(segundaLigacao == "marromRetorno"&& id == "L2"&& id2 == "MAIN34"&& filtro=="5para6Marrom"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) { 
          conexacaoL12BaixoBaixo = "L2MBB"; 
       lp.id = "L40"
+      console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
       }
       
@@ -5725,54 +6048,59 @@ function lampadaConect(id,id2){
    // SEGUNDO FIO CONECTADO 
 
     //1para3alto L1
-   if(segundaLigacao2 == "pretoFase"&& id == "L1" && id2 == "MAIN10"){
+   if(segundaLigacao2 == "pretoFase"&& id == "L1" && id2 == "MAIN10"&& filtro2=="1para3Preto"){
 
       let lp = document.getElementById("L1");
       if(lp!=null && lp!=undefined ){
          conexacaoL11Alto = "L1PA"
       lp.id = "L11"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
    }
     } else 
 
-    if(segundaLigacao2 == "verdeTerra"&& id == "L1"&& id2 == "MAIN11"){
+    if(segundaLigacao2 == "verdeTerra"&& id == "L1"&& id2 == "MAIN11"&& filtro2=="1para3Verde"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {  
           conexacaoL11Alto = "L1VA"
       lp.id = "L12"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
       }
       
     } else
 
-    if(segundaLigacao2 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN12"){
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN12"&& filtro2=="1para3Branco"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
           conexacaoL11Alto = "L1BA"  
       lp.id = "L13"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
       }
       
     } else
-    if(segundaLigacao2 == "azulNeltro"&& id == "L1"&& id2 == "MAIN13"){
+    if(segundaLigacao2 == "azulNeltro"&& id == "L1"&& id2 == "MAIN13"&& filtro2=="1para3AzulNeltro"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
           conexacaoL11Alto = "L1AA"  
       lp.id = "L14"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
       }
       
     }else
 
-    if(segundaLigacao2 == "marromRetorno"&& id == "L1"&& id2 == "MAIN14"){
+    if(segundaLigacao2 == "marromRetorno"&& id == "L1"&& id2 == "MAIN14"&& filtro2=="1para3Marrom"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
           conexacaoL11Alto = "L1MA"  
       lp.id = "L15"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
       }
     }else
@@ -5781,55 +6109,60 @@ function lampadaConect(id,id2){
 
 
 //2para4baixo L1 
-  if(segundaLigacao2 == "pretoFase"&& id == "L1" && id2 == "MAIN15"){
+  if(segundaLigacao2 == "pretoFase"&& id == "L1" && id2 == "MAIN15"&& filtro2=="2para4Preto"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1PB"  
       lp.id = "L16"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
       }
       
     } else 
 
-    if(segundaLigacao2 == "verdeTerra"&& id == "L1"&& id2 == "MAIN16"){
+    if(segundaLigacao2 == "verdeTerra"&& id == "L1"&& id2 == "MAIN16"&& filtro2=="2para4Verde"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1VB"    
       lp.id = "L17"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
       }
       
     } else
 
-    if(segundaLigacao2 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN17"){
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN17"&& filtro2=="2para4Branco"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1BB"    
       lp.id = "L18"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
       }
       
     } else
-    if(segundaLigacao2 == "azulNeltro"&& id == "L1"&& id2 == "MAIN18"){
+    if(segundaLigacao2 == "azulNeltro"&& id == "L1"&& id2 == "MAIN18"&& filtro2=="2para4AzulNeltro"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1AB"    
       lp.id = "L19"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
       }
       
     }else
 
-    if(segundaLigacao2 == "marromRetorno"&& id == "L1"&& id2 == "MAIN19"){
+    if(segundaLigacao2 == "marromRetorno"&& id == "L1"&& id2 == "MAIN19"&& filtro2=="2para4Marrom"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1MB"    
       lp.id = "L20"
+      console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
       }
       
@@ -5839,55 +6172,60 @@ function lampadaConect(id,id2){
 
 
     //5para6baixo L1 
-  if(segundaLigacao2 == "pretoFase"&& id == "L1" && id2 == "MAIN30"){
+  if(segundaLigacao2 == "pretoFase"&& id == "L1" && id2 == "MAIN30"&& filtro2=="5para6Preto"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {  
          conexacaoL11BaixoBaixo = "L1PBB"
       lp.id = "L31"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else 
 
-    if(segundaLigacao2 == "verdeTerra"&& id == "L1"&& id2 == "MAIN31"){
+    if(segundaLigacao2 == "verdeTerra"&& id == "L1"&& id2 == "MAIN31"&& filtro2=="5para6Verde"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1VBB" 
       lp.id = "L32"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else
 
-    if(segundaLigacao2 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN32"){
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN32"&& filtro2=="5para6Branco"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1BBB"  
       lp.id = "L33"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else
-    if(segundaLigacao2 == "azulNeltro"&& id == "L1"&& id2 == "MAIN33"){
+    if(segundaLigacao2 == "azulNeltro"&& id == "L1"&& id2 == "MAIN33"&& filtro2=="5para6AzulNeltro"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1ABB"  
       lp.id = "L34"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     }else
 
-    if(segundaLigacao2 == "marromRetorno"&& id == "L1"&& id2 == "MAIN34"){
+    if(segundaLigacao2 == "marromRetorno"&& id == "L1"&& id2 == "MAIN34"&& filtro2=="5para6Marrom"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1MBB"  
       lp.id = "L35"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
@@ -5902,42 +6240,47 @@ function lampadaConect(id,id2){
 
     else
 //equivale a segunda conexao   1para3 alta  L2
-    if(segundaLigacao2 == "pretoFase"&& id == "L2" && id2 == "MAIN10"){
+    if(segundaLigacao2 == "pretoFase"&& id == "L2" && id2 == "MAIN10"&& filtro2=="1para3Preto"){
 
       let lp = document.getElementById("L2");
       if(lp != null){ 
       lp.id = "L21"
+      console.log("funcionou")
       }
     } else 
 
-    if(segundaLigacao2 == "verdeTerra"&& id == "L2"&& id2 == "MAIN11"){
+    if(segundaLigacao2 == "verdeTerra"&& id == "L2"&& id2 == "MAIN11"&& filtro2=="1para3Verde"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L22"
+      console.log("funcionou")
       }
     } else
 
-    if(segundaLigacao2 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN12"){
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN12"&& filtro2=="1para3Branco"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L23"
+      console.log("funcionou")
       }
     } else
-    if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN13"){
+    if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN13"&& filtro2=="1para3AzulNeltro"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L24"
+      console.log("funcionou")
       }
     }else
 
-    if(segundaLigacao2 == "marromRetorno"&& id == "L2"&& id2 == "MAIN14"){
+    if(segundaLigacao2 == "marromRetorno"&& id == "L2"&& id2 == "MAIN14"&& filtro2=="1para3Marrom"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L25"
+      console.log("funcionou")
       }
       
     }else
@@ -5946,46 +6289,51 @@ function lampadaConect(id,id2){
 
 
 //equivale a segunda conexao   2para4 baixa  L2
-  if(segundaLigacao2 == "pretoFase"&& id == "L2" && id2 == "MAIN15"){
+  if(segundaLigacao2 == "pretoFase"&& id == "L2" && id2 == "MAIN15"&& filtro2=="2para4Preto"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L26"
+      console.log("funcionou")
       }
       
     } else 
 
-    if(segundaLigacao2 == "verdeTerra"&& id == "L2"&& id2 == "MAIN16"){
+    if(segundaLigacao2 == "verdeTerra"&& id == "L2"&& id2 == "MAIN16"&& filtro2=="2para4Verde"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L27"
+      console.log("funcionou")
       }
       
     } else
 
-    if(segundaLigacao2 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN17"){
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN17"&& filtro2=="2para4Branco"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L28"
+      console.log("funcionou")
       }
       
     } else
-    if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN18"){
+    if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN18"&& filtro2=="2para4AzulNeltro"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L29"
+      console.log("funcionou")
       }
       
     }else
 
-    if(segundaLigacao2 == "marromRetorno"&& id == "L2"&& id2 == "MAIN19"){
+    if(segundaLigacao2 == "marromRetorno"&& id == "L2"&& id2 == "MAIN19"&& filtro2=="2para4Marrom"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L30"
+      console.log("funcionou")
       }
       
     }else
@@ -5994,46 +6342,51 @@ function lampadaConect(id,id2){
 
 
     //equivale a segunda conexao   5para6 baixa  L2
-  if(segundaLigacao2 == "pretoFase"&& id == "L2" && id2 == "MAIN30"){
+  if(segundaLigacao2 == "pretoFase"&& id == "L2" && id2 == "MAIN30"&& filtro2=="5para6Preto"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L36"
+      console.log("funcionou")
       }
       
     } else 
 
-    if(segundaLigacao2 == "verdeTerra"&& id == "L2"&& id2 == "MAIN31"){
+    if(segundaLigacao2 == "verdeTerra"&& id == "L2"&& id2 == "MAIN31"&& filtro2=="5para6Verde"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L37"
+      console.log("funcionou")
       }
       
     } else
 
-    if(segundaLigacao2 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN32"){
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN32"&& filtro2=="5para6Branco"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L38"
+      console.log("funcionou")
       }
       
     } else
-    if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN33"){
+    if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN33"&& filtro2=="5para6AzulNeltro"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L39"
+      console.log("funcionou")
       }
       
     }else
 
-    if(segundaLigacao2 == "marromRetorno"&& id == "L2"&& id2 == "MAIN34"){
+    if(segundaLigacao2 == "marromRetorno"&& id == "L2"&& id2 == "MAIN34"&& filtro2=="5para6Marrom"){
 
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {  
       lp.id = "L40"
+      console.log("funcionou")
       }
       
     }else
@@ -6041,53 +6394,58 @@ function lampadaConect(id,id2){
 
 
     //TERCEIRA COEXAO L1  //1para3baixo L1 
-   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN10"){
+   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN10"&& filtro3=="1para3Preto"){
       
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
       conexacaoL11BaixoBaixo = "L1PBB";
       lp.id = "L11"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
    }
     } else 
 
-    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN11"){
+    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN11"&& filtro3=="1para3Verde"){
      
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1VBB"; 
       lp.id = "L12"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
     }
     }else
 
-    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN12"){
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN12"&& filtro3=="1para3Branco"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1BBB";  
       lp.id = "L13"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else
-    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN13"){
+    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN13"&& filtro3=="1para3AzulNeltro"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {  
          conexacaoL11BaixoBaixo = "L1ABB";
       lp.id = "L14"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     }else
 
-    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN14"){
+    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN14"&& filtro3=="1para3Marrom"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1MBB"; 
       lp.id = "L15"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
@@ -6097,53 +6455,58 @@ function lampadaConect(id,id2){
 
 
     //TERCEIRA COEXAO L1  //2para4baixo L1 
-   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN15"){
+   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN15"&& filtro3=="2para4Preto"){
       
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
       conexacaoL11BaixoBaixo = "L1PBB";
       lp.id = "L16"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
    }
     } else 
 
-    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN16"){
+    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN16"&& filtro3=="2para4Verde"){
      
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1VBB"; 
       lp.id = "L17"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
     }
     }else
 
-    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN17"){
-
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN17"&& filtro3=="2para4Branco"){
+console.log("funcionou")
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1BBB";  
       lp.id = "L18"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else
-    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN18"){
+    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN18"&& filtro3=="2para4AzulNeltro"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {  
          conexacaoL11BaixoBaixo = "L1ABB";
       lp.id = "L19"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     }else
 
-    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN19"){
+    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN19"&& filtro3=="2para4Marrom"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1MBB"; 
       lp.id = "L20"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
@@ -6153,53 +6516,58 @@ function lampadaConect(id,id2){
 
 
     //TERCEIRA COEXAO L1  //5para6baixo L1 
-   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN30"){
+   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN30"&& filtro3=="5para6Preto"){
       
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
       conexacaoL11BaixoBaixo = "L1PBB";
       lp.id = "L31"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
    }
     } else 
 
-    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN31"){
+    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN31"&& filtro3=="5para6Verde"){
      
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1VBB"; 
       lp.id = "L32"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
     }
     }else
 
-    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN32"){
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN32"&& filtro3=="5para6Branco"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1BBB";  
       lp.id = "L33"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else
-    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN33"){
+    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN33"&& filtro3=="5para6AzulNeltro"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {  
          conexacaoL11BaixoBaixo = "L1ABB";
       lp.id = "L34"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     }else
 
-    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN34"){
+    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN34"&& filtro3=="5para6Marrom"){
 
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1MBB"; 
       lp.id = "L35"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
@@ -6221,6 +6589,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) { 
       conexacaoL11BaixoBaixo = "L1PBB";
       lp.id = "L21"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
    }
     } else 
@@ -6231,6 +6600,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1VBB"; 
       lp.id = "L22"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
     }
     }else
@@ -6241,6 +6611,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1BBB";  
       lp.id = "L23"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
@@ -6251,6 +6622,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
          conexacaoL11BaixoBaixo = "L1ABB";
       lp.id = "L24"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
@@ -6262,6 +6634,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1MBB"; 
       lp.id = "L25"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
@@ -6276,6 +6649,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) { 
       conexacaoL11BaixoBaixo = "L1PBB";
       lp.id = "L26"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
    }
     } else 
@@ -6286,6 +6660,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1VBB"; 
       lp.id = "L27"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
     }
     }else
@@ -6296,6 +6671,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1BBB";  
       lp.id = "L28"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
@@ -6306,6 +6682,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
          conexacaoL11BaixoBaixo = "L1ABB";
       lp.id = "L29"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
@@ -6317,6 +6694,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1MBB"; 
       lp.id = "L30"
+      console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
@@ -6331,6 +6709,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       conexacaoL12BaixoBaixo = "L2PB";
       lp.id = "L36"
+      console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
     }
     } else 
@@ -6341,6 +6720,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
          conexacaoL12BaixoBaixo = "L2VB";
       lp.id = "L37"
+      console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
       }
     } else
@@ -6351,6 +6731,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
          conexacaoL12BaixoBaixo = "L2BB";
       lp.id = "L38"
+      console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
       }
     } else
@@ -6360,6 +6741,7 @@ function lampadaConect(id,id2){
     if(lp != null && lp != undefined) { 
       conexacaoL12BaixoBaixo = "L2AB"; 
       lp.id = "L39"
+      console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
     }
     }else
@@ -6370,6 +6752,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
           conexacaoL12BaixoBaixo = "L2MB";
       lp.id = "L40"
+      console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
       }
       
@@ -7280,166 +7663,166 @@ function interruptorConect(id,id2){
 
 
 
-    //TERCEIRA COEXAO L1  //1para3baixo L1 
-   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN10"){
+    //TERCEIRA COEXAO L5  //1para3baixo L5 
+   if(segundaLigacao3 == "pretoFase"&& id == "L5" && id2 == "MAIN10"&& filtro3=="1para3Preto"){
       
-      let it = document.getElementById("L1");
+      let it = document.getElementById("L5");
       if(it != null && it != undefined) { 
-      conexacaoL11BaixoBaixo = "L1PBB";
-      it.id = "L11"
+      conexacaoL11Alto = "L5PA";
+      it.id = "L59994"
+      abrirPopup(conexacaoL11Alto)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L5"&& id2 == "MAIN11"&& filtro3=="1para3Verde"){
+     
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L5VA"; 
+      it.id = "L59995"
+      abrirPopup(conexacaoL11Alto)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L5"&& id2 == "MAIN12"&& filtro3=="1para3Branco"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L5BA";  
+      it.id = "L59996"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L5"&& id2 == "MAIN13"&& filtro3=="1para3AzulNeltro"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {  
+         conexacaoL11Alto = "L5AA";
+      it.id = "L59997"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L5"&& id2 == "MAIN14"&& filtro3=="1para3Marrom"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L5MA"; 
+      it.id = "L59998"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    }else
+
+
+
+
+    //TERCEIRA COEXAO L5  //2para4baixo L5 
+   if(segundaLigacao3 == "pretoFase"&& id == "L5" && id2 == "MAIN15"&& filtro3=="2para4Preto"){
+      
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+      conexacaoL11Baixo = "L5PB";
+      it.id = "L59999"
+      abrirPopup(conexacaoL11Baixo)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L5"&& id2 == "MAIN16"&& filtro3=="2para4Verde"){
+     
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11Baixo = "L5VB"; 
+      it.id = "L599991"
+      abrirPopup(conexacaoL11Baixo)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L5"&& id2 == "MAIN17"&& filtro3=="2para4Branco"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11Baixo = "L5BB";  
+      it.id = "L599992"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L5"&& id2 == "MAIN18"&& filtro3=="2para4AzulNeltro"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) {  
+         conexacaoL11Baixo = "L5AB";
+      it.id = "L599993"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L5"&& id2 == "MAIN19"&& filtro3=="2para4Marrom"){
+
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+         conexacaoL11Baixo = "L5MB"; 
+      it.id = "L599994"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }
+
+
+
+
+    //TERCEIRA COEXAO L5  //5para6baixo L5 
+   if(segundaLigacao3 == "pretoFase"&& id == "L5" && id2 == "MAIN30"&& filtro3=="5para6Preto"){
+      
+      let it = document.getElementById("L5");
+      if(it != null && it != undefined) { 
+      conexacaoL11BaixoBaixo = "L5PBB";
+      it.id = "L599995"
       abrirPopup(conexacaoL11BaixoBaixo)
    }
     } else 
 
-    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN11"){
+    if(segundaLigacao3 == "verdeTerra"&& id == "L5"&& id2 == "MAIN31"&& filtro3=="5para6Verde"){
      
-      let it = document.getElementById("L1");
+      let it = document.getElementById("L5");
       if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1VBB"; 
-      it.id = "L12"
+         conexacaoL11BaixoBaixo = "L5VBB"; 
+      it.id = "L599996"
       abrirPopup(conexacaoL11BaixoBaixo)
     }
     }else
 
-    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN12"){
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L5"&& id2 == "MAIN32"&& filtro3=="5para6Branco"){
 
-      let it = document.getElementById("L1");
+      let it = document.getElementById("L5");
       if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1BBB";  
-      it.id = "L13"
+         conexacaoL11BaixoBaixo = "L5BBB";  
+      it.id = "L599997"
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     } else
-    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN13"){
+    if(segundaLigacao3 == "azulNeltro"&& id == "L5"&& id2 == "MAIN33"&& filtro3=="5para6AzulNeltro"){
 
-      let it = document.getElementById("L1");
+      let it = document.getElementById("L5");
       if(it != null && it != undefined) {  
-         conexacaoL11BaixoBaixo = "L1ABB";
-      it.id = "L14"
+         conexacaoL11BaixoBaixo = "L5ABB";
+      it.id = "L599998"
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
     }else
 
-    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN14"){
+    if(segundaLigacao3 == "marromRetorno"&& id == "L5"&& id2 == "MAIN34"&& filtro3=="5para6Marrom"){
 
-      let it = document.getElementById("L1");
+      let it = document.getElementById("L5");
       if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1MBB"; 
-      it.id = "L15"
-      abrirPopup(conexacaoL11BaixoBaixo)
-      }
-      
-    }else
-
-
-
-
-    //TERCEIRA COEXAO L1  //2para4baixo L1 
-   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN15"){
-      
-      let it = document.getElementById("L1");
-      if(it != null && it != undefined) { 
-      conexacaoL11BaixoBaixo = "L1PBB";
-      it.id = "L16"
-      abrirPopup(conexacaoL11BaixoBaixo)
-   }
-    } else 
-
-    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN16"){
-     
-      let it = document.getElementById("L1");
-      if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1VBB"; 
-      it.id = "L17"
-      abrirPopup(conexacaoL11BaixoBaixo)
-    }
-    }else
-
-    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN17"){
-
-      let it = document.getElementById("L1");
-      if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1BBB";  
-      it.id = "L18"
-      abrirPopup(conexacaoL11BaixoBaixo)
-      }
-      
-    } else
-    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN18"){
-
-      let it = document.getElementById("L1");
-      if(it != null && it != undefined) {  
-         conexacaoL11BaixoBaixo = "L1ABB";
-      it.id = "L19"
-      abrirPopup(conexacaoL11BaixoBaixo)
-      }
-      
-    }else
-
-    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN19"){
-
-      let it = document.getElementById("L1");
-      if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1MBB"; 
-      it.id = "L20"
-      abrirPopup(conexacaoL11BaixoBaixo)
-      }
-      
-    }
-
-
-
-
-    //TERCEIRA COEXAO L1  //5para6baixo L1 
-   if(segundaLigacao3 == "pretoFase"&& id == "L1" && id2 == "MAIN30"){
-      
-      let it = document.getElementById("L1");
-      if(it != null && it != undefined) { 
-      conexacaoL11BaixoBaixo = "L1PBB";
-      it.id = "L31"
-      abrirPopup(conexacaoL11BaixoBaixo)
-   }
-    } else 
-
-    if(segundaLigacao3 == "verdeTerra"&& id == "L1"&& id2 == "MAIN31"){
-     
-      let it = document.getElementById("L1");
-      if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1VBB"; 
-      it.id = "L32"
-      abrirPopup(conexacaoL11BaixoBaixo)
-    }
-    }else
-
-    if(segundaLigacao3 == "brancoRetorno"&& id == "L1"&& id2 == "MAIN32"){
-
-      let it = document.getElementById("L1");
-      if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1BBB";  
-      it.id = "L33"
-      abrirPopup(conexacaoL11BaixoBaixo)
-      }
-      
-    } else
-    if(segundaLigacao3 == "azulNeltro"&& id == "L1"&& id2 == "MAIN33"){
-
-      let it = document.getElementById("L1");
-      if(it != null && it != undefined) {  
-         conexacaoL11BaixoBaixo = "L1ABB";
-      it.id = "L34"
-      abrirPopup(conexacaoL11BaixoBaixo)
-      }
-      
-    }else
-
-    if(segundaLigacao3 == "marromRetorno"&& id == "L1"&& id2 == "MAIN34"){
-
-      let it = document.getElementById("L1");
-      if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1MBB"; 
-      it.id = "L35"
+         conexacaoL11BaixoBaixo = "L5MBB"; 
+      it.id = "L599999"
       abrirPopup(conexacaoL11BaixoBaixo)
       }
       
@@ -7454,162 +7837,162 @@ function interruptorConect(id,id2){
 
 
 
-     //TERCEIRA COEXAO L2  //1para3baixo L2 
-   if(segundaLigacao3 == "pretoFase"&& id == "L2" && id2 == "MAIN10"){
+     //TERCEIRA COEXAO L6  //1para3baixo L6
+   if(segundaLigacao3 == "pretoFase"&& id == "L6" && id2 == "MAIN10"&& filtro3=="1para3Preto"){
       
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) { 
-      conexacaoL11BaixoBaixo = "L1PBB";
-      it.id = "L21"
-      abrirPopup(conexacaoL11BaixoBaixo)
+      conexacaoL12Alto = "L6PA";
+      it.id = "L69994"
+      abrirPopup(conexacaoL12Alto)
    }
     } else 
 
-    if(segundaLigacao3 == "verdeTerra"&& id == "L2"&& id2 == "MAIN11"){
+    if(segundaLigacao3 == "verdeTerra"&& id == "L6"&& id2 == "MAIN11"&& filtro3=="1para3Verde"){
      
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1VBB"; 
-      it.id = "L22"
-      abrirPopup(conexacaoL11BaixoBaixo)
+         conexacaoL12Alto = "L6VA"; 
+      it.id = "L69995"
+      abrirPopup(conexacaoL12Alto)
     }
     }else
 
-    if(segundaLigacao3 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN12"){
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L6"&& id2 == "MAIN12"&& filtro3=="1para3Branco"){
 
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1BBB";  
-      it.id = "L23"
-      abrirPopup(conexacaoL11BaixoBaixo)
+         conexacaoL12Alto = "L6BA";  
+      it.id = "L69996"
+      abrirPopup(conexacaoL12Alto)
       }
       
     } else
-    if(segundaLigacao3 == "azulNeltro"&& id == "L2"&& id2 == "MAIN13"){
+    if(segundaLigacao3 == "azulNeltro"&& id == "L6"&& id2 == "MAIN13"&& filtro3=="1para3AzulNeltro"){
 
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) {  
-         conexacaoL11BaixoBaixo = "L1ABB";
-      it.id = "L24"
-      abrirPopup(conexacaoL11BaixoBaixo)
+         conexacaoL12Alto = "L6AA";
+      it.id = "L69997"
+      abrirPopup(conexacaoL12Alto)
       }
       
     }else
 
-    if(segundaLigacao3 == "marromRetorno"&& id == "L2"&& id2 == "MAIN14"){
+    if(segundaLigacao3 == "marromRetorno"&& id == "L6"&& id2 == "MAIN14"&& filtro3=="1para3Marrom"){
 
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1MBB"; 
-      it.id = "L25"
-      abrirPopup(conexacaoL11BaixoBaixo)
+         conexacaoL12Alto = "L6MA"; 
+      it.id = "L69998"
+      abrirPopup(conexacaoL12Alto)
       }
       
     }else
 
 
 
-    //TERCEIRA COEXAO L1  //2para4baixo L2 
-   if(segundaLigacao3 == "pretoFase"&& id == "L2" && id2 == "MAIN15"){
+    //TERCEIRA COEXAO L6  //2para4baixo L6 
+   if(segundaLigacao3 == "pretoFase"&& id == "L6" && id2 == "MAIN15"&& filtro3=="2para4Preto"){
       
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) { 
-      conexacaoL11BaixoBaixo = "L1PBB";
-      it.id = "L26"
-      abrirPopup(conexacaoL11BaixoBaixo)
+      conexacaoL12Baixo = "L6PB";
+      it.id = "L69999"
+      abrirPopup(conexacaoL12Baixo)
    }
     } else 
 
-    if(segundaLigacao3 == "verdeTerra"&& id == "L2"&& id2 == "MAIN16"){
+    if(segundaLigacao3 == "verdeTerra"&& id == "L6"&& id2 == "MAIN16"&& filtro3=="2para4Verde"){
      
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1VBB"; 
-      it.id = "L27"
-      abrirPopup(conexacaoL11BaixoBaixo)
+         conexacaoL12Baixo = "L1VB"; 
+      it.id = "L699991"
+      abrirPopup(conexacaoL12Baixo)
     }
     }else
 
-    if(segundaLigacao3 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN17"){
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L6"&& id2 == "MAIN17"&& filtro3=="2para4Branco"){
 
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1BBB";  
-      it.id = "L28"
-      abrirPopup(conexacaoL11BaixoBaixo)
+         conexacaoL12Baixo = "L6BB";  
+      it.id = "L699992"
+      abrirPopup(conexacaoL12Baixo)
       }
       
     } else
-    if(segundaLigacao3 == "azulNeltro"&& id == "L2"&& id2 == "MAIN18"){
+    if(segundaLigacao3 == "azulNeltro"&& id == "L6"&& id2 == "MAIN18"&& filtro3=="2para4AzulNeltro"){
 
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) {  
-         conexacaoL11BaixoBaixo = "L1ABB";
-      it.id = "L29"
-      abrirPopup(conexacaoL11BaixoBaixo)
+         conexacaoL12Baixo = "L6AB";
+      it.id = "L699993"
+      abrirPopup(conexacaoL12Baixo)
       }
       
     }else
 
-    if(segundaLigacao3 == "marromRetorno"&& id == "L2"&& id2 == "MAIN19"){
+    if(segundaLigacao3 == "marromRetorno"&& id == "L6"&& id2 == "MAIN19"&& filtro3=="2para4Marrom"){
 
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) { 
-         conexacaoL11BaixoBaixo = "L1MBB"; 
-      it.id = "L30"
-      abrirPopup(conexacaoL11BaixoBaixo)
+         conexacaoL12Baixo = "L6MB"; 
+      it.id = "L699994"
+      abrirPopup(conexacaoL12Baixo)
       }
       
     }else
 
 
 
-//TERCEIRO FIO L2 //5para6baixo L2 
-    if(segundaLigacao3 == "pretoFase"&& id == "L2" && id2 == "MAIN30"){
+//TERCEIRO FIO L6 //5para6baixo L6 
+    if(segundaLigacao3 == "pretoFase"&& id == "L6" && id2 == "MAIN30"&& filtro3=="5para6Preto"){
       
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) {  
-      conexacaoL12BaixoBaixo = "L2PB";
-      it.id = "L36"
+      conexacaoL12BaixoBaixo = "L6PBB";
+      it.id = "L699995"
       abrirPopup(conexacaoL12BaixoBaixo)
     }
     } else 
 
-    if(segundaLigacao3 == "verdeTerra"&& id == "L2"&& id2 == "MAIN31"){
+    if(segundaLigacao3 == "verdeTerra"&& id == "L6"&& id2 == "MAIN31"&& filtro3=="5para6Verde"){
      
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) {  
-         conexacaoL12BaixoBaixo = "L2VB";
-      it.id = "L37"
+         conexacaoL12BaixoBaixo = "L2VBB";
+      it.id = "L699996"
       abrirPopup(conexacaoL12BaixoBaixo)
       }
     } else
 
-    if(segundaLigacao3 == "brancoRetorno"&& id == "L2"&& id2 == "MAIN32"){
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L6"&& id2 == "MAIN32"&& filtro3=="5para6Branco"){
 
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) {  
-         conexacaoL12BaixoBaixo = "L2BB";
-      it.id = "L38"
+         conexacaoL12BaixoBaixo = "L2BBB";
+      it.id = "L699997"
       abrirPopup(conexacaoL12BaixoBaixo)
       }
     } else
-    if(segundaLigacao3 == "azulNeltro"&& id == "L2"&& id2 == "MAIN33"){
+    if(segundaLigacao3 == "azulNeltro"&& id == "L6"&& id2 == "MAIN33"&& filtro3=="5para6AzulNeltro"){
 
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
     if(it != null && it != undefined) { 
-      conexacaoL12BaixoBaixo = "L2AB"; 
-      it.id = "L39"
+      conexacaoL12BaixoBaixo = "L2ABB"; 
+      it.id = "L699998"
       abrirPopup(conexacaoL12BaixoBaixo)
     }
     }else
 
-    if(segundaLigacao3 == "marromRetorno"&& id == "L2"&& id2 == "MAIN34"){
+    if(segundaLigacao3 == "marromRetorno"&& id == "L6"&& id2 == "MAIN34"&& filtro3=="5para6Marrom"){
 
-      let it = document.getElementById("L2");
+      let it = document.getElementById("L6");
       if(it != null && it != undefined) {  
-          conexacaoL12BaixoBaixo = "L2MB";
-      it.id = "L40"
+          conexacaoL12BaixoBaixo = "L2MBB";
+      it.id = "L699999"
       abrirPopup(conexacaoL12BaixoBaixo)
       }
       
