@@ -4800,157 +4800,246 @@ function resetButtom(){
 
 //1 pata 3
 let lp = this.document.getElementById("L11");
+console.log("funionou",lp)
 let lp2 = this.document.getElementById("L12");
+console.log("funionou",lp2)
 let lp3 = this.document.getElementById("L13");
+console.log("funionou",lp3)
 let lp4 = this.document.getElementById("L14");
+console.log("funionou",lp4)
 let lp5 = this.document.getElementById("L15");
+console.log("funionou",lp5)
 
 // 2 para 4
 let lp6 = this.document.getElementById("L16");
+console.log("funionou",lp6)
 let lp7 = this.document.getElementById("L17");
+console.log("funionou",lp7)
 let lp8 = this.document.getElementById("L18");
+console.log("funionou",lp8)
 let lp9 = this.document.getElementById("L19");
+console.log("funionou",lp9)
 let lp10 = this.document.getElementById("L20");
+console.log("funionou",lp10)
 
 
 
 // L2 1 para 3
 let lp11 = this.document.getElementById("L21");
+console.log("funionou",lp11)
 let lp12 = this.document.getElementById("L22");
+console.log("funionou",lp12)
 let lp13 = this.document.getElementById("L23");
+console.log("funionou",lp13)
 let lp14 = this.document.getElementById("L24");
+console.log("funionou",lp14)
 let lp15 = this.document.getElementById("L25");
+console.log("funionou",lp15)
 
 //L2 2para4 baixa
 let lp16 = this.document.getElementById("L26");
+console.log("funionou",lp16)
 let lp17 = this.document.getElementById("L27");
+console.log("funionou",lp17)
 let lp18 = this.document.getElementById("L28");
+console.log("funionou",lp18)
 let lp19 = this.document.getElementById("L29");
+console.log("funionou",lp19)
 let lp20 = this.document.getElementById("L30");
+console.log("funionou",lp20)
 
 //terceiro fio L1
 let lp21 = this.document.getElementById("L31");
+console.log("funionou",lp21)
 let lp22 = this.document.getElementById("L32");
+console.log("funionou",lp22)
 let lp23 = this.document.getElementById("L33");
+console.log("funionou",lp23)
 let lp24 = this.document.getElementById("L34");
+console.log("funionou",lp24)
 let lp25 = this.document.getElementById("L35");
+console.log("funionou",lp25)
 
 //terceiro fio L2
 let lp26 = this.document.getElementById("L36");
+console.log("funionou",lp26)
 let lp27 = this.document.getElementById("L37");
+console.log("funionou",lp27)
 let lp28 = this.document.getElementById("L38");
+console.log("funionou",lp28)
 let lp29 = this.document.getElementById("L39");
+console.log("funionou",lp29)
 let lp30 = this.document.getElementById("L40");
+console.log("funionou",lp30)
+// resetando lamp
+
+
 
 
 // 1para3 alta
-if(lp != null && lp != undefined) {   
+if(lp != null || lp != undefined) {   
+   console.log("confirmado",lp)
       lp.id = "L1" 
-}else 
-if(lp2 != null && lp2 != undefined) {   
+}
+
+if(lp2 != null || lp2 != undefined) {   
+   console.log("confirmado",lp2)
    lp2.id = "L1" 
-}else 
-if(lp3 != null && lp3 != undefined) {   
+}
+
+if(lp3 != null || lp3 != undefined) {   
+   console.log("confirmado",lp3)
    lp3.id = "L1" 
-}else 
-if(lp4 != null && lp4 != undefined) {   
+}
+
+if(lp4 != null || lp4 != undefined) {   
+   console.log("confirmado",lp4)
    lp4.id = "L1" 
-}else 
-if(lp5 != null && lp5 != undefined) {   
+}
+
+if(lp5 != null || lp5 != undefined) {   
+   console.log("confirmado",lp5)
    lp5.id = "L1" 
 }
-else
+
 
 
 
 //2para4 baixa
-if(lp6 != null && lp6 != undefined) {   
+if(lp6 != null || lp6 != undefined) {   
+   console.log("confirmado",lp6)
    lp6.id = "L1" 
-}else 
-if(lp7 != null && lp7 != undefined) {   
+}
+
+if(lp7 != null || lp7 != undefined) {   
+   console.log("confirmado",lp7)
 lp7.id = "L1" 
-}else 
-if(lp8 != null && lp8 != undefined) {   
+}
+
+if(lp8 != null || lp8 != undefined) {   
+   console.log("confirmado",lp8)
 lp8.id = "L1" 
-}else 
-if(lp9 != null && lp9 != undefined) {   
+}
+
+if(lp9 != null || lp9 != undefined) {   
+   console.log("confirmado",lp9)
 lp9.id = "L1" 
-}else 
-if(lp10 != null && lp10 != undefined) {   
+}
+
+if(lp10 != null || lp10 != undefined) {   
+   console.log("confirmado",lp10)
 lp10.id = "L1" 
-}else
+}
+
 
 // 5para6 
-if(lp21 != null && lp21 != undefined) {   
+if(lp21 != null || lp21 != undefined) {   
+   console.log("confirmado",lp21)
       lp21.id = "L1" 
-}else 
-if(lp22 != null && lp22 != undefined) {   
+}
+
+if(lp22 != null || lp22 != undefined) {   
+   console.log("confirmado",lp22)
    lp22.id = "L1" 
-}else 
-if(lp23 != null && lp23 != undefined) {   
+}
+
+if(lp23 != null || lp23 != undefined) {   
+   console.log("confirmado",lp23)
    lp23.id = "L1" 
-}else 
-if(lp24 != null && lp24 != undefined) {   
+}
+
+if(lp24 != null || lp24 != undefined) {   
+   console.log("confirmado",lp24)
    lp24.id = "L1" 
-}else 
-if(lp25 != null && lp25 != undefined) {   
+}
+
+if(lp25 != null || lp25 != undefined) {   
+   console.log("confirmado",lp25)
    lp25.id = "L1" 
 }
 
 
 
 // L2 1para3  alta
-if(lp11 != null && lp11 != undefined) {   
+if(lp11 != null || lp11 != undefined) {   
+   console.log("confirmado",lp11)
       lp11.id = "L2" 
-}else 
-if(lp12 != null && lp12 != undefined) {   
+}
+
+if(lp12 != null || lp12 != undefined) {   
+   console.log("confirmado",lp12)
    lp12.id = "L2" 
-}else 
-if(lp13 != null && lp13 != undefined) {   
+}
+
+if(lp13 != null || lp13 != undefined) {   
+   console.log("confirmado",lp13)
    lp13.id = "L2" 
-}else 
-if(lp14 != null && lp14 != undefined) {   
+}
+
+if(lp14 != null || lp14 != undefined) {   
+   console.log("confirmado",lp14)
    lp14.id = "L2" 
-}else 
-if(lp15 != null && lp15 != undefined) {   
+}
+
+if(lp15 != null || lp15 != undefined) {   
+   console.log("confirmado",lp15)
    lp15.id = "L2" 
 }
-else
+
 
 
 
 //L2 2para4 baixa
-if(lp16 != null && lp16 != undefined) {   
+if(lp16 != null || lp16 != undefined) {   
+   console.log("confirmado",lp16)
    lp16.id = "L2" 
-}else 
-if(lp17 != null && lp17 != undefined) {   
+}
+
+if(lp17 != null || lp17 != undefined) {   
+   console.log("confirmado",lp17)
 lp17.id = "L2" 
-}else 
-if(lp18 != null && lp18 != undefined) {   
+}
+
+if(lp18 != null || lp18 != undefined) {   
+   console.log("confirmado",lp18)
 lp18.id = "L2" 
-}else 
-if(lp19 != null && lp19 != undefined) {   
+}
+
+if(lp19 != null || lp19 != undefined) {   
+   console.log("confirmado",lp19)
 lp19.id = "L2" 
-}else 
-if(lp20 != null && lp20 != undefined) {   
+}
+
+if(lp20 != null || lp20 != undefined) {   
+   console.log("confirmado",lp20)
 lp20.id = "L2" 
-}else
+}
+
 
 
 // 5para6  L2
-if(lp26 != null && lp26 != undefined) {   
+if(lp26 != null || lp26 != undefined) {   
+   console.log("confirmado",lp26)
       lp26.id = "L2" 
-}else 
-if(lp27 != null && lp27 != undefined) {   
+}
+
+if(lp27 != null || lp27 != undefined) {   
+   console.log("confirmado",lp27)
    lp27.id = "L2" 
-}else 
-if(lp28 != null && lp28 != undefined) {   
+}
+
+if(lp28 != null || lp28 != undefined) {   
+   console.log("confirmado",lp28)
    lp28.id = "L2" 
-}else 
-if(lp29 != null && lp29 != undefined) {   
+}
+
+if(lp29 != null || lp29 != undefined) {   
+   console.log("confirmado",lp29)
    lp29.id = "L2" 
-}else 
-if(lp30 != null && lp30 != undefined) {   
+}
+
+if(lp30 != null || lp30 != undefined) {   
+   console.log("confirmado",lp30)
    lp30.id = "L2" 
 }
 
@@ -4983,136 +5072,756 @@ let it15 = this.document.getElementById("L596");
 
 
 
+
+//FIO 2
+ // 1 para 3 L5
+let it16 = this.document.getElementById("L597");
+let it17 = this.document.getElementById("L598");
+let it18 = this.document.getElementById("L599");
+let it19 = this.document.getElementById("L5991");
+let it20 = this.document.getElementById("L5992");
+
+ // 2 para 4 L5
+let it21 = this.document.getElementById("L5993");
+let it22 = this.document.getElementById("L5994");
+let it23 = this.document.getElementById("L5995");
+let it24 = this.document.getElementById("L5996");
+let it25 = this.document.getElementById("L5997");
+
+ // 5 para 6 L5
+let it26 = this.document.getElementById("L5998");
+let it27 = this.document.getElementById("L5999");
+let it28 = this.document.getElementById("L59991");
+let it29 = this.document.getElementById("L59992");
+let it30 = this.document.getElementById("L59993");
+
+
+
+
+//FIO 3
+ // 1 para 3 L5
+let it31 = this.document.getElementById("L59994");
+let it32 = this.document.getElementById("L59995");
+let it33 = this.document.getElementById("L59996");
+let it34 = this.document.getElementById("L59997");
+let it35 = this.document.getElementById("L59998");
+
+ // 2 para 4 L5
+let it36 = this.document.getElementById("L59999");
+let it37 = this.document.getElementById("L599991");
+let it38 = this.document.getElementById("L599992");
+let it39 = this.document.getElementById("L599993");
+let it40 = this.document.getElementById("L599994");
+
+ // 5 para 6 L5
+let it41 = this.document.getElementById("L599995");
+let it42 = this.document.getElementById("L599996");
+let it43 = this.document.getElementById("L599997");
+let it44 = this.document.getElementById("L599998");
+let it45 = this.document.getElementById("L599999");
+
+
+
+
+// FIO 1
 // 1para3 alta
-if(it != null && it != undefined) {   
+if(it != null || it != undefined) {   
+   console.log("confirmado",it)
       it.id = "L5" 
-}else 
-if(it2 != null && it2 != undefined) {   
+}
+
+if(it2 != null || it2 != undefined) {   
+   console.log("confirmado",it2)
    it2.id = "L5" 
-}else 
-if(it3 != null && it3 != undefined) {   
+}
+
+if(it3 != null || it3 != undefined) {   
+   console.log("confirmado",it3)
    it3.id = "L5" 
-}else 
-if(it4 != null && it4 != undefined) {   
+}
+
+if(it4 != null || it4 != undefined) {   
+   console.log("confirmado",it4)
    it4.id = "L5" 
-}else 
-if(it5 != null && it5 != undefined) {   
+}
+
+if(it5 != null || it5 != undefined) {   
+   console.log("confirmado",it5)
    it5.id = "L5" 
 }
-else
+
 
 
 
 //2para4 baixa
-if(it6 != null && it6 != undefined) {   
+if(it6 != null || it6 != undefined) {   
+   console.log("confirmado",it6)
    it6.id = "L5" 
-}else 
-if(it7 != null && it7 != undefined) {   
+}
+
+if(it7 != null || it7 != undefined) {   
+   console.log("confirmado",it7)
 it7.id = "L5" 
-}else 
-if(it8 != null && it8 != undefined) {   
+}
+
+if(it8 != null || it8 != undefined) {   
+   console.log("confirmado",it8)
 it8.id = "L5" 
-}else 
-if(it9 != null && it9 != undefined) {   
+}
+
+if(it9 != null || it9 != undefined) {   
+   console.log("confirmado",it9)
 it9.id = "L5" 
-}else 
-if(it10 != null && it10 != undefined) {   
+}
+
+if(it10 != null || it10 != undefined) {   
+   console.log("confirmado",it10)
 it10.id = "L5" 
-}else
+}
+
 
 // 5para6 
-if(it11 != null && it11 != undefined) {   
+if(it11 != null || it11 != undefined) {   
+   console.log("confirmado",it11)
       it11.id = "L5" 
-}else 
-if(it12 != null && it12 != undefined) {   
+}
+
+if(it12 != null || it12 != undefined) {   
+   console.log("confirmado",it12)
    it12.id = "L5" 
-}else 
-if(it13 != null && it13 != undefined) {   
+}
+
+if(it13 != null || it13 != undefined) {   
+   console.log("confirmado",it13)
    it13.id = "L5" 
-}else 
-if(it14 != null && it14 != undefined) {   
+}
+
+if(it14 != null || it14 != undefined) {   
+   console.log("confirmado",it14)
    it14.id = "L5" 
-}else 
-if(it15 != null && it15 != undefined) {   
+}
+
+if(it15 != null || it15 != undefined) {   
+   console.log("confirmado",it15)
    it15.id = "L5" 
 }
 
 
-// 1 para 3  L6
-let it31 = this.document.getElementById("L61");
-let it32 = this.document.getElementById("L62");
-let it33 = this.document.getElementById("L63");
-let it34 = this.document.getElementById("L64");
-let it35 = this.document.getElementById("L65");
+// FIO 2 
+// 1para3 alta
+if(it16 != null || it16 != undefined) {   
+   console.log("confirmado",it16)
+      it16.id = "L5" 
+}
 
- // 2 para 4 L6
-let it36 = this.document.getElementById("L66");
-let it37 = this.document.getElementById("L67");
-let it38 = this.document.getElementById("L68");
-let it39 = this.document.getElementById("L69");
-let it40 = this.document.getElementById("L691");
+if(it17 != null || it17 != undefined) {   
+   console.log("confirmado",it17)
+   it17.id = "L5" 
+}
 
- // 5 para 6 L6
-let it41 = this.document.getElementById("L692");
-let it42 = this.document.getElementById("L693");
-let it43 = this.document.getElementById("L694");
-let it44 = this.document.getElementById("L695");
-let it45 = this.document.getElementById("L696");
+if(it18 != null || it18 != undefined) {   
+   console.log("confirmado",it18)
+   it18.id = "L5" 
+}
+
+if(it19 != null || it19 != undefined) {   
+   console.log("confirmado",it19)
+   it19.id = "L5" 
+}
+
+if(it20 != null || it20 != undefined) {   
+   console.log("confirmado",it20)
+   it20.id = "L5" 
+}
+
+
+// FIO 2
+//2para4 baixa
+if(it21 != null || it21 != undefined) {   
+   console.log("confirmado",it21)
+   it21.id = "L5" 
+}
+
+if(it22 != null || it22 != undefined) {   
+   console.log("confirmado",it22)
+it22.id = "L5" 
+}
+
+if(it23 != null || it23 != undefined) {   
+   console.log("confirmado",it23)
+it23.id = "L5" 
+}
+
+if(it24 != null || it24 != undefined) {   
+   console.log("confirmado",it24)
+it24.id = "L5" 
+}
+
+if(it25 != null || it25 != undefined) {   
+   console.log("confirmado",it25)
+it25.id = "L5" 
+}
+
+
+//FIO 2
+// 5para6 
+if(it26 != null || it26 != undefined) {   
+   console.log("confirmado",it26)
+      it26.id = "L5" 
+}
+
+if(it27 != null || it27 != undefined) {   
+   console.log("confirmado",it27)
+   it27.id = "L5" 
+}
+
+if(it28 != null || it28 != undefined) {   
+   console.log("confirmado",it28)
+   it28.id = "L5" 
+}
+
+if(it29 != null || it29 != undefined) {   
+   console.log("confirmado",it29)
+   it29.id = "L5" 
+}
+
+if(it30 != null || it30 != undefined) {   
+   console.log("confirmado",it30)
+   it30.id = "L5" 
+}
+
+
+
+// FIO 3
+// 1para3 alta
+if(it31 != null || it31 != undefined) {   
+   console.log("confirmado",it31)
+      it31.id = "L5" 
+}
+
+if(it32 != null || it32 != undefined) {   
+   console.log("confirmado",it32)
+   it32.id = "L5" 
+}
+
+if(it33 != null || it33 != undefined) {   
+   console.log("confirmado",it33)
+   it33.id = "L5" 
+}
+
+if(it34 != null || it34 != undefined) {   
+   console.log("confirmado",it34)
+   it34.id = "L5" 
+}
+
+if(it35 != null || it35 != undefined) {   
+   console.log("confirmado",it35)
+      it35.id = "L5" 
+}
+
+
+//2para4 baixa
+if(it36 != null || it36 != undefined) {   
+   console.log("confirmado",it36)
+   it36.id = "L5" 
+}
+
+if(it37 != null || it37 != undefined) {   
+   console.log("confirmado",it37)
+it37.id = "L5" 
+}
+
+if(it38 != null || it38 != undefined) {   
+   console.log("confirmado",it38)
+it38.id = "L5" 
+}
+
+if(it39 != null || it39 != undefined) {   
+   console.log("confirmado",it39)
+it39.id = "L5" 
+}
+
+if(it40 != null || it40 != undefined) {   
+   console.log("confirmado",it40)
+it40.id = "L5" 
+}
 
 
 // 1para3 alta
-if(it31 != null && it31 != undefined) {   
-      it31.id = "L6" 
-}else 
-if(it32 != null && it32 != undefined) {   
-   it32.id = "L6" 
-}else 
-if(it33 != null && it33 != undefined) {   
-   it33.id = "L6" 
-}else 
-if(it34 != null && it34 != undefined) {   
-   it34.id = "L6" 
-}else 
-if(it35 != null && it35 != undefined) {   
-   it35.id = "L6" 
+if(it41 != null || it41 != undefined) {   
+   console.log("confirmado",it41)
+      it41.id = "L5" 
 }
-else
+
+if(it42 != null || it42 != undefined) {   
+   console.log("confirmado",it42)
+   it42.id = "L5" 
+}
+
+if(it43 != null || it43 != undefined) {   
+   console.log("confirmado",it43)
+   it43.id = "L5" 
+}
+
+if(it44 != null || it44 != undefined) {   
+   console.log("confirmado",it44)
+   it44.id = "L5" 
+}
+
+if(it45 != null || it45 != undefined) {   
+   console.log("confirmado",it45)
+      it45.id = "L5" 
+}
+
+
+// 1 para 3  L6
+let it46 = this.document.getElementById("L61");
+let it47 = this.document.getElementById("L62");
+let it48 = this.document.getElementById("L63");
+let it49 = this.document.getElementById("L64");
+let it50 = this.document.getElementById("L65");
+
+ // 2 para 4 L6
+let it51 = this.document.getElementById("L66");
+let it52 = this.document.getElementById("L67");
+let it53 = this.document.getElementById("L68");
+let it54 = this.document.getElementById("L69");
+let it55 = this.document.getElementById("L691");
+
+ // 5 para 6 L6
+let it56 = this.document.getElementById("L692");
+let it57 = this.document.getElementById("L693");
+let it58 = this.document.getElementById("L694");
+let it59 = this.document.getElementById("L695");
+let it60 = this.document.getElementById("L696");
+
+
+
+// 1para3 alta
+console.log("confirmado",it46)
+if(it46 != null || it46 != undefined) {   
+   console.log("confirmado",it46)
+      it46.id = "L6" 
+}
+console.log("confirmado",it47)
+if(it47 != null || it47 != undefined) {   
+   console.log("confirmado",it47)
+   it47.id = "L6" 
+}
+console.log("confirmado",it48)
+if(it48 != null || it48 != undefined) {   
+   console.log("confirmado",it48)
+   it48.id = "L6" 
+}
+console.log("confirmado",it49)
+if(it49 != null || it49 != undefined) {   
+   console.log("confirmado",it49)
+   it49.id = "L6" 
+}
+console.log("confirmado",it50)
+if(it50 != null || it50 != undefined) {   
+   console.log("confirmado",it50)
+   it50.id = "L6" 
+}
+
 
 
 
 //2para4 baixa
-if(it36 != null && it36 != undefined) {   
-   it36.id = "L6" 
-}else 
-if(it37 != null && it37 != undefined) {   
-it37.id = "L6" 
-}else 
-if(it38 != null && it38 != undefined) {   
-it38.id = "L6" 
-}else 
-if(it39 != null && it39 != undefined) {   
-it39.id = "L6" 
-}else 
-if(it40 != null && it40 != undefined) {   
-it40.id = "L6" 
-}else
+if(it51 != null || it51 != undefined) {   
+   console.log("confirmado",it51)
+   it51.id = "L6" 
+}
+
+if(it52 != null || it52 != undefined) {   
+   console.log("confirmado",it52)
+it52.id = "L6" 
+}
+
+if(it53 != null || it53 != undefined) {   
+   console.log("confirmado",it53)
+it53.id = "L6" 
+}
+
+if(it54 != null || it54 != undefined) {   
+   console.log("confirmado",it54)
+it54.id = "L6" 
+}
+
+if(it55 != null || it55 != undefined) {   
+   console.log("confirmado",it55)
+it55.id = "L6" 
+}
+
 
 // 5para6 
-if(it41 != null && it41 != undefined) {   
-      it41.id = "L6" 
-}else 
-if(it42 != null && it42 != undefined) {   
-   it42.id = "L6" 
-}else 
-if(it43 != null && it43 != undefined) {   
-   it43.id = "L6" 
-}else 
-if(it44 != null && it44 != undefined) {   
-   it44.id = "L6" 
-}else 
-if(it45 != null && it45 != undefined) {   
-   it45.id = "L6" 
+if(it56 != null || it56 != undefined) {   
+   console.log("confirmado",it56)
+      it56.id = "L6" 
 }
+
+if(it57 != null || it57 != undefined) {   
+   console.log("confirmado",it57)
+   it57.id = "L6" 
+}
+
+if(it58 != null || it58 != undefined) {   
+   console.log("confirmado",it58)
+   it58.id = "L6" 
+}
+
+if(it59 != null || it59 != undefined) {   
+   console.log("confirmado",it59)
+   it59.id = "L6" 
+}
+
+if(it60 != null || it60 != undefined) {   
+   console.log("confirmado",it60)
+   it60.id = "L6" 
+}
+
+
+
+
+
+
+// resetando Tomada
+
+ // 1 para 3  L7
+let td = this.document.getElementById("L71");
+let td2 = this.document.getElementById("L72");
+let td3 = this.document.getElementById("L73");
+let td4 = this.document.getElementById("L74");
+let td5 = this.document.getElementById("L75");
+
+ // 2 para 4 L7
+let td6 = this.document.getElementById("L76");
+let td7 = this.document.getElementById("L77");
+let td8 = this.document.getElementById("L78");
+let td9 = this.document.getElementById("L79");
+let td10 = this.document.getElementById("L791");
+
+ // 5 para 6 L7
+let td11 = this.document.getElementById("L792");
+let td12 = this.document.getElementById("L793");
+let td13 = this.document.getElementById("L794");
+let td14 = this.document.getElementById("L795");
+let td15 = this.document.getElementById("L796");
+
+
+
+
+// 1para3 alta
+if(td != null || td != undefined) {   
+   console.log("confirmado",td)
+      td.id = "L7" 
+}
+
+if(td2 != null || td2 != undefined) {   
+   console.log("confirmado",td2)
+   td2.id = "L7" 
+}
+
+if(td3 != null || td3 != undefined) {   
+   console.log("confirmado",td3)
+   td3.id = "L7" 
+}
+
+if(td4 != null || td4 != undefined) {   
+   console.log("confirmado",td4)
+   td4.id = "L7" 
+}
+
+if(td5 != null || td5 != undefined) {   
+   console.log("confirmado",td5)
+   td5.id = "L7" 
+}
+
+
+
+
+
+//2para4 baixa
+if(td6 != null || td6 != undefined) {   
+   console.log("confirmado",td6)
+   td6.id = "L7" 
+}
+
+if(td7 != null || td7 != undefined) {   
+   console.log("confirmado",td7)
+td7.id = "L7" 
+}
+
+if(td8 != null || td8 != undefined) {   
+   console.log("confirmado",td8)
+td8.id = "L7" 
+}
+
+if(td9 != null || td9 != undefined) {   
+   console.log("confirmado",td9)
+td9.id = "L7" 
+}
+
+if(td10 != null || td10 != undefined) {   
+   console.log("confirmado",td10)
+td10.id = "L7" 
+}
+
+
+// 5para6 
+if(td11 != null || td11 != undefined) {   
+   console.log("confirmado",td11)
+      td11.id = "L7" 
+}
+
+if(td12 != null || td12 != undefined) {   
+   console.log("confirmado",td12)
+   td12.id = "L7" 
+}
+
+if(td13 != null || td13 != undefined) {   
+   console.log("confirmado",td13)
+   td13.id = "L7" 
+}
+
+if(td14 != null || td14 != undefined) {   
+   console.log("confirmado",td14)
+   td14.id = "L7" 
+}
+
+if(td15 != null || td15 != undefined) {   
+   console.log("confirmado",td15)
+   td15.id = "L7" 
+}
+
+
+
+
+
+// resetando Tomada
+
+ // 1 para 3  L8
+let td16 = this.document.getElementById("L81");
+let td17 = this.document.getElementById("L82");
+let td18 = this.document.getElementById("L83");
+let td19 = this.document.getElementById("L84");
+let td20 = this.document.getElementById("L85");
+
+ // 2 para 4 L8
+let td21 = this.document.getElementById("L86");
+let td22 = this.document.getElementById("L87");
+let td23 = this.document.getElementById("L88");
+let td24 = this.document.getElementById("L89");
+let td25 = this.document.getElementById("L891");
+
+ // 5 para 6 L8
+let td26 = this.document.getElementById("L892");
+let td27 = this.document.getElementById("L893");
+let td28 = this.document.getElementById("L894");
+let td29 = this.document.getElementById("L895");
+let td30 = this.document.getElementById("L896");
+
+
+
+
+
+// 1para3 alta
+if(td16 != null || td16 != undefined) {   
+   console.log("confirmado",td16)
+      td16.id = "L8" 
+}
+
+if(td17 != null || td17 != undefined) {   
+   console.log("confirmado",td17)
+   td17.id = "L8" 
+}
+
+if(td18 != null || td18 != undefined) {   
+   console.log("confirmado",td18)
+   td18.id = "L8" 
+}
+
+if(td19 != null || td19 != undefined) {   
+   console.log("confirmado",td19)
+   td19.id = "L8" 
+}
+
+if(td20 != null || td20 != undefined) {   
+   console.log("confirmado",td20)
+   td20.id = "L8" 
+}
+
+
+
+
+
+//2para4 baixa
+if(td21 != null || td21 != undefined) {   
+   console.log("confirmado",td21)
+   td21.id = "L8" 
+}
+
+if(td22 != null || td22 != undefined) {   
+   console.log("confirmado",td22)
+td22.id = "L8" 
+}
+
+if(td23 != null || td23 != undefined) {   
+   console.log("confirmado",td23)
+td23.id = "L8" 
+}
+
+if(td24 != null || td24 != undefined) {   
+   console.log("confirmado",td24)
+td24.id = "L8" 
+}
+
+if(td25 != null || td25 != undefined) {   
+   console.log("confirmado",td25)
+td25.id = "L8" 
+}
+
+
+// 5para6 
+if(td26 != null || td26 != undefined) {   
+   console.log("confirmado",td26)
+      td26.id = "L8" 
+}
+
+if(td27 != null || td27 != undefined) {  
+   console.log("confirmado",td27) 
+   td27.id = "L8" 
+}
+
+if(td28 != null || td28 != undefined) {  
+   console.log("confirmado",td28) 
+   td28.id = "L8" 
+}
+
+if(td29 != null || td29 != undefined) {   
+   console.log("confirmado",td29)
+   td29.id = "L8" 
+}
+
+if(td30 != null || td30 != undefined) {   
+   console.log("confirmado",td30)
+   td30.id = "L8" 
+}
+
+
+
+
+// resetando Tomada
+
+ // 1 para 3  L9
+let td31 = this.document.getElementById("L91");
+let td32 = this.document.getElementById("L92");
+let td33 = this.document.getElementById("L93");
+let td34 = this.document.getElementById("L94");
+let td35 = this.document.getElementById("L95");
+
+ // 2 para 4 L9
+let td36 = this.document.getElementById("L96");
+let td37 = this.document.getElementById("L97");
+let td38 = this.document.getElementById("L98");
+let td39 = this.document.getElementById("L99");
+let td40 = this.document.getElementById("L991");
+
+ // 5 para 6 L9
+let td41 = this.document.getElementById("L992");
+let td42 = this.document.getElementById("L993");
+let td43 = this.document.getElementById("L994");
+let td44 = this.document.getElementById("L995");
+let td45 = this.document.getElementById("L996");
+
+
+
+
+
+// 1para3 alta
+if(td31 != null || td31 != undefined) {   
+   console.log("confirmado",td31)
+      td31.id = "L9" 
+}
+
+if(td32 != null || td32 != undefined) {   
+   console.log("confirmado",td32)
+   td32.id = "L9" 
+}
+
+if(td33 != null || td33 != undefined) {   
+   console.log("confirmado",td33)
+   td33.id = "L9" 
+}
+
+if(td34 != null || td34 != undefined) {  
+   console.log("confirmado",td34) 
+   td34.id = "L9" 
+}
+
+if(td35 != null || td35 != undefined) {  
+   console.log("confirmado",td35) 
+   td35.id = "L9" 
+}
+
+
+
+
+//2para4 baixa
+if(td36 != null || td36 != undefined) {   
+   console.log("confirmado",td36)
+   td36.id = "L9" 
+}
+
+if(td37 != null || td37 != undefined) {  
+   console.log("confirmado",td37) 
+td37.id = "L9" 
+}
+
+if(td38 != null || td38 != undefined) {  
+   console.log("confirmado",td38) 
+td38.id = "L9" 
+}
+
+if(td39 != null || td39 != undefined) {  
+   console.log("confirmado",td39) 
+td39.id = "L9" 
+}
+
+if(td40 != null || td40 != undefined) {   
+   console.log("confirmado",td40)
+td40.id = "L9" 
+}
+
+
+// 5para6 
+if(td41 != null || td41 != undefined) {  
+   console.log("confirmado",td1)
+      td41.id = "L9" 
+}
+
+if(td42 != null || td42 != undefined) {  
+   console.log("confirmado",td42) 
+   td42.id = "L9" 
+}
+
+if(td43 != null || td43 != undefined) {   
+   console.log("confirmado",td43)
+   td43.id = "L9" 
+}
+
+if(td44 != null || td44 != undefined) {   
+   console.log("confirmado",td44)
+   td44.id = "L9" 
+}
+
+if(td45 != null || td45 != undefined) {   
+   console.log("confirmado",td45)
+   td45.id = "L9" 
+}
+
+
+
 
 
 
@@ -5677,9 +6386,12 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
       conexacaoL11Alto = "L1PA";
-      lp.id = "L11"
+      
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
+
+      return lp.id = "L11"
+
    }
     } else 
 
@@ -5688,9 +6400,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11Alto = "L1VA"; 
-      lp.id = "L12"
+      
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
+       return lp.id = "L12"
     }
     } else
 
@@ -5699,9 +6412,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11Alto = "L1BA";  
-      lp.id = "L13"
+      
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
+       return lp.id = "L13"
       }
       
     } else
@@ -5710,9 +6424,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {  
          conexacaoL11Alto = "L1AA";
-      lp.id = "L14"
+      
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
+       return lp.id = "L14"
       }
       
     }else
@@ -5722,9 +6437,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11Alto = "L1MA"; 
-      lp.id = "L15"
+      
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
+       return lp.id = "L15"
       }
       
     }else
@@ -5741,6 +6457,7 @@ function lampadaConect(id,id2){
       lp.id = "L16"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
+       return lp.id = "L16"
       }
     } else 
 
@@ -5752,6 +6469,7 @@ function lampadaConect(id,id2){
       lp.id = "L17"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
+       return lp.id = "L17"
       }
       
     } else
@@ -5764,6 +6482,7 @@ function lampadaConect(id,id2){
       lp.id = "L18"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
+       return lp.id = "L18"
       }
       
     } else
@@ -5775,6 +6494,7 @@ function lampadaConect(id,id2){
       lp.id = "L19"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
+       return lp.id = "L19"
       }
       
     }else
@@ -5787,6 +6507,7 @@ function lampadaConect(id,id2){
       lp.id = "L20"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
+       return lp.id = "L20"
       }
       
     }
@@ -5802,6 +6523,7 @@ function lampadaConect(id,id2){
       lp.id = "L31"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+       return lp.id = "L31"
       }
     } else 
 
@@ -5813,6 +6535,7 @@ function lampadaConect(id,id2){
       lp.id = "L32"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+       return lp.id = "L32"
       }
       
     } else
@@ -5825,6 +6548,7 @@ function lampadaConect(id,id2){
       lp.id = "L33"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+       return lp.id = "L33"
       }
       
     } else
@@ -5836,6 +6560,7 @@ function lampadaConect(id,id2){
       lp.id = "L34"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+       return lp.id = "L34"
       }
       
     }else
@@ -5848,6 +6573,7 @@ function lampadaConect(id,id2){
          console.log("funcionou")
       lp.id = "L35"
       abrirPopup(conexacaoL11BaixoBaixo)
+       return lp.id = "L35"
       }
       
     }
@@ -5865,6 +6591,7 @@ function lampadaConect(id,id2){
       lp.id = "L21"
       console.log("funcionou")
       abrirPopup(conexacaoL12Alto)
+       return lp.id = "L21"
     }
     } else 
 
@@ -5876,6 +6603,7 @@ function lampadaConect(id,id2){
       lp.id = "L22"
       console.log("funcionou")
       abrirPopup(conexacaoL12Alto)
+       return lp.id = "L22"
       }
     } else
 
@@ -5887,6 +6615,7 @@ function lampadaConect(id,id2){
       lp.id = "L23"
       console.log("funcionou")
       abrirPopup(conexacaoL12Alto)
+       return lp.id = "L23"
       }
     } else
     if(segundaLigacao == "azulNeltro"&& id == "L2"&& id2 == "MAIN13"&& filtro=="1para3AzulNeltro"){
@@ -5897,6 +6626,7 @@ function lampadaConect(id,id2){
       lp.id = "L24"
       console.log("funcionou")
       abrirPopup(conexacaoL12Alto)
+       return lp.id = "L24"
     }
     }else
 
@@ -5908,6 +6638,7 @@ function lampadaConect(id,id2){
       lp.id = "L25"
       console.log("funcionou")
       abrirPopup(conexacaoL12Alto)
+       return lp.id = "L25"
       }
       
     }else
@@ -5924,6 +6655,7 @@ function lampadaConect(id,id2){
       lp.id = "L26"
       console.log("funcionou")
       abrirPopup(conexacaoL12Baixo)
+       return lp.id = "L26"
       }
       
     } else 
@@ -5936,6 +6668,7 @@ function lampadaConect(id,id2){
       lp.id = "L27"
       console.log("funcionou")
       abrirPopup(conexacaoL12Baixo)
+       return lp.id = "L27"
       }
       
     } else
@@ -5948,6 +6681,7 @@ function lampadaConect(id,id2){
       lp.id = "L28"
       console.log("funcionou")
       abrirPopup(conexacaoL12Baixo)
+       return lp.id = "L28"
       }
       
     } else
@@ -5959,6 +6693,7 @@ function lampadaConect(id,id2){
       lp.id = "L29"
       console.log("funcionou")
       abrirPopup(conexacaoL12Baixo)
+       return lp.id = "L29"
       }
       
     }else
@@ -5971,6 +6706,7 @@ function lampadaConect(id,id2){
       lp.id = "L30"
       console.log("funcionou")
       abrirPopup(conexacaoL12Baixo)
+       return lp.id = "L30"
       }
       
     }
@@ -5985,6 +6721,7 @@ function lampadaConect(id,id2){
       lp.id = "L36"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
+       return lp.id = "L36"
       }
     } else 
 
@@ -5996,6 +6733,7 @@ function lampadaConect(id,id2){
       lp.id = "L37"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
+       return lp.id = "L37"
       }
       
     } else
@@ -6008,6 +6746,7 @@ function lampadaConect(id,id2){
       lp.id = "L38"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
+       return lp.id = "L38"
       }
       
     } else
@@ -6019,6 +6758,7 @@ function lampadaConect(id,id2){
       lp.id = "L39"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
+       return lp.id = "L39"
       }
       
     }else
@@ -6031,6 +6771,7 @@ function lampadaConect(id,id2){
       lp.id = "L40"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
+       return lp.id = "L40"
       }
       
     }
@@ -6056,6 +6797,7 @@ function lampadaConect(id,id2){
       lp.id = "L11"
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
+       return lp.id = "L11"
    }
     } else 
 
@@ -6067,6 +6809,7 @@ function lampadaConect(id,id2){
       lp.id = "L12"
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
+ return lp.id = "L12"
       }
       
     } else
@@ -6079,6 +6822,7 @@ function lampadaConect(id,id2){
       lp.id = "L13"
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
+       return lp.id = "L13"
       }
       
     } else
@@ -6090,6 +6834,7 @@ function lampadaConect(id,id2){
       lp.id = "L14"
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
+       return lp.id = "L14"
       }
       
     }else
@@ -6102,6 +6847,7 @@ function lampadaConect(id,id2){
       lp.id = "L15"
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
+       return lp.id = "L15"
       }
     }else
 
@@ -6117,6 +6863,7 @@ function lampadaConect(id,id2){
       lp.id = "L16"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
+       return lp.id = "L16"
       }
       
     } else 
@@ -6129,6 +6876,7 @@ function lampadaConect(id,id2){
       lp.id = "L17"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
+       return lp.id = "L17"
       }
       
     } else
@@ -6141,6 +6889,7 @@ function lampadaConect(id,id2){
       lp.id = "L18"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
+       return lp.id = "L18"
       }
       
     } else
@@ -6152,6 +6901,7 @@ function lampadaConect(id,id2){
       lp.id = "L19"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
+       return lp.id = "L19"
       }
       
     }else
@@ -6164,6 +6914,7 @@ function lampadaConect(id,id2){
       lp.id = "L20"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
+       return lp.id = "L20"
       }
       
     }
@@ -6180,6 +6931,7 @@ function lampadaConect(id,id2){
       lp.id = "L31"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L31"
       }
       
     } else 
@@ -6192,6 +6944,7 @@ function lampadaConect(id,id2){
       lp.id = "L32"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L32"
       }
       
     } else
@@ -6204,6 +6957,7 @@ function lampadaConect(id,id2){
       lp.id = "L33"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L33"
       }
       
     } else
@@ -6215,6 +6969,7 @@ function lampadaConect(id,id2){
       lp.id = "L34"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L34"
       }
       
     }else
@@ -6227,6 +6982,7 @@ function lampadaConect(id,id2){
       lp.id = "L35"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L35"
       }
       
     }
@@ -6246,6 +7002,7 @@ function lampadaConect(id,id2){
       if(lp != null){ 
       lp.id = "L21"
       console.log("funcionou")
+      return lp.id = "L21"
       }
     } else 
 
@@ -6255,6 +7012,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L22"
       console.log("funcionou")
+      return lp.id = "L22"
       }
     } else
 
@@ -6264,6 +7022,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L23"
       console.log("funcionou")
+      return lp.id = "L23"
       }
     } else
     if(segundaLigacao2 == "azulNeltro"&& id == "L2"&& id2 == "MAIN13"&& filtro2=="1para3AzulNeltro"){
@@ -6272,6 +7031,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L24"
       console.log("funcionou")
+      return lp.id = "L24"
       }
     }else
 
@@ -6281,6 +7041,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L25"
       console.log("funcionou")
+      return lp.id = "L25"
       }
       
     }else
@@ -6295,6 +7056,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L26"
       console.log("funcionou")
+      return lp.id = "L26"
       }
       
     } else 
@@ -6305,6 +7067,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L27"
       console.log("funcionou")
+      return lp.id = "L27"
       }
       
     } else
@@ -6315,6 +7078,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L28"
       console.log("funcionou")
+      return lp.id = "L28"
       }
       
     } else
@@ -6324,6 +7088,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L29"
       console.log("funcionou")
+      return lp.id = "L29"
       }
       
     }else
@@ -6334,6 +7099,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L30"
       console.log("funcionou")
+      return lp.id = "L30"
       }
       
     }else
@@ -6348,6 +7114,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L36"
       console.log("funcionou")
+      return lp.id = "L36"
       }
       
     } else 
@@ -6358,6 +7125,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L37"
       console.log("funcionou")
+      return lp.id = "L37"
       }
       
     } else
@@ -6368,6 +7136,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L38"
       console.log("funcionou")
+      return lp.id = "L38"
       }
       
     } else
@@ -6377,6 +7146,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L39"
       console.log("funcionou")
+      return lp.id = "L39"
       }
       
     }else
@@ -6387,6 +7157,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) {  
       lp.id = "L40"
       console.log("funcionou")
+      return lp.id = "L40"
       }
       
     }else
@@ -6402,6 +7173,7 @@ function lampadaConect(id,id2){
       lp.id = "L11"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L11"
    }
     } else 
 
@@ -6413,6 +7185,7 @@ function lampadaConect(id,id2){
       lp.id = "L12"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L12"
     }
     }else
 
@@ -6424,6 +7197,7 @@ function lampadaConect(id,id2){
       lp.id = "L13"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L13"
       }
       
     } else
@@ -6435,6 +7209,7 @@ function lampadaConect(id,id2){
       lp.id = "L14"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L14"
       }
       
     }else
@@ -6447,6 +7222,7 @@ function lampadaConect(id,id2){
       lp.id = "L15"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L15"
       }
       
     }else
@@ -6463,6 +7239,7 @@ function lampadaConect(id,id2){
       lp.id = "L16"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L16"
    }
     } else 
 
@@ -6474,6 +7251,7 @@ function lampadaConect(id,id2){
       lp.id = "L17"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L17"
     }
     }else
 
@@ -6485,6 +7263,7 @@ console.log("funcionou")
       lp.id = "L18"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L18"
       }
       
     } else
@@ -6496,6 +7275,7 @@ console.log("funcionou")
       lp.id = "L19"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L19"
       }
       
     }else
@@ -6508,6 +7288,7 @@ console.log("funcionou")
       lp.id = "L20"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L20"
       }
       
     }
@@ -6524,6 +7305,7 @@ console.log("funcionou")
       lp.id = "L31"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L31"
    }
     } else 
 
@@ -6535,6 +7317,7 @@ console.log("funcionou")
       lp.id = "L32"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L32"
     }
     }else
 
@@ -6546,6 +7329,7 @@ console.log("funcionou")
       lp.id = "L33"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L33"
       }
       
     } else
@@ -6557,6 +7341,7 @@ console.log("funcionou")
       lp.id = "L34"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L34"
       }
       
     }else
@@ -6569,6 +7354,7 @@ console.log("funcionou")
       lp.id = "L35"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L35"
       }
       
     }
@@ -6591,6 +7377,7 @@ console.log("funcionou")
       lp.id = "L21"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L21"
    }
     } else 
 
@@ -6602,6 +7389,7 @@ console.log("funcionou")
       lp.id = "L22"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L22"
     }
     }else
 
@@ -6613,6 +7401,7 @@ console.log("funcionou")
       lp.id = "L23"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L23"
       }
       
     } else
@@ -6624,6 +7413,7 @@ console.log("funcionou")
       lp.id = "L24"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L24"
       }
       
     }else
@@ -6636,6 +7426,7 @@ console.log("funcionou")
       lp.id = "L25"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L25"
       }
       
     }else
@@ -6651,6 +7442,7 @@ console.log("funcionou")
       lp.id = "L26"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L26"
    }
     } else 
 
@@ -6662,6 +7454,7 @@ console.log("funcionou")
       lp.id = "L27"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L27"
     }
     }else
 
@@ -6673,6 +7466,7 @@ console.log("funcionou")
       lp.id = "L28"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L28"
       }
       
     } else
@@ -6684,6 +7478,7 @@ console.log("funcionou")
       lp.id = "L29"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L29"
       }
       
     }else
@@ -6696,6 +7491,7 @@ console.log("funcionou")
       lp.id = "L30"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
+      return lp.id = "L30"
       }
       
     }else
@@ -6711,6 +7507,7 @@ console.log("funcionou")
       lp.id = "L36"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
+      return lp.id = "L36"
     }
     } else 
 
@@ -6722,6 +7519,7 @@ console.log("funcionou")
       lp.id = "L37"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
+      return lp.id = "L37"
       }
     } else
 
@@ -6733,6 +7531,7 @@ console.log("funcionou")
       lp.id = "L38"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
+      return lp.id = "L38"
       }
     } else
     if(segundaLigacao3 == "azulNeltro"&& id == "L2"&& id2 == "MAIN33"&& filtro3=="5para6AzulNeltro"){
@@ -6743,6 +7542,7 @@ console.log("funcionou")
       lp.id = "L39"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
+      return lp.id = "L39"
     }
     }else
 
@@ -6754,6 +7554,7 @@ console.log("funcionou")
       lp.id = "L40"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
+      return lp.id = "L40"
       }
       
     }
