@@ -5396,6 +5396,51 @@ let it59 = this.document.getElementById("L695");
 let it60 = this.document.getElementById("L696");
 
 
+//FIO 2
+// 1 para 3  L6
+let it61 = this.document.getElementById("L697");
+let it62 = this.document.getElementById("L698");
+let it63 = this.document.getElementById("L699");
+let it64 = this.document.getElementById("L6991");
+let it65 = this.document.getElementById("L6992");
+
+ // 2 para 4 L6
+let it66 = this.document.getElementById("L6993");
+let it67 = this.document.getElementById("L6994");
+let it68 = this.document.getElementById("L6995");
+let it69 = this.document.getElementById("L6996");
+let it70 = this.document.getElementById("L6997");
+
+ // 5 para 6 L6
+let it71 = this.document.getElementById("L6998");
+let it72 = this.document.getElementById("L6999");
+let it73 = this.document.getElementById("L69991");
+let it74 = this.document.getElementById("L69992");
+let it75 = this.document.getElementById("L69993");
+
+
+//FIO 3
+// 1 para 3  L6
+let it76 = this.document.getElementById("L69994");
+let it77 = this.document.getElementById("L69995");
+let it78 = this.document.getElementById("L69996");
+let it79 = this.document.getElementById("L69997");
+let it80 = this.document.getElementById("L69998");
+
+ // 2 para 4 L6
+let it81 = this.document.getElementById("L69999");
+let it82 = this.document.getElementById("L699991");
+let it83 = this.document.getElementById("L699992");
+let it84 = this.document.getElementById("L699993");
+let it85 = this.document.getElementById("L699994");
+
+ // 5 para 6 L6
+let it86 = this.document.getElementById("L699995");
+let it87 = this.document.getElementById("L699996");
+let it88 = this.document.getElementById("L699997");
+let it89 = this.document.getElementById("L699998");
+let it90 = this.document.getElementById("L699999");
+
 
 // 1para3 alta
 console.log("confirmado",it46)
@@ -5485,6 +5530,178 @@ if(it60 != null || it60 != undefined) {
 
 
 
+//SEGUNDO FIO
+// 1para3 alta
+console.log("confirmado",it61)
+if(it61 != null || it61 != undefined) {   
+   console.log("confirmado",it61)
+      it61.id = "L6" 
+}
+console.log("confirmado",it62)
+if(it62 != null || it62 != undefined) {   
+   console.log("confirmado",it62)
+   it62.id = "L6" 
+}
+console.log("confirmado",it63)
+if(it63 != null || it63 != undefined) {   
+   console.log("confirmado",it63)
+   it63.id = "L6" 
+}
+console.log("confirmado",it64)
+if(it64 != null || it64 != undefined) {   
+   console.log("confirmado",it64)
+   it64.id = "L6" 
+}
+console.log("confirmado",it65)
+if(it65 != null || it65 != undefined) {   
+   console.log("confirmado",it65)
+   it65.id = "L6" 
+}
+
+
+
+
+//2para4 baixa
+if(it66 != null || it66 != undefined) {   
+   console.log("confirmado",it66)
+   it66.id = "L6" 
+}
+
+if(it67 != null || it67 != undefined) {   
+   console.log("confirmado",it67)
+it67.id = "L6" 
+}
+
+if(it68 != null || it68 != undefined) {   
+   console.log("confirmado",it68)
+it68.id = "L6" 
+}
+
+if(it69 != null || it69 != undefined) {   
+   console.log("confirmado",it69)
+it69.id = "L6" 
+}
+
+if(it70 != null || it70 != undefined) {   
+   console.log("confirmado",it70)
+it70.id = "L6" 
+}
+
+
+// 5para6 
+if(it71 != null || it71 != undefined) {   
+   console.log("confirmado",it71)
+      it71.id = "L6" 
+}
+
+if(it72 != null || it72 != undefined) {   
+   console.log("confirmado",it72)
+   it72.id = "L6" 
+}
+
+if(it73 != null || it73 != undefined) {   
+   console.log("confirmado",it73)
+   it73.id = "L6" 
+}
+
+if(it74 != null || it74 != undefined) {   
+   console.log("confirmado",it74)
+   it74.id = "L6" 
+}
+
+if(it75 != null || it75 != undefined) {   
+   console.log("confirmado",it75)
+   it75.id = "L6" 
+}
+
+
+
+
+
+//TERCEIRO FIO
+// 1para3 alta
+console.log("confirmado",it76)
+if(it76 != null || it76 != undefined) {   
+   console.log("confirmado",it76)
+      it76.id = "L6" 
+}
+console.log("confirmado",it77)
+if(it77 != null || it77 != undefined) {   
+   console.log("confirmado",it77)
+   it77.id = "L6" 
+}
+console.log("confirmado",it78)
+if(it78 != null || it78 != undefined) {   
+   console.log("confirmado",it78)
+   it78.id = "L6" 
+}
+console.log("confirmado",it79)
+if(it79 != null || it79 != undefined) {   
+   console.log("confirmado",it79)
+   it79.id = "L6" 
+}
+console.log("confirmado",it80)
+if(it80 != null || it80 != undefined) {   
+   console.log("confirmado",it80)
+   it80.id = "L6" 
+}
+
+
+
+
+//2para4 baixa
+if(it81 != null || it81 != undefined) {   
+   console.log("confirmado",it81)
+   it81.id = "L6" 
+}
+
+if(it82 != null || it82 != undefined) {   
+   console.log("confirmado",it82)
+it82.id = "L6" 
+}
+
+if(it83 != null || it83 != undefined) {   
+   console.log("confirmado",it83)
+it83.id = "L6" 
+}
+
+if(it84 != null || it84 != undefined) {   
+   console.log("confirmado",it84)
+it84.id = "L6" 
+}
+
+if(it85 != null || it85 != undefined) {   
+   console.log("confirmado",it85)
+it85.id = "L6" 
+}
+
+
+// 5para6 
+if(it86 != null || it86 != undefined) {   
+   console.log("confirmado",it86)
+      it86.id = "L6" 
+}
+
+if(it87 != null || it87 != undefined) {   
+   console.log("confirmado",it87)
+   it87.id = "L6" 
+}
+
+if(it88 != null || it88 != undefined) {   
+   console.log("confirmado",it88)
+   it88.id = "L6" 
+}
+
+if(it89 != null || it89 != undefined) {   
+   console.log("confirmado",it89)
+   it89.id = "L6" 
+}
+
+if(it90 != null || it90 != undefined) {   
+   console.log("confirmado",it90)
+   it90.id = "L6" 
+}
+
 // resetando Tomada
 
  // 1 para 3  L7
@@ -5509,6 +5726,50 @@ let td14 = this.document.getElementById("L795");
 let td15 = this.document.getElementById("L796");
 
 
+//FIO 2
+// 1 para 3  L7
+let td16 = this.document.getElementById("L797");
+let td17 = this.document.getElementById("L798");
+let td18 = this.document.getElementById("L799");
+let td19 = this.document.getElementById("L7991");
+let td20 = this.document.getElementById("L7992");
+
+ // 2 para 4 L7
+let td21 = this.document.getElementById("L7993");
+let td22 = this.document.getElementById("L7994");
+let td23 = this.document.getElementById("L7995");
+let td24 = this.document.getElementById("L7996");
+let td25 = this.document.getElementById("L7997");
+
+ // 5 para 6 L7
+let td26 = this.document.getElementById("L7998");
+let td27 = this.document.getElementById("L7999");
+let td28 = this.document.getElementById("L79991");
+let td29 = this.document.getElementById("L79992");
+let td30 = this.document.getElementById("L79993");
+
+
+//FIO 3
+// 1 para 3  L7
+let td31 = this.document.getElementById("L79994");
+let td32 = this.document.getElementById("L79995");
+let td33 = this.document.getElementById("L79996");
+let td34 = this.document.getElementById("L79997");
+let td35 = this.document.getElementById("L79998");
+
+ // 2 para 4 L6
+let td36 = this.document.getElementById("L79999");
+let td37 = this.document.getElementById("L799991");
+let td38 = this.document.getElementById("L799992");
+let td39 = this.document.getElementById("L799993");
+let td40 = this.document.getElementById("L799994");
+
+ // 5 para 6 L7
+let td41 = this.document.getElementById("L799995");
+let td42 = this.document.getElementById("L799996");
+let td43 = this.document.getElementById("L799997");
+let td44 = this.document.getElementById("L799998");
+let td45 = this.document.getElementById("L799999");
 
 
 // 1para3 alta
@@ -5598,57 +5859,269 @@ if(td15 != null || td15 != undefined) {
 
 
 
-// resetando Tomada
-
- // 1 para 3  L8
-let td16 = this.document.getElementById("L81");
-let td17 = this.document.getElementById("L82");
-let td18 = this.document.getElementById("L83");
-let td19 = this.document.getElementById("L84");
-let td20 = this.document.getElementById("L85");
-
- // 2 para 4 L8
-let td21 = this.document.getElementById("L86");
-let td22 = this.document.getElementById("L87");
-let td23 = this.document.getElementById("L88");
-let td24 = this.document.getElementById("L89");
-let td25 = this.document.getElementById("L891");
-
- // 5 para 6 L8
-let td26 = this.document.getElementById("L892");
-let td27 = this.document.getElementById("L893");
-let td28 = this.document.getElementById("L894");
-let td29 = this.document.getElementById("L895");
-let td30 = this.document.getElementById("L896");
-
-
-
-
-
+// FIO 2 
 // 1para3 alta
 if(td16 != null || td16 != undefined) {   
    console.log("confirmado",td16)
-      td16.id = "L8" 
+      td16.id = "L7" 
 }
 
 if(td17 != null || td17 != undefined) {   
    console.log("confirmado",td17)
-   td17.id = "L8" 
+   td17.id = "L7" 
 }
 
 if(td18 != null || td18 != undefined) {   
    console.log("confirmado",td18)
-   td18.id = "L8" 
+   td18.id = "L7" 
 }
 
 if(td19 != null || td19 != undefined) {   
    console.log("confirmado",td19)
-   td19.id = "L8" 
+   td19.id = "L7" 
 }
 
 if(td20 != null || td20 != undefined) {   
    console.log("confirmado",td20)
-   td20.id = "L8" 
+   td20.id = "L7" 
+}
+
+
+// FIO 2
+//2para4 baixa
+if(td21 != null || td21 != undefined) {   
+   console.log("confirmado",td21)
+   td21.id = "L7" 
+}
+
+if(td22 != null || td22 != undefined) {   
+   console.log("confirmado",td22)
+td22.id = "L7" 
+}
+
+if(td23 != null || td23 != undefined) {   
+   console.log("confirmado",td23)
+td23.id = "L7" 
+}
+
+if(td24 != null || td24 != undefined) {   
+   console.log("confirmado",td24)
+td24.id = "L7" 
+}
+
+if(td25 != null || td25 != undefined) {   
+   console.log("confirmado",td25)
+td25.id = "L7" 
+}
+
+
+//FIO 2
+// 5para6 
+if(td26 != null || td26 != undefined) {   
+   console.log("confirmado",td26)
+      td26.id = "L7" 
+}
+
+if(td27 != null || td27 != undefined) {   
+   console.log("confirmado",td27)
+   td27.id = "L7" 
+}
+
+if(td28 != null || td28 != undefined) {   
+   console.log("confirmado",td28)
+   td28.id = "L7" 
+}
+
+if(td29 != null || td29 != undefined) {   
+   console.log("confirmado",td29)
+   td29.id = "L7" 
+}
+
+if(td30 != null || td30 != undefined) {   
+   console.log("confirmado",td30)
+   td30.id = "L7" 
+}
+
+
+
+// FIO 3
+// 1para3 alta
+if(td31 != null || td31 != undefined) {   
+   console.log("confirmado",td31)
+      td31.id = "L7" 
+}
+
+if(td32 != null || td32 != undefined) {   
+   console.log("confirmado",td32)
+   td32.id = "L7" 
+}
+
+if(td33 != null || td33 != undefined) {   
+   console.log("confirmado",td33)
+   td33.id = "L7" 
+}
+
+if(td34 != null || td34 != undefined) {   
+   console.log("confirmado",td34)
+   td34.id = "L7" 
+}
+
+if(td35 != null || td35 != undefined) {   
+   console.log("confirmado",td35)
+      td35.id = "L7" 
+}
+
+
+//2para4 baixa
+if(td36 != null || td36 != undefined) {   
+   console.log("confirmado",td36)
+   td36.id = "L7" 
+}
+
+if(td37 != null || td37 != undefined) {   
+   console.log("confirmado",td37)
+td37.id = "L7" 
+}
+
+if(td38 != null || td38 != undefined) {   
+   console.log("confirmado",td38)
+td38.id = "L7" 
+}
+
+if(td39 != null || td39 != undefined) {   
+   console.log("confirmado",td39)
+td39.id = "L7" 
+}
+
+if(td40 != null || td40 != undefined) {   
+   console.log("confirmado",td40)
+td40.id = "L7" 
+}
+
+
+// 1para3 alta
+if(td41 != null || td41 != undefined) {   
+   console.log("confirmado",td41)
+      td41.id = "L7" 
+}
+
+if(td42 != null || td42 != undefined) {   
+   console.log("confirmado",td42)
+   td42.id = "L7" 
+}
+
+if(td43 != null || td43 != undefined) {   
+   console.log("confirmado",td43)
+   td43.id = "L7" 
+}
+
+if(td44 != null || td44 != undefined) {   
+   console.log("confirmado",td44)
+   td44.id = "L7" 
+}
+
+if(td45 != null || td45 != undefined) {   
+   console.log("confirmado",td45)
+      td45.id = "L7" 
+}
+
+
+
+
+// resetando Tomada
+
+ // 1 para 3  L8
+let td91 = this.document.getElementById("L81");
+let td92 = this.document.getElementById("L82");
+let td93 = this.document.getElementById("L83");
+let td94 = this.document.getElementById("L84");
+let td95 = this.document.getElementById("L85");
+
+ // 2 para 4 L8
+let td96 = this.document.getElementById("L86");
+let td97 = this.document.getElementById("L87");
+let td98 = this.document.getElementById("L88");
+let td99 = this.document.getElementById("L89");
+let td100 = this.document.getElementById("L891");
+
+ // 5 para 6 L8
+let td101 = this.document.getElementById("L892");
+let td102 = this.document.getElementById("L893");
+let td103 = this.document.getElementById("L894");
+let td104 = this.document.getElementById("L895");
+let td105 = this.document.getElementById("L896");
+
+
+//FIO 2
+// 1 para 3  L8
+let td106 = this.document.getElementById("L897");
+let td107 = this.document.getElementById("L898");
+let td108 = this.document.getElementById("L899");
+let td109 = this.document.getElementById("L8991");
+let td110 = this.document.getElementById("L8992");
+
+ // 2 para 4 L8
+let td111 = this.document.getElementById("L8993");
+let td112 = this.document.getElementById("L8994");
+let td113 = this.document.getElementById("L8995");
+let td114 = this.document.getElementById("L8996");
+let td115 = this.document.getElementById("L8997");
+
+ // 5 para 6 L8
+let td116 = this.document.getElementById("L8998");
+let td117 = this.document.getElementById("L8999");
+let td118 = this.document.getElementById("L89991");
+let td119 = this.document.getElementById("L89992");
+let td120 = this.document.getElementById("L89993");
+
+
+//FIO 3
+// 1 para 3  L8
+let td121 = this.document.getElementById("L89994");
+let td122 = this.document.getElementById("L89995");
+let td123 = this.document.getElementById("L89996");
+let td124 = this.document.getElementById("L89997");
+let td125 = this.document.getElementById("L89998");
+
+ // 2 para 4 L8
+let td126 = this.document.getElementById("L89999");
+let td127 = this.document.getElementById("L899991");
+let td128 = this.document.getElementById("L899992");
+let td129 = this.document.getElementById("L899993");
+let td130 = this.document.getElementById("L899994");
+
+ // 5 para 6 L8
+let td131 = this.document.getElementById("L899995");
+let td132 = this.document.getElementById("L899996");
+let td133 = this.document.getElementById("L899997");
+let td134 = this.document.getElementById("L899998");
+let td135 = this.document.getElementById("L899999");
+
+
+// 1para3 alta
+if(td91 != null || td91 != undefined) {   
+   console.log("confirmado",td91)
+      td91.id = "L8" 
+}
+
+if(td92 != null || td92 != undefined) {   
+   console.log("confirmado",td92)
+   td92.id = "L8" 
+}
+
+if(td93 != null || td93 != undefined) {   
+   console.log("confirmado",td93)
+   td93.id = "L8" 
+}
+
+if(td94 != null || td94 != undefined) {   
+   console.log("confirmado",td94)
+   td94.id = "L8" 
+}
+
+if(td95 != null || td95 != undefined) {   
+   console.log("confirmado",td95)
+   td95.id = "L8" 
 }
 
 
@@ -5656,173 +6129,555 @@ if(td20 != null || td20 != undefined) {
 
 
 //2para4 baixa
-if(td21 != null || td21 != undefined) {   
-   console.log("confirmado",td21)
-   td21.id = "L8" 
+if(td96 != null || td96 != undefined) {   
+   console.log("confirmado",td96)
+   td96.id = "L8" 
 }
 
-if(td22 != null || td22 != undefined) {   
-   console.log("confirmado",td22)
-td22.id = "L8" 
+if(td97 != null || td97 != undefined) {   
+   console.log("confirmado",td97)
+td97.id = "L8" 
 }
 
-if(td23 != null || td23 != undefined) {   
-   console.log("confirmado",td23)
-td23.id = "L8" 
+if(td98 != null || td98 != undefined) {   
+   console.log("confirmado",td98)
+td98.id = "L8" 
 }
 
-if(td24 != null || td24 != undefined) {   
-   console.log("confirmado",td24)
-td24.id = "L8" 
+if(td99 != null || td99 != undefined) {   
+   console.log("confirmado",td99)
+td99.id = "L8" 
 }
 
-if(td25 != null || td25 != undefined) {   
-   console.log("confirmado",td25)
-td25.id = "L8" 
+if(td100 != null || td100 != undefined) {   
+   console.log("confirmado",td100)
+td100.id = "L8" 
 }
 
 
 // 5para6 
-if(td26 != null || td26 != undefined) {   
-   console.log("confirmado",td26)
-      td26.id = "L8" 
+if(td101 != null || td101 != undefined) {   
+   console.log("confirmado",td101)
+      td101.id = "L8" 
 }
 
-if(td27 != null || td27 != undefined) {  
-   console.log("confirmado",td27) 
-   td27.id = "L8" 
+if(td102 != null || td102 != undefined) {  
+   console.log("confirmado",td102) 
+   td102.id = "L8" 
 }
 
-if(td28 != null || td28 != undefined) {  
-   console.log("confirmado",td28) 
-   td28.id = "L8" 
+if(td103 != null || td103 != undefined) {  
+   console.log("confirmado",td103) 
+   td103.id = "L8" 
 }
 
-if(td29 != null || td29 != undefined) {   
-   console.log("confirmado",td29)
-   td29.id = "L8" 
+if(td104 != null || td104 != undefined) {   
+   console.log("confirmado",td104)
+   td104.id = "L8" 
 }
 
-if(td30 != null || td30 != undefined) {   
-   console.log("confirmado",td30)
-   td30.id = "L8" 
+if(td105 != null || td105 != undefined) {   
+   console.log("confirmado",td105)
+   td105.id = "L8" 
 }
 
+
+//SEGUNDO FIO
+// 1para3 alta
+if(td106 != null || td106 != undefined) {   
+   console.log("confirmado",td106)
+      td106.id = "L8" 
+}
+
+if(td107 != null || td107 != undefined) {   
+   console.log("confirmado",td107)
+   td107.id = "L8" 
+}
+
+if(td108 != null || td108 != undefined) {   
+   console.log("confirmado",td108)
+   td108.id = "L8" 
+}
+
+if(td109 != null || td109 != undefined) {   
+   console.log("confirmado",td109)
+   td109.id = "L8" 
+}
+
+if(td110 != null || td110 != undefined) {   
+   console.log("confirmado",td110)
+   td110.id = "L8" 
+}
+
+
+
+
+
+//2para4 baixa
+if(td111 != null || td111 != undefined) {   
+   console.log("confirmado",td111)
+   td111.id = "L8" 
+}
+
+if(td112 != null || td112 != undefined) {   
+   console.log("confirmado",td112)
+td112.id = "L8" 
+}
+
+if(td113 != null || td113 != undefined) {   
+   console.log("confirmado",td113)
+td113.id = "L8" 
+}
+
+if(td114 != null || td114 != undefined) {   
+   console.log("confirmado",td114)
+td114.id = "L8" 
+}
+
+if(td115 != null || td115 != undefined) {   
+   console.log("confirmado",td115)
+td115.id = "L8" 
+}
+
+
+// 5para6 
+if(td116 != null || td116 != undefined) {   
+   console.log("confirmado",td116)
+      td116.id = "L8" 
+}
+
+if(td117 != null || td117 != undefined) {  
+   console.log("confirmado",td117) 
+   td117.id = "L8" 
+}
+
+if(td118 != null || td118 != undefined) {  
+   console.log("confirmado",td118) 
+   td118.id = "L8" 
+}
+
+if(td119 != null || td119 != undefined) {   
+   console.log("confirmado",td119)
+   td119.id = "L8" 
+}
+
+if(td120 != null || td120 != undefined) {   
+   console.log("confirmado",td120)
+   td120.id = "L8" 
+}
+
+
+
+
+//TERCEIRO FIO
+// 1para3 alta
+if(td121 != null || td121 != undefined) {   
+   console.log("confirmado",td121)
+      td121.id = "L8" 
+}
+
+if(td122 != null || td122 != undefined) {   
+   console.log("confirmado",td122)
+   td122.id = "L8" 
+}
+
+if(td123 != null || td123 != undefined) {   
+   console.log("confirmado",td123)
+   td123.id = "L8" 
+}
+
+if(td124 != null || td124 != undefined) {   
+   console.log("confirmado",td124)
+   td124.id = "L8" 
+}
+
+if(td125 != null || td125 != undefined) {   
+   console.log("confirmado",td125)
+   td125.id = "L8" 
+}
+
+
+
+
+
+//2para4 baixa
+if(td126 != null || td126 != undefined) {   
+   console.log("confirmado",td126)
+   td126.id = "L8" 
+}
+
+if(td127 != null || td127 != undefined) {   
+   console.log("confirmado",td127)
+td127.id = "L8" 
+}
+
+if(td128 != null || td128 != undefined) {   
+   console.log("confirmado",td128)
+td128.id = "L8" 
+}
+
+if(td129 != null || td129 != undefined) {   
+   console.log("confirmado",td129)
+td129.id = "L8" 
+}
+
+if(td130 != null || td130 != undefined) {   
+   console.log("confirmado",td130)
+td130.id = "L8" 
+}
+
+
+// 5para6 
+if(td131 != null || td131 != undefined) {   
+   console.log("confirmado",td131)
+      td131.id = "L8" 
+}
+
+if(td132 != null || td132 != undefined) {  
+   console.log("confirmado",td132) 
+   td132.id = "L8" 
+}
+
+if(td133 != null || td133 != undefined) {  
+   console.log("confirmado",td133) 
+   td133.id = "L8" 
+}
+
+if(td134 != null || td134 != undefined) {   
+   console.log("confirmado",td134)
+   td134.id = "L8" 
+}
+
+if(td135 != null || td135 != undefined) {   
+   console.log("confirmado",td135)
+   td135.id = "L8" 
+}
 
 
 
 // resetando Tomada
 
  // 1 para 3  L9
-let td31 = this.document.getElementById("L91");
-let td32 = this.document.getElementById("L92");
-let td33 = this.document.getElementById("L93");
-let td34 = this.document.getElementById("L94");
-let td35 = this.document.getElementById("L95");
+let td136 = this.document.getElementById("L91");
+let td137 = this.document.getElementById("L92");
+let td138 = this.document.getElementById("L93");
+let td139 = this.document.getElementById("L94");
+let td140 = this.document.getElementById("L95");
 
  // 2 para 4 L9
-let td36 = this.document.getElementById("L96");
-let td37 = this.document.getElementById("L97");
-let td38 = this.document.getElementById("L98");
-let td39 = this.document.getElementById("L99");
-let td40 = this.document.getElementById("L991");
+let td141 = this.document.getElementById("L96");
+let td142 = this.document.getElementById("L97");
+let td143 = this.document.getElementById("L98");
+let td144 = this.document.getElementById("L99");
+let td145 = this.document.getElementById("L991");
 
  // 5 para 6 L9
-let td41 = this.document.getElementById("L992");
-let td42 = this.document.getElementById("L993");
-let td43 = this.document.getElementById("L994");
-let td44 = this.document.getElementById("L995");
-let td45 = this.document.getElementById("L996");
+let td146 = this.document.getElementById("L992");
+let td147 = this.document.getElementById("L993");
+let td148 = this.document.getElementById("L994");
+let td149 = this.document.getElementById("L995");
+let td150 = this.document.getElementById("L996");
 
 
 
+//FIO 2
+// 1 para 3  L9
+let td151 = this.document.getElementById("L997");
+let td152 = this.document.getElementById("L998");
+let td153 = this.document.getElementById("L999");
+let td154 = this.document.getElementById("L9991");
+let td155 = this.document.getElementById("L9992");
+
+ // 2 para 4 L9
+let td156 = this.document.getElementById("L9993");
+let td157 = this.document.getElementById("L9994");
+let td158 = this.document.getElementById("L9995");
+let td159 = this.document.getElementById("L9996");
+let td160 = this.document.getElementById("L9997");
+
+ // 5 para 6 L9
+let td161 = this.document.getElementById("L9998");
+let td162 = this.document.getElementById("L9999");
+let td163 = this.document.getElementById("L99991");
+let td164 = this.document.getElementById("L99992");
+let td165 = this.document.getElementById("L99993");
+
+
+//FIO 3
+// 1 para 3  L9
+let td166 = this.document.getElementById("L99994");
+let td167 = this.document.getElementById("L99995");
+let td168 = this.document.getElementById("L99996");
+let td169 = this.document.getElementById("L99997");
+let td170 = this.document.getElementById("L99998");
+
+ // 2 para 4 L9
+let td171 = this.document.getElementById("L99999");
+let td172 = this.document.getElementById("L999991");
+let td173 = this.document.getElementById("L999992");
+let td174 = this.document.getElementById("L999993");
+let td175 = this.document.getElementById("L999994");
+
+ // 5 para 6 L9
+let td176 = this.document.getElementById("L999995");
+let td177 = this.document.getElementById("L999996");
+let td178 = this.document.getElementById("L999997");
+let td179 = this.document.getElementById("L999998");
+let td180 = this.document.getElementById("L999999");
 
 
 // 1para3 alta
-if(td31 != null || td31 != undefined) {   
-   console.log("confirmado",td31)
-      td31.id = "L9" 
+if(td136 != null || td136 != undefined) {   
+   console.log("confirmado",td136)
+      td136.id = "L9" 
 }
 
-if(td32 != null || td32 != undefined) {   
-   console.log("confirmado",td32)
-   td32.id = "L9" 
+if(td137 != null || td137 != undefined) {   
+   console.log("confirmado",td137)
+   td137.id = "L9" 
 }
 
-if(td33 != null || td33 != undefined) {   
-   console.log("confirmado",td33)
-   td33.id = "L9" 
+if(td138 != null || td138 != undefined) {   
+   console.log("confirmado",td138)
+   td138.id = "L9" 
 }
 
-if(td34 != null || td34 != undefined) {  
-   console.log("confirmado",td34) 
-   td34.id = "L9" 
+if(td139 != null || td139 != undefined) {  
+   console.log("confirmado",td139) 
+   td139.id = "L9" 
 }
 
-if(td35 != null || td35 != undefined) {  
-   console.log("confirmado",td35) 
-   td35.id = "L9" 
+if(td140 != null || td140 != undefined) {  
+   console.log("confirmado",td140) 
+   td140.id = "L9" 
 }
 
 
 
 
 //2para4 baixa
-if(td36 != null || td36 != undefined) {   
-   console.log("confirmado",td36)
-   td36.id = "L9" 
+if(td141 != null || td141 != undefined) {   
+   console.log("confirmado",td141)
+   td141.id = "L9" 
 }
 
-if(td37 != null || td37 != undefined) {  
-   console.log("confirmado",td37) 
-td37.id = "L9" 
+if(td142 != null || td142 != undefined) {  
+   console.log("confirmado",td142) 
+td142.id = "L9" 
 }
 
-if(td38 != null || td38 != undefined) {  
-   console.log("confirmado",td38) 
-td38.id = "L9" 
+if(td143 != null || td143 != undefined) {  
+   console.log("confirmado",td143) 
+td143.id = "L9" 
 }
 
-if(td39 != null || td39 != undefined) {  
-   console.log("confirmado",td39) 
-td39.id = "L9" 
+if(td144 != null || td144!= undefined) {  
+   console.log("confirmado",td144) 
+td144.id = "L9" 
 }
 
-if(td40 != null || td40 != undefined) {   
-   console.log("confirmado",td40)
-td40.id = "L9" 
+if(td145 != null || td145 != undefined) {   
+   console.log("confirmado",td145)
+td145.id = "L9" 
 }
 
 
 // 5para6 
-if(td41 != null || td41 != undefined) {  
-   console.log("confirmado",td1)
-      td41.id = "L9" 
+if(td146 != null || td146 != undefined) {  
+   console.log("confirmado",td146)
+      td146.id = "L9" 
 }
 
-if(td42 != null || td42 != undefined) {  
-   console.log("confirmado",td42) 
-   td42.id = "L9" 
+if(td147 != null || td147 != undefined) {  
+   console.log("confirmado",td147) 
+   td147.id = "L9" 
 }
 
-if(td43 != null || td43 != undefined) {   
-   console.log("confirmado",td43)
-   td43.id = "L9" 
+if(td148 != null || td148 != undefined) {   
+   console.log("confirmado",td148)
+   td148.id = "L9" 
 }
 
-if(td44 != null || td44 != undefined) {   
-   console.log("confirmado",td44)
-   td44.id = "L9" 
+if(td149 != null || td149!= undefined) {   
+   console.log("confirmado",td149)
+   td149.id = "L9" 
 }
 
-if(td45 != null || td45 != undefined) {   
+if(td150 != null || td150 != undefined) {   
    console.log("confirmado",td45)
-   td45.id = "L9" 
+   td150.id = "L9" 
+}
+
+
+
+//SEGUNDO FIO
+// 1para3 alta
+if(td151 != null || td151 != undefined) {   
+   console.log("confirmado",td151)
+      td151.id = "L8" 
+}
+
+if(td152 != null || td152 != undefined) {   
+   console.log("confirmado",td152)
+   td152.id = "L8" 
+}
+
+if(td153 != null || td153 != undefined) {   
+   console.log("confirmado",td153)
+   td153.id = "L8" 
+}
+
+if(td154 != null || td154 != undefined) {   
+   console.log("confirmado",td154)
+   td154.id = "L8" 
+}
+
+if(td155 != null || td155 != undefined) {   
+   console.log("confirmado",td155)
+   td155.id = "L8" 
 }
 
 
 
 
+
+//2para4 baixa
+if(td156 != null || td156 != undefined) {   
+   console.log("confirmado",td156)
+   td156.id = "L8" 
+}
+
+if(td157 != null || td157 != undefined) {   
+   console.log("confirmado",td157)
+td157.id = "L8" 
+}
+
+if(td158 != null || td158 != undefined) {   
+   console.log("confirmado",td158)
+td158.id = "L8" 
+}
+
+if(td159 != null || td159 != undefined) {   
+   console.log("confirmado",td159)
+td159.id = "L8" 
+}
+
+if(td160 != null || td160 != undefined) {   
+   console.log("confirmado",td160)
+td160.id = "L8" 
+}
+
+
+// 5para6 
+if(td161 != null || td161 != undefined) {   
+   console.log("confirmado",td161)
+      td161.id = "L8" 
+}
+
+if(td162 != null || td162 != undefined) {  
+   console.log("confirmado",td162) 
+   td162.id = "L8" 
+}
+
+if(td163 != null || td163 != undefined) {  
+   console.log("confirmado",td163) 
+   td163.id = "L8" 
+}
+
+if(td164 != null || td164 != undefined) {   
+   console.log("confirmado",td164)
+   td164.id = "L8" 
+}
+
+if(td165 != null || td165 != undefined) {   
+   console.log("confirmado",td165)
+   td165.id = "L8" 
+}
+
+
+//TERCEIRO FIO
+// 1para3 alta
+if(td166 != null || td166 != undefined) {   
+   console.log("confirmado",td166)
+      td166.id = "L8" 
+}
+
+if(td167 != null || td167 != undefined) {   
+   console.log("confirmado",td167)
+   td167.id = "L8" 
+}
+
+if(td168 != null || td168 != undefined) {   
+   console.log("confirmado",td168)
+   td168.id = "L8" 
+}
+
+if(td169 != null || td169 != undefined) {   
+   console.log("confirmado",td169)
+   td169.id = "L8" 
+}
+
+if(td170 != null || td170 != undefined) {   
+   console.log("confirmado",td170)
+   td170.id = "L8" 
+}
+
+
+
+
+
+//2para4 baixa
+if(td171 != null || td171 != undefined) {   
+   console.log("confirmado",td171)
+   td171.id = "L8" 
+}
+
+if(td172 != null || td172 != undefined) {   
+   console.log("confirmado",td172)
+td172.id = "L8" 
+}
+
+if(td173 != null || td173 != undefined) {   
+   console.log("confirmado",td173)
+td173.id = "L8" 
+}
+
+if(td174 != null || td174 != undefined) {   
+   console.log("confirmado",td174)
+td174.id = "L8" 
+}
+
+if(td175 != null || td175 != undefined) {   
+   console.log("confirmado",td175)
+td175.id = "L8" 
+}
+
+
+// 5para6 
+if(td176 != null || td176 != undefined) {   
+   console.log("confirmado",td176)
+      td176.id = "L8" 
+}
+
+if(td177 != null || td177 != undefined) {  
+   console.log("confirmado",td177) 
+   td177.id = "L8" 
+}
+
+if(td178 != null || td178 != undefined) {  
+   console.log("confirmado",td178) 
+   td178.id = "L8" 
+}
+
+if(td179 != null || td179 != undefined) {   
+   console.log("confirmado",td179)
+   td179.id = "L8" 
+}
+
+if(td180 != null || td180 != undefined) {   
+   console.log("confirmado",td180)
+   td180.id = "L8" 
+}
 
 
 }
