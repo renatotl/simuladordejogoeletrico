@@ -8372,7 +8372,7 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11Baixo = "L1MB"; 
-      lp.id = "L20"
+      lp.id = "L191"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
        return lp.id = "L191"
@@ -8388,7 +8388,7 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1PBB"; 
-      lp.id = "L31"
+      lp.id = "L192"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
        return lp.id = "L192"
@@ -8400,7 +8400,7 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1VBB";  
-      lp.id = "L32"
+      lp.id = "L193"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
        return lp.id = "L193"
@@ -8413,7 +8413,7 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1BBB";
-      lp.id = "L33"
+      lp.id = "L194"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
        return lp.id = "L194"
@@ -8425,7 +8425,7 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1ABB"; 
-      lp.id = "L34"
+      lp.id = "L195"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
        return lp.id = "L195"
@@ -8439,7 +8439,7 @@ function lampadaConect(id,id2){
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1MBB"; 
          console.log("funcionou")
-      lp.id = "L35"
+      lp.id = "L196"
       abrirPopup(conexacaoL11BaixoBaixo)
        return lp.id = "L196"
       }
@@ -8571,10 +8571,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) { 
          conexacaoL12Baixo = "L2MB"; 
-      lp.id = "L30"
+      lp.id = "L291"
       console.log("funcionou")
       abrirPopup(conexacaoL12Baixo)
-       return lp.id = "L30"
+       return lp.id = "L291"
       }
       
     }
@@ -8586,10 +8586,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
          conexacaoL12BaixoBaixo = "L2PBB"; 
-      lp.id = "L36"
+      lp.id = "L292"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
-       return lp.id = "L36"
+       return lp.id = "L292"
       }
     } else 
 
@@ -8598,10 +8598,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
          conexacaoL12BaixoBaixo = "L2VBB";  
-      lp.id = "L37"
+      lp.id = "L293"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
-       return lp.id = "L37"
+       return lp.id = "L293"
       }
       
     } else
@@ -8611,10 +8611,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) { 
          conexacaoL12BaixoBaixo = "L2BBB";
-      lp.id = "L38"
+      lp.id = "L294"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
-       return lp.id = "L38"
+       return lp.id = "L294"
       }
       
     } else
@@ -8623,10 +8623,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) {
          conexacaoL12BaixoBaixo = "L2ABB"; 
-      lp.id = "L39"
+      lp.id = "L295"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
-       return lp.id = "L39"
+       return lp.id = "L295"
       }
       
     }else
@@ -8636,10 +8636,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L2");
       if(lp != null && lp != undefined) { 
          conexacaoL12BaixoBaixo = "L2MBB"; 
-      lp.id = "L40"
+      lp.id = "L296"
       console.log("funcionou")
       abrirPopup(conexacaoL12BaixoBaixo)
-       return lp.id = "L40"
+       return lp.id = "L296"
       }
       
     }
@@ -8662,10 +8662,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp!=null && lp!=undefined ){
          conexacaoL11Alto = "L1PA"
-      lp.id = "L11"
+      lp.id = "L197"
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
-       return lp.id = "L11"
+       return lp.id = "L197"
    }
     } else 
 
@@ -8674,10 +8674,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {  
           conexacaoL11Alto = "L1VA"
-      lp.id = "L12"
+      lp.id = "L198"
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
- return lp.id = "L12"
+ return lp.id = "L198"
       }
       
     } else
@@ -8687,10 +8687,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
           conexacaoL11Alto = "L1BA"  
-      lp.id = "L13"
+      lp.id = "L199"
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
-       return lp.id = "L13"
+       return lp.id = "L199"
       }
       
     } else
@@ -8699,10 +8699,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
           conexacaoL11Alto = "L1AA"  
-      lp.id = "L14"
+      lp.id = "L1991"
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
-       return lp.id = "L14"
+       return lp.id = "L1991"
       }
       
     }else
@@ -8712,10 +8712,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
           conexacaoL11Alto = "L1MA"  
-      lp.id = "L15"
+      lp.id = "L1992"
       console.log("funcionou")
       abrirPopup(conexacaoL11Alto)
-       return lp.id = "L15"
+       return lp.id = "L1992"
       }
     }else
 
@@ -8728,10 +8728,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1PB"  
-      lp.id = "L16"
+      lp.id = "L1993"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
-       return lp.id = "L16"
+       return lp.id = "L1993"
       }
       
     } else 
@@ -8741,10 +8741,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1VB"    
-      lp.id = "L17"
+      lp.id = "L1994"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
-       return lp.id = "L17"
+       return lp.id = "L1994"
       }
       
     } else
@@ -8754,10 +8754,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1BB"    
-      lp.id = "L18"
+      lp.id = "L1995"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
-       return lp.id = "L18"
+       return lp.id = "L1995"
       }
       
     } else
@@ -8766,10 +8766,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1AB"    
-      lp.id = "L19"
+      lp.id = "L1996"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
-       return lp.id = "L19"
+       return lp.id = "L1996"
       }
       
     }else
@@ -8779,10 +8779,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11Baixo = "L1MB"    
-      lp.id = "L20"
+      lp.id = "L1997"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
-       return lp.id = "L20"
+       return lp.id = "L1997"
       }
       
     }
@@ -8796,10 +8796,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {  
          conexacaoL11BaixoBaixo = "L1PBB"
-      lp.id = "L31"
+      lp.id = "L1998"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
-      return lp.id = "L31"
+      return lp.id = "L1998"
       }
       
     } else 
@@ -8809,10 +8809,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) { 
          conexacaoL11BaixoBaixo = "L1VBB" 
-      lp.id = "L32"
+      lp.id = "L1999"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
-      return lp.id = "L32"
+      return lp.id = "L1999"
       }
       
     } else
@@ -8822,10 +8822,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1BBB"  
-      lp.id = "L33"
+      lp.id = "L19991"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
-      return lp.id = "L33"
+      return lp.id = "L19991"
       }
       
     } else
@@ -8834,10 +8834,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1ABB"  
-      lp.id = "L34"
+      lp.id = "L19992"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
-      return lp.id = "L34"
+      return lp.id = "L19992"
       }
       
     }else
@@ -8847,10 +8847,10 @@ function lampadaConect(id,id2){
       let lp = document.getElementById("L1");
       if(lp != null && lp != undefined) {
          conexacaoL11BaixoBaixo = "L1MBB"  
-      lp.id = "L35"
+      lp.id = "L19993"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
-      return lp.id = "L35"
+      return lp.id = "L19993"
       }
       
     }
