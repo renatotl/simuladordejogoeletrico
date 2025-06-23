@@ -4800,79 +4800,70 @@ function resetButtom(){
 
 //1 pata 3
 let lp = this.document.getElementById("L11");
-console.log("funionou",lp)
 let lp2 = this.document.getElementById("L12");
-console.log("funionou",lp2)
 let lp3 = this.document.getElementById("L13");
-console.log("funionou",lp3)
 let lp4 = this.document.getElementById("L14");
-console.log("funionou",lp4)
 let lp5 = this.document.getElementById("L15");
-console.log("funionou",lp5)
 
 // 2 para 4
 let lp6 = this.document.getElementById("L16");
-console.log("funionou",lp6)
 let lp7 = this.document.getElementById("L17");
-console.log("funionou",lp7)
 let lp8 = this.document.getElementById("L18");
-console.log("funionou",lp8)
 let lp9 = this.document.getElementById("L19");
-console.log("funionou",lp9)
-let lp10 = this.document.getElementById("L20");
-console.log("funionou",lp10)
-
-
-
-// L2 1 para 3
-let lp11 = this.document.getElementById("L21");
-console.log("funionou",lp11)
-let lp12 = this.document.getElementById("L22");
-console.log("funionou",lp12)
-let lp13 = this.document.getElementById("L23");
-console.log("funionou",lp13)
-let lp14 = this.document.getElementById("L24");
-console.log("funionou",lp14)
-let lp15 = this.document.getElementById("L25");
-console.log("funionou",lp15)
-
-//L2 2para4 baixa
-let lp16 = this.document.getElementById("L26");
-console.log("funionou",lp16)
-let lp17 = this.document.getElementById("L27");
-console.log("funionou",lp17)
-let lp18 = this.document.getElementById("L28");
-console.log("funionou",lp18)
-let lp19 = this.document.getElementById("L29");
-console.log("funionou",lp19)
-let lp20 = this.document.getElementById("L30");
-console.log("funionou",lp20)
+let lp10 = this.document.getElementById("L191");
 
 //terceiro fio L1
-let lp21 = this.document.getElementById("L31");
-console.log("funionou",lp21)
-let lp22 = this.document.getElementById("L32");
-console.log("funionou",lp22)
-let lp23 = this.document.getElementById("L33");
-console.log("funionou",lp23)
-let lp24 = this.document.getElementById("L34");
-console.log("funionou",lp24)
-let lp25 = this.document.getElementById("L35");
-console.log("funionou",lp25)
+let lp11 = this.document.getElementById("L192");
+let lp12 = this.document.getElementById("L193");
+let lp13 = this.document.getElementById("L194");
+let lp14 = this.document.getElementById("L195");
+let lp15 = this.document.getElementById("L196");
 
-//terceiro fio L2
-let lp26 = this.document.getElementById("L36");
-console.log("funionou",lp26)
-let lp27 = this.document.getElementById("L37");
-console.log("funionou",lp27)
-let lp28 = this.document.getElementById("L38");
-console.log("funionou",lp28)
-let lp29 = this.document.getElementById("L39");
-console.log("funionou",lp29)
-let lp30 = this.document.getElementById("L40");
-console.log("funionou",lp30)
-// resetando lamp
 
+//FIO 2
+ // 1 para 3 L1
+let lp16 = this.document.getElementById("L197");
+let lp17 = this.document.getElementById("L198");
+let lp18 = this.document.getElementById("L199");
+let lp19 = this.document.getElementById("L1991");
+let lp20 = this.document.getElementById("L1992");
+
+ // 2 para 4 L1
+let lp21 = this.document.getElementById("L1993");
+let lp22 = this.document.getElementById("L1994");
+let lp23 = this.document.getElementById("L1995");
+let lp24 = this.document.getElementById("L1996");
+let lp25 = this.document.getElementById("L1997");
+
+ // 5 para 6 L1
+let lp26 = this.document.getElementById("L1998");
+let lp27 = this.document.getElementById("L1999");
+let lp28 = this.document.getElementById("L19991");
+let lp29 = this.document.getElementById("L19992");
+let lp30 = this.document.getElementById("L19993");
+
+
+//FIO 3
+ // 1 para 3 L1
+let lp31 = this.document.getElementById("L19994");
+let lp32 = this.document.getElementById("L19995");
+let lp33 = this.document.getElementById("L19996");
+let lp34 = this.document.getElementById("L19997");
+let lp35 = this.document.getElementById("L19998");
+
+ // 2 para 4 L1
+let lp36 = this.document.getElementById("L19999");
+let lp37 = this.document.getElementById("L199991");
+let lp38 = this.document.getElementById("L199992");
+let lp39 = this.document.getElementById("L199993");
+let lp40 = this.document.getElementById("L199994");
+
+ // 5 para 6 L1
+let lp41 = this.document.getElementById("L199995");
+let lp42 = this.document.getElementById("L199996");
+let lp43 = this.document.getElementById("L199997");
+let lp44 = this.document.getElementById("L199998");
+let lp45 = this.document.getElementById("L199999");
 
 
 
@@ -4933,119 +4924,482 @@ lp10.id = "L1"
 
 
 // 5para6 
-if(lp21 != null || lp21 != undefined) {   
-   console.log("confirmado",lp21)
-      lp21.id = "L1" 
-}
-
-if(lp22 != null || lp22 != undefined) {   
-   console.log("confirmado",lp22)
-   lp22.id = "L1" 
-}
-
-if(lp23 != null || lp23 != undefined) {   
-   console.log("confirmado",lp23)
-   lp23.id = "L1" 
-}
-
-if(lp24 != null || lp24 != undefined) {   
-   console.log("confirmado",lp24)
-   lp24.id = "L1" 
-}
-
-if(lp25 != null || lp25 != undefined) {   
-   console.log("confirmado",lp25)
-   lp25.id = "L1" 
-}
-
-
-
-// L2 1para3  alta
 if(lp11 != null || lp11 != undefined) {   
    console.log("confirmado",lp11)
-      lp11.id = "L2" 
+      lp11.id = "L1" 
 }
 
 if(lp12 != null || lp12 != undefined) {   
    console.log("confirmado",lp12)
-   lp12.id = "L2" 
+   lp12.id = "L1" 
 }
 
 if(lp13 != null || lp13 != undefined) {   
    console.log("confirmado",lp13)
-   lp13.id = "L2" 
+   lp13.id = "L1" 
 }
 
 if(lp14 != null || lp14 != undefined) {   
    console.log("confirmado",lp14)
-   lp14.id = "L2" 
+   lp14.id = "L1" 
 }
 
 if(lp15 != null || lp15 != undefined) {   
    console.log("confirmado",lp15)
-   lp15.id = "L2" 
+   lp15.id = "L1" 
 }
 
 
-
-
-//L2 2para4 baixa
+// FIO 2 
+// 1para3 alta
 if(lp16 != null || lp16 != undefined) {   
    console.log("confirmado",lp16)
-   lp16.id = "L2" 
+      lp16.id = "L1" 
 }
 
 if(lp17 != null || lp17 != undefined) {   
    console.log("confirmado",lp17)
-lp17.id = "L2" 
+   lp17.id = "L1" 
 }
 
 if(lp18 != null || lp18 != undefined) {   
    console.log("confirmado",lp18)
-lp18.id = "L2" 
+   lp18.id = "L1" 
 }
 
 if(lp19 != null || lp19 != undefined) {   
    console.log("confirmado",lp19)
-lp19.id = "L2" 
+   lp19.id = "L1" 
 }
 
 if(lp20 != null || lp20 != undefined) {   
    console.log("confirmado",lp20)
-lp20.id = "L2" 
+   lp20.id = "L1" 
 }
 
 
+// FIO 2
+//2para4 baixa
+if(lp21 != null || lp21 != undefined) {   
+   console.log("confirmado",lp21)
+   lp21.id = "L1" 
+}
 
-// 5para6  L2
+if(lp22 != null || lp22 != undefined) {   
+   console.log("confirmado",lp22)
+lp22.id = "L1" 
+}
+
+if(lp23 != null || lp23 != undefined) {   
+   console.log("confirmado",lp23)
+lp23.id = "L1" 
+}
+
+if(lp24 != null || lp24 != undefined) {   
+   console.log("confirmado",lp24)
+lp24.id = "L1" 
+}
+
+if(lp25 != null || lp25 != undefined) {   
+   console.log("confirmado",lp25)
+lp25.id = "L1" 
+}
+
+
+//FIO 2
+// 5para6 
 if(lp26 != null || lp26 != undefined) {   
    console.log("confirmado",lp26)
-      lp26.id = "L2" 
+      lp26.id = "L1" 
 }
 
 if(lp27 != null || lp27 != undefined) {   
    console.log("confirmado",lp27)
-   lp27.id = "L2" 
+   lp27.id = "L1" 
 }
 
 if(lp28 != null || lp28 != undefined) {   
    console.log("confirmado",lp28)
-   lp28.id = "L2" 
+   lp28.id = "L1" 
 }
 
 if(lp29 != null || lp29 != undefined) {   
    console.log("confirmado",lp29)
-   lp29.id = "L2" 
+   lp29.id = "L1" 
 }
 
 if(lp30 != null || lp30 != undefined) {   
    console.log("confirmado",lp30)
-   lp30.id = "L2" 
+   lp30.id = "L1" 
+}
+
+
+
+// FIO 3
+// 1para3 alta
+if(lp31 != null || lp31 != undefined) {   
+   console.log("confirmado",lp31)
+      lp31.id = "L1" 
+}
+
+if(lp32 != null || lp32 != undefined) {   
+   console.log("confirmado",lp32)
+   lp32.id = "L1" 
+}
+
+if(lp33 != null || lp33 != undefined) {   
+   console.log("confirmado",lp33)
+   lp33.id = "L1" 
+}
+
+if(lp34 != null || lp34 != undefined) {   
+   console.log("confirmado",lp34)
+   lp34.id = "L1" 
+}
+
+if(lp35 != null || lp35 != undefined) {   
+   console.log("confirmado",lp35)
+      lp35.id = "L1" 
+}
+
+
+//2para4 baixa
+if(lp36 != null || lp36 != undefined) {   
+   console.log("confirmado",lp36)
+   lp36.id = "L1" 
+}
+
+if(lp37 != null || lp37 != undefined) {   
+   console.log("confirmado",lp37)
+lp37.id = "L1" 
+}
+
+if(lp38 != null || lp38 != undefined) {   
+   console.log("confirmado",lp38)
+lp38.id = "L1" 
+}
+
+if(lp39 != null || lp39 != undefined) {   
+   console.log("confirmado",lp39)
+lp39.id = "L1" 
+}
+
+if(lp40 != null || lp40 != undefined) {   
+   console.log("confirmado",lp40)
+lp40.id = "L1" 
+}
+
+
+// 1para3 alta
+if(lp41 != null || lp41 != undefined) {   
+   console.log("confirmado",lp41)
+      lp41.id = "L1" 
+}
+
+if(lp42 != null || lp42 != undefined) {   
+   console.log("confirmado",lp42)
+   lp42.id = "L1" 
+}
+
+if(lp43 != null || lp43 != undefined) {   
+   console.log("confirmado",lp43)
+   lp43.id = "L1" 
+}
+
+if(lp44 != null || lp44 != undefined) {   
+   console.log("confirmado",lp44)
+   lp44.id = "L1" 
+}
+
+if(lp45 != null || lp45 != undefined) {   
+   console.log("confirmado",lp45)
+      lp45.id = "L1" 
+}
+
+
+// L2 1 para 3
+let lp46 = this.document.getElementById("L21");
+let lp47 = this.document.getElementById("L22");
+let lp48 = this.document.getElementById("L23");
+let lp49 = this.document.getElementById("L24");
+let lp50 = this.document.getElementById("L25");
+
+//L2 2para4 baixa
+let lp51 = this.document.getElementById("L26");
+let lp52 = this.document.getElementById("L27");
+let lp53 = this.document.getElementById("L28");
+let lp54 = this.document.getElementById("L29");
+let lp55 = this.document.getElementById("L291");
+
+//terceiro fio L2
+let lp56 = this.document.getElementById("L292");
+let lp57 = this.document.getElementById("L293");
+let lp58 = this.document.getElementById("L294");
+let lp59 = this.document.getElementById("L295");
+let lp60 = this.document.getElementById("L296");
+// resetando lamp
+
+
+
+// 1para3 alta
+console.log("confirmado",lp46)
+if(lp46 != null || lp46 != undefined) {   
+   console.log("confirmado",lp46)
+      lp46.id = "L2" 
+}
+console.log("confirmado",lp47)
+if(lp47 != null || lp47 != undefined) {   
+   console.log("confirmado",lp47)
+   lp47.id = "L2" 
+}
+console.log("confirmado",lp48)
+if(lp48 != null || lp48 != undefined) {   
+   console.log("confirmado",lp48)
+   lp48.id = "L2" 
+}
+console.log("confirmado",lp49)
+if(lp49 != null || lp49 != undefined) {   
+   console.log("confirmado",lp49)
+   lp49.id = "L2" 
+}
+console.log("confirmado",lp50)
+if(lp50 != null || lp50 != undefined) {   
+   console.log("confirmado",lp50)
+   lp50.id = "L2" 
 }
 
 
 
 
+//2para4 baixa
+if(lp51 != null || lp51 != undefined) {   
+   console.log("confirmado",lp51)
+   lp51.id = "L2" 
+}
+
+if(lp52 != null || lp52 != undefined) {   
+   console.log("confirmado",lp52)
+lp52.id = "L2" 
+}
+
+if(lp53 != null || lp53 != undefined) {   
+   console.log("confirmado",lp53)
+lp53.id = "L2" 
+}
+
+if(lp54 != null || lp54 != undefined) {   
+   console.log("confirmado",lp54)
+lp54.id = "L2" 
+}
+
+if(lp55 != null || lp55 != undefined) {   
+   console.log("confirmado",lp55)
+lp55.id = "L2" 
+}
+
+
+// 5para6 
+if(lp56 != null || lp56 != undefined) {   
+   console.log("confirmado",lp56)
+      lp56.id = "L2" 
+}
+
+if(lp57 != null || lp57 != undefined) {   
+   console.log("confirmado",lp57)
+   lp57.id = "L2" 
+}
+
+if(lp58 != null || lp58 != undefined) {   
+   console.log("confirmado",lp58)
+   lp58.id = "L2" 
+}
+
+if(lp59 != null || lp59 != undefined) {   
+   console.log("confirmado",lp59)
+   lp59.id = "L2" 
+}
+
+if(lp60 != null || lp60 != undefined) {   
+   console.log("confirmado",lp60)
+   lp60.id = "L2" 
+}
+
+
+
+
+
+
+//SEGUNDO FIO
+// 1para3 alta
+console.log("confirmado",lp61)
+if(lp61 != null || lp61 != undefined) {   
+   console.log("confirmado",lp61)
+      lp61.id = "L2" 
+}
+console.log("confirmado",lp62)
+if(lp62 != null || lp62 != undefined) {   
+   console.log("confirmado",lp62)
+   lp62.id = "L2" 
+}
+console.log("confirmado",lp63)
+if(lp63 != null || lp63 != undefined) {   
+   console.log("confirmado",lp63)
+   lp63.id = "L2" 
+}
+console.log("confirmado",lp64)
+if(lp64 != null || lp64 != undefined) {   
+   console.log("confirmado",lp64)
+   lp64.id = "L2" 
+}
+console.log("confirmado",lp65)
+if(lp65 != null || lp65 != undefined) {   
+   console.log("confirmado",lp65)
+   lp65.id = "L2" 
+}
+
+
+
+
+//2para4 baixa
+if(lp66 != null || lp66 != undefined) {   
+   console.log("confirmado",lp66)
+   lp66.id = "L2" 
+}
+
+if(lp67 != null || lp67 != undefined) {   
+   console.log("confirmado",lp67)
+lp67.id = "L2" 
+}
+
+if(lp68 != null || lp68 != undefined) {   
+   console.log("confirmado",lp68)
+lp68.id = "L2" 
+}
+
+if(lp69 != null || lp69 != undefined) {   
+   console.log("confirmado",lp69)
+lp69.id = "L2" 
+}
+
+if(lp70 != null || lp70 != undefined) {   
+   console.log("confirmado",lp70)
+lp70.id = "L2" 
+}
+
+
+// 5para6 
+if(lp71 != null || lp71 != undefined) {   
+   console.log("confirmado",lp71)
+      lp71.id = "L2" 
+}
+
+if(lp72 != null || lp72 != undefined) {   
+   console.log("confirmado",lp72)
+   lp72.id = "L2" 
+}
+
+if(lp73 != null || lp73 != undefined) {   
+   console.log("confirmado",lp73)
+   lp73.id = "L2" 
+}
+
+if(lp74 != null || lp74 != undefined) {   
+   console.log("confirmado",lp74)
+   lp74.id = "L2" 
+}
+
+if(lp75 != null || lp75 != undefined) {   
+   console.log("confirmado",lp75)
+   lp75.id = "L2" 
+}
+
+
+
+
+
+//TERCEIRO FIO
+// 1para3 alta
+console.log("confirmado",lp76)
+if(lp76 != null || lp76 != undefined) {   
+   console.log("confirmado",lp76)
+      lp76.id = "L2" 
+}
+console.log("confirmado",lp77)
+if(lp77 != null || lp77 != undefined) {   
+   console.log("confirmado",lp77)
+   lp77.id = "L2" 
+}
+console.log("confirmado",lp78)
+if(lp78 != null || lp78 != undefined) {   
+   console.log("confirmado",lp78)
+   lp78.id = "L2" 
+}
+console.log("confirmado",lp79)
+if(lp79 != null || lp79 != undefined) {   
+   console.log("confirmado",lp79)
+   lp79.id = "L2" 
+}
+console.log("confirmado",lp80)
+if(lp80 != null || lp80 != undefined) {   
+   console.log("confirmado",lp80)
+   lp80.id = "L2" 
+}
+
+
+
+
+//2para4 baixa
+if(lp81 != null || lp81 != undefined) {   
+   console.log("confirmado",lp81)
+   lp81.id = "L2" 
+}
+
+if(lp82 != null || lp82 != undefined) {   
+   console.log("confirmado",lp82)
+lp82.id = "L2" 
+}
+
+if(lp83 != null || lp83 != undefined) {   
+   console.log("confirmado",lp83)
+lp83.id = "L2" 
+}
+
+if(lp84 != null || lp84 != undefined) {   
+   console.log("confirmado",lp84)
+lp84.id = "L2" 
+}
+
+if(lp85 != null || lp85 != undefined) {   
+   console.log("confirmado",lp85)
+lp85.id = "L2" 
+}
+
+
+// 5para6 
+if(lp86 != null || lp86 != undefined) {   
+   console.log("confirmado",lp86)
+      lp86.id = "L2" 
+}
+
+if(lp87 != null || lp87 != undefined) {   
+   console.log("confirmado",lp87)
+   lp87.id = "L2" 
+}
+
+if(lp88 != null || lp88 != undefined) {   
+   console.log("confirmado",lp88)
+   lp88.id = "L2" 
+}
+
+if(lp89 != null || lp89 != undefined) {   
+   console.log("confirmado",lp89)
+   lp89.id = "L2" 
+}
+
+if(lp90 != null || lp90 != undefined) {   
+   console.log("confirmado",lp90)
+   lp90.id = "L2" 
+}
 
 // resetando interruptor
 
@@ -6680,6 +7034,665 @@ if(td180 != null || td180 != undefined) {
 }
 
 
+
+// resetando chuveiro
+
+ // 1 para 3  L3
+let ch = this.document.getElementById("L31");
+let ch2 = this.document.getElementById("L32");
+let ch3 = this.document.getElementById("L33");
+let ch4 = this.document.getElementById("L34");
+let ch5 = this.document.getElementById("L35");
+
+ // 2 para 4 L3
+let ch6 = this.document.getElementById("L36");
+let ch7 = this.document.getElementById("L37");
+let ch8 = this.document.getElementById("L38");
+let ch9 = this.document.getElementById("L39");
+let ch10 = this.document.getElementById("L391");
+
+ // 5 para 6 L3
+let ch11 = this.document.getElementById("L392");
+let ch12 = this.document.getElementById("L393");
+let ch13 = this.document.getElementById("L394");
+let ch14 = this.document.getElementById("L395");
+let ch15 = this.document.getElementById("L396");
+
+
+
+
+//FIO 2
+ // 1 para 3 L3
+let ch16 = this.document.getElementById("L397");
+let ch17 = this.document.getElementById("L398");
+let ch18 = this.document.getElementById("L399");
+let ch19 = this.document.getElementById("L3991");
+let ch20 = this.document.getElementById("L3992");
+
+ // 2 para 4 L3
+let ch21 = this.document.getElementById("L3993");
+let ch22 = this.document.getElementById("L3994");
+let ch23 = this.document.getElementById("L3995");
+let ch24 = this.document.getElementById("L3996");
+let ch25 = this.document.getElementById("L3997");
+
+ // 5 para 6 L3
+let ch26 = this.document.getElementById("L3998");
+let ch27 = this.document.getElementById("L3999");
+let ch28 = this.document.getElementById("L39991");
+let ch29 = this.document.getElementById("L39992");
+let ch30 = this.document.getElementById("L39993");
+
+
+
+
+//FIO 3
+ // 1 para 3 L3
+let ch31 = this.document.getElementById("L39994");
+let ch32 = this.document.getElementById("L39995");
+let ch33 = this.document.getElementById("L39996");
+let ch34 = this.document.getElementById("L39997");
+let ch35 = this.document.getElementById("L39998");
+
+ // 2 para 4 L3
+let ch36 = this.document.getElementById("L39999");
+let ch37 = this.document.getElementById("L399991");
+let ch38 = this.document.getElementById("L399992");
+let ch39 = this.document.getElementById("L399993");
+let ch40 = this.document.getElementById("L399994");
+
+ // 5 para 6 L3
+let ch41 = this.document.getElementById("L399995");
+let ch42 = this.document.getElementById("L399996");
+let ch43 = this.document.getElementById("L399997");
+let ch44 = this.document.getElementById("L399998");
+let ch45 = this.document.getElementById("L399999");
+
+
+
+
+// FIO 1
+// 1para3 alta
+if(ch != null || ch != undefined) {   
+   console.log("confirmado",ch)
+      ch.id = "L3" 
+}
+
+if(ch2 != null || ch2 != undefined) {   
+   console.log("confirmado",ch2)
+   ch2.id = "L3" 
+}
+
+if(ch3 != null || ch3 != undefined) {   
+   console.log("confirmado",ch3)
+   ch3.id = "L3" 
+}
+
+if(ch4 != null || ch4 != undefined) {   
+   console.log("confirmado",ch4)
+   ch4.id = "L3" 
+}
+
+if(ch5 != null || ch5 != undefined) {   
+   console.log("confirmado",ch5)
+   ch5.id = "L3" 
+}
+
+
+
+
+//2para4 baixa
+if(ch6 != null || ch6 != undefined) {   
+   console.log("confirmado",ch6)
+   ch6.id = "L3" 
+}
+
+if(ch7 != null || ch7 != undefined) {   
+   console.log("confirmado",ch7)
+ch7.id = "L3" 
+}
+
+if(ch8 != null || ch8 != undefined) {   
+   console.log("confirmado",ch8)
+ch8.id = "L3" 
+}
+
+if(ch9 != null || ch9 != undefined) {   
+   console.log("confirmado",ch9)
+ch9.id = "L3" 
+}
+
+if(ch10 != null || ch10 != undefined) {   
+   console.log("confirmado",ch10)
+ch10.id = "L3" 
+}
+
+
+// 5para6 
+if(ch11 != null || ch11 != undefined) {   
+   console.log("confirmado",ch11)
+      ch11.id = "L3" 
+}
+
+if(ch12 != null || ch12 != undefined) {   
+   console.log("confirmado",ch12)
+   ch12.id = "L3" 
+}
+
+if(ch13 != null || ch13 != undefined) {   
+   console.log("confirmado",ch13)
+   ch13.id = "L3" 
+}
+
+if(ch14 != null || ch14 != undefined) {   
+   console.log("confirmado",ch14)
+   ch14.id = "L3" 
+}
+
+if(ch15 != null || ch15 != undefined) {   
+   console.log("confirmado",ch15)
+   ch15.id = "L3" 
+}
+
+
+// FIO 2 
+// 1para3 alta
+if(ch16 != null || ch16 != undefined) {   
+   console.log("confirmado",ch16)
+      ch16.id = "L3" 
+}
+
+if(ch17 != null || ch17 != undefined) {   
+   console.log("confirmado",ch17)
+   ch17.id = "L3" 
+}
+
+if(ch18 != null || ch18 != undefined) {   
+   console.log("confirmado",ch18)
+   ch18.id = "L3" 
+}
+
+if(ch19 != null || ch19 != undefined) {   
+   console.log("confirmado",ch19)
+   ch19.id = "L3" 
+}
+
+if(ch20 != null || ch20 != undefined) {   
+   console.log("confirmado",ch20)
+   ch20.id = "L3" 
+}
+
+
+// FIO 2
+//2para4 baixa
+if(ch21 != null || ch21 != undefined) {   
+   console.log("confirmado",ch21)
+   ch21.id = "L3" 
+}
+
+if(ch22 != null || ch22 != undefined) {   
+   console.log("confirmado",ch22)
+ch22.id = "L3" 
+}
+
+if(ch23 != null || ch23 != undefined) {   
+   console.log("confirmado",ch23)
+ch23.id = "L3" 
+}
+
+if(ch24 != null || ch24 != undefined) {   
+   console.log("confirmado",ch24)
+ch24.id = "L3" 
+}
+
+if(ch25 != null || ch25 != undefined) {   
+   console.log("confirmado",ch25)
+ch25.id = "L3" 
+}
+
+
+//FIO 2
+// 5para6 
+if(ch26 != null || ch26 != undefined) {   
+   console.log("confirmado",ch26)
+      ch26.id = "L3" 
+}
+
+if(ch27 != null || ch27 != undefined) {   
+   console.log("confirmado",ch27)
+   ch27.id = "L3" 
+}
+
+if(ch28 != null || ch28 != undefined) {   
+   console.log("confirmado",ch28)
+   ch28.id = "L3" 
+}
+
+if(ch29 != null || ch29 != undefined) {   
+   console.log("confirmado",ch29)
+   ch29.id = "L3" 
+}
+
+if(ch30 != null || ch30 != undefined) {   
+   console.log("confirmado",ch30)
+   ch30.id = "L3" 
+}
+
+
+
+// FIO 3
+// 1para3 alta
+if(ch31 != null || ch31 != undefined) {   
+   console.log("confirmado",ch31)
+      ch31.id = "L3" 
+}
+
+if(ch32 != null || ch32 != undefined) {   
+   console.log("confirmado",ch32)
+   ch32.id = "L3" 
+}
+
+if(ch33 != null || ch33 != undefined) {   
+   console.log("confirmado",ch33)
+   ch33.id = "L3" 
+}
+
+if(ch34 != null || ch34 != undefined) {   
+   console.log("confirmado",ch34)
+   ch34.id = "L3" 
+}
+
+if(ch35 != null || ch35 != undefined) {   
+   console.log("confirmado",ch35)
+      ch35.id = "L3" 
+}
+
+
+//2para4 baixa
+if(ch36 != null || ch36 != undefined) {   
+   console.log("confirmado",ch36)
+   ch36.id = "L3" 
+}
+
+if(ch37 != null || ch37 != undefined) {   
+   console.log("confirmado",ch37)
+ch37.id = "L3" 
+}
+
+if(ch38 != null || ch38 != undefined) {   
+   console.log("confirmado",ch38)
+ch38.id = "L3" 
+}
+
+if(ch39 != null || ch39 != undefined) {   
+   console.log("confirmado",ch39)
+ch39.id = "L3" 
+}
+
+if(ch40 != null || ch40 != undefined) {   
+   console.log("confirmado",ch40)
+ch40.id = "L3" 
+}
+
+
+// 1para3 alta
+if(ch41 != null || ch41 != undefined) {   
+   console.log("confirmado",ch41)
+      ch41.id = "L3" 
+}
+
+if(ch42 != null || ch42 != undefined) {   
+   console.log("confirmado",ch42)
+   ch42.id = "L3" 
+}
+
+if(ch43 != null || ch43 != undefined) {   
+   console.log("confirmado",ch43)
+   ch43.id = "L3" 
+}
+
+if(ch44 != null || ch44 != undefined) {   
+   console.log("confirmado",ch44)
+   ch44.id = "L3" 
+}
+
+if(ch45 != null || ch45 != undefined) {   
+   console.log("confirmado",ch45)
+      ch45.id = "L3" 
+}
+
+
+// 1 para 3  L4
+let ch46 = this.document.getElementById("L41");
+let ch47 = this.document.getElementById("L42");
+let ch48 = this.document.getElementById("L43");
+let ch49 = this.document.getElementById("L44");
+let ch50 = this.document.getElementById("L45");
+
+ // 2 para 4 L4
+let ch51 = this.document.getElementById("L46");
+let ch52 = this.document.getElementById("L47");
+let ch53 = this.document.getElementById("L48");
+let ch54 = this.document.getElementById("L49");
+let ch55 = this.document.getElementById("L491");
+
+ // 5 para 6 L4
+let ch56 = this.document.getElementById("L492");
+let ch57 = this.document.getElementById("L493");
+let ch58 = this.document.getElementById("L494");
+let ch59 = this.document.getElementById("L495");
+let ch60 = this.document.getElementById("L496");
+
+
+//FIO 2
+// 1 para 3  L4
+let ch61 = this.document.getElementById("L497");
+let ch62 = this.document.getElementById("L498");
+let ch63 = this.document.getElementById("L499");
+let ch64 = this.document.getElementById("L4991");
+let ch65 = this.document.getElementById("L4992");
+
+ // 2 para 4 L4
+let ch66 = this.document.getElementById("L4993");
+let ch67 = this.document.getElementById("L4994");
+let ch68 = this.document.getElementById("L4995");
+let ch69 = this.document.getElementById("L4996");
+let ch70 = this.document.getElementById("L4997");
+
+ // 5 para 6 L4
+let ch71 = this.document.getElementById("L4998");
+let ch72 = this.document.getElementById("L4999");
+let ch73 = this.document.getElementById("L49991");
+let ch74 = this.document.getElementById("L49992");
+let ch75 = this.document.getElementById("L49993");
+
+
+//FIO 3
+// 1 para 3  L4
+let ch76 = this.document.getElementById("L49994");
+let ch77 = this.document.getElementById("L49995");
+let ch78 = this.document.getElementById("L49996");
+let ch79 = this.document.getElementById("L49997");
+let ch80 = this.document.getElementById("L49998");
+
+ // 2 para 4 L4
+let ch81 = this.document.getElementById("L49999");
+let ch82 = this.document.getElementById("L499991");
+let ch83 = this.document.getElementById("L499992");
+let ch84 = this.document.getElementById("L499993");
+let ch85 = this.document.getElementById("L499994");
+
+ // 5 para 6 L4
+let ch86 = this.document.getElementById("L499995");
+let ch87 = this.document.getElementById("L499996");
+let ch88 = this.document.getElementById("L499997");
+let ch89 = this.document.getElementById("L499998");
+let ch90 = this.document.getElementById("L499999");
+
+
+// 1para3 alta
+console.log("confirmado",ch46)
+if(ch46 != null || ch46 != undefined) {   
+   console.log("confirmado",ch46)
+      ch46.id = "L4" 
+}
+console.log("confirmado",ch47)
+if(ch47 != null || ch47 != undefined) {   
+   console.log("confirmado",ch47)
+   ch47.id = "L4" 
+}
+console.log("confirmado",ch48)
+if(ch48 != null || ch48 != undefined) {   
+   console.log("confirmado",ch48)
+   ch48.id = "L4" 
+}
+console.log("confirmado",ch49)
+if(ch49 != null || ch49 != undefined) {   
+   console.log("confirmado",ch49)
+   ch49.id = "L4" 
+}
+console.log("confirmado",ch50)
+if(ch50 != null || ch50 != undefined) {   
+   console.log("confirmado",ch50)
+   ch50.id = "L4" 
+}
+
+
+
+
+//2para4 baixa
+if(ch51 != null || ch51 != undefined) {   
+   console.log("confirmado",ch51)
+   ch51.id = "L4" 
+}
+
+if(ch52 != null || ch52 != undefined) {   
+   console.log("confirmado",ch52)
+ch52.id = "L4" 
+}
+
+if(ch53 != null || ch53 != undefined) {   
+   console.log("confirmado",ch53)
+ch53.id = "L4" 
+}
+
+if(ch54 != null || ch54 != undefined) {   
+   console.log("confirmado",ch54)
+ch54.id = "L4" 
+}
+
+if(ch55 != null || ch55 != undefined) {   
+   console.log("confirmado",ch55)
+ch55.id = "L4" 
+}
+
+
+// 5para6 
+if(ch56 != null || ch56 != undefined) {   
+   console.log("confirmado",ch56)
+      ch56.id = "L4" 
+}
+
+if(ch57 != null || ch57 != undefined) {   
+   console.log("confirmado",ch57)
+   ch57.id = "L4" 
+}
+
+if(ch58 != null || ch58 != undefined) {   
+   console.log("confirmado",ch58)
+   ch58.id = "L4" 
+}
+
+if(ch59 != null || ch59 != undefined) {   
+   console.log("confirmado",ch59)
+   ch59.id = "L4" 
+}
+
+if(ch60 != null || ch60 != undefined) {   
+   console.log("confirmado",ch60)
+   ch60.id = "L4" 
+}
+
+
+
+
+
+
+//SEGUNDO FIO
+// 1para3 alta
+console.log("confirmado",ch61)
+if(ch61 != null || ch61 != undefined) {   
+   console.log("confirmado",ch61)
+      ch61.id = "L4" 
+}
+console.log("confirmado",ch62)
+if(ch62 != null || ch62 != undefined) {   
+   console.log("confirmado",ch62)
+   ch62.id = "L4" 
+}
+console.log("confirmado",ch63)
+if(ch63 != null || ch63 != undefined) {   
+   console.log("confirmado",ch63)
+   ch63.id = "L4" 
+}
+console.log("confirmado",ch64)
+if(ch64 != null || ch64 != undefined) {   
+   console.log("confirmado",ch64)
+   ch64.id = "L4" 
+}
+console.log("confirmado",ch65)
+if(ch65 != null || ch65 != undefined) {   
+   console.log("confirmado",ch65)
+   ch65.id = "L4" 
+}
+
+
+
+
+//2para4 baixa
+if(ch66 != null || ch66 != undefined) {   
+   console.log("confirmado",ch66)
+   ch66.id = "L4" 
+}
+
+if(ch67 != null || ch67 != undefined) {   
+   console.log("confirmado",ch67)
+ch67.id = "L4" 
+}
+
+if(ch68 != null || ch68 != undefined) {   
+   console.log("confirmado",ch68)
+ch68.id = "L4" 
+}
+
+if(ch69 != null || ch69 != undefined) {   
+   console.log("confirmado",ch69)
+ch69.id = "L4" 
+}
+
+if(ch70 != null || ch70 != undefined) {   
+   console.log("confirmado",ch70)
+ch70.id = "L4" 
+}
+
+
+// 5para6 
+if(ch71 != null || ch71 != undefined) {   
+   console.log("confirmado",ch71)
+      ch71.id = "L4" 
+}
+
+if(ch72 != null || ch72 != undefined) {   
+   console.log("confirmado",ch72)
+   ch72.id = "L4" 
+}
+
+if(ch73 != null || ch73 != undefined) {   
+   console.log("confirmado",ch73)
+   ch73.id = "L4" 
+}
+
+if(ch74 != null || ch74 != undefined) {   
+   console.log("confirmado",ch74)
+   ch74.id = "L4" 
+}
+
+if(ch75 != null || ch75 != undefined) {   
+   console.log("confirmado",ch75)
+   ch75.id = "L4" 
+}
+
+
+
+
+
+//TERCEIRO FIO
+// 1para3 alta
+console.log("confirmado",ch76)
+if(ch76 != null || ch76 != undefined) {   
+   console.log("confirmado",ch76)
+      ch76.id = "L4" 
+}
+console.log("confirmado",ch77)
+if(ch77 != null || ch77 != undefined) {   
+   console.log("confirmado",ch77)
+   ch77.id = "L4" 
+}
+console.log("confirmado",ch78)
+if(ch78 != null || ch78 != undefined) {   
+   console.log("confirmado",ch78)
+   ch78.id = "L4" 
+}
+console.log("confirmado",ch79)
+if(ch79 != null || ch79 != undefined) {   
+   console.log("confirmado",ch79)
+   ch79.id = "L4" 
+}
+console.log("confirmado",ch80)
+if(ch80 != null || ch80 != undefined) {   
+   console.log("confirmado",ch80)
+   ch80.id = "L4" 
+}
+
+
+
+
+//2para4 baixa
+if(ch81 != null || ch81 != undefined) {   
+   console.log("confirmado",ch81)
+   ch81.id = "L4" 
+}
+
+if(ch82 != null || ch82 != undefined) {   
+   console.log("confirmado",ch82)
+ch82.id = "L4" 
+}
+
+if(ch83 != null || ch83 != undefined) {   
+   console.log("confirmado",ch83)
+ch83.id = "L4" 
+}
+
+if(ch84 != null || ch84 != undefined) {   
+   console.log("confirmado",ch84)
+ch84.id = "L4" 
+}
+
+if(ch85 != null || ch85 != undefined) {   
+   console.log("confirmado",ch85)
+ch85.id = "L4" 
+}
+
+
+// 5para6 
+if(ch86 != null || ch86 != undefined) {   
+   console.log("confirmado",ch86)
+      ch86.id = "L4" 
+}
+
+if(ch87 != null || ch87 != undefined) {   
+   console.log("confirmado",ch87)
+   ch87.id = "L4" 
+}
+
+if(ch88 != null || ch88 != undefined) {   
+   console.log("confirmado",ch88)
+   ch88.id = "L4" 
+}
+
+if(ch89 != null || ch89 != undefined) {   
+   console.log("confirmado",ch89)
+   ch89.id = "L4" 
+}
+
+if(ch90 != null || ch90 != undefined) {   
+   console.log("confirmado",ch90)
+   ch90.id = "L4" 
+}
+
+
+
+
 }
 
 
@@ -7362,7 +8375,7 @@ function lampadaConect(id,id2){
       lp.id = "L20"
       console.log("funcionou")
       abrirPopup(conexacaoL11Baixo)
-       return lp.id = "L20"
+       return lp.id = "L191"
       }
       
     }
@@ -7378,7 +8391,7 @@ function lampadaConect(id,id2){
       lp.id = "L31"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
-       return lp.id = "L31"
+       return lp.id = "L192"
       }
     } else 
 
@@ -7390,7 +8403,7 @@ function lampadaConect(id,id2){
       lp.id = "L32"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
-       return lp.id = "L32"
+       return lp.id = "L193"
       }
       
     } else
@@ -7403,7 +8416,7 @@ function lampadaConect(id,id2){
       lp.id = "L33"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
-       return lp.id = "L33"
+       return lp.id = "L194"
       }
       
     } else
@@ -7415,7 +8428,7 @@ function lampadaConect(id,id2){
       lp.id = "L34"
       console.log("funcionou")
       abrirPopup(conexacaoL11BaixoBaixo)
-       return lp.id = "L34"
+       return lp.id = "L195"
       }
       
     }else
@@ -7428,7 +8441,7 @@ function lampadaConect(id,id2){
          console.log("funcionou")
       lp.id = "L35"
       abrirPopup(conexacaoL11BaixoBaixo)
-       return lp.id = "L35"
+       return lp.id = "L196"
       }
       
     }
