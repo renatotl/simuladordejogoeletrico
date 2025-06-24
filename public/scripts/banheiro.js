@@ -12570,6 +12570,1247 @@ function interruptorConect(id,id2){
 }
 
 
+
+
+///// CHUVEIRO CONEXAO
+const chuveiro = document.querySelectorAll("[id]");
+
+
+chuveiro.forEach(it => {
+   // depois de varrer a variavel it add um evento
+    it.addEventListener("click", function(){
+        const id = it.id;
+
+ id2 ;
+ console.log(id)
+        if(id == "MAIN10"){
+           return id2 = "MAIN10"
+        }else
+   if(id == "MAIN11"){
+
+      return id2 = "MAIN11"
+   }else
+
+if(id == "MAIN12"){
+return id2 = "MAIN12"
+
+}else
+if(id == "MAIN13"){
+   return id2 = "MAIN13"
+   
+   }else
+
+   if(id == "MAIN14"){
+      return id2 = "MAIN14"
+      
+      }
+else
+
+
+
+if(id == "MAIN15"){
+   return id2 = "MAIN15"
+}else
+if(id == "MAIN16"){
+
+return id2 = "MAIN16"
+}else
+
+if(id == "MAIN17"){
+return id2 = "MAIN17"
+
+}else
+if(id == "MAIN18"){
+return id2 = "MAIN18"
+
+}else
+
+if(id == "MAIN19"){
+return id2 = "MAIN19"
+
+}
+
+else
+
+
+// equivale ao segundo fio da lampada
+if(id == "MAIN20"){
+   return id2 = "MAIN20"
+}else
+if(id == "MAIN21"){
+
+return id2 = "MAIN21"
+}else
+
+if(id == "MAIN22"){
+return id2 = "MAIN22"
+
+}else
+if(id == "MAIN23"){
+return id2 = "MAIN23"
+
+}else
+
+if(id == "MAIN24"){
+return id2 = "MAIN24"
+
+}
+else
+
+
+
+if(id == "MAIN25"){
+return id2 = "MAIN25"
+}else
+if(id == "MAIN26"){
+
+return id2 = "MAIN26"
+}else
+
+if(id == "MAIN27"){
+return id2 = "MAIN27"
+
+}else
+if(id == "MAIN28"){
+return id2 = "MAIN28"
+
+}else
+
+if(id == "MAIN29"){
+return id2 = "MAIN29"
+
+}else
+
+
+// equivale ao terceiro fio
+if(id == "MAIN30"){
+   return id2 = "MAIN30"
+}else
+if(id == "MAIN31"){
+
+return id2 = "MAIN31"
+}else
+
+if(id == "MAIN32"){
+return id2 = "MAIN32"
+
+}else
+if(id == "MAIN33"){
+return id2 = "MAIN33"
+
+}else
+if(id == "MAIN34"){
+return id2 = "MAIN34"
+
+}else
+
+
+
+if(id == "MAIN35"){
+   return id2 = "MAIN35"
+}else
+if(id == "MAIN36"){
+
+return id2 = "MAIN36"
+}else
+
+if(id == "MAIN37"){
+return id2 = "MAIN37"
+
+}else
+if(id == "MAIN38"){
+return id2 = "MAIN38"
+
+}else
+if(id == "MAIN39"){
+return id2 = "MAIN39"
+
+}
+
+     console.log(chuveiro)
+     console.log(it.id)
+       
+   if(id == "L3" || id == "L4" ){
+
+      chuveiroConect(id,id2)
+    return id
+   }
+
+
+    });
+}
+
+
+);
+
+
+
+
+
+
+
+
+function chuveiroConect(id,id2){
+   
+   console.log(id)
+   console.log(id2)
+
+
+
+   
+   //1para3alto primeiro fio conectado L3
+   if(segundaLigacao == "pretoFase"&& id == "L3" && id2 == "MAIN10" && filtro=="1para3Preto"){
+      
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+      conexacaoL11Alto = "L3PA";
+      console.log("fincionou")
+      it.id = "L31"
+      abrirPopup(conexacaoL11Alto)
+   }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L3"&& id2 == "MAIN11"&& filtro=="1para3Verde"){
+     
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L3VA"; 
+         console.log("fincionou")
+      it.id = "L32"
+      abrirPopup(conexacaoL11Alto)
+    }
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L3"&& id2 == "MAIN12"&& filtro=="1para3Branco"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L3BA"; 
+         console.log("fincionou") 
+      it.id = "L33"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L3"&& id2 == "MAIN13"&& filtro=="1para3AzulNeltro"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {  
+         conexacaoL11Alto = "L3AA";
+         console.log("fincionou")
+      it.id = "L34"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L3"&& id2 == "MAIN14"&& filtro=="1para3Marrom"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L3MA"; 
+         console.log("fincionou")
+      it.id = "L35"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    }else
+
+
+
+
+//2para4baixo primeiro fio conectado L3
+  if(segundaLigacao == "pretoFase"&& id == "L3" && id2 == "MAIN15"&& filtro=="2para4Preto"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L3PB"; 
+         console.log("fincionou")
+      it.id = "L36"
+      abrirPopup(conexacaoL11Baixo)
+      }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L3"&& id2 == "MAIN16"&& filtro=="2para4Verde"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L3VB";  
+         console.log("fincionou")
+      it.id = "L37"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L3"&& id2 == "MAIN17"&& filtro=="2para4Branco"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11Baixo = "L3BB";
+         console.log("fincionou")
+      it.id = "L38"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L3"&& id2 == "MAIN18"&& filtro=="2para4AzulNeltro"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L3AB"; 
+         console.log("fincionou")
+      it.id = "L39"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L3"&& id2 == "MAIN19"&& filtro=="2para4Marrom"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11Baixo = "L3MB"; 
+         console.log("fincionou")
+      it.id = "L391"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }
+
+
+
+    //5para6 primeiro fio conectado L3
+  if(segundaLigacao == "pretoFase"&& id == "L3" && id2 == "MAIN30"&& filtro=="5para6Preto"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L3PBB"; 
+         console.log("fincionou")
+      it.id = "L392"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L3"&& id2 == "MAIN31"&& filtro=="5para6Verde"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L3VBB";  
+         console.log("fincionou")
+      it.id = "L393"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L3"&& id2 == "MAIN32"&& filtro=="5para6Branco"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L3BBB";
+         console.log("fincionou")
+      it.id = "L394"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L3"&& id2 == "MAIN33"&& filtro=="5para6AzulNeltro"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L3ABB"; 
+         console.log("fincionou")
+      it.id = "L395"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L3"&& id2 == "MAIN34"&& filtro=="5para6Marrom"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L3MBB"; 
+         console.log("fincionou")
+      it.id = "L396"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }
+
+
+
+
+    else
+//equivale a segunda conexao   1para3 alta L4
+    if(segundaLigacao == "pretoFase"&& id == "L4" && id2 == "MAIN10"&& filtro=="1para3Preto"){
+      
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      conexacaoL12Alto = "L4PA";
+      console.log("fincionou")
+      it.id = "L41"
+      abrirPopup(conexacaoL12Alto)
+    }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L4"&& id2 == "MAIN11"&& filtro=="1para3Verde"){
+     
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+         conexacaoL12Alto = "L4VA";
+         console.log("fincionou")
+      it.id = "L42"
+      abrirPopup(conexacaoL12Alto)
+      }
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L4"&& id2 == "MAIN12"&& filtro=="1para3Branco"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+         conexacaoL12Alto = "L4BA";
+         console.log("fincionou")
+      it.id = "L43"
+      abrirPopup(conexacaoL12Alto)
+      }
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L4"&& id2 == "MAIN13"&& filtro=="1para3AzulNeltro"){
+
+      let it = document.getElementById("L4");
+    if(it != null && it != undefined) { 
+      conexacaoL12Alto = "L4AA"; 
+      console.log("fincionou")
+      it.id = "L44"
+      abrirPopup(conexacaoL12Alto)
+    }
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L4"&& id2 == "MAIN14"&& filtro=="1para3Marrom"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+          conexacaoL12Alto = "L4MA";
+          console.log("fincionou")
+      it.id = "L45"
+      abrirPopup(conexacaoL12Alto)
+      }
+      
+    }else
+
+
+
+
+//equivale a segunda conexao   2para4 baixa L4
+  if(segundaLigacao == "pretoFase"&& id == "L4" && id2 == "MAIN15"&& filtro=="2para4Preto"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {
+         conexacaoL12Baixo = "L4PB";  
+         console.log("fincionou")
+      it.id = "L46"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L4"&& id2 == "MAIN16"&& filtro=="2para4Verde"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {
+         conexacaoL12Baixo = "L4VB";  
+         console.log("fincionou")
+      it.id = "L47"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L4"&& id2 == "MAIN17"&& filtro=="2para4Branco"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+         conexacaoL12Baixo = "L4BB";
+         console.log("fincionou")
+      it.id = "L48"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L4"&& id2 == "MAIN18"&& filtro=="2para4AzulNeltro"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {
+         conexacaoL12Baixo = "L4AB";  
+         console.log("fincionou")
+      it.id = "L49"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L4"&& id2 == "MAIN19"&& filtro=="2para4Marrom"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) { 
+         conexacaoL12Baixo = "L4MB"; 
+         console.log("fincionou")
+      it.id = "L491"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    }
+
+
+    //5para6 baixa baixa  L4
+  if(segundaLigacao == "pretoFase"&& id == "L4" && id2 == "MAIN30"&& filtro=="5para6Preto"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {
+         conexacaoL12BaixoBaixo = "L4PBB"; 
+         console.log("fincionou")
+      it.id = "L492"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+    } else 
+
+    if(segundaLigacao == "verdeTerra"&& id == "L4"&& id2 == "MAIN31"&& filtro=="5para6Verde"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {
+         conexacaoL12BaixoBaixo = "L4VBB"; 
+         console.log("fincionou") 
+      it.id = "L493"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+      
+    } else
+
+    if(segundaLigacao == "brancoRetorno"&& id == "L4"&& id2 == "MAIN32"&& filtro=="5para6Branco"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) { 
+         conexacaoL12BaixoBaixo = "L4BBB";
+         console.log("fincionou")
+      it.id = "L494"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao == "azulNeltro"&& id == "L4"&& id2 == "MAIN33"&& filtro=="5para6AzulNeltro"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {
+         conexacaoL12BaixoBaixo = "L4ABB"; 
+         console.log("fincionou")
+      it.id = "L495"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao == "marromRetorno"&& id == "L4"&& id2 == "MAIN34"&& filtro=="5para6Marrom"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) { 
+         conexacaoL12BaixoBaixo = "L4MBB"; 
+         console.log("fincionou")
+      it.id = "L496"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+      
+    }
+
+     
+
+
+
+
+
+
+
+
+
+   // SEGUNDO FIO CONECTADO 
+
+    //1para3alto L3
+   if(segundaLigacao2 == "pretoFase"&& id == "L3" && id2 == "MAIN10"&& filtro2=="1para3Preto"){
+
+      let it = document.getElementById("L3");
+      if(it!=null && it!=undefined ){
+         conexacaoL11Alto = "L3PA"
+         console.log("fincionou")
+      it.id = "L397"
+      abrirPopup(conexacaoL11Alto)
+   }
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L3"&& id2 == "MAIN11"&& filtro2=="1para3Verde"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {  
+          conexacaoL11Alto = "L3VA"
+          console.log("fincionou")
+      it.id = "L398"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L3"&& id2 == "MAIN12"&& filtro2=="1para3Branco"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+          conexacaoL11Alto = "L3BA"  
+          console.log("fincionou")
+      it.id = "L399"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L3"&& id2 == "MAIN13"&& filtro2=="1para3AzulNeltro"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+          conexacaoL11Alto = "L3AA"  
+          console.log("fincionou")
+      it.id = "L3991"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L3"&& id2 == "MAIN14"&& filtro2=="1para3Marrom"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+          conexacaoL11Alto = "L3MA"  
+          console.log("fincionou")
+      it.id = "L3992"
+      abrirPopup(conexacaoL11Alto)
+      }
+    }else
+
+
+
+
+//2para4baixo L3 
+  if(segundaLigacao2 == "pretoFase"&& id == "L3" && id2 == "MAIN15"&& filtro2=="2para4Preto"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L3PB"  
+         console.log("fincionou")
+      it.id = "L3993"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L3"&& id2 == "MAIN16"&& filtro2=="2para4Verde"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L3VB"   
+         console.log("fincionou") 
+      it.id = "L3994"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L3"&& id2 == "MAIN17"&& filtro2=="2para4Branco"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L3BB"  
+         console.log("fincionou")  
+      it.id = "L3995"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L3"&& id2 == "MAIN18"&& filtro2=="2para4AzulNeltro"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L3AB"  
+         console.log("fincionou")  
+      it.id = "L3996"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L3"&& id2 == "MAIN19"&& filtro2=="2para4Marrom"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11Baixo = "L3MB"    
+         console.log("fincionou")
+      it.id = "L3997"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }
+
+
+
+
+    //5para6baixo L3 
+  if(segundaLigacao2 == "pretoFase"&& id == "L3" && id2 == "MAIN30"&& filtro2=="5para6Preto"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {  
+         conexacaoL11BaixoBaixo = "L3PBB"
+         console.log("fincionou")
+      it.id = "L3998"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L3"&& id2 == "MAIN31"&& filtro2=="5para6Verde"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L3VBB" 
+         console.log("fincionou")
+      it.id = "L3999"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L3"&& id2 == "MAIN32"&& filtro2=="5para6Branco"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L3BBB"  
+         console.log("fincionou")
+      it.id = "L39991"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L3"&& id2 == "MAIN33"&& filtro2=="5para6AzulNeltro"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L3ABB"  
+         console.log("fincionou")
+      it.id = "L39992"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L3"&& id2 == "MAIN34"&& filtro2=="5para6Marrom"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {
+         conexacaoL11BaixoBaixo = "L3MBB"  
+         console.log("fincionou")
+      it.id = "L39993"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }
+
+
+
+
+
+
+
+
+    else
+//equivale a segunda conexao   1para3 alta  L4
+    if(segundaLigacao2 == "pretoFase"&& id == "L4" && id2 == "MAIN10"&& filtro2=="1para3Preto"){
+
+      let it = document.getElementById("L4");
+      if(it != null){ 
+      it.id = "L497"
+      }
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L4"&& id2 == "MAIN11"&& filtro2=="1para3Verde"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L498"
+      }
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L4"&& id2 == "MAIN12"&& filtro2=="1para3Branco"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L499"
+      }
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L4"&& id2 == "MAIN13"&& filtro2=="1para3AzulNeltro"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L4991"
+      }
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L4"&& id2 == "MAIN14"&& filtro2=="1para3Marrom"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L4992"
+      }
+      
+    }else
+
+
+
+
+//equivale a segunda conexao   2para4 baixa  L4
+  if(segundaLigacao2 == "pretoFase"&& id == "L4" && id2 == "MAIN15"&& filtro2=="2para4Preto"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L4993"
+      }
+      
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L4"&& id2 == "MAIN16"&& filtro2=="2para4Verde"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L4994"
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L4"&& id2 == "MAIN17"&& filtro2=="2para4Branco"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L4995"
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L4"&& id2 == "MAIN18"&& filtro2=="2para4AzulNeltro"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L4996"
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L4"&& id2 == "MAIN19"&& filtro2=="2para4Marrom"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L4997"
+      }
+      
+    }else
+
+
+
+
+    //equivale a segunda conexao   5para6 baixa  L4
+  if(segundaLigacao2 == "pretoFase"&& id == "L4" && id2 == "MAIN30"&& filtro2=="5para6Preto"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L4998"
+      }
+      
+    } else 
+
+    if(segundaLigacao2 == "verdeTerra"&& id == "L4"&& id2 == "MAIN31"&& filtro2=="5para6Verde"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L4999"
+      }
+      
+    } else
+
+    if(segundaLigacao2 == "brancoRetorno"&& id == "L4"&& id2 == "MAIN32"&& filtro2=="5para6Branco"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L49991"
+      }
+      
+    } else
+    if(segundaLigacao2 == "azulNeltro"&& id == "L4"&& id2 == "MAIN33"&& filtro2=="5para6AzulNeltro"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L49992"
+      }
+      
+    }else
+
+    if(segundaLigacao2 == "marromRetorno"&& id == "L4"&& id2 == "MAIN34"&& filtro2=="5para6Marrom"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      it.id = "L49993"
+      }
+      
+    }else
+
+
+
+    //TERCEIRA COEXAO L3  //1para3baixo L3 
+   if(segundaLigacao3 == "pretoFase"&& id == "L3" && id2 == "MAIN10"&& filtro3=="1para3Preto"){
+      
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+      conexacaoL11Alto = "L3PA";
+      it.id = "L39994"
+      abrirPopup(conexacaoL11Alto)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L3"&& id2 == "MAIN11"&& filtro3=="1para3Verde"){
+     
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L3VA"; 
+      it.id = "L39995"
+      abrirPopup(conexacaoL11Alto)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L3"&& id2 == "MAIN12"&& filtro3=="1para3Branco"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L3BA";  
+      it.id = "L39996"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L3"&& id2 == "MAIN13"&& filtro3=="1para3AzulNeltro"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {  
+         conexacaoL11Alto = "L3AA";
+      it.id = "L39997"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L3"&& id2 == "MAIN14"&& filtro3=="1para3Marrom"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11Alto = "L3MA"; 
+      it.id = "L39998"
+      abrirPopup(conexacaoL11Alto)
+      }
+      
+    }else
+
+
+
+
+    //TERCEIRA COEXAO L3  //2para4baixo L3 
+   if(segundaLigacao3 == "pretoFase"&& id == "L3" && id2 == "MAIN15"&& filtro3=="2para4Preto"){
+      
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+      conexacaoL11Baixo = "L3PB";
+      it.id = "L39999"
+      abrirPopup(conexacaoL11Baixo)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L3"&& id2 == "MAIN16"&& filtro3=="2para4Verde"){
+     
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11Baixo = "L3VB"; 
+      it.id = "L399991"
+      abrirPopup(conexacaoL11Baixo)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L3"&& id2 == "MAIN17"&& filtro3=="2para4Branco"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11Baixo = "L3BB";  
+      it.id = "L399992"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L3"&& id2 == "MAIN18"&& filtro3=="2para4AzulNeltro"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {  
+         conexacaoL11Baixo = "L3AB";
+      it.id = "L399993"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L3"&& id2 == "MAIN19"&& filtro3=="2para4Marrom"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11Baixo = "L3MB"; 
+      it.id = "L399994"
+      abrirPopup(conexacaoL11Baixo)
+      }
+      
+    }
+
+
+
+
+    //TERCEIRA COEXAO L3  //5para6baixo L3 
+   if(segundaLigacao3 == "pretoFase"&& id == "L3" && id2 == "MAIN30"&& filtro3=="5para6Preto"){
+      
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+      conexacaoL11BaixoBaixo = "L3PBB";
+      it.id = "L399995"
+      abrirPopup(conexacaoL11BaixoBaixo)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L3"&& id2 == "MAIN31"&& filtro3=="5para6Verde"){
+     
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L3VBB"; 
+      it.id = "L399996"
+      abrirPopup(conexacaoL11BaixoBaixo)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L3"&& id2 == "MAIN32"&& filtro3=="5para6Branco"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L3BBB";  
+      it.id = "L399997"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L3"&& id2 == "MAIN33"&& filtro3=="5para6AzulNeltro"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) {  
+         conexacaoL11BaixoBaixo = "L3ABB";
+      it.id = "L399998"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L3"&& id2 == "MAIN34"&& filtro3=="5para6Marrom"){
+
+      let it = document.getElementById("L3");
+      if(it != null && it != undefined) { 
+         conexacaoL11BaixoBaixo = "L3MBB"; 
+      it.id = "L399999"
+      abrirPopup(conexacaoL11BaixoBaixo)
+      }
+      
+    }
+
+
+
+    else
+
+
+
+
+
+
+     //TERCEIRA COEXAO L4  //1para3baixo L4
+   if(segundaLigacao3 == "pretoFase"&& id == "L4" && id2 == "MAIN10"&& filtro3=="1para3Preto"){
+      
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) { 
+      conexacaoL12Alto = "L4PA";
+      it.id = "L49994"
+      abrirPopup(conexacaoL12Alto)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L4"&& id2 == "MAIN11"&& filtro3=="1para3Verde"){
+     
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) { 
+         conexacaoL12Alto = "L4VA"; 
+      it.id = "L49995"
+      abrirPopup(conexacaoL12Alto)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L4"&& id2 == "MAIN12"&& filtro3=="1para3Branco"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) { 
+         conexacaoL12Alto = "L4BA";  
+      it.id = "L49996"
+      abrirPopup(conexacaoL12Alto)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L4"&& id2 == "MAIN13"&& filtro3=="1para3AzulNeltro"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+         conexacaoL12Alto = "L4AA";
+      it.id = "L49997"
+      abrirPopup(conexacaoL12Alto)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L4"&& id2 == "MAIN14"&& filtro3=="1para3Marrom"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) { 
+         conexacaoL12Alto = "L4MA"; 
+      it.id = "L49998"
+      abrirPopup(conexacaoL12Alto)
+      }
+      
+    }else
+
+
+
+    //TERCEIRA COEXAO L4  //2para4baixo L4 
+   if(segundaLigacao3 == "pretoFase"&& id == "L4" && id2 == "MAIN15"&& filtro3=="2para4Preto"){
+      
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) { 
+      conexacaoL12Baixo = "L4PB";
+      it.id = "L49999"
+      abrirPopup(conexacaoL12Baixo)
+   }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L4"&& id2 == "MAIN16"&& filtro3=="2para4Verde"){
+     
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) { 
+         conexacaoL12Baixo = "L4VB"; 
+      it.id = "L499991"
+      abrirPopup(conexacaoL12Baixo)
+    }
+    }else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L4"&& id2 == "MAIN17"&& filtro3=="2para4Branco"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) { 
+         conexacaoL12Baixo = "L4BB";  
+      it.id = "L499992"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L4"&& id2 == "MAIN18"&& filtro3=="2para4AzulNeltro"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+         conexacaoL12Baixo = "L4AB";
+      it.id = "L499993"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L4"&& id2 == "MAIN19"&& filtro3=="2para4Marrom"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) { 
+         conexacaoL12Baixo = "L4MB"; 
+      it.id = "L499994"
+      abrirPopup(conexacaoL12Baixo)
+      }
+      
+    }else
+
+
+
+//TERCEIRO FIO L4 //5para6baixo L4 
+    if(segundaLigacao3 == "pretoFase"&& id == "L4" && id2 == "MAIN30"&& filtro3=="5para6Preto"){
+      
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+      conexacaoL12BaixoBaixo = "L4PBB";
+      it.id = "L499995"
+      abrirPopup(conexacaoL12BaixoBaixo)
+    }
+    } else 
+
+    if(segundaLigacao3 == "verdeTerra"&& id == "L4"&& id2 == "MAIN31"&& filtro3=="5para6Verde"){
+     
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+         conexacaoL12BaixoBaixo = "L4VBB";
+      it.id = "L499996"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+    } else
+
+    if(segundaLigacao3 == "brancoRetorno"&& id == "L4"&& id2 == "MAIN32"&& filtro3=="5para6Branco"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+         conexacaoL12BaixoBaixo = "L4BBB";
+      it.id = "L499997"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+    } else
+    if(segundaLigacao3 == "azulNeltro"&& id == "L4"&& id2 == "MAIN33"&& filtro3=="5para6AzulNeltro"){
+
+      let it = document.getElementById("L4");
+    if(it != null && it != undefined) { 
+      conexacaoL12BaixoBaixo = "L4ABB"; 
+      it.id = "L499998"
+      abrirPopup(conexacaoL12BaixoBaixo)
+    }
+    }else
+
+    if(segundaLigacao3 == "marromRetorno"&& id == "L4"&& id2 == "MAIN34"&& filtro3=="5para6Marrom"){
+
+      let it = document.getElementById("L4");
+      if(it != null && it != undefined) {  
+          conexacaoL12BaixoBaixo = "L4MBB";
+      it.id = "L499999"
+      abrirPopup(conexacaoL12BaixoBaixo)
+      }
+      
+    }
+
+
+
+
+    //if((lp.id == "L11" &&id == "L1") && (lp.id == "L16"&& lp.id == "L16")){  
+   // abrirPopup()
+   // }
+
+}
+
+
+
 function fioHover(){
 let fio1 = this.document.getElementById("fio1");
 let fio2 = this.document.getElementById("fio2");
