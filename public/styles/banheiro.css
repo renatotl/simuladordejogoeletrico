@@ -1976,6 +1976,51 @@ cursor: pointer; /* define o cursor como um ponteiro */
 
 
 
+ /* CHUVEIRA PARA LAMPADA */
+#L2paraL4Preto {
+  width: 10px;
+  height:100px;
+    
+   position:absolute;
+        
+    top:145px;
+   left: 640px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+     filter: grayscale(100%)
+   brightness(0);
+ }     
+
+ #pontoNeutro{
+  width: 10px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:235px;
+   left: 640px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+     filter: grayscale(0%)
+   brightness(0);
+
+}
+
+#pontoNeutroL2PL4{
+  width: 430px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:235px;
+   left: 640px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+     filter: grayscale(100%)
+   brightness(0);
+
+}
+
 
 #L3{
 /* chuveiro */
@@ -3341,6 +3386,20 @@ cursor: pointer; /* define o cursor como um ponteiro */
      filter: sepia(1) saturate(2)brightness(0.5);
  }  
 
+ /* CHUVEIRA PARA LAMPADA */
+#L4paraL2Preto {
+  width: 10px;
+  height:100px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 1070px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
 
 
   #L3:hover {
