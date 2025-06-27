@@ -83,6 +83,8 @@ let conexacaoL11BaixoBaixo;
 let conexacaoL12BaixoBaixo;
 let idPonto;
 let idPonto2;
+let idPonto3;
+let idPonto4;
 let cor;
 // VARIAVEIS AUXILIARES
 
@@ -4783,6 +4785,8 @@ function resetButtom(){
    
     idPonto = undefined
     idPonto2 = undefined
+    idPonto3 = undefined
+    idPonto4 = undefined
     cor = undefined
 
  conexacaoL11Alto= undefined
@@ -4802,16 +4806,188 @@ function resetButtom(){
     
 
 // Resetando chuveiroLampada
+//L4 PARA L2 CHUVEIRO LAMPADA
 let cL = this.document.getElementById("L2paraL4Preto");
 let cL2 = this.document.getElementById("L4paraL2Preto");
-let cLPontoNeutro = this.document.getElementById("pontoNeutroL2PL4");
 
-if(cL != null || cL != undefined && cL2 != null || cL2 != undefined) {   
+let cL3 = this.document.getElementById("L2paraL4Verde");
+let cL4 = this.document.getElementById("L4paraL2Verde");
+
+let cL5 = this.document.getElementById("L2paraL4Branco");
+let cL6 = this.document.getElementById("L4paraL2Branco");
+
+let cL7 = this.document.getElementById("L2paraL4Azul");
+let cL8 = this.document.getElementById("L4paraL2Azul");
+
+let cL9 = this.document.getElementById("L2paraL4Marrom");
+let cL10 = this.document.getElementById("L4paraL2Marrom");
+
+let cLPontoNeutro = this.document.getElementById("pontoNeutroL2PL4");
+let cL2PontoNeutro = this.document.getElementById("pontoNeutroL2VL4");
+let cL3PontoNeutro = this.document.getElementById("pontoNeutroL2BL4");
+let cL4PontoNeutro = this.document.getElementById("pontoNeutroL2AL4");
+let cL5PontoNeutro = this.document.getElementById("pontoNeutroL2ML4");
+
+
+//Preto
+if((cL != null || cL != undefined) && (cL2 != null || cL2 != undefined)) {   
    console.log("confirmado",cL)
       cL.id = "L2"
       cL2.id = "L4"
       cLPontoNeutro.id = "pontoNeutro"
+} else
+
+//Verde
+if((cL3 != null || cL3 != undefined) && (cL4 != null || cL4 != undefined)) {   
+   console.log("confirmado",cL)
+      cL3.id = "L2"
+      cL4.id = "L4"
+      cL2PontoNeutro.id = "pontoNeutro"
+} else
+
+//Branco
+if((cL5 != null || cL5 != undefined) && (cL6 != null || cL6 != undefined)) {   
+   console.log("confirmado",cL)
+      cL5.id = "L2"
+      cL6.id = "L4"
+      cL3PontoNeutro.id = "pontoNeutro"
+} else
+
+//Azul
+if((cL7 != null || cL7 != undefined) && (cL8 != null || cL8 != undefined)) {   
+   console.log("confirmado",cL)
+      cL7.id = "L2"
+      cL8.id = "L4"
+      cL4PontoNeutro.id = "pontoNeutro"
+} else
+
+//Marrom
+if((cL9 != null || cL9 != undefined) && (cL10 != null || cL10 != undefined)) {   
+   console.log("confirmado",cL)
+      cL9.id = "L2"
+      cL10.id = "L4"
+      cL5PontoNeutro.id = "pontoNeutro"
 } 
+
+
+
+
+// L4 Para L1 CHUVEIRO LAMPADA
+let cL11 = this.document.getElementById("L1paraL4Preto");
+let cL12 = this.document.getElementById("L4paraL2Preto");
+
+let cL13 = this.document.getElementById("L1paraL4Verde");
+let cL14 = this.document.getElementById("L4paraL2Verde");
+
+let cL15 = this.document.getElementById("L1paraL4Branco");
+let cL16 = this.document.getElementById("L4paraL2Branco");
+
+let cL17 = this.document.getElementById("L1paraL4Azul");
+let cL18 = this.document.getElementById("L4paraL2Azul");
+
+let cL19 = this.document.getElementById("L1paraL4Marrom");
+let cL20 = this.document.getElementById("L4paraL2Marrom");
+
+let cL6PontoNeutro = this.document.getElementById("pontoNeutroL1PL4");
+let cL7PontoNeutro = this.document.getElementById("pontoNeutroL1VL4");
+let cL8PontoNeutro = this.document.getElementById("pontoNeutroL1BL4");
+let cL9PontoNeutro = this.document.getElementById("pontoNeutroL1AL4");
+let cL10PontoNeutro = this.document.getElementById("pontoNeutroL1ML4");
+
+
+
+//Preto
+if((cL11 != null || cL11 != undefined) && (cL12 != null || cL12 != undefined)) {   
+   console.log("confirmado",cL)
+      cL11.id = "L1"
+      cL12.id = "L4"
+      cL6PontoNeutro.id = "pontoNeutro"
+} 
+
+//Verde
+if((cL13 != null || cL13 != undefined) && (cL14 != null || cL14 != undefined)) {   
+   console.log("confirmado",cL)
+      cL13.id = "L1"
+      cL14.id = "L4"
+      cL7PontoNeutro.id = "pontoNeutro"
+} 
+
+//Branco
+if((cL15 != null || cL15 != undefined) && (cL16 != null || cL16 != undefined)) {   
+   console.log("confirmado",cL)
+      cL15.id = "L1"
+      cL16.id = "L4"
+      cL8PontoNeutro.id = "pontoNeutro"
+} 
+
+//Azul
+if((cL17 != null || cL17 != undefined) && (cL18 != null || cL18 != undefined)) {   
+   console.log("confirmado",cL)
+      cL17.id = "L1"
+      cL18.id = "L4"
+      cL9PontoNeutro.id = "pontoNeutro"
+} 
+
+//Marrom
+if((cL19 != null || cL19 != undefined) && (cL20 != null || cL20 != undefined)) {   
+   console.log("confirmado",cL)
+      cL19.id = "L1"
+      cL20.id = "L4"
+      cL10PontoNeutro.id = "pontoNeutro"
+} 
+
+
+
+// L3 PARA L2 CHUVEIRO LAMPADA
+let cL21 = this.document.getElementById("L3paraL2Preto");
+let cL22 = this.document.getElementById("L3paraL2Verde");
+let cL23 = this.document.getElementById("L3paraL2Branco");
+let cL24 = this.document.getElementById("L3paraL2Azul");
+let cL25 = this.document.getElementById("L3paraL2Marrom");
+
+
+//Preto
+if((cL21 != null || cL21 != undefined) ) {   
+   console.log("confirmado",cL)
+      cL21.id = "L3"
+     
+} 
+
+//Verde
+if((cL22 != null || cL22 != undefined)) {   
+   console.log("confirmado",cL)
+      cL22.id = "L3"
+      
+
+} 
+
+//Branco
+if((cL23 != null || cL23 != undefined)) {   
+   console.log("confirmado",cL)
+      cL23.id = "L3"
+      
+
+} 
+
+//Azul
+if((cL24 != null || cL24 != undefined) ) {   
+   console.log("confirmado",cL)
+      cL24.id = "L3"
+      
+
+} 
+
+//Marrom
+if((cL25 != null || cL25 != undefined)) {   
+   console.log("confirmado",cL)
+      cL25.id = "L3"
+      
+} 
+
+
+
+
+
 // resetando lamp
 
 //1 pata 3
@@ -12597,153 +12773,153 @@ chuveiro.forEach(it => {
     it.addEventListener("click", function(){
         const id = it.id;
 
-        idPonto;
-        idPonto2;
-if(id == "L1"&& idPonto == undefined){
-   console.log("oi",id);
-   idPonto = "L1";
-   console.log("oi",idPonto);
-    chuveiroConect(idPonto)
-  return idPonto = "L1";
+//         idPonto;
+//         idPonto2;
+// if(id == "L1"&& idPonto == undefined){
+//    console.log("oi",id);
+//    idPonto = "L1";
+//    console.log("oi",idPonto);
+//     chuveiroConect(idPonto)
+//   return idPonto = "L1";
 
-}else
-if(id == "L2"&& idPonto == undefined){
-   console.log("oi",id);
-   idPonto = "L2";
-   console.log("oi",idPonto);
-   chuveiroConect(idPonto)
- return idPonto = "L2";
+// }else
+// if(id == "L2"&& idPonto == undefined){
+//    console.log("oi",id);
+//    idPonto = "L2";
+//    console.log("oi",idPonto);
+//    chuveiroConect(idPonto)
+//  return idPonto = "L2";
 
-}else
-console.log(idPonto)
-if(id == "L3"&& idPonto == undefined){
-   console.log("oi",id);
-   idPonto = "L3";
-   console.log("oi",idPonto);
-    chuveiroConect(idPonto)
- return idPonto = "L3";
+// }else
+// console.log(idPonto)
+// if(id == "L3"&& idPonto == undefined){
+//    console.log("oi",id);
+//    idPonto = "L3";
+//    console.log("oi",idPonto);
+//     chuveiroConect(idPonto)
+//  return idPonto = "L3";
 
-}else
-if(id == "L4"&& idPonto == undefined){
-   console.log("oi",id);
-   idPonto = "L4";
-   console.log("oi",idPonto);
-    chuveiroConect(idPonto)
-return  idPonto = "L4";
+// }else
+// if(id == "L4"&& idPonto == undefined){
+//    console.log("oi",id);
+//    idPonto = "L4";
+//    console.log("oi",idPonto);
+//     chuveiroConect(idPonto)
+// return  idPonto = "L4";
 
-}else
-if(id == "L5"&& idPonto == undefined){
-   console.log("oi",id);
-   idPonto = "L5";
-   console.log("oi",idPonto);
-    chuveiroConect(idPonto)
-return  idPonto = "L5";
+// }else
+// if(id == "L5"&& idPonto == undefined){
+//    console.log("oi",id);
+//    idPonto = "L5";
+//    console.log("oi",idPonto);
+//     chuveiroConect(idPonto)
+// return  idPonto = "L5";
 
-}else
-if(id == "L6"&& idPonto == undefined){
-   console.log("oi",id);
-   idPonto = "L6";
-   console.log("oi",idPonto);
-    chuveiroConect(idPonto)
-return  idPonto = "L6";
+// }else
+// if(id == "L6"&& idPonto == undefined){
+//    console.log("oi",id);
+//    idPonto = "L6";
+//    console.log("oi",idPonto);
+//     chuveiroConect(idPonto)
+// return  idPonto = "L6";
 
-}else
-if(id == "L7"&& idPonto == undefined){
-   console.log("oi",id);
-   idPonto = "L7";
-   console.log("oi",idPonto);
-    chuveiroConect(idPonto)
-return  idPonto = "L7";
+// }else
+// if(id == "L7"&& idPonto == undefined){
+//    console.log("oi",id);
+//    idPonto = "L7";
+//    console.log("oi",idPonto);
+//     chuveiroConect(idPonto)
+// return  idPonto = "L7";
 
-}else
-if(id == "L8"&& idPonto == undefined){
-   console.log("oi",id);
-   idPonto = "L8";
-   console.log("oi",idPonto);
-    chuveiroConect(idPonto)
-return  idPonto = "L8";
+// }else
+// if(id == "L8"&& idPonto == undefined){
+//    console.log("oi",id);
+//    idPonto = "L8";
+//    console.log("oi",idPonto);
+//     chuveiroConect(idPonto)
+// return  idPonto = "L8";
 
-}else
-if(id == "L9"&& idPonto == undefined){
-   console.log("oi",id);
-   idPonto = "L9";
-   console.log("oi",idPonto);
-    chuveiroConect(idPonto)
- return idPonto = "L9";
+// }else
+// if(id == "L9"&& idPonto == undefined){
+//    console.log("oi",id);
+//    idPonto = "L9";
+//    console.log("oi",idPonto);
+//     chuveiroConect(idPonto)
+//  return idPonto = "L9";
 
-}
-
-
+// }
 
 
-if(id == "L1"&& idPonto != undefined){
-   console.log("oi2",idPonto2);
+
+
+// if(id == "L1"&& idPonto != undefined){
+//    console.log("oi2",idPonto2);
   
-   idPonto2 = "L1"
-   chuveiroConect(idPonto2)
-return  idPonto2 = "L1"
+//    idPonto2 = "L1"
+//    chuveiroConect(idPonto2)
+// return  idPonto2 = "L1"
 
-}
-if(id == "L2"&& idPonto != undefined){
-   console.log("oi2",idPonto2);
-   idPonto2 = "L2"
-   console.log("oi2",idPonto2);
-   chuveiroConect(idPonto2)
-return  idPonto2 = "L2"
+// }
+// if(id == "L2"&& idPonto != undefined){
+//    console.log("oi2",idPonto2);
+//    idPonto2 = "L2"
+//    console.log("oi2",idPonto2);
+//    chuveiroConect(idPonto2)
+// return  idPonto2 = "L2"
 
-}
-if(id == "L3"&& idPonto != undefined){
-   console.log("oi2",idPonto2);
-   idPonto2 = "L3"
-   chuveiroConect(idPonto2)
-return  idPonto2 = "L3"
+// }
+// if(id == "L3"&& idPonto != undefined){
+//    console.log("oi2",idPonto2);
+//    idPonto2 = "L3"
+//    chuveiroConect(idPonto2)
+// return  idPonto2 = "L3"
 
-}
-if(id == "L4"&& idPonto != undefined){
-   console.log("oi2",idPonto2);
-   idPonto2 = "L4"
-   console.log("oi2",idPonto2);
-   chuveiroConect(idPonto2)
-return  idPonto2 = "L4"
+// }
+// if(id == "L4"&& idPonto != undefined){
+//    console.log("oi2",idPonto2);
+//    idPonto2 = "L4"
+//    console.log("oi2",idPonto2);
+//    chuveiroConect(idPonto2)
+// return  idPonto2 = "L4"
 
-}
-console.log("oi2",idPonto2);
+// }
+// console.log("oi2",idPonto2);
 
-if(id == "L5"&& idPonto != undefined){
-   console.log("oi2",idPonto2);
-   idPonto2 = "L5"
-   chuveiroConect(idPonto2)
- return idPonto2 = "L5"
+// if(id == "L5"&& idPonto != undefined){
+//    console.log("oi2",idPonto2);
+//    idPonto2 = "L5"
+//    chuveiroConect(idPonto2)
+//  return idPonto2 = "L5"
 
-}
-if(id == "L6"&& idPonto != undefined){
-   console.log("oi2",idPonto2);
-   idPonto2 = "L6"
-   chuveiroConect(idPonto2)
-return  idPonto2 = "L6"
+// }
+// if(id == "L6"&& idPonto != undefined){
+//    console.log("oi2",idPonto2);
+//    idPonto2 = "L6"
+//    chuveiroConect(idPonto2)
+// return  idPonto2 = "L6"
 
-}
-if(id == "L7"&& idPonto != undefined){
-   console.log("oi2",idPonto2);
-   idPonto2 = "L7"
-   chuveiroConect(idPonto2)
-return  idPonto2 = "L7"
+// }
+// if(id == "L7"&& idPonto != undefined){
+//    console.log("oi2",idPonto2);
+//    idPonto2 = "L7"
+//    chuveiroConect(idPonto2)
+// return  idPonto2 = "L7"
 
-}
-if(id == "L8"&& idPonto != undefined){
-   console.log("oi2",idPonto2);
-   idPonto2 = "L8"
-   chuveiroConect(idPonto2)
-return  idPonto2 = "L8"
+// }
+// if(id == "L8"&& idPonto != undefined){
+//    console.log("oi2",idPonto2);
+//    idPonto2 = "L8"
+//    chuveiroConect(idPonto2)
+// return  idPonto2 = "L8"
 
-}
-if(id == "L9"&& idPonto != undefined){
-   console.log("oi2",idPonto2);
-   idPonto2 = "L9"
-   chuveiroConect(idPonto2)
-return  idPonto2 = "L9"
+// }
+// if(id == "L9"&& idPonto != undefined){
+//    console.log("oi2",idPonto2);
+//    idPonto2 = "L9"
+//    chuveiroConect(idPonto2)
+// return  idPonto2 = "L9"
 
-}
+// }
 
 
  id2 ;
@@ -13994,12 +14170,18 @@ chuveiro.forEach(it => {
 
         idPonto;
         idPonto2;
+
+        idPonto3;
+        idPonto4;
+
         cor;
+
+        if(idPonto == undefined) {  
 if(id == "L1"&& idPonto == undefined){
    console.log("oi",id);
    idPonto = "L1";
    console.log("oi",idPonto);
-    chuveiroLampadaConect(idPonto)
+    chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
   return idPonto = "L1";
 
 }else
@@ -14007,7 +14189,7 @@ if(id == "L2"&& idPonto == undefined){
    console.log("oi",id);
    idPonto = "L2";
    console.log("oi",idPonto);
-   chuveiroLampadaConect(idPonto)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
  return idPonto = "L2";
 
 }else
@@ -14016,7 +14198,7 @@ if(id == "L3"&& idPonto == undefined){
    console.log("oi",id);
    idPonto = "L3";
    console.log("oi",idPonto);
-    chuveiroLampadaConect(idPonto)
+    chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
  return idPonto = "L3";
 
 }else
@@ -14024,7 +14206,7 @@ if(id == "L4"&& idPonto == undefined){
    console.log("oi",id);
    idPonto = "L4";
    console.log("oi",idPonto);
-   chuveiroLampadaConect(idPonto)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto = "L4";
 
 }else
@@ -14032,7 +14214,7 @@ if(id == "L5"&& idPonto == undefined){
    console.log("oi",id);
    idPonto = "L5";
    console.log("oi",idPonto);
-    chuveiroLampadaConect(idPonto)
+    chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto = "L5";
 
 }else
@@ -14040,7 +14222,7 @@ if(id == "L6"&& idPonto == undefined){
    console.log("oi",id);
    idPonto = "L6";
    console.log("oi",idPonto);
-   chuveiroLampadaConect(idPonto)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto = "L6";
 
 }else
@@ -14048,7 +14230,7 @@ if(id == "L7"&& idPonto == undefined){
    console.log("oi",id);
    idPonto = "L7";
    console.log("oi",idPonto);
-    chuveiroLampadaConect(idPonto)
+    chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto = "L7";
 
 }else
@@ -14056,7 +14238,7 @@ if(id == "L8"&& idPonto == undefined){
    console.log("oi",id);
    idPonto = "L8";
    console.log("oi",idPonto);
-    chuveiroLampadaConect(idPonto)
+    chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto = "L8";
 
 }else
@@ -14064,106 +14246,283 @@ if(id == "L9"&& idPonto == undefined){
    console.log("oi",id);
    idPonto = "L9";
    console.log("oi",idPonto);
-    chuveiroLampadaConect(idPonto)
+    chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
  return idPonto = "L9";
 
 }
+        }
 
 
+        if(idPonto != undefined) { 
 
-
-if(id == "L1"&& idPonto != undefined && idPonto != id){
+if(id == "L1"&& idPonto != undefined && idPonto != id && idPonto2 == undefined){
    console.log("oi2",idPonto2);
   
    idPonto2 = "L1"
-   chuveiroLampadaConect(idPonto,idPonto2)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto2 = "L1"
 
 }
-if(id == "L2"&& idPonto != undefined&& idPonto != id){
+if(id == "L2"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
    console.log("oi2",idPonto2);
    idPonto2 = "L2"
    console.log("oi2",idPonto2);
-   chuveiroLampadaConect(idPonto,idPonto2)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto2 = "L2"
 
 }
-if(id == "L3"&& idPonto != undefined&& idPonto != id){
+if(id == "L3"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
    console.log("oi2",idPonto2);
    idPonto2 = "L3"
-  chuveiroLampadaConect(idPonto,idPonto2)
+  chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto2 = "L3"
 
 }
-if(id == "L4"&& idPonto != undefined&& idPonto != id){
+if(id == "L4"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
    console.log("oi2",idPonto2);
    idPonto2 = "L4"
    console.log("oi2",idPonto2);
-   chuveiroLampadaConect(idPonto,idPonto2)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto2 = "L4"
 
 }
 console.log("oi2",idPonto2);
 
-if(id == "L5"&& idPonto != undefined&& idPonto != id){
+if(id == "L5"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
    console.log("oi2",idPonto2);
    idPonto2 = "L5"
-   chuveiroLampadaConect(idPonto,idPonto2)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
  return idPonto2 = "L5"
 
 }
-if(id == "L6"&& idPonto != undefined&& idPonto != id){
+if(id == "L6"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
    console.log("oi2",idPonto2);
    idPonto2 = "L6"
-   chuveiroLampadaConect(idPonto,idPonto2)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto2 = "L6"
 
 }
-if(id == "L7"&& idPonto != undefined&& idPonto != id){
+if(id == "L7"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
    console.log("oi2",idPonto2);
    idPonto2 = "L7"
-   chuveiroLampadaConect(idPonto,idPonto2)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto2 = "L7"
 
 }
-if(id == "L8"&& idPonto != undefined&& idPonto != id){
+if(id == "L8"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
    console.log("oi2",idPonto2);
    idPonto2 = "L8"
-   chuveiroLampadaConect(idPonto,idPonto2)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto2 = "L8"
 
 }
-if(id == "L9"&& idPonto != undefined&& idPonto != id){
+if(id == "L9"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
    console.log("oi2",idPonto2);
    idPonto2 = "L9"
-   chuveiroLampadaConect(idPonto,idPonto2)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 return  idPonto2 = "L9"
 
 }
+        }
 
 
+if(idPonto2 != undefined && idPonto3 == undefined) {  
+if(id == "L1"&& idPonto != undefined && idPonto != id && idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+  
+   idPonto3 = "L1"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L1"
 
+}
+if(id == "L2"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L2"
+   console.log("oi2",idPonto3);
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3= "L2"
+
+}
+if(id == "L3"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L3"
+  chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L3"
+
+}
+if(id == "L4"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L4"
+   console.log("oi2",idPonto3);
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L4"
+
+}
+console.log("oi2",idPonto3);
+
+if(id == "L5"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L5"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+ return idPonto3 = "L5"
+
+}
+if(id == "L6"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L6"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L6"
+
+}
+if(id == "L7"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L7"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L7"
+
+}
+if(id == "L8"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L8"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L8"
+
+}
+if(id == "L9"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L9"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L9"
+
+}
+
+}
+
+
+if( idPonto3 != undefined && idPonto4 == undefined) { 
+   console.log("dentro")
+if(id == "L1"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+  
+   idPonto4 = "L1"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L1"
+
+}
+if(id == "L2"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi3",idPonto4);
+   idPonto4 = "L2"
+   console.log("oi2",idPonto4);
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4= "L2"
+
+}
+if(id == "L3"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L3"
+  chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L3"
+
+}
+if(id == "L4"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L4"
+   console.log("oi2",idPonto4);
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L4"
+
+}
+console.log("oi2",idPonto3);
+
+if(id == "L5"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L5"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+ return idPonto4 = "L5"
+
+}
+if(id == "L6"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L6"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L6"
+
+}
+if(id == "L7"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L7"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L7"
+
+}
+if(id == "L8"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L8"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L8"
+
+}
+if(id == "L9"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L9"
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L9"
+
+}
+
+}
+
+ 
 if(id == "fio1"){
    cor = "fio1"
-   chuveiroLampadaConect(idPonto,idPonto2,cor)
+   console.log(cor)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+}else
+
+if(id == "fio2"){
+   cor = "fio2"
+   console.log(cor)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+}else
+if(id == "fio3"){
+   cor = "fio3"
+   console.log(cor)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+}else
+if(id == "fio4"){
+   cor = "fio4"
+   console.log(cor)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+}else
+if(id == "fio5"){
+   cor = "fio5"
+   console.log(cor)
+   chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
 }
+
  });
 }
+
+
 
 
 );
 
 
 
-function chuveiroLampadaConect(idPonto,idPonto2,cor){
+function chuveiroLampadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
 
    // CHUVEIRO PARA LAMPADA
+  let corParam = cor;
 
-   console.log(idPonto)
-   console.log(idPonto2)
+   console.log("idPontoF",idPonto)
+   console.log("idPontoF",idPonto2)
+   console.log("idPontoF",idPonto3)
+   console.log("idPontoF",idPonto4)
+    console.log("corF",corParam)
 
-    if( idPonto == "L4" || idPonto == "L2" && idPonto2 == "L2" || idPonto2 == "L4" && cor == "fio1"){
-
+    if( (idPonto == "L4" || idPonto == "L2") && (idPonto2 == "L2" || idPonto2 == "L4") && cor == "fio1"){
+      
       let it = document.getElementById("L4");
       let it2 = document.getElementById("L2");
       let it3 = document.getElementById("pontoNeutro");
@@ -14173,8 +14532,241 @@ function chuveiroLampadaConect(idPonto,idPonto2,cor){
       it2.id = "L2paraL4Preto"
       it3.id = "pontoNeutroL2PL4"
       }
+       
+    }else
+
+    if( (idPonto == "L4" || idPonto == "L2") && (idPonto2 == "L2" || idPonto2 == "L4") && cor == "fio2"){
+      
+      let it = document.getElementById("L4");
+      let it2 = document.getElementById("L2");
+      let it3 = document.getElementById("pontoNeutro");
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+      it.id = "L4paraL2Verde"
+      it2.id = "L2paraL4Verde"
+      it3.id = "pontoNeutroL2VL4"
+      }
+    
+    }else
+
+    if( (idPonto == "L4" || idPonto == "L2") && (idPonto2 == "L2" || idPonto2 == "L4") && cor == "fio3"){
+      
+      let it = document.getElementById("L4");
+      let it2 = document.getElementById("L2");
+      let it3 = document.getElementById("pontoNeutro");
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+      it.id = "L4paraL2Branco"
+      it2.id = "L2paraL4Branco"
+      it3.id = "pontoNeutroL2BL4"
+      }
+     
+    }else
+
+    if( (idPonto == "L4" || idPonto == "L2") && (idPonto2 == "L2" || idPonto2 == "L4") && cor == "fio4"){
+     
+      let it = document.getElementById("L4");
+      let it2 = document.getElementById("L2");
+      let it3 = document.getElementById("pontoNeutro");
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+      it.id = "L4paraL2Azul"
+      it2.id = "L2paraL4Azul"
+      it3.id = "pontoNeutroL2AL4"
+      }
+      
+    }else
+
+    if( (idPonto == "L4" || idPonto == "L2") && (idPonto2 == "L2" || idPonto2 == "L4") && cor == "fio5"){
+      
+      let it = document.getElementById("L4");
+      let it2 = document.getElementById("L2");
+      let it3 = document.getElementById("pontoNeutro");
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+      it.id = "L4paraL2Marrom"
+      it2.id = "L2paraL4Marrom"
+      it3.id = "pontoNeutroL2ML4"
+      }
       
     }
+
+
+
+// L1 PARA L4 CHUVEIRO LAMPADA
+    if( (idPonto == "L4" || idPonto == "L1") && (idPonto2 == "L1" || idPonto2 == "L4") && cor == "fio1"){
+    
+      let it = document.getElementById("L4");
+      let it2 = document.getElementById("L1");
+      let it3 = document.getElementById("pontoNeutro");
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+       
+      it.id = "L4paraL2Preto"//REUTILIZANDO PARA L1
+      it2.id = "L1paraL4Preto"
+      it3.id = "pontoNeutroL1PL4"
+      }
+      
+    }else
+
+    if( (idPonto == "L4" || idPonto == "L1") && (idPonto2 == "L1" || idPonto2 == "L4") && cor == "fio2"){
+     
+      let it = document.getElementById("L4");
+      let it2 = document.getElementById("L1");
+      let it3 = document.getElementById("pontoNeutro");
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+      it.id = "L4paraL2Verde"//REUTILIZANDO PARA L1
+      it2.id = "L1paraL4Verde"
+      it3.id = "pontoNeutroL1VL4"
+      }
+      
+    }else
+
+    if( (idPonto == "L4" || idPonto == "L1") && (idPonto2 == "L1" || idPonto2 == "L4") && cor == "fio3"){
+      
+      let it = document.getElementById("L4");
+      let it2 = document.getElementById("L1");
+      let it3 = document.getElementById("pontoNeutro");
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+      it.id = "L4paraL2Branco"//REUTILIZANDO PARA L1
+      it2.id = "L1paraL4Branco"
+      it3.id = "pontoNeutroL1BL4"
+      }
+     
+    }else
+
+    if( (idPonto == "L4" || idPonto == "L1") && (idPonto2 == "L1" || idPonto2 == "L4") && cor == "fio4"){
+     
+      let it = document.getElementById("L4");
+      let it2 = document.getElementById("L1");
+      let it3 = document.getElementById("pontoNeutro");
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+      it.id = "L4paraL2Azul"//REUTILIZANDO PARA L1
+      it2.id = "L1paraL4Azul"
+      it3.id = "pontoNeutroL1AL4"
+      }
+      
+    }else
+
+    if( (idPonto == "L4" || idPonto == "L1") && (idPonto2 == "L1" || idPonto2 == "L4") && cor == "fio5"){
+     
+
+      let it = document.getElementById("L4");
+      let it2 = document.getElementById("L1");
+      let it3 = document.getElementById("pontoNeutro");
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+       
+      it.id = "L4paraL2Marrom"//REUTILIZANDO PARA L1
+      it2.id = "L1paraL4Marrom"
+      it3.id = "pontoNeutroL1ML4"
+      }
+      
+    }
+
+
+
+  
+
+    // L3 PARA L2 CHUVEIRO LAMPADA
+    if(  (idPonto == "L3" || idPonto == "L2") 
+      && (idPonto2 == "L3" || idPonto2 == "L2")
+      && cor == "fio1" ||
+         (idPonto3 == "L3" || idPonto3 == "L2")
+      && (idPonto4 == "L3" || idPonto4  == "L2")
+      && cor == "fio1"){
+
+      let it = document.getElementById("L3");
+     
+      
+      if(it != null && it != undefined) {  
+       
+      it.id = "L3paraL2Preto"
+      
+      
+      }
+      
+    }
+
+    if(  (idPonto == "L3" || idPonto == "L2") 
+      && (idPonto2 == "L3" || idPonto2 == "L2")
+      && cor == "fio2" ||
+         (idPonto3 == "L3" || idPonto3 == "L2")
+      && (idPonto4 == "L3" || idPonto4  == "L2")
+      && cor == "fio2"){
+
+      let it = document.getElementById("L3");
+      
+     
+      if(it != null && it != undefined) {  
+       
+      it.id = "L3paraL2Verde"
+      
+      
+      }
+      
+    }else
+
+    if(  (idPonto == "L3" || idPonto == "L2") 
+      && (idPonto2 == "L3" || idPonto2 == "L2")
+      && cor == "fio3" ||
+         (idPonto3 == "L3" || idPonto3 == "L2")
+      && (idPonto4 == "L3" || idPonto4  == "L2")
+      && cor == "fio3"){
+
+      let it = document.getElementById("L3");
+      
+      
+      if(it != null && it != undefined ) {  
+       
+      it.id = "L3paraL2Branco"
+      
+      
+      }
+      
+    }else
+
+    if(  (idPonto == "L3" || idPonto == "L2") 
+      && (idPonto2 == "L3" || idPonto2 == "L2")
+      && cor == "fio4" ||
+         (idPonto3 == "L3" || idPonto3 == "L2")
+      && (idPonto4 == "L3" || idPonto4  == "L2")
+      && cor == "fio4"){
+
+      let it = document.getElementById("L3");
+      
+      
+      if(it != null && it != undefined ) {  
+       
+      it.id = "L3paraL2Azul"
+     
+      
+      }
+      
+    }else
+
+    if(  (idPonto == "L3" || idPonto == "L2") 
+      && (idPonto2 == "L3" || idPonto2 == "L2")
+      && cor == "fio5" ||
+         (idPonto3 == "L3" || idPonto3 == "L2")
+      && (idPonto4 == "L3" || idPonto4  == "L2")
+      && cor == "fio5"){
+
+      let it = document.getElementById("L3");
+      
+      
+      if(it != null && it != undefined ) {  
+       
+      it.id = "L3paraL2Marrom"
+     
+      
+      }
+      
+    }
+
+
+
 }
 
 function fioHover(){
