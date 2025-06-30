@@ -1680,6 +1680,86 @@ cursor: pointer; /* define o cursor como um ponteiro */
 }
 
 
+
+
+/* L6 PARA L4 */
+#pontoNeutroL5PL3{
+  width: 300px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:280px;
+   left: 690px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+      filter: grayscale(100%)
+   brightness(0);
+
+}
+
+
+#pontoNeutroL5VL3{
+     width: 300px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:280px;
+   left: 690px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+  filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}
+
+#pontoNeutroL5BL3{
+   width: 300px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:280px;
+   left: 690px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: brightness(700%)saturate(0);
+
+}
+
+#pontoNeutroL5AL3{
+    width: 300px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:280px;
+   left: 690px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}
+
+#pontoNeutroL5ML3{
+   width: 300px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:280px;
+   left: 690px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}
+
+
      #L21 {
       width: 10px;
       height:95px;
@@ -2496,6 +2576,25 @@ cursor: pointer; /* define o cursor como um ponteiro */
    brightness(0);
 
 }
+
+
+/* NEUTRO */
+ #pontoNeutro5{
+  width: 10px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:235px;
+   left: 640px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+    filter: grayscale(100%);
+           
+         filter: grayscale(100%)
+   brightness(0);
+ }
+
 
 #pontoNeutroL2PL4{
   width: 430px;
@@ -3401,6 +3500,156 @@ cursor: pointer; /* define o cursor como um ponteiro */
       
     filter: sepia(1) saturate(2)brightness(0.5);
     } 
+
+
+ /* CHUVEIRA PARA INTERRUPTOR */
+#L3paraL6Preto {
+  width: 10px;
+  height:185px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 980px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L3paraL6Verde {
+  width: 10px;
+  height:185px;
+    
+   position:absolute;
+        
+    top:145px;
+     left: 980px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L3paraL6Branco {
+  width: 10px;
+  height:185px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 980px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L3paraL6Azul {
+  width: 10px;
+  height:185px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 980px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L3paraL6Marrom {
+  width: 10px;
+  height:185px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 980px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
+
+
+
+ /* CHUVEIRA PARA INTERRUPTOR */
+#L3paraL5Preto {
+  width: 10px;
+  height:145px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L3paraL5Verde {
+  width: 10px;
+  height:145px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L3paraL5Branco {
+   width: 10px;
+  height:145px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L3paraL5Azul {
+   width: 10px;
+  height:145px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L3paraL5Marrom {
+   width: 10px;
+  height:145px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
 
 
 
@@ -5185,6 +5434,76 @@ cursor: pointer; /* define o cursor como um ponteiro */
  }  
 
 
+ /* CHUVEIRA PARA INTERRUPTOR */
+#L5paraL3Preto {
+  width: 10px;
+  height:50px;
+    
+   position:absolute;
+        
+    top:280px;
+      left: 680px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L5paraL3Verde {
+    width: 10px;
+  height:50px;
+    
+   position:absolute;
+        
+    top:280px;
+      left: 680px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L5paraL3Branco {
+  width: 10px;
+  height:50px;
+    
+   position:absolute;
+        
+    top:280px;
+      left: 680px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L5paraL3Azul {
+   width: 10px;
+  height:50px;
+    
+   position:absolute;
+        
+    top:280px;
+      left: 680px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L5paraL3Marrom {
+ width: 10px;
+  height:50px;
+    
+   position:absolute;
+        
+    top:280px;
+      left: 680px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
 
 
 #L6{
@@ -6030,6 +6349,80 @@ cursor: pointer; /* define o cursor como um ponteiro */
 
 
 
+
+ /* CHUVEIRA PARA INTERRUPTOR */
+#L6paraL3Preto {
+  width: 230px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 750px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L6paraL3Verde {
+  width: 230px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 750px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L6paraL3Branco {
+  width: 230px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 750px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L6paraL3Azul {
+   width: 230px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 750px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L6paraL3Marrom {
+    width: 230px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 750px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
 
 
 
