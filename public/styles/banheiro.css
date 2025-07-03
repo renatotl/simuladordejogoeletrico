@@ -1839,6 +1839,238 @@ cursor: pointer; /* define o cursor como um ponteiro */
 }
 
 
+/* L8 PARA L4 */
+#pontoNeutroL8PL4{
+  width: 520px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:380px;
+   left: 555px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+      filter: grayscale(100%)
+   brightness(0);
+
+}
+
+
+#pontoNeutroL8VL4{
+    width: 520px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:380px;
+   left: 555px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+  filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}
+
+#pontoNeutroL8BL4{
+  width: 520px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:380px;
+   left: 555px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: brightness(700%)saturate(0);
+
+}
+
+#pontoNeutroL8AL4{
+  width: 520px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:380px;
+   left: 555px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}
+
+#pontoNeutroL8ML4{
+  width: 520px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:380px;
+   left: 555px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}
+
+
+/* L8 PARA L3 */
+#pontoNeutroL8PL3{
+  width: 445px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:420px;
+   left: 555px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+      filter: grayscale(100%)
+   brightness(0);
+
+}
+
+
+#pontoNeutroL8VL3{
+  width: 445px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:420px;
+   left: 555px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+  filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}
+
+#pontoNeutroL8BL3{
+ width: 445px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:420px;
+   left: 555px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: brightness(700%)saturate(0);
+
+}
+
+#pontoNeutroL8AL3{
+ width: 445px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:420px;
+   left: 555px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}
+
+#pontoNeutroL8ML3{
+width: 445px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:420px;
+   left: 555px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}
+
+
+/* L7 PARA L3 */
+#pontoNeutroL7PL3{
+  width: 500px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:450px;
+   left: 490px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+      filter: grayscale(100%)
+   brightness(0);
+
+}
+
+
+#pontoNeutroL7VL3{
+ width: 500px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:450px;
+   left: 490px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+  filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}
+
+#pontoNeutroL7BL3{
+ width: 500px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:450px;
+   left: 490px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: brightness(700%)saturate(0);
+
+}
+
+#pontoNeutroL7AL3{
+ width: 500px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:450px;
+   left: 490px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}
+
+#pontoNeutroL7ML3{
+width: 500px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:450px;
+   left: 490px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}
 
      #L21 {
       width: 10px;
@@ -2696,6 +2928,59 @@ cursor: pointer; /* define o cursor como um ponteiro */
 
 
 
+/* NEUTRO */
+ #pontoNeutro7{
+  width: 10px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:235px;
+   left: 640px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+    filter: grayscale(100%);
+           
+         filter: grayscale(100%)
+   brightness(0);
+
+}
+
+/* NEUTRO */
+ #pontoNeutro8{
+  width: 10px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:235px;
+   left: 640px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+    filter: grayscale(100%);
+           
+         filter: grayscale(100%)
+   brightness(0);
+ }
+
+/* NEUTRO */
+ #pontoNeutro9{
+  width: 10px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:235px;
+   left: 640px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+    filter: grayscale(100%);
+           
+         filter: grayscale(100%)
+   brightness(0);
+ }
+
+
 #pontoNeutroL2PL4{
   width: 430px;
   height:10px;
@@ -3535,6 +3820,154 @@ cursor: pointer; /* define o cursor como um ponteiro */
      filter: sepia(1) saturate(2)brightness(0.5);
  }  
 
+/* CHUVEIRA PARA TOMADA */
+#L3paraL8Preto {
+  width: 10px;
+  height:280px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L3paraL8Verde {
+  width: 10px;
+  height:280px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L3paraL8Branco {
+  width: 10px;
+  height:280px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L3paraL8Azul {
+  width: 10px;
+  height:280px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L3paraL8Marrom {
+ width: 10px;
+  height:280px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
+
+
+ /* CHUVEIRA PARA TOMADA */
+#L3paraL7Preto {
+  width: 10px;
+  height:315px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L3paraL7Verde {
+  width: 10px;
+  height:315px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L3paraL7Branco {
+  width: 10px;
+  height:315px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L3paraL7Azul {
+  width: 10px;
+  height:315px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L3paraL7Marrom {
+ width: 10px;
+  height:315px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
 
 
   #L3paraL2Preto {
@@ -3832,6 +4265,79 @@ cursor: pointer; /* define o cursor como um ponteiro */
  }  
 
 
+/* CHUVEIRA PARA TOMADA */
+#L3paraL9Preto {
+  width: 10px;
+  height:155px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L3paraL9Verde {
+  width: 10px;
+  height:155px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L3paraL9Branco {
+  width: 10px;
+  height:155px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L3paraL9Azul {
+  width: 10px;
+  height:155px;
+    
+   position:absolute;
+        
+    top:145px;
+    left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L3paraL9Marrom {
+  width: 10px;
+ height:155px;
+    
+   position:absolute;
+        
+    top:145px;
+     left: 990px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
 
 
 #L4{
@@ -4813,6 +5319,82 @@ cursor: pointer; /* define o cursor como um ponteiro */
     cursor: pointer; /* define o cursor como um ponteiro */
    filter: sepia(1) saturate(2)brightness(0.5);
  }  
+
+
+ /* CHUVEIRA PARA TOMADA */
+#L4paraL9Preto {
+  width: 10px;
+  height:155px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 1070px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L4paraL9Verde {
+  width: 10px;
+  height:155px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 1070px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L4paraL9Branco {
+  width: 10px;
+  height:155px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 1070px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L4paraL9Azul {
+  width: 10px;
+  height:155px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 1070px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L4paraL9Marrom {
+  width: 10px;
+ height:155px;
+    
+   position:absolute;
+        
+    top:145px;
+      left: 1070px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
+
 
 
   #L3:hover {
@@ -7553,6 +8135,79 @@ cursor: pointer; /* define o cursor como um ponteiro */
  }  
 
 
+/* CHUVEIRA PARA TOMADA */
+#L7paraL3Preto {
+  width: 10px;
+  height:140px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 480px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L7paraL3Verde {
+   width: 10px;
+  height:140px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 480px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L7paraL3Branco {
+  width: 10px;
+  height:140px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 480px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L7paraL3Azul {
+   width: 10px;
+  height:140px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 480px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L7paraL3Marrom {
+   width: 10px;
+  height:140px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 480px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
 
 
 #L81{
@@ -8331,7 +8986,154 @@ cursor: pointer; /* define o cursor como um ponteiro */
 }
 
 
+/* CHUVEIRA PARA TOMADA */
+#L8paraL4Preto {
+  width: 10px;
+  height:70px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 555px;
 
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L8paraL4Verde {
+   width: 10px;
+  height:70px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 555px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L8paraL4Branco {
+   width: 10px;
+  height:70px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 555px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L8paraL4Azul {
+   width: 10px;
+  height:70px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 555px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L8paraL4Marrom {
+    width: 10px;
+  height:70px;
+    
+   position:absolute;
+        
+    top:320px;
+     left: 555px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
+
+
+/* CHUVEIRA PARA TOMADA */
+#L8paraL3Preto {
+  width: 10px;
+  height:110px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 555px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L8paraL3Verde {
+   width: 10px;
+  height:110px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 555px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L8paraL3Branco {
+   width: 10px;
+  height:110px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 555px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L8paraL3Azul {
+   width: 10px;
+  height:110px;
+    
+   position:absolute;
+        
+    top:320px;
+      left: 555px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L8paraL3Marrom {
+    width: 10px;
+  height:110px;
+    
+   position:absolute;
+        
+    top:320px;
+     left: 555px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
 
 
 
@@ -9154,5 +9956,157 @@ cursor: pointer; /* define o cursor como um ponteiro */
 
 }
 
+/* L9 PARA L4 */
+#L9paraL4Preto{
+  width: 550px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:290px;
+   left: 520px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+      filter: grayscale(100%)
+   brightness(0);
+
+}
 
 
+#L9paraL4Verde{
+   width: 550px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:290px;
+   left: 520px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+  filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}
+
+#L9paraL4Branco{
+  width: 550px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:290px;
+   left: 520px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: brightness(700%)saturate(0);
+
+}
+
+#L9paraL4Azul{
+   width: 550px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:290px;
+   left: 520px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}
+
+#L9paraL4Marrom{
+  width: 550px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:290px;
+   left: 520px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}
+
+
+/* L9 PARA L3 */
+#L9paraL3Preto{
+  width: 480px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:290px;
+   left: 520px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+      filter: grayscale(100%)
+   brightness(0);
+
+}
+
+
+#L9paraL3Verde{
+   width: 480px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:290px;
+   left: 520px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+  filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}
+
+#L9paraL3Branco{
+  width: 480px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:290px;
+   left: 520px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: brightness(700%)saturate(0);
+
+}
+
+#L9paraL3Azul{
+   width: 480px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:290px;
+   left: 520px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}
+
+#L9paraL3Marrom{
+  width: 480px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:290px;
+   left: 520px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}
