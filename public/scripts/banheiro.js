@@ -5635,7 +5635,7 @@ if((cL124 != null || cL124 != undefined) && (cL125 != null || cL125 != undefined
 
 
 
-// L3 Para L8 CHUVEIRO INTERRUPTOR
+// L3 Para L7 CHUVEIRO INTERRUPTOR
 let cL126 = this.document.getElementById("L3paraL7Preto");
 let cL127 = this.document.getElementById("L7paraL3Preto");
 
@@ -5643,7 +5643,7 @@ let cL128 = this.document.getElementById("L3paraL7Verde");
 let cL129 = this.document.getElementById("L7paraL3Verde");
 
 let cL130 = this.document.getElementById("L3paraL7Branco");
-let cL131 = this.document.getElementById("L7paraL4Branco");
+let cL131 = this.document.getElementById("L7paraL3Branco");
 
 let cL132 = this.document.getElementById("L3paraL7Azul");
 let cL133 = this.document.getElementById("L7paraL3Azul");
@@ -5698,6 +5698,126 @@ if((cL134 != null || cL134 != undefined) && (cL135 != null || cL135 != undefined
       cL135.id = "L7"
    cL45PontoNeutro.id = "pontoNeutro9"
 } 
+
+
+
+// L1 Para L7 CHUVEIRO INTERRUPTOR
+let cL136 = this.document.getElementById("L1paraL7Preto");
+let cL137 = this.document.getElementById("L7paraL1Preto");
+
+let cL138 = this.document.getElementById("L1paraL7Verde");
+let cL139 = this.document.getElementById("L7paraL1Verde");
+
+let cL140 = this.document.getElementById("L1paraL7Branco");
+let cL141 = this.document.getElementById("L7paraL1Branco");
+
+let cL142 = this.document.getElementById("L1paraL7Azul");
+let cL143 = this.document.getElementById("L7paraL1Azul");
+
+let cL144 = this.document.getElementById("L1paraL7Marrom");
+let cL145 = this.document.getElementById("L7paraL1Marrom");
+
+
+
+//Preto
+if((cL136 != null || cL136 != undefined) && (cL137 != null || cL137 != undefined)) {   
+   console.log("confirmado",cL136)
+      cL136.id = "L1"
+      cL137.id = "L7"
+      
+} 
+
+//Verde
+if((cL138 != null || cL138 != undefined) && (cL139 != null || cL139 != undefined)) {   
+   console.log("confirmado",cL138)
+      cL138.id = "L1"
+      cL139.id = "L7"
+      
+} 
+
+//Branco
+if((cL140 != null || cL140 != undefined) && (cL141 != null || cL141 != undefined)) {   
+   console.log("confirmado",cL140)
+      cL140.id = "L1"
+      cL141.id = "L7"
+      
+} 
+
+//Azul
+if((cL142 != null || cL142 != undefined) && (cL143 != null || cL143 != undefined)) {   
+   console.log("confirmado",cL142)
+      cL142.id = "L1"
+      cL143.id = "L7"
+     
+} 
+
+//Marrom
+if((cL144 != null || cL144 != undefined) && (cL145 != null || cL145 != undefined)) {   
+   console.log("confirmado",cL144)
+      cL144.id = "L1"
+      cL145.id = "L7"
+   
+} 
+
+
+// L1 Para L8 CHUVEIRO INTERRUPTOR
+let cL146 = this.document.getElementById("L1paraL8Preto");
+let cL147 = this.document.getElementById("L8paraL1Preto");
+
+let cL148 = this.document.getElementById("L1paraL8Verde");
+let cL149 = this.document.getElementById("L8paraL1Verde");
+
+let cL150 = this.document.getElementById("L1paraL8Branco");
+let cL151 = this.document.getElementById("L8paraL1Branco");
+
+let cL152 = this.document.getElementById("L1paraL8Azul");
+let cL153 = this.document.getElementById("L8paraL1Azul");
+
+let cL154 = this.document.getElementById("L1paraL8Marrom");
+let cL155 = this.document.getElementById("L8paraL1Marrom");
+
+
+
+//Preto
+if((cL146 != null || cL146 != undefined) && (cL147 != null || cL147 != undefined)) {   
+   console.log("confirmado",cL16)
+      cL146.id = "L1"
+      cL147.id = "L8"
+      
+} 
+
+//Verde
+if((cL148 != null || cL148 != undefined) && (cL149 != null || cL149 != undefined)) {   
+   console.log("confirmado",cL148)
+      cL148.id = "L1"
+      cL149.id = "L8"
+      
+} 
+
+//Branco
+if((cL150 != null || cL150 != undefined) && (cL151 != null || cL151 != undefined)) {   
+   console.log("confirmado",cL150)
+      cL150.id = "L1"
+      cL151.id = "L8"
+      
+} 
+
+//Azul
+if((cL152 != null || cL152 != undefined) && (cL153 != null || cL153 != undefined)) {   
+   console.log("confirmado",cL152)
+      cL152.id = "L1"
+      cL153.id = "L8"
+     
+} 
+
+//Marrom
+if((cL154 != null || cL154 != undefined) && (cL155 != null || cL155 != undefined)) {   
+   console.log("confirmado",cL154)
+      cL154.id = "L1"
+      cL155.id = "L8"
+   
+} 
+
 
 
 
