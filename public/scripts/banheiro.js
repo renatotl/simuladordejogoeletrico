@@ -17889,6 +17889,7 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
       let it = document.getElementById("L7");
       let it2 = document.getElementById("L1");
+      
      
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
        
@@ -18163,6 +18164,298 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
         
        it.id = "L1paraL9Marrom"
       it2.id = "L9paraL1Marrom"
+      
+      }
+      
+    }
+
+
+
+
+    // L7 PARA L2
+    if(  (idPonto == "L7" || idPonto == "L2") 
+      && (idPonto2 == "L7" || idPonto2 == "L2")
+      && cor == "fio1" ||
+         (idPonto3 == "L2" || idPonto3 == "L7")
+      && (idPonto4 == "L2" || idPonto4  == "L7")
+      && cor == "fio1"){
+      
+      let it = document.getElementById("L7");
+      let it2 = document.getElementById("L2");
+     
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+       
+      it.id = "L2paraL7Preto"
+      it2.id = "L7paraL2Preto"
+      
+     
+      }
+   }else
+ if(  (idPonto == "L7" || idPonto == "L2") 
+      && (idPonto2 == "L7" || idPonto2 == "L2")
+      && cor == "fio2" ||
+         (idPonto3 == "L2" || idPonto3 == "L7")
+      && (idPonto4 == "L2" || idPonto4  == "L7")
+      && cor == "fio2"){
+      
+       let it = document.getElementById("L7");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+      it.id = "L2paraL7Verde"
+      it2.id = "L7paraL2Verde"
+      
+      }
+    
+    }else
+
+    if(  (idPonto == "L7" || idPonto == "L2") 
+      && (idPonto2 == "L7" || idPonto2 == "L2")
+      && cor == "fio3" ||
+         (idPonto3 == "L2" || idPonto3 == "L7")
+      && (idPonto4 == "L2" || idPonto4  == "L7")
+      && cor == "fio3"){
+      
+    let it = document.getElementById("L7");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+     it.id = "L2paraL7Branco"
+      it2.id = "L7paraL2Branco"
+      
+      }
+     
+    }else
+
+    if(  (idPonto == "L7" || idPonto == "L2") 
+      && (idPonto2 == "L7" || idPonto2 == "L2")
+      && cor == "fio4" ||
+         (idPonto3 == "L2" || idPonto3 == "L7")
+      && (idPonto4 == "L2" || idPonto4  == "L7")
+      && cor == "fio4"){
+     
+       let it = document.getElementById("L7");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+       it.id = "L2paraL7Azul"
+      it2.id = "L7paraL2Azul"
+      
+      }
+      
+    }else
+
+    if(  (idPonto == "L7" || idPonto == "L2") 
+      && (idPonto2 == "L7" || idPonto2 == "L2")
+      && cor == "fio5" ||
+         (idPonto3 == "L2" || idPonto3 == "L7")
+      && (idPonto4 == "L2" || idPonto4  == "L7")
+      && cor == "fio5"){
+      
+      let it = document.getElementById("L7");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+       it.id = "L2paraL7Marrom"
+      it2.id = "L7paraL2Marrom"
+      
+      }
+      
+    }
+
+
+
+    // L8 PARA L2
+    if(  (idPonto == "L8" || idPonto == "L2") 
+      && (idPonto2 == "L8" || idPonto2 == "L2")
+      && cor == "fio1" ||
+         (idPonto3 == "L2" || idPonto3 == "L8")
+      && (idPonto4 == "L2" || idPonto4  == "L8")
+      && cor == "fio1"){
+      
+      let it = document.getElementById("L8");
+      let it2 = document.getElementById("L2");
+     
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+       
+      it.id = "L2paraL8Preto"
+      it2.id = "L8paraL2Preto"
+      
+     
+      }
+   }else
+ if(  (idPonto == "L8" || idPonto == "L2") 
+      && (idPonto2 == "L8" || idPonto2 == "L2")
+      && cor == "fio2" ||
+         (idPonto3 == "L2" || idPonto3 == "L8")
+      && (idPonto4 == "L2" || idPonto4  == "L8")
+      && cor == "fio2"){
+      
+       let it = document.getElementById("L8");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+      it.id = "L2paraL8Verde"
+      it2.id = "L8paraL2Verde"
+      
+      }
+    
+    }else
+
+    if(  (idPonto == "L8" || idPonto == "L2") 
+      && (idPonto2 == "L8" || idPonto2 == "L2")
+      && cor == "fio3" ||
+         (idPonto3 == "L2" || idPonto3 == "L8")
+      && (idPonto4 == "L2" || idPonto4  == "L8")
+      && cor == "fio3"){
+      
+    let it = document.getElementById("L8");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+     it.id = "L2paraL8Branco"
+      it2.id = "L8paraL2Branco"
+      
+      }
+     
+    }else
+
+    if(  (idPonto == "L8" || idPonto == "L2") 
+      && (idPonto2 == "L8" || idPonto2 == "L2")
+      && cor == "fio4" ||
+         (idPonto3 == "L2" || idPonto3 == "L8")
+      && (idPonto4 == "L2" || idPonto4  == "L8")
+      && cor == "fio4"){
+     
+       let it = document.getElementById("L8");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+       it.id = "L2paraL8Azul"
+      it2.id = "L8paraL2Azul"
+      
+      }
+      
+    }else
+
+    if(  (idPonto == "L8" || idPonto == "L2") 
+      && (idPonto2 == "L8" || idPonto2 == "L2")
+      && cor == "fio5" ||
+         (idPonto3 == "L2" || idPonto3 == "L8")
+      && (idPonto4 == "L2" || idPonto4  == "L8")
+      && cor == "fio5"){
+      
+      let it = document.getElementById("L8");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+       it.id = "L2paraL8Marrom"
+      it2.id = "L8paraL2Marrom"
+      
+      }
+      
+    }
+
+
+
+    // L9 PARA L2
+    if(  (idPonto == "L9" || idPonto == "L2") 
+      && (idPonto2 == "L9" || idPonto2 == "L2")
+      && cor == "fio1" ||
+         (idPonto3 == "L2" || idPonto3 == "L9")
+      && (idPonto4 == "L2" || idPonto4  == "L9")
+      && cor == "fio1"){
+      
+      let it = document.getElementById("L9");
+      let it2 = document.getElementById("L2");
+     
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+       
+      it.id = "L2paraL9Preto"
+      it2.id = "L9paraL2Preto"
+      
+     
+      }
+   }else
+ if(  (idPonto == "L9" || idPonto == "L2") 
+      && (idPonto2 == "L9" || idPonto2 == "L2")
+      && cor == "fio2" ||
+         (idPonto3 == "L2" || idPonto3 == "L9")
+      && (idPonto4 == "L2" || idPonto4  == "L9")
+      && cor == "fio2"){
+      
+       let it = document.getElementById("L9");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+      it.id = "L2paraL9Verde"
+      it2.id = "L9paraL2Verde"
+      
+      }
+    
+    }else
+
+    if(  (idPonto == "L9" || idPonto == "L2") 
+      && (idPonto2 == "L9" || idPonto2 == "L2")
+      && cor == "fio3" ||
+         (idPonto3 == "L2" || idPonto3 == "L9")
+      && (idPonto4 == "L2" || idPonto4  == "L9")
+      && cor == "fio3"){
+      
+    let it = document.getElementById("L9");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+     it.id = "L2paraL9Branco"
+      it2.id = "L9paraL2Branco"
+      
+      }
+     
+    }else
+
+    if(  (idPonto == "L9" || idPonto == "L2") 
+      && (idPonto2 == "L9" || idPonto2 == "L2")
+      && cor == "fio4" ||
+         (idPonto3 == "L2" || idPonto3 == "L9")
+      && (idPonto4 == "L2" || idPonto4  == "L9")
+      && cor == "fio4"){
+     
+       let it = document.getElementById("L9");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+       it.id = "L2paraL9Azul"
+      it2.id = "L9paraL2Azul"
+      
+      }
+      
+    }else
+
+    if(  (idPonto == "L9" || idPonto == "L2") 
+      && (idPonto2 == "L9" || idPonto2 == "L2")
+      && cor == "fio5" ||
+         (idPonto3 == "L2" || idPonto3 == "L9")
+      && (idPonto4 == "L2" || idPonto4  == "L9")
+      && cor == "fio5"){
+      
+      let it = document.getElementById("L9");
+      let it2 = document.getElementById("L2");
+      
+      if(it != null && it != undefined && it2 != null && it2 != undefined) {  
+        
+       it.id = "L2paraL9Marrom"
+      it2.id = "L9paraL2Marrom"
       
       }
       
