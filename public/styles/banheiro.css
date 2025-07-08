@@ -1595,6 +1595,83 @@ width: 60px;
  }     
 
 
+/* CHUVEIRA PARA TOMADA */
+#L1paraL9Preto {
+  width: 80px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:150px;
+      left: 520px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L1paraL9Verde {
+ width: 80px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:150px;
+      left: 520px;
+
+
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L1paraL9Branco {
+  width: 80px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:150px;
+      left: 520px;
+
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L1paraL9Azul {
+ width: 80px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:150px;
+      left: 520px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L1paraL9Marrom {
+width: 80px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:150px;
+      left: 520px;
+
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
 
  
 #pontoNeutroL1PL4{
@@ -10255,6 +10332,86 @@ width: 500px;
    filter: sepia(1) saturate(2)brightness(0.5);
 
 }
+
+
+/* CHUVEIRA PARA TOMADA */
+#L9paraL1Preto {
+  width: 10px;
+  height:150px;
+    
+   position:absolute;
+        
+    top:150px;
+      left: 520px;
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: grayscale(100%)
+   brightness(0);
+ }  
+
+ #L9paraL1Verde {
+  width: 10px;
+  height:150px;
+    
+   position:absolute;
+        
+    top:150px;
+      left: 520px;
+
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+ filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+ }  
+
+
+ #L9paraL1Branco {
+  width: 10px;
+  height:150px;
+    
+   position:absolute;
+        
+    top:150px;
+      left: 520px;
+
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+    filter: brightness(700%)saturate(0);
+ }  
+
+
+ #L9paraL1Azul {
+  width: 10px;
+  height:150px;
+    
+   position:absolute;
+        
+    top:150px;
+      left: 520px;
+
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+      filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+ }  
+
+
+ #L9paraL1Marrom {
+  width: 10px;
+  height:150px;
+    
+   position:absolute;
+        
+    top:150px;
+      left: 520px;
+
+
+    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+ }  
+
 
 /* L9 PARA L4 */
 #L9paraL4Preto{
