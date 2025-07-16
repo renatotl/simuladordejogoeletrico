@@ -18182,12 +18182,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
       let it = document.getElementById("L7");
       let it2 = document.getElementById("L2");
-     
+     let it3 = document.getElementById("pontoNeutro10");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
        
       it.id = "L2paraL7Preto"
       it2.id = "L7paraL2Preto"
-      
+      it3.id = "pontoNeutroL2PL7"
      
       }
    }else
@@ -18200,12 +18200,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
        let it = document.getElementById("L7");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro10");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
       it.id = "L2paraL7Verde"
       it2.id = "L7paraL2Verde"
-      
+      it3.id = "pontoNeutroL2VL7"
       }
     
     }else
@@ -18219,12 +18219,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
     let it = document.getElementById("L7");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro10");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
      it.id = "L2paraL7Branco"
       it2.id = "L7paraL2Branco"
-      
+      it3.id = "pontoNeutroL2BL7"
       }
      
     }else
@@ -18238,12 +18238,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
      
        let it = document.getElementById("L7");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro10");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
        it.id = "L2paraL7Azul"
       it2.id = "L7paraL2Azul"
-      
+      it3.id = "pontoNeutroL2AL7"
       }
       
     }else
@@ -18257,12 +18257,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
       let it = document.getElementById("L7");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro10");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
        it.id = "L2paraL7Marrom"
       it2.id = "L7paraL2Marrom"
-      
+      it3.id = "pontoNeutroL2ML7"
       }
       
     }
@@ -18279,12 +18279,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
       let it = document.getElementById("L8");
       let it2 = document.getElementById("L2");
-     
+     let it3 = document.getElementById("pontoNeutro11");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
        
       it.id = "L2paraL8Preto"
       it2.id = "L8paraL2Preto"
-      
+      it3.id = "pontoNeutroL8PL2"
      
       }
    }else
@@ -18297,12 +18297,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
        let it = document.getElementById("L8");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro11");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
       it.id = "L2paraL8Verde"
       it2.id = "L8paraL2Verde"
-      
+      it3.id = "pontoNeutroL8VL2"
       }
     
     }else
@@ -18316,12 +18316,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
     let it = document.getElementById("L8");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro11");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
      it.id = "L2paraL8Branco"
       it2.id = "L8paraL2Branco"
-      
+      it3.id = "pontoNeutroL8BL2"
       }
      
     }else
@@ -18335,12 +18335,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
      
        let it = document.getElementById("L8");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro11");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
        it.id = "L2paraL8Azul"
       it2.id = "L8paraL2Azul"
-      
+      it3.id = "pontoNeutroL8AL2"
       }
       
     }else
@@ -18354,12 +18354,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
       let it = document.getElementById("L8");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro11");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
        it.id = "L2paraL8Marrom"
       it2.id = "L8paraL2Marrom"
-      
+      it3.id = "pontoNeutroL8ML2"
       }
       
     }
@@ -18376,12 +18376,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
       let it = document.getElementById("L9");
       let it2 = document.getElementById("L2");
-     
+     let it3 = document.getElementById("pontoNeutro12");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
        
       it.id = "L2paraL9Preto"
       it2.id = "L9paraL2Preto"
-      
+      it3.id = "pontoNeutroL9PL2"
      
       }
    }else
@@ -18394,12 +18394,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
        let it = document.getElementById("L9");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro12");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
       it.id = "L2paraL9Verde"
       it2.id = "L9paraL2Verde"
-      
+      it3.id = "pontoNeutroL9VL2"
       }
     
     }else
@@ -18413,12 +18413,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
     let it = document.getElementById("L9");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro12");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
      it.id = "L2paraL9Branco"
       it2.id = "L9paraL2Branco"
-      
+      it3.id = "pontoNeutroL9BL2"
       }
      
     }else
@@ -18432,12 +18432,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
      
        let it = document.getElementById("L9");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro12");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
        it.id = "L2paraL9Azul"
       it2.id = "L9paraL2Azul"
-      
+      it3.id = "pontoNeutroL9AL2"
       }
       
     }else
@@ -18451,12 +18451,12 @@ function lampadaTomadaConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
       let it = document.getElementById("L9");
       let it2 = document.getElementById("L2");
-      
+      let it3 = document.getElementById("pontoNeutro12");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
        it.id = "L2paraL9Marrom"
       it2.id = "L9paraL2Marrom"
-      
+      it3.id = "pontoNeutroL9ML2"
       }
       
     }
