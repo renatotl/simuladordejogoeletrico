@@ -5944,6 +5944,138 @@ if((cL174 != null || cL174 != undefined) && (cL175 != null || cL175 != undefined
 } 
 
 
+// L2 Para L8 CHUVEIRO INTERRUPTOR
+let cL176 = this.document.getElementById("L2paraL8Preto");
+let cL177 = this.document.getElementById("L8paraL2Preto");
+
+let cL178 = this.document.getElementById("L2paraL8Verde");
+let cL179 = this.document.getElementById("L8paraL2Verde");
+
+let cL180 = this.document.getElementById("L2paraL8Branco");
+let cL181 = this.document.getElementById("L8paraL2Branco");
+
+let cL182 = this.document.getElementById("L2paraL8Azul");
+let cL183 = this.document.getElementById("L8paraL2Azul");
+
+let cL184 = this.document.getElementById("L2paraL8Marrom");
+let cL185 = this.document.getElementById("L8paraL2Marrom");
+
+
+let cL51PontoNeutro = this.document.getElementById("pontoNeutroL8PL2");
+let cL52PontoNeutro = this.document.getElementById("pontoNeutroL8VL2");
+let cL53PontoNeutro = this.document.getElementById("pontoNeutroL8BL2");
+let cL54PontoNeutro = this.document.getElementById("pontoNeutroL8AL2");
+let cL55PontoNeutro = this.document.getElementById("pontoNeutroL8ML2");
+
+
+//Preto
+if((cL176 != null || cL176 != undefined) && (cL177 != null || cL177 != undefined)) {   
+   console.log("confirmado",cL176)
+      cL176.id = "L2"
+      cL177.id = "L8"
+      cL51PontoNeutro.id = "pontoNeutro11"
+} 
+
+//Verde
+if((cL178 != null || cL178 != undefined) && (cL179 != null || cL179 != undefined)) {   
+   console.log("confirmado",cL178)
+      cL178.id = "L2"
+      cL179.id = "L8"
+      cL52PontoNeutro.id = "pontoNeutro11"
+} 
+
+//Branco
+if((cL180 != null || cL180 != undefined) && (cL181 != null || cL181 != undefined)) {   
+   console.log("confirmado",cL180)
+      cL180.id = "L2"
+      cL181.id = "L8"
+      cL53PontoNeutro.id = "pontoNeutro11"
+} 
+
+//Azul
+if((cL182 != null || cL182 != undefined) && (cL183 != null || cL183 != undefined)) {   
+   console.log("confirmado",cL182)
+      cL182.id = "L2"
+      cL183.id = "L8"
+     cL54PontoNeutro.id = "pontoNeutro11"
+} 
+
+//Marrom
+if((cL184 != null || cL184 != undefined) && (cL185 != null || cL185 != undefined)) {   
+   console.log("confirmado",cL184)
+      cL184.id = "L2"
+      cL185.id = "L8"
+   cL55PontoNeutro.id = "pontoNeutro11"
+} 
+
+
+
+// L2 Para L7 CHUVEIRO INTERRUPTOR
+let cL186 = this.document.getElementById("L2paraL7Preto");
+let cL187 = this.document.getElementById("L7paraL2Preto");
+
+let cL188 = this.document.getElementById("L2paraL7Verde");
+let cL189 = this.document.getElementById("L7paraL2Verde");
+
+let cL190 = this.document.getElementById("L2paraL7Branco");
+let cL191 = this.document.getElementById("L7paraL2Branco");
+
+let cL192 = this.document.getElementById("L2paraL7Azul");
+let cL193 = this.document.getElementById("L7paraL2Azul");
+
+let cL194 = this.document.getElementById("L2paraL7Marrom");
+let cL195 = this.document.getElementById("L7paraL2Marrom");
+
+
+let cL56PontoNeutro = this.document.getElementById("pontoNeutroL2PL7");
+let cL57PontoNeutro = this.document.getElementById("pontoNeutroL2VL7");
+let cL58PontoNeutro = this.document.getElementById("pontoNeutroL2BL7");
+let cL59PontoNeutro = this.document.getElementById("pontoNeutroL2AL7");
+let cL60PontoNeutro = this.document.getElementById("pontoNeutroL2ML7");
+
+
+//Preto
+if((cL186 != null || cL186 != undefined) && (cL187 != null || cL187 != undefined)) {   
+   console.log("confirmado",cL186)
+      cL186.id = "L2"
+      cL187.id = "L7"
+      cL56PontoNeutro.id = "pontoNeutro12"
+} 
+
+//Verde
+if((cL188 != null || cL188 != undefined) && (cL189 != null || cL189 != undefined)) {   
+   console.log("confirmado",cL188)
+      cL188.id = "L2"
+      cL189.id = "L7"
+      cL57PontoNeutro.id = "pontoNeutro12"
+} 
+
+//Branco
+if((cL190 != null || cL190 != undefined) && (cL191 != null || cL191 != undefined)) {   
+   console.log("confirmado",cL190)
+      cL190.id = "L2"
+      cL191.id = "L7"
+      cL58PontoNeutro.id = "pontoNeutro12"
+} 
+
+//Azul
+if((cL192 != null || cL192 != undefined) && (cL193 != null || cL193 != undefined)) {   
+   console.log("confirmado",cL192)
+      cL192.id = "L2"
+      cL193.id = "L7"
+     cL59PontoNeutro.id = "pontoNeutro12"
+} 
+
+//Marrom
+if((cL194 != null || cL194 != undefined) && (cL195 != null || cL195 != undefined)) {   
+   console.log("confirmado",cL194)
+      cL194.id = "L2"
+      cL195.id = "L7"
+   cL60PontoNeutro.id = "pontoNeutro12"
+} 
+
+
+
 
 // resetando lamp
 
