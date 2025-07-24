@@ -3624,6 +3624,26 @@ width: 10px;
 
 }
 
+/* NEUTRO */
+ #pontoNeutro13{
+  width: 10px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:235px;
+   left: 640px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+    filter: grayscale(100%);
+           
+         filter: grayscale(100%)
+   brightness(0);
+
+}
+
+
+
 
 #pontoNeutroL2PL4{
   width: 430px;
@@ -6835,6 +6855,84 @@ width: 10px;
   top:110px;
    left: 685px;
    cursor: pointer; /* define o cursor como um ponteiro */
+   filter: sepia(1) saturate(2)brightness(0.5);
+
+}
+
+
+
+#pontoNeutroL5PL7{
+  width: 190px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:385px;
+   left: 490px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+      filter: grayscale(100%)
+   brightness(0);
+
+}
+
+
+#pontoNeutroL5VL7{
+ width: 190px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:385px;
+   left: 490px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+  filter: grayscale(100%);
+           
+        filter: hue-rotate(120deg);
+
+}
+
+#pontoNeutroL5BL7{
+ width: 190px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:385px;
+   left: 490px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: brightness(700%)saturate(0);
+
+}
+
+#pontoNeutroL5AL7{
+ width: 190px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:385px;
+   left: 490px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
+   filter: grayscale(100%);
+           
+     filter: hue-rotate(240deg);
+
+}
+
+#pontoNeutroL5ML7{
+ width: 190px;
+  height:10px;
+    
+   position:absolute;
+        
+    top:385px;
+   left: 490px;
+    cursor: pointer; /* define o cursor como um ponteiro */
+
    filter: sepia(1) saturate(2)brightness(0.5);
 
 }

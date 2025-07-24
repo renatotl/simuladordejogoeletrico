@@ -6076,6 +6076,181 @@ if((cL194 != null || cL194 != undefined) && (cL195 != null || cL195 != undefined
 
 
 
+// L5 Para L8 TOMAD INTERRUPTOR
+
+let cL196 = this.document.getElementById("L8paraL5Preto");
+let cL197 = this.document.getElementById("L8paraL5Verde");
+let cL198 = this.document.getElementById("L8paraL5Branco");
+let cL199 = this.document.getElementById("L8paraL5Azul");
+let cL200 = this.document.getElementById("L8paraL5Marrom");
+
+//Preto
+if((cL196 != null || cL196 != undefined)) {   
+   console.log("confirmado",cL196)
+      cL196.id = "L5"
+      
+
+} 
+
+//Verde
+if((cL197 != null || cL197 != undefined)) {   
+   console.log("confirmado",cL197)
+      cL197.id = "L5"
+     
+     
+} 
+
+//Branco
+if((cL198 != null || cL198 != undefined)) {   
+   console.log("confirmado",cL198)
+      cL198.id = "L5"
+      
+      
+} 
+
+//Azul
+if((cL199 != null || cL199 != undefined)) {   
+   console.log("confirmado",cL199)
+      cL199.id = "L5"
+      
+    
+} 
+
+//Marrom
+if((cL200 != null || cL200 != undefined)) {   
+   console.log("confirmado",cL200)
+      cL200.id = "L5"
+      
+   
+} 
+
+
+// L5 Para L9 CHUVEIRO INTERRUPTOR
+let cL201 = this.document.getElementById("L5paraL9Preto");
+let cL202 = this.document.getElementById("L9paraL5Preto");
+
+let cL203 = this.document.getElementById("L5paraL9Verde");
+let cL204 = this.document.getElementById("L9paraL5Verde");
+
+let cL205 = this.document.getElementById("L5paraL9Branco");
+let cL206 = this.document.getElementById("L9paraL5Branco");
+
+let cL207 = this.document.getElementById("L5paraL9Azul");
+let cL208 = this.document.getElementById("L9paraL5Azul");
+
+let cL209 = this.document.getElementById("L5paraL9Marrom");
+let cL210 = this.document.getElementById("L9paraL5Marrom");
+
+
+
+//Preto
+if((cL201 != null || cL201 != undefined) && (cL202 != null || cL202 != undefined)) {   
+   console.log("confirmado",cL201)
+      cL201.id = "L5"
+      cL202.id = "L9"
+     
+} 
+
+//Verde
+if((cL203 != null || cL203 != undefined) && (cL204 != null || cL204 != undefined)) {   
+   console.log("confirmado",cL203)
+      cL203.id = "L5"
+      cL204.id = "L9"
+     
+} 
+
+//Branco
+if((cL205 != null || cL205 != undefined) && (cL206 != null || cL206 != undefined)) {   
+   console.log("confirmado",cL205)
+      cL205.id = "L5"
+      cL206.id = "L9"
+      
+} 
+
+//Azul
+if((cL207 != null || cL207 != undefined) && (cL208 != null || cL208 != undefined)) {   
+   console.log("confirmado",cL207)
+      cL207.id = "L5"
+      cL208.id = "L9"
+     
+} 
+
+//Marrom
+if((cL209 != null || cL209 != undefined) && (cL210 != null || cL210 != undefined)) {   
+   console.log("confirmado",cL209)
+      cL209.id = "L5"
+      cL210.id = "L9"
+  
+} 
+
+
+
+// L5 Para L7 CHUVEIRO INTERRUPTOR
+let cL211 = this.document.getElementById("L5paraL7Preto");
+let cL212 = this.document.getElementById("L7paraL5Preto");
+
+let cL213 = this.document.getElementById("L5paraL7Verde");
+let cL214 = this.document.getElementById("L7paraL5Verde");
+
+let cL215 = this.document.getElementById("L5paraL7Branco");
+let cL216 = this.document.getElementById("L7paraL5Branco");
+
+let cL217 = this.document.getElementById("L5paraL7Azul");
+let cL218 = this.document.getElementById("L7paraL5Azul");
+
+let cL219 = this.document.getElementById("L5paraL7Marrom");
+let cL220 = this.document.getElementById("L7paraL5Marrom");
+
+
+let cL61PontoNeutro = this.document.getElementById("pontoNeutroL5PL7");
+let cL62PontoNeutro = this.document.getElementById("pontoNeutroL5VL7");
+let cL63PontoNeutro = this.document.getElementById("pontoNeutroL5BL7");
+let cL64PontoNeutro = this.document.getElementById("pontoNeutroL5AL7");
+let cL65PontoNeutro = this.document.getElementById("pontoNeutroL5ML7");
+
+
+//Preto
+if((cL211 != null || cL211 != undefined) && (cL212 != null || cL212 != undefined)) {   
+   console.log("confirmado",cL211)
+      cL211.id = "L5"
+      cL212.id = "L7"
+      cL61PontoNeutro.id = "pontoNeutro13"
+} 
+
+//Verde
+if((cL213 != null || cL213 != undefined) && (cL214 != null || cL214 != undefined)) {   
+   console.log("confirmado",cL213)
+      cL213.id = "L5"
+      cL214.id = "L7"
+      cL62PontoNeutro.id = "pontoNeutro13"
+} 
+
+//Branco
+if((cL215 != null || cL215 != undefined) && (cL216 != null || cL216 != undefined)) {   
+   console.log("confirmado",cL215)
+      cL215.id = "L5"
+      cL216.id = "L7"
+      cL63PontoNeutro.id = "pontoNeutro13"
+} 
+
+//Azul
+if((cL217 != null || cL217 != undefined) && (cL218 != null || cL218 != undefined)) {   
+   console.log("confirmado",cL217)
+     cL217.id = "L5"
+      cL218.id = "L7"
+     cL64PontoNeutro.id = "pontoNeutro13"
+} 
+
+//Marrom
+if((cL219 != null || cL219 != undefined) && (cL220 != null || cL220 != undefined)) {   
+   console.log("confirmado",cL219)
+      cL219.id = "L5"
+      cL220.id = "L7"
+   cL65PontoNeutro.id = "pontoNeutro13"
+} 
+
+
+
 
 // resetando lamp
 
@@ -19040,13 +19215,13 @@ function tomadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
       let it = document.getElementById("L7");
       let it2 = document.getElementById("L5");
-      
+      let it3 = document.getElementById("pontoNeutro13");
      
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
        
       it.id = "L5paraL7Preto"
       it2.id = "L7paraL5Preto"
-      
+      it3.id = "pontoNeutroL5PL7"
      
       }
    }else
@@ -19059,12 +19234,13 @@ function tomadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
        let it = document.getElementById("L7");
       let it2 = document.getElementById("L5");
-      
+      let it3 = document.getElementById("pontoNeutro13");
+
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
       it.id = "L5paraL7Verde"
       it2.id = "L7paraL5Verde"
-      
+      it3.id = "pontoNeutroL5VL7"
       }
     
     }else
@@ -19078,12 +19254,13 @@ function tomadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
     let it = document.getElementById("L7");
       let it2 = document.getElementById("L5");
-      
+      let it3 = document.getElementById("pontoNeutro13");
+
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
      it.id = "L5paraL7Branco"
       it2.id = "L7paraL5Branco"
-      
+      it3.id = "pontoNeutroL5BL7"
       }
      
     }else
@@ -19097,12 +19274,13 @@ function tomadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
      
        let it = document.getElementById("L7");
       let it2 = document.getElementById("L5");
-      
+      let it3 = document.getElementById("pontoNeutro13");
+
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
        it.id = "L5paraL7Azul"
       it2.id = "L7paraL5Azul"
-      
+      it3.id = "pontoNeutroL5AL7"
       }
       
     }else
@@ -19116,12 +19294,13 @@ function tomadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       
       let it = document.getElementById("L7");
       let it2 = document.getElementById("L5");
-      
+      let it3 = document.getElementById("pontoNeutro13");
+
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
        it.id = "L5paraL7Marrom"
       it2.id = "L7paraL5Marrom"
-      
+       it3.id = "pontoNeutroL5ML7"
       }
       
     }
