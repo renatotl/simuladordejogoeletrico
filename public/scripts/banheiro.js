@@ -19994,6 +19994,363 @@ function tomadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
 
 }
 
+
+
+
+///// INTERUPTOR TOMADA
+const lampadaInterruptor = document.querySelectorAll("[id]");
+
+
+lampadaInterruptor .forEach(it => {
+   // depois de varrer a variavel it add um evento
+    it.addEventListener("click", function(){
+        const id = it.id;
+
+        idPonto;
+        idPonto2;
+
+        idPonto3;
+        idPonto4;
+
+        cor;
+
+        if(idPonto == undefined&& idPonto2 == undefined&&
+          idPonto3 == undefined && idPonto4 == undefined) {  
+if(id == "L1"&& idPonto == undefined){
+   console.log("oi",id);
+   idPonto = "L1";
+   console.log("oi",idPonto);
+    lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+  return idPonto = "L1";
+
+}else
+if(id == "L2"&& idPonto == undefined){
+   console.log("oi",id);
+   idPonto = "L2";
+   console.log("oi",idPonto);
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+ return idPonto = "L2";
+
+}else
+console.log(idPonto)
+if(id == "L3"&& idPonto == undefined){
+   console.log("oi",id);
+   idPonto = "L3";
+   console.log("oi",idPonto);
+    lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+ return idPonto = "L3";
+
+}else
+if(id == "L4"&& idPonto == undefined){
+   console.log("oi",id);
+   idPonto = "L4";
+   console.log("oi",idPonto);
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto = "L4";
+
+}else
+if(id == "L5"&& idPonto == undefined){
+   console.log("oi",id);
+   idPonto = "L5";
+   console.log("oi",idPonto);
+    lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto = "L5";
+
+}else
+if(id == "L6"&& idPonto == undefined){
+   console.log("oi",id);
+   idPonto = "L6";
+   console.log("oi",idPonto);
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto = "L6";
+
+}else
+if(id == "L7"&& idPonto == undefined){
+   console.log("oi",id);
+   idPonto = "L7";
+   console.log("oi",idPonto);
+    lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto = "L7";
+
+}else
+if(id == "L8"&& idPonto == undefined){
+   console.log("oi",id);
+   idPonto = "L8";
+   console.log("oi",idPonto);
+    lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto = "L8";
+
+}else
+if(id == "L9"&& idPonto == undefined){
+   console.log("oi",id);
+   idPonto = "L9";
+   console.log("oi",idPonto);
+    lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+ return idPonto = "L9";
+
+}
+}
+
+
+        if(idPonto != undefined && idPonto != id ) { 
+
+if(id == "L1"&& idPonto != undefined && idPonto != id && idPonto2 == undefined){
+   console.log("oi2",idPonto2);
+  
+   idPonto2 = "L1"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto2 = "L1"
+
+}
+if(id == "L2"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
+   console.log("oi2",idPonto2);
+   idPonto2 = "L2"
+   console.log("oi2",idPonto2);
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto2 = "L2"
+
+}
+if(id == "L3"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
+   console.log("oi2",idPonto2);
+   idPonto2 = "L3"
+  lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto2 = "L3"
+
+}
+if(id == "L4"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
+   console.log("oi2",idPonto2);
+   idPonto2 = "L4"
+   console.log("oi2",idPonto2);
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto2 = "L4"
+
+}
+console.log("oi2",idPonto2);
+
+if(id == "L5"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
+   console.log("oi2",idPonto2);
+   idPonto2 = "L5"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+ return idPonto2 = "L5"
+
+}
+if(id == "L6"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
+   console.log("oi2",idPonto2);
+   idPonto2 = "L6"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto2 = "L6"
+
+}
+if(id == "L7"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
+   console.log("oi2",idPonto2);
+   idPonto2 = "L7"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto2 = "L7"
+
+}
+if(id == "L8"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
+   console.log("oi2",idPonto2);
+   idPonto2 = "L8"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto2 = "L8"
+
+}
+if(id == "L9"&& idPonto != undefined&& idPonto != id&& idPonto2 == undefined){
+   console.log("oi2",idPonto2);
+   idPonto2 = "L9"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto2 = "L9"
+
+}
+        }
+
+
+if(idPonto2 != undefined && idPonto3 == undefined
+    && idPonto4 == undefined && idPonto2 != id) {  
+if(id == "L1"&& idPonto != undefined && idPonto != id && idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+  
+   idPonto3 = "L1"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L1"
+
+}
+if(id == "L2"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L2"
+   console.log("oi2",idPonto3);
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3= "L2"
+
+}
+if(id == "L3"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L3"
+  lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L3"
+
+}
+if(id == "L4"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L4"
+   console.log("oi2",idPonto3);
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L4"
+
+}
+console.log("oi2",idPonto3);
+
+if(id == "L5"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L5"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+ return idPonto3 = "L5"
+
+}
+if(id == "L6"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L6"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L6"
+
+}
+if(id == "L7"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L7"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L7"
+
+}
+if(id == "L8"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L8"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L8"
+
+}
+if(id == "L9"&& idPonto != undefined&& idPonto != id&& idPonto2 != undefined){
+   console.log("oi3",idPonto3);
+   idPonto3 = "L9"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto3 = "L9"
+
+}
+
+}
+
+
+if( idPonto3 != undefined && idPonto4 == undefined && idPonto3 != id) { 
+   console.log("dentro")
+if(id == "L1"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+  
+   idPonto4 = "L1"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L1"
+
+}
+if(id == "L2"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi3",idPonto4);
+   idPonto4 = "L2"
+   console.log("oi2",idPonto4);
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4= "L2"
+
+}
+if(id == "L3"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L3"
+  lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L3"
+
+}
+if(id == "L4"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L4"
+   console.log("oi2",idPonto4);
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L4"
+
+}
+console.log("oi2",idPonto3);
+
+if(id == "L5"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L5"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+ return idPonto4 = "L5"
+
+}
+if(id == "L6"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L6"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L6"
+
+}
+if(id == "L7"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L7"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L7"
+
+}
+if(id == "L8"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L8"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L8"
+
+}
+if(id == "L9"&&  idPonto != id  && idPonto4 == undefined){
+   console.log("oi4",idPonto4);
+   idPonto4 = "L9"
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+return  idPonto4 = "L9"
+
+}
+
+}
+
+ 
+if(id == "fio1"){
+   cor = "fio1"
+   console.log(cor)
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+}else
+
+if(id == "fio2"){
+   cor = "fio2"
+   console.log(cor)
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+}else
+if(id == "fio3"){
+   cor = "fio3"
+   console.log(cor)
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+}else
+if(id == "fio4"){
+   cor = "fio4"
+   console.log(cor)
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+}else
+if(id == "fio5"){
+   cor = "fio5"
+   console.log(cor)
+   lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor)
+}
+
+ });
+}
+
+
+
+
+);
+
+
+
+
 function fioHover(){
 let fio1 = this.document.getElementById("fio1");
 let fio2 = this.document.getElementById("fio2");
@@ -20044,6 +20401,9 @@ let fio5 = this.document.getElementById("fio5");
 
 
 }
+
+
+
 
 //chamando a funcao
 fioConectado();//=========PRIMEIRO FIO========
