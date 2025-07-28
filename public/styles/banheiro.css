@@ -7965,12 +7965,12 @@ width: 10px;
 
 #L6paraL8Preto {
   width: 10px;
-  height:50px;
+  height:80px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:320px;
+      left: 750px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
    filter: grayscale(100%)
@@ -7979,12 +7979,12 @@ width: 10px;
 
  #L6paraL8Verde {
   width: 10px;
-  height:50px;
+  height:80px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:320px;
+      left: 750px;
     cursor: pointer; /* define o cursor como um ponteiro */
  filter: grayscale(100%);
            
@@ -7994,12 +7994,12 @@ width: 10px;
 
  #L6paraL8Branco {
   width: 10px;
-  height:50px;
+  height:80px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:320px;
+      left: 750px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
     filter: brightness(700%)saturate(0);
@@ -8008,12 +8008,12 @@ width: 10px;
 
  #L6paraL8Azul {
   width: 10px;
-  height:50px;
+  height:80px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:320px;
+      left: 750px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
       filter: grayscale(100%);
@@ -8023,14 +8023,13 @@ width: 10px;
 
 
  #L6paraL8Marrom {
-   width: 10px;
-  height:50px;
+  width: 10px;
+  height:80px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
-
+    top:320px;
+      left: 750px;
     cursor: pointer; /* define o cursor como um ponteiro */
    filter: sepia(1) saturate(2)brightness(0.5);
  }  
@@ -8038,12 +8037,12 @@ width: 10px;
 
  #L6paraL9Preto {
   width: 10px;
-  height:50px;
+  height:40px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:290px;
+      left: 750px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
    filter: grayscale(100%)
@@ -8052,12 +8051,12 @@ width: 10px;
 
  #L6paraL9Verde {
   width: 10px;
-  height:50px;
+  height:40px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:290px;
+      left: 750px;
     cursor: pointer; /* define o cursor como um ponteiro */
  filter: grayscale(100%);
            
@@ -8067,12 +8066,12 @@ width: 10px;
 
  #L6paraL9Branco {
   width: 10px;
-  height:50px;
+  height:40px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:290px;
+      left: 750px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
     filter: brightness(700%)saturate(0);
@@ -8081,12 +8080,12 @@ width: 10px;
 
  #L6paraL9Azul {
   width: 10px;
-  height:50px;
+  height:40px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:290px;
+      left: 750px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
       filter: grayscale(100%);
@@ -8097,12 +8096,12 @@ width: 10px;
 
  #L6paraL9Marrom {
    width: 10px;
-  height:50px;
+  height:40px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:290px;
+      left: 750px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
    filter: sepia(1) saturate(2)brightness(0.5);
@@ -8110,12 +8109,12 @@ width: 10px;
 
 #L6paraL7Preto {
   width: 10px;
-  height:50px;
+  height:80px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:320px;
+      left: 750px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
    filter: grayscale(100%)
@@ -8124,12 +8123,12 @@ width: 10px;
 
  #L6paraL7Verde {
   width: 10px;
-  height:50px;
+  height:80px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:320px;
+      left: 750px;
     cursor: pointer; /* define o cursor como um ponteiro */
  filter: grayscale(100%);
            
@@ -8139,12 +8138,12 @@ width: 10px;
 
  #L6paraL7Branco {
   width: 10px;
-  height:50px;
+  height:80px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:320px;
+      left: 750px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
     filter: brightness(700%)saturate(0);
@@ -8153,12 +8152,12 @@ width: 10px;
 
  #L6paraL7Azul {
   width: 10px;
-  height:50px;
+  height:80px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:320px;
+      left: 750px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
       filter: grayscale(100%);
@@ -8168,13 +8167,13 @@ width: 10px;
 
 
  #L6paraL7Marrom {
-   width: 10px;
-  height:50px;
+  width: 10px;
+  height:80px;
     
    position:absolute;
         
-    top:150px;
-      left: 650px;
+    top:320px;
+      left: 750px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
    filter: sepia(1) saturate(2)brightness(0.5);
@@ -8182,12 +8181,12 @@ width: 10px;
 
 
 #pontoNeutroL6PL7{
-  width: 170px;
+  width: 270px;
   height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:390px;
    left: 490px;
     cursor: pointer; /* define o cursor como um ponteiro */
 
@@ -8198,12 +8197,12 @@ width: 10px;
 
 
 #pontoNeutroL6VL7{
-  width: 170px;
+   width: 270px;
   height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:390px;
    left: 490px;
     cursor: pointer; /* define o cursor como um ponteiro */
 
@@ -8214,12 +8213,12 @@ width: 10px;
 }
 
 #pontoNeutroL6BL7{
-  width: 170px;
+  width: 270px;
   height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:390px;
    left: 490px;
     cursor: pointer; /* define o cursor como um ponteiro */
 
@@ -8228,12 +8227,12 @@ width: 10px;
 }
 
 #pontoNeutroL6AL7{
- width: 170px;
+  width: 270px;
   height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:390px;
    left: 490px;
     cursor: pointer; /* define o cursor como um ponteiro */
 
@@ -8244,12 +8243,12 @@ width: 10px;
 }
 
 #pontoNeutroL6ML7{
- width: 170px;
+ width: 270px;
   height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:390px;
    left: 490px;
     cursor: pointer; /* define o cursor como um ponteiro */
 
@@ -9505,11 +9504,11 @@ width: 10px;
  
 #L7paraL6Preto {
   width: 10px;
-  height:130px;
+  height:80px;
     
    position:absolute;
         
-    top:200px;
+    top:320px;
       left: 480px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
@@ -9519,11 +9518,11 @@ width: 10px;
 
  #L7paraL6Verde {
   width: 10px;
-  height:130px;
+  height:80px;
     
    position:absolute;
         
-    top:200px;
+    top:320px;
       left: 480px;
     cursor: pointer; /* define o cursor como um ponteiro */
  filter: grayscale(100%);
@@ -9534,11 +9533,11 @@ width: 10px;
 
  #L7paraL6Branco {
   width: 10px;
-  height:130px;
+  height:80px;
     
    position:absolute;
         
-    top:200px;
+    top:320px;
       left: 480px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
@@ -9547,12 +9546,12 @@ width: 10px;
 
 
  #L7paraL6Azul {
-  width: 10px;
-  height:130px;
+ width: 10px;
+  height:80px;
     
    position:absolute;
         
-    top:200px;
+    top:320px;
       left: 480px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
@@ -9564,11 +9563,11 @@ width: 10px;
 
  #L7paraL6Marrom {
   width: 10px;
-  height:130px;
+  height:80px;
     
    position:absolute;
         
-    top:200px;
+    top:320px;
       left: 480px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
@@ -10506,12 +10505,12 @@ width: 100px;
 
 
 #pontoNeutroL8PL6{
-  width: 100px;
+  width: 200px;
   height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:390px;
    left: 560px;
     cursor: pointer; /* define o cursor como um ponteiro */
 
@@ -10522,12 +10521,12 @@ width: 100px;
 
 
 #pontoNeutroL8VL6{
- width: 100px;
+width: 200px;
   height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:390px;
    left: 560px;
     cursor: pointer; /* define o cursor como um ponteiro */
 
@@ -10538,12 +10537,12 @@ width: 100px;
 }
 
 #pontoNeutroL8BL6{
- width: 100px;
+ width: 200px;
   height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:390px;
    left: 560px;
     cursor: pointer; /* define o cursor como um ponteiro */
 
@@ -10552,12 +10551,12 @@ width: 100px;
 }
 
 #pontoNeutroL8AL6{
- width: 100px;
+ width: 200px;
   height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:390px;
    left: 560px;
     cursor: pointer; /* define o cursor como um ponteiro */
 
@@ -10568,12 +10567,12 @@ width: 100px;
 }
 
 #pontoNeutroL8ML6{
-width: 100px;
+width: 200px;
   height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:390px;
    left: 560px;
     cursor: pointer; /* define o cursor como um ponteiro */
 
@@ -10810,11 +10809,11 @@ width: 100px;
 
  #L8paraL6Preto {
   width: 10px;
-  height:120px;
+  height:80px;
     
    position:absolute;
         
-    top:200px;
+    top:320px;
       left: 550px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
@@ -10824,11 +10823,11 @@ width: 100px;
 
  #L8paraL6Verde {
    width: 10px;
-  height:120px;
+  height:80px;
     
    position:absolute;
         
-    top:200px;
+    top:320px;
       left: 550px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
@@ -10840,11 +10839,11 @@ width: 100px;
 
  #L8paraL6Branco {
   width: 10px;
-  height:120px;
+  height:80px;
     
    position:absolute;
         
-    top:200px;
+    top:320px;
       left: 550px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
@@ -10853,12 +10852,12 @@ width: 100px;
 
 
  #L8paraL6Azul {
-  width: 10px;
-  height:120px;
+   width: 10px;
+  height:80px;
     
    position:absolute;
         
-    top:200px;
+    top:320px;
       left: 550px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
@@ -10869,12 +10868,12 @@ width: 100px;
 
 
  #L8paraL6Marrom {
- width: 10px;
-  height:120px;
+  width: 10px;
+  height:80px;
     
    position:absolute;
         
-    top:200px;
+    top:320px;
       left: 550px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
@@ -12094,12 +12093,12 @@ width: 170px;
 
 
  #L9paraL6Preto {
-  width: 10px;
-  height:100px;
+  width: 240px;
+  height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:290px;
       left: 520px;
 
     cursor: pointer; /* define o cursor como um ponteiro */
@@ -12108,14 +12107,13 @@ width: 170px;
  }  
 
  #L9paraL6Verde {
-   width: 10px;
-  height:100px;
+  width: 240px;
+  height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:290px;
       left: 520px;
-
 
     cursor: pointer; /* define o cursor como um ponteiro */
  filter: grayscale(100%);
@@ -12125,12 +12123,12 @@ width: 170px;
 
 
  #L9paraL6Branco {
-  width: 10px;
-  height:100px;
+  width: 240px;
+  height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:290px;
       left: 520px;
 
 
@@ -12140,12 +12138,12 @@ width: 170px;
 
 
  #L9paraL6Azul {
-  width: 10px;
-  height:100px;
+ width: 240px;
+  height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:290px;
       left: 520px;
 
 
@@ -12157,12 +12155,12 @@ width: 170px;
 
 
  #L9paraL6Marrom {
-  width: 10px;
-  height:100px;
+ width: 240px;
+  height:10px;
     
    position:absolute;
         
-    top:200px;
+    top:290px;
       left: 520px;
 
 
