@@ -6450,6 +6450,70 @@ if((cL249 != null || cL249 != undefined) && (cL250 != null || cL250 != undefined
 
 
 
+// L1 Para L5 LAMPADA INTERRUPTOR
+let cL251 = this.document.getElementById("L5paraL1Preto");
+let cL252 = this.document.getElementById("L1paraL5Preto");
+
+let cL253 = this.document.getElementById("L5paraL1Verde");
+let cL254 = this.document.getElementById("L1paraL5Verde");
+
+let cL255 = this.document.getElementById("L5paraL1Branco");
+let cL256 = this.document.getElementById("L1paraL5Branco");
+
+let cL257 = this.document.getElementById("L5paraL1Azul");
+let cL258 = this.document.getElementById("L1paraL5Azul");
+
+let cL259 = this.document.getElementById("L5paraL1Marrom");
+let cL260 = this.document.getElementById("L1paraL5Marrom");
+
+
+
+
+
+//Preto
+if((cL251 != null || cL251 != undefined) && (cL252 != null || cL252 != undefined)) {   
+   console.log("confirmado",cL251)
+      cL251.id = "L5"
+      cL252.id = "L1"
+      
+} 
+
+//Verde
+if((cL253 != null || cL253 != undefined) && (cL254 != null || cL254 != undefined)) {   
+   console.log("confirmado",cL253)
+      cL253.id = "L5"
+      cL254.id = "L1"
+      
+} 
+
+//Branco
+if((cL255 != null || cL255 != undefined) && (cL256 != null || cL256 != undefined)) {   
+   console.log("confirmado",cL255)
+      cL255.id = "L5"
+      cL256.id = "L1"
+      
+} 
+
+//Azul
+if((cL257 != null || cL257 != undefined) && (cL258 != null || cL258 != undefined)) {   
+   console.log("confirmado",cL257)
+     cL257.id = "L5"
+      cL258.id = "L1"
+     
+} 
+
+//Marrom
+if((cL259 != null || cL259 != undefined) && (cL260 != null || cL260 != undefined)) {   
+   console.log("confirmado",cL259)
+      cL259.id = "L5"
+      cL260.id = "L1"
+   
+} 
+
+
+
+
+
 
 // resetando lamp
 
