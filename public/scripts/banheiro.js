@@ -5424,7 +5424,7 @@ if((cL88 != null || cL88 != undefined) && (cL89 != null || cL89 != undefined)) {
 if((cL90 != null || cL90 != undefined) && (cL91 != null || cL91 != undefined)) {   
    console.log("confirmado",cL90)
       cL90.id = "L4"
-      cL91.id = "L7"
+      cL91.id = "L8"
       cL33PontoNeutro.id = "pontoNeutro7"
 } 
 
@@ -6580,6 +6580,125 @@ if((cL269 != null || cL269 != undefined) && (cL270 != null || cL270 != undefined
 } 
 
 
+
+// L2 Para L5 LAMPADA INTERRUPTOR
+let cL271 = this.document.getElementById("L5paraL2Preto");
+let cL272 = this.document.getElementById("L2paraL5Preto");
+
+let cL273 = this.document.getElementById("L5paraL2Verde");
+let cL274 = this.document.getElementById("L2paraL5Verde");
+
+let cL275 = this.document.getElementById("L5paraL2Branco");
+let cL276 = this.document.getElementById("L2paraL5Branco");
+
+let cL277 = this.document.getElementById("L5paraL2Azul");
+let cL278 = this.document.getElementById("L2paraL5Azul");
+
+let cL279 = this.document.getElementById("L5paraL2Marrom");
+let cL280 = this.document.getElementById("L2paraL5Marrom");
+
+
+
+
+//Preto
+if((cL271 != null || cL271 != undefined) && (cL272 != null || cL272 != undefined)) {   
+   console.log("confirmado",cL271)
+      cL271.id = "L5"
+      cL272.id = "L2"
+      
+} 
+
+//Verde
+if((cL273 != null || cL273 != undefined) && (cL274 != null || cL274 != undefined)) {   
+   console.log("confirmado",cL273)
+      cL273.id = "L5"
+      cL274.id = "L2"
+      
+} 
+
+//Branco
+if((cL275 != null || cL275 != undefined) && (cL276 != null || cL276 != undefined)) {   
+   console.log("confirmado",cL275)
+      cL275.id = "L5"
+      cL276.id = "L2"
+      
+} 
+
+//Azul
+if((cL277 != null || cL277 != undefined) && (cL278 != null || cL278 != undefined)) {   
+   console.log("confirmado",cL277)
+     cL277.id = "L5"
+      cL278.id = "L2"
+     
+} 
+
+//Marrom
+if((cL279 != null || cL279 != undefined) && (cL270 != null || cL280 != undefined)) {   
+   console.log("confirmado",cL279)
+      cL279.id = "L5"
+      cL280.id = "L2"
+   
+} 
+
+
+// L2 Para L6 LAMPADA INTERRUPTOR
+let cL281 = this.document.getElementById("L6paraL2Preto");
+let cL282 = this.document.getElementById("L2paraL6Preto");
+
+let cL283 = this.document.getElementById("L6paraL2Verde");
+let cL284 = this.document.getElementById("L2paraL6Verde");
+
+let cL285 = this.document.getElementById("L6paraL2Branco");
+let cL286 = this.document.getElementById("L2paraL6Branco");
+
+let cL287 = this.document.getElementById("L6paraL2Azul");
+let cL288 = this.document.getElementById("L2paraL6Azul");
+
+let cL289 = this.document.getElementById("L6paraL2Marrom");
+let cL290 = this.document.getElementById("L2paraL6Marrom");
+
+
+
+
+//Preto
+if((cL281 != null || cL281 != undefined) && (cL282 != null || cL282 != undefined)) {   
+   console.log("confirmado",cL281)
+      cL281.id = "L6"
+      cL282.id = "L2"
+      
+} 
+
+//Verde
+if((cL283 != null || cL283 != undefined) && (cL284 != null || cL284 != undefined)) {   
+   console.log("confirmado",cL283)
+      cL283.id = "L6"
+      cL284.id = "L2"
+      
+} 
+
+//Branco
+if((cL285 != null || cL285 != undefined) && (cL286 != null || cL286 != undefined)) {   
+   console.log("confirmado",cL285)
+      cL285.id = "L6"
+      cL286.id = "L2"
+      
+} 
+
+//Azul
+if((cL287 != null || cL287 != undefined) && (cL288 != null || cL288 != undefined)) {   
+   console.log("confirmado",cL287)
+     cL287.id = "L6"
+      cL288.id = "L2"
+     
+} 
+
+//Marrom
+if((cL289 != null || cL289 != undefined) && (cL290 != null || cL290 != undefined)) {   
+   console.log("confirmado",cL289)
+      cL289.id = "L6"
+      cL290.id = "L2"
+   
+} 
 
 
 
@@ -20761,7 +20880,7 @@ function lampadaInterruptorConect(idPonto,idPonto2,idPonto3,idPonto4,cor){
       && cor == "fio4"){
      
      let it = document.getElementById("L6");
-      let it2 = document.getElementById("L7");
+      let it2 = document.getElementById("L1");
      let it3 = document.getElementById("pontoNeutro16");
       if(it != null && it != undefined && it2 != null && it2 != undefined) {  
         
