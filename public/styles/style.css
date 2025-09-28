@@ -1,9 +1,55 @@
-.retangulo {
-  width: 500px; /* largura do retângulo */
-  height: 200px; /* altura do retângulo */
-  display: flex; /* define o layout como flexbox */
-  flex-wrap: wrap; /* permite que os quadrados sejam exibidos em linhas */
+body{
+
+  background-color: rgb(66, 65, 65);
+
 }
+
+#title{
+
+  color: aliceblue;
+
+}
+.retangulo {
+ 
+  display: flex; /* define o layout como flexbox */
+  position: relative;
+   top: 150px;  /* meio vertical */
+  left: 100px; /* meio horizontal */
+}
+
+#quadrado1 {
+width: 150px; /* largura do retângulo */
+  height: 100px; /* altura do retângulo */
+
+}
+
+#quadrado5 {
+width: 200px; /* largura do retângulo */
+  height: 150px; /* altura do retângulo */
+
+}
+
+
+#quadrado3 {
+width: 120px; /* largura do retângulo */
+  height: 100px; /* altura do retângulo */
+
+}
+
+#quadrado2 {
+width: 200px; /* largura do retângulo */
+  height: 100px; /* altura do retângulo */
+
+}
+
+
+#quadrado4 {
+width: 300px; /* largura do retângulo */
+  height: 150px; /* altura do retângulo */
+
+}
+
+
 
 .quadrado {
   width: 20%; /* largura de cada quadrado */
