@@ -1208,6 +1208,7 @@ console.log("pontoSelecionado6;",pontoSelecionado6);
 console.log("verificador3;",verificador3);
 console.log("parte3;",parte3)
 console.log("seretId;",resetId3)
+console.log("FILTRO;",filtro)
  }
 
 //=========PRIMEIRO FIO===========
@@ -21067,6 +21068,244 @@ let fio5 = this.document.getElementById("fio5");
 
 
 
+///// INTERUPTOR TOMADA COM FIO
+const apagadorDeFio = document.querySelectorAll("[id]");
+
+
+apagadorDeFio .forEach(it => {
+   // depois de varrer a variavel it add um evento
+    it.addEventListener("click", function(){
+        const id = it.id;
+      console.log(id, " id da lampadaInterruptorComFio");
+     
+      console.log(typeof(id));// string
+      
+      if(id == "L1" || id == "L2" ||id == "L3" ||id == "L4" ||id == "L5" ||
+         id == "L6" ||id == "L7" ||id == "L8" ||id == "L9" ||id == "menu"||
+         id == "L11"||id == "L21"||id == "L31"||id == "L41"||id == "L51"||id == "L61"
+      ||id == "L71"||id == "L81"||id == "L91"
+   ||
+         id == "L12"||id == "L22"||id == "L32"||id == "L42"||id == "L52"||id == "L62"
+      ||id == "L72"||id == "L82"||id == "L92"
+   
+   ||
+         id == "L13"||id == "L23"||id == "L33"||id == "L43"||id == "L53"||id == "L63"
+      ||id == "L73"||id == "L83"||id == "L93"
+   
+   ||
+         id == "L14"||id == "L24"||id == "L34"||id == "L44"||id == "L54"||id == "L64"
+      ||id == "L74"||id == "L84"||id == "L94"
+  
+  ||
+         id == "L15"||id == "L25"||id == "L35"||id == "L45"||id == "L55"||id == "L65"
+      ||id == "L75"||id == "L85"||id == "L95"
+   
+  ||
+         id == "L16"||id == "L26"||id == "L36"||id == "L46"||id == "L56"||id == "L66"
+      ||id == "L76"||id == "L86"||id == "L96"
+   
+   ||
+         id == "L17"||id == "L27"||id == "L37"||id == "L47"||id == "L57"||id == "L67"
+      ||id == "L77"||id == "L87"||id == "L97"
+   
+  ||
+         id == "L18"||id == "L28"||id == "L38"||id == "L48"||id == "L58"||id == "L68"
+      ||id == "L78"||id == "L88"||id == "L98" 
+   
+   ||
+         id == "L19"||id == "L29"||id == "L39"||id == "L49"||id == "L59"||id == "L69"
+      ||id == "L79"||id == "L89"||id == "L99"
+   
+ || id == "L191"||id == "L291"||id == "L391"||id == "L491"||id == "L591"||id == "L691"
+      ||id == "L791"||id == "L891"||id == "L991" 
+   
+   || id == "L192"||id == "L292"||id == "L392"||id == "L492"||id == "L592"||id == "L692"
+      ||id == "L792"||id == "L892"||id == "L992"
+   
+   || id == "L193"||id == "L293"||id == "L393"||id == "L493"||id == "L593"||id == "L693"
+      ||id == "L793"||id == "L893"||id == "L993"
+   
+   
+   || id == "L194"||id == "L294"||id == "L394"||id == "L494"||id == "L594"||id == "L694"
+      ||id == "L794"||id == "L894"||id == "L994"
+   
+  || id == "L195"||id == "L295"||id == "L395"||id == "L495"||id == "L595"||id == "L695"
+      ||id == "L795"||id == "L895"||id == "L995"
+   
+    || id == "L196"||id == "L296"||id == "L396"||id == "L496"||id == "L596"||id == "L696"
+      ||id == "L796"||id == "L896"||id == "L996"
+   
+   )
+         {
+         console.log("oi eu soi o chutck")
+         console.log(filtro,'filtro1')
+         apagandoFioNaMemoria()
+      }else if(id == "MAIN10"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN11"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN12"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN13"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN14"){
+
+          ativarFiltro(id)
+
+      }
+
+
+
+
+
+      else if(id == "MAIN15"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN16"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN17"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN18"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN19"){
+
+          ativarFiltro(id)
+
+      }
+
+
+
+
+      else if(id == "MAIN30"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN31"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN32"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN33"){
+
+          ativarFiltro(id)
+
+      }else if(id == "MAIN34"){
+
+          ativarFiltro(id)
+
+      }
+
+
+
+
+
+ });
+}
+
+
+
+
+);
+
+function apagandoFioNaMemoria(){
+console.log("oi eu soi o chutck2")
+  console.log(filtro,'filtro2')
+ filtro = undefined;
+ console.log(filtro,'filtro3')
+}
+
+
+
+
+function ativarFiltro(id){
+  if(id == "MAIN10"){
+   filtro = '1para3Preto'
+
+  }else if(id == "MAIN11"){
+
+         filtro = '1para3Verde'
+
+   }else if(id == "MAIN12"){
+
+         filtro = '1para3Branco'
+
+   }else if(id == "MAIN13"){
+
+         filtro = '1para3AzulNeltro'
+
+   }else if(id == "MAIN14"){
+
+         filtro = '1para3Marrom'
+
+   } 
+
+
+
+   else if(id == "MAIN15"){
+   filtro = '2para4Preto'
+
+  }else if(id == "MAIN16"){
+
+         filtro = '2para4Verde'
+
+   }else if(id == "MAIN17"){
+
+         filtro = '2para4Branco'
+
+   }else if(id == "MAIN18"){
+
+         filtro = '2para4AzulNeltro'
+
+   }else if(id == "MAIN19"){
+
+         filtro = '2para4Marrom'
+
+   }
+
+
+
+
+   else if(id == "MAIN30"){
+   filtro = '5para6Preto'
+
+  }else if(id == "MAIN31"){
+
+         filtro = '5para6Verde'
+
+   }else if(id == "MAIN32"){
+
+         filtro = '5para6Branco'
+
+   }else if(id == "MAIN33"){
+
+         filtro = '5para6AzulNeltro'
+
+   }else if(id == "MAIN34"){
+
+         filtro = '5para6Marrom'
+
+   }
+
+
+}
 
 //chamando a funcao
 fioConectado();//=========PRIMEIRO FIO========
@@ -21113,3 +21352,6 @@ setInterval(fioConectadoParte333, 3000);// ===========TERCEIRO FIO==========
 setInterval(mostrar, 3000);
 setInterval(fioHover, 1000);
 setInterval(resetButtom2,4000)
+
+//  funao auxiliar para resetar a cor
+//setTimeout(apagandoFioNaMemoria,1000);// ====RESETANDO COR NA MEMORIA==========
