@@ -4792,6 +4792,10 @@ function resetButtom(){
     idPonto2 = undefined
     idPonto3 = undefined
     idPonto4 = undefined
+    idPonto5 = undefined
+    idPonto6 = undefined
+    idPonto7 = undefined
+    idPonto8 = undefined
     cor = undefined
 
  conexacaoL11Alto= undefined
@@ -24209,7 +24213,7 @@ let fio5 = this.document.getElementById("fio5");
 
 
 
-///// INTERUPTOR TOMADA COM FIO
+///// 
 const apagadorDeFio = document.querySelectorAll("[id]");
 
 
@@ -24370,6 +24374,8 @@ function apagandoFioNaMemoria(){
 console.log("oi eu soi o chutck2")
   console.log(filtro,'filtro2')
  filtro = undefined;
+ filtro2 = undefined;
+ filtro3 = undefined;
  console.log(filtro,'filtro3')
 }
 
@@ -24378,46 +24384,66 @@ console.log("oi eu soi o chutck2")
 
 function ativarFiltro(id){
   if(id == "MAIN10"){
+
    filtro = '1para3Preto'
+   filtro2 = '1para3Preto'
+   filtro3 = '1para3Preto'
 
   }else if(id == "MAIN11"){
 
          filtro = '1para3Verde'
+         filtro2 = '1para3Verde'
+         filtro3 = '1para3Verde'
 
    }else if(id == "MAIN12"){
 
          filtro = '1para3Branco'
+         filtro2 = '1para3Branco'
+         filtro3 = '1para3Branco'
 
    }else if(id == "MAIN13"){
 
          filtro = '1para3AzulNeltro'
+         filtro2 = '1para3AzulNeltro'
+         filtro3 = '1para3AzulNeltro'
 
    }else if(id == "MAIN14"){
 
          filtro = '1para3Marrom'
-
+         filtro2 = '1para3Marrom'
+         filtro3 = '1para3Marrom'
    } 
 
 
 
    else if(id == "MAIN15"){
    filtro = '2para4Preto'
+   filtro2 = '2para4Preto'
+   filtro3 = '2para4Preto'
 
   }else if(id == "MAIN16"){
 
          filtro = '2para4Verde'
+         filtro2 = '2para4Verde'
+         filtro3 = '2para4Verde'
 
    }else if(id == "MAIN17"){
 
          filtro = '2para4Branco'
+         filtro2 = '2para4Branco'
+         filtro3 = '2para4Branco'
 
    }else if(id == "MAIN18"){
 
          filtro = '2para4AzulNeltro'
+         filtro2 = '2para4AzulNeltro'
+         filtro3 = '2para4AzulNeltro'
 
    }else if(id == "MAIN19"){
 
          filtro = '2para4Marrom'
+         filtro2 = '2para4Marrom'
+         filtro3 = '2para4Marrom'
 
    }
 
@@ -24426,25 +24452,37 @@ function ativarFiltro(id){
 
    else if(id == "MAIN30"){
    filtro = '5para6Preto'
+   filtro2 = '5para6Preto'
+   filtro3 = '5para6Preto'
 
   }else if(id == "MAIN31"){
 
          filtro = '5para6Verde'
+         filtro2 = '5para6Verde'
+         filtro3 = '5para6Verde'
 
    }else if(id == "MAIN32"){
 
          filtro = '5para6Branco'
+         filtro2 = '5para6Branco'
+         filtr3 = '5para6Branco'
 
    }else if(id == "MAIN33"){
 
          filtro = '5para6AzulNeltro'
+         filtro2 = '5para6AzulNeltro'
+         filtro3 = '5para6AzulNeltro'
 
    }else if(id == "MAIN34"){
 
          filtro = '5para6Marrom'
+         filtro2 = '5para6Marrom'
+         filtro3 = '5para6Marrom'
 
    }
 
+
+   
 
 }
 
