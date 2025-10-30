@@ -24300,7 +24300,7 @@ apagadorDeFio .forEach(it => {
    
 
 
-    // SEGUNDA LIGACAO
+    // MEIO 
 
 
 
@@ -24371,7 +24371,7 @@ apagadorDeFio .forEach(it => {
    
 
       
-      // TERCEIRA LIGACAO
+      // BAIXO
 
 
 
@@ -24441,6 +24441,110 @@ apagadorDeFio .forEach(it => {
     // ligacao 3 tomada marrom
       ||id == "L796"||id == "L896"||id == "L996"
    
+
+
+      // ALTA FIO 2
+
+
+
+     // ligacao 1 lampada preto
+   || id == "L197"||id == "L297"
+   
+   // ligacao 1 chuveiro preto
+   ||id == "L397"||id == "L497"
+   
+   // ligacao 1 interruptor preto
+   ||id == "L597"||id == "L697"
+    
+
+   // ligacao 1 tomada preto
+      ||id == "L797"||id == "L897"||id == "L997"
+
+
+   
+   // ligacao 1 lampada verde
+   || id == "L198"||id == "L298"
+   
+  // ligacao 1 chuveiro verde
+   ||id == "L398"||id == "L498"
+   
+   // ligacao 1 interruptor verde
+   ||id == "L598"||id == "L698"
+
+   // ligacao 1 tomada verde
+   ||id == "L798"||id == "L898"||id == "L998"
+
+    
+    // ligacao 1 lampada azul
+
+   
+   // ligacao 1 lampada marrom
+    ||id == "L1992"||id == "L2992"
+    
+    // ligacao 1 chuveiro marrom
+    ||id == "L3992"||id == "L4992"
+    
+    // ligacao 1 interruptor marrom
+    ||id == "L5992"||id == "L6992"
+
+    // ligacao 1 tomada marrom
+      ||id == "L7992"||id == "L8992"||id == "L9992"
+   
+
+       // MEDIA FIO 2
+
+      
+       // ligacao 2 lampada preto
+
+
+       // ligacao 2 lampada verde
+
+
+       // ligacao 2 lampada branco
+       ||id == "L1995"||id == "L2995"
+      
+       // ligacao 2 chuveiro branco
+      ||id == "L3995"||id == "L4995"
+
+      // ligacao 2 interruptor branco
+     ||id == "L5995"||id == "L6995"
+
+     // ligacao 2 tomada branco
+      ||id == "L7995"||id == "L8995"||id == "L9995"
+
+
+      
+       // ligacao 2 lampada azul
+       ||id == "L1996"||id == "L2996"
+      
+       // ligacao 2 chuveiro azul
+      ||id == "L3996"||id == "L4996"
+
+      // ligacao 2 interruptor azul
+     ||id == "L5996"||id == "L6996"
+
+     // ligacao 2 tomada azul
+      ||id == "L7996"||id == "L8996"||id == "L9996"
+
+
+
+       // ligacao 2 lampada marrom 
+      ||id == "L1997"||id == "L2997"
+      
+       // ligacao 2 chuveiro marrom 
+      ||id == "L3997"||id == "L4997"
+
+      // ligacao 2 interruptor marrom 
+     ||id == "L5997"||id == "L6997"
+
+     // ligacao 2 tomada marrom 
+      ||id == "L7997"||id == "L8997"||id == "L9997"
+
+
+
+      // BAIXA FIO 3
+
+
    )
          {
          console.log("oi eu soi o chutck")
