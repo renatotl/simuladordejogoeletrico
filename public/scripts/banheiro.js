@@ -24456,7 +24456,6 @@ apagadorDeFio .forEach(it => {
    // ligacao 1 interruptor preto
    ||id == "L597"||id == "L697"
     
-
    // ligacao 1 tomada preto
       ||id == "L797"||id == "L897"||id == "L997"
 
@@ -24542,7 +24541,134 @@ apagadorDeFio .forEach(it => {
 
 
 
-      // BAIXA FIO 3
+      // BAIXA FIO 2
+
+      
+      // ligacao 3 lampada preto
+
+     
+      // ligacao 3 lampada verde
+      ||id == "L1999"||id == "L2999"
+      
+       // ligacao 3 chuveiro verde 
+      ||id == "L3999"||id == "L4999"
+
+      // ligacao 3 interruptor verde 
+     ||id == "L5999"||id == "L6999"
+
+     // ligacao 3 tomada verde 
+      ||id == "L7999"||id == "L9999"||id == "L8999"
+      
+
+
+      // ligacao 3 lampada branco
+      ||id == "L19991"||id == "L29991"
+      
+       // ligacao 3 chuveiro branco 
+      ||id == "L39991"||id == "L49991"
+
+      // ligacao 3 interruptor branco 
+     ||id == "L59991"||id == "L69991"
+
+     // ligacao 3 tomada branco 
+      ||id == "L79991"||id == "L99991"||id == "L89991"
+     
+
+      // ligacao 3 lampada azul
+      ||id == "L19992"||id == "L29992"
+      
+       // ligacao 3 chuveiro branco 
+      ||id == "L39992"||id == "L49992"
+
+      // ligacao 3 interruptor branco 
+     ||id == "L59992"||id == "L69992"
+
+     // ligacao 3 tomada branco 
+      ||id == "L79992"||id == "L99992"||id == "L89992"
+  
+
+       // ligacao 3 lampada marrom 
+      ||id == "L19993"||id == "L29993"
+      
+       // ligacao 3 chuveiro marrom 
+      ||id == "L39993"||id == "L49993"
+
+      // ligacao 3 interruptor marrom 
+     ||id == "L59993"||id == "L69993"
+
+     // ligacao 3 tomada marrom 
+      ||id == "L79993"||id == "L99993"||id == "L89993"
+
+
+       // ALTA FIO 3
+
+
+       // ligacao 1 lampada preto
+       
+
+       // ligacao 1 lampada verde
+       ||id == "L19995"||id == "L29995"
+      
+       // ligacao 1 chuveiro verde 
+      ||id == "L39995"||id == "L49995"
+
+      // ligacao 1 interruptor verde 
+     ||id == "L59995"||id == "L69995"
+
+     // ligacao 1 tomada verde 
+      ||id == "L79995"||id == "L99995"||id == "L89995"
+
+
+       // ligacao 1 lampada branco
+      ||id == "L19996"||id == "L29996"
+      
+       // ligacao 1 chuveiro branco 
+      ||id == "L39996"||id == "L49996"
+
+      // ligacao 1 interruptor branco 
+     ||id == "L59996"||id == "L69996"
+
+     // ligacao 1 tomada branco 
+      ||id == "L79996"||id == "L99996"||id == "L89996"
+
+      
+       // ligacao 1 lampada azul
+      ||id == "L19997"||id == "L29997"
+      
+       // ligacao 1 chuveiro azul 
+      ||id == "L39997"||id == "L49997"
+
+      // ligacao 1 interruptor azul 
+     ||id == "L59997"||id == "L69997"
+
+     // ligacao 1 tomada azul 
+      ||id == "L79997"||id == "L99997"||id == "L89997"
+
+
+
+
+       // ligacao 1 lampada marrom 
+      ||id == "L19998"||id == "L29998"
+      
+       // ligacao 1 chuveiro marrom 
+      ||id == "L39998"||id == "L49998"
+
+      // ligacao 1 interruptor marrom 
+     ||id == "L59998"||id == "L69998"
+
+     // ligacao 1 tomada marrom 
+      ||id == "L79998"||id == "L99998"||id == "L89998"
+      
+
+         
+
+           // MEDIA FIO 3
+
+
+
+
+
+          // BAIXA FIO 3
 
 
    )
