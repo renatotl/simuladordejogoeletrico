@@ -24577,13 +24577,13 @@ apagadorDeFio .forEach(it => {
       // ligacao 3 lampada azul
       ||id == "L19992"||id == "L29992"
       
-       // ligacao 3 chuveiro branco 
+       // ligacao 3 chuveiro azul 
       ||id == "L39992"||id == "L49992"
 
-      // ligacao 3 interruptor branco 
+      // ligacao 3 interruptor azul 
      ||id == "L59992"||id == "L69992"
 
-     // ligacao 3 tomada branco 
+     // ligacao 3 tomada azul 
       ||id == "L79992"||id == "L99992"||id == "L89992"
   
 
@@ -24663,9 +24663,62 @@ apagadorDeFio .forEach(it => {
          
 
            // MEDIA FIO 3
+          
 
 
+           // ligacao 2 lampada preto
 
+          
+           // ligacao 2 lampada verde
+           ||id == "L199991"||id == "L299991"
+      
+           // ligacao 1 chuveiro verde 
+           ||id == "L399991"||id == "L499991"
+
+           // ligacao 1 interruptor verde 
+           ||id == "L599991"||id == "L699991"
+
+            // ligacao 1 tomada verde 
+           ||id == "L799991"||id == "L999991"||id == "L899991"
+
+
+           // ligacao 2 lampada braco
+           ||id == "L199992"||id == "L299992"
+      
+           // ligacao 1 chuveiro braco 
+           ||id == "L399992"||id == "L499992"
+
+           // ligacao 1 interruptor braco 
+           ||id == "L599992"||id == "L699992"
+
+            // ligacao 1 tomada braco 
+           ||id == "L799992"||id == "L999992"||id == "L899992"
+
+
+           // ligacao 2 lampada azul
+           ||id == "L199993"||id == "L299993"
+      
+           // ligacao 1 chuveiro azul 
+           ||id == "L399993"||id == "L499993"
+
+           // ligacao 1 interruptor azul 
+           ||id == "L599993"||id == "L699993"
+
+            // ligacao 1 tomada azul 
+           ||id == "L799993"||id == "L999993"||id == "L899993"
+
+
+           // ligacao 2 lampada marron
+           ||id == "L199994"||id == "L299994"
+      
+           // ligacao 1 chuveiro marron 
+           ||id == "L399994"||id == "L499994"
+
+           // ligacao 1 interruptor marron 
+           ||id == "L599994"||id == "L699994"
+
+            // ligacao 1 tomada marron 
+           ||id == "L799994"||id == "L999994"||id == "L899994"
 
 
           // BAIXA FIO 3
