@@ -24497,6 +24497,17 @@ apagadorDeFio .forEach(it => {
 
 
        // ligacao 2 lampada verde
+       ||id == "L1994"||id == "L2994"
+      
+       // ligacao 2 chuveiro verde
+      ||id == "L3994"||id == "L4994"
+
+      // ligacao 2 interruptor verde
+     ||id == "L5994"||id == "L6994"
+
+     // ligacao 2 tomada verde
+      ||id == "L7994"||id == "L8994"||id == "L9994"
+
 
 
        // ligacao 2 lampada branco
@@ -24963,7 +24974,7 @@ function ativarFiltro(id){
 
          filtro = '5para6Branco'
          filtro2 = '5para6Branco'
-         filtr3 = '5para6Branco'
+         filtro3 = '5para6Branco'
 
    }else if(id == "MAIN33"){
 
