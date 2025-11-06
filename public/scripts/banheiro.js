@@ -24723,6 +24723,60 @@ apagadorDeFio .forEach(it => {
 
           // BAIXA FIO 3
 
+         
+          // ligacao 2 lampada preto
+
+          // ligacao 2 lampada verde
+           ||id == "L199996"||id == "L299996"
+      
+           // ligacao 1 chuveiro verde 
+           ||id == "L399996"||id == "L499996"
+
+           // ligacao 1 interruptor verde 
+           ||id == "L599996"||id == "L699996"
+
+            // ligacao 1 tomada verde 
+           ||id == "L799996"||id == "L999996"||id == "L899996"
+
+
+            // ligacao 2 lampada branco
+            ||id == "L199997"||id == "L299997"
+      
+           // ligacao 1 chuveiro verde 
+           ||id == "L399997"||id == "L499997"
+
+           // ligacao 1 interruptor verde 
+           ||id == "L599997"||id == "L699997"
+
+            // ligacao 1 tomada verde 
+           ||id == "L799997"||id == "L999997"||id == "L899997"
+
+
+            // ligacao 2 lampada azul
+          ||id == "L199998"||id == "L299998"
+      
+           // ligacao 1 chuveiro azul 
+           ||id == "L399998"||id == "L499998"
+
+           // ligacao 1 interruptor azul 
+           ||id == "L599998"||id == "L699998"
+
+            // ligacao 1 tomada azul 
+           ||id == "L799998"||id == "L999998"||id == "L899998"
+
+
+            // ligacao 2 lampada marron
+            ||id == "L199999"||id == "L299999"
+      
+           // ligacao 1 chuveiro marron 
+           ||id == "L399999"||id == "L499999"
+
+           // ligacao 1 interruptor marron 
+           ||id == "L599999"||id == "L699999"
+
+            // ligacao 1 tomada marron 
+           ||id == "L799999"||id == "L999999"||id == "L899999"
+
 
    )
          {
