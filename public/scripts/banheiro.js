@@ -9969,6 +9969,8 @@ console.log(conexacaoL11BaixoBaixo)
 console.log(conexacaoL12BaixoBaixo)
  
 
+
+//LAMPADA
 // ALTA1 PARA ALTA2
 if(conexacaoL11Alto == "L1PA" && conexacaoL12Alto == "L2PA" ||
 
@@ -10012,11 +10014,34 @@ message.innerHTML = texto2
 
 }else 
 
-if(conexacaoL11Alto == "L1VA" && conexacaoL12Alto == "L2VA"|| 
+// ALTA1 PARA ALTA2
+if(conexacaoL11Alto == "L1VA" && conexacaoL12Alto == "L2VA" ||
+
+   //MEDIA1 PARA MEDIA2
    conexacaoL11Baixo == "L1VB" && conexacaoL12Baixo == "L2VB"|| 
+
+   //ALTA1 PARA MEDIA2
    conexacaoL11Alto == "L1VA" && conexacaoL12Baixo == "L2VB"|| 
-   conexacaoL12Alto == "L2VA" && conexacaoL11Baixo == "L1VB"||
-   conexacaoL11BaixoBaixo == "L1VBB" && conexacaoL12BaixoBaixo == "L2VBB"
+
+   //MEDIA2 PARA ALTA1
+   conexacaoL12Alto == "L2VA" && conexacaoL11Baixo == "L1VB" ||
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  == "L1VBB" && conexacaoL12BaixoBaixo == "L2VBB" ||
+
+   //ALTA1 PARA BAIXA2
+  conexacaoL11Alto == "L1VA" && conexacaoL12BaixoBaixo == "L2VBB" ||
+
+  //BAIXA1 PARA ALTA2
+  conexacaoL11BaixoBaixo  == "L1VBB" && conexacaoL12Alto == "L2VA"  || 
+
+  //MEDIA1 PARA BAIXA2
+conexacaoL11Baixo == "L1VB" && conexacaoL12BaixoBaixo == "L2VBB" || 
+
+
+ //BAIXA1 PARA MEDIA2
+ conexacaoL11BaixoBaixo  == "L1VBB"&& conexacaoL12Baixo == "L2VB"
+
 
 ){
    // conecao no mesmo fio preto alto
@@ -10029,11 +10054,34 @@ message.innerHTML = texto3
 
 } else
 
-if(conexacaoL11Alto == "L1BA" && conexacaoL12Alto == "L2BA"|| 
+// ALTA1 PARA ALTA2
+if(conexacaoL11Alto == "L1BA" && conexacaoL12Alto == "L2BA" ||
+
+   //MEDIA1 PARA MEDIA2
    conexacaoL11Baixo == "L1BB" && conexacaoL12Baixo == "L2BB"|| 
+
+   //ALTA1 PARA MEDIA2
    conexacaoL11Alto == "L1BA" && conexacaoL12Baixo == "L2BB"|| 
-   conexacaoL12Alto == "L2BA" && conexacaoL11Baixo == "L1BB"||
-   conexacaoL11BaixoBaixo == "L1BBB" && conexacaoL12BaixoBaixo=="L2BBB"
+
+   //MEDIA2 PARA ALTA1
+   conexacaoL12Alto == "L2BA" && conexacaoL11Baixo == "L1BB" ||
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  == "L1BBB" && conexacaoL12BaixoBaixo == "L2BBB" ||
+
+   //ALTA1 PARA BAIXA2
+  conexacaoL11Alto == "L1BA" && conexacaoL12BaixoBaixo == "L2BBB" ||
+
+  //BAIXA1 PARA ALTA2
+  conexacaoL11BaixoBaixo  == "L1BBB" && conexacaoL12Alto == "L2BA"  || 
+
+  //MEDIA1 PARA BAIXA2
+conexacaoL11Baixo == "L1BB" && conexacaoL12BaixoBaixo == "L2BBB" || 
+
+
+ //BAIXA1 PARA MEDIA2
+ conexacaoL11BaixoBaixo  == "L1BBB"&& conexacaoL12Baixo == "L2BB"
+
 ){
    // conecao no mesmo fio preto alto
    console.log("dentro do if")
@@ -10047,11 +10095,34 @@ message.innerHTML = texto4
 
 else
 
-if(conexacaoL11Alto == "L1AA" && conexacaoL12Alto == "L2AA"|| 
+// ALTA1 PARA ALTA2
+if(conexacaoL11Alto == "L1AA" && conexacaoL12Alto == "L2AA" ||
+
+   //MEDIA1 PARA MEDIA2
    conexacaoL11Baixo == "L1AB" && conexacaoL12Baixo == "L2AB"|| 
+
+   //ALTA1 PARA MEDIA2
    conexacaoL11Alto == "L1AA" && conexacaoL12Baixo == "L2AB"|| 
-   conexacaoL12Alto == "L2AA" && conexacaoL11Baixo == "L1AB"||
-   conexacaoL11BaixoBaixo == "L1ABB" && conexacaoL12BaixoBaixo=="L2ABB"
+
+   //MEDIA2 PARA ALTA1
+   conexacaoL12Alto == "L2AA" && conexacaoL11Baixo == "L1AB" ||
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  == "L1ABB" && conexacaoL12BaixoBaixo == "L2ABB" ||
+
+   //ALTA1 PARA BAIXA2
+  conexacaoL11Alto == "L1AA" && conexacaoL12BaixoBaixo == "L2ABB" ||
+
+  //BAIXA1 PARA ALTA2
+  conexacaoL11BaixoBaixo  == "L1ABB" && conexacaoL12Alto == "L2AA"  || 
+
+  //MEDIA1 PARA BAIXA2
+conexacaoL11Baixo == "L1AB" && conexacaoL12BaixoBaixo == "L2ABB" || 
+
+
+ //BAIXA1 PARA MEDIA2
+ conexacaoL11BaixoBaixo  == "L1ABB"&& conexacaoL12Baixo == "L2AB"
+
 ){
    // conecao no mesmo fio preto alto
    console.log("dentro do if")
@@ -10065,11 +10136,34 @@ message.innerHTML = texto5
 
 else
 
-if(conexacaoL11Alto == "L1MA" && conexacaoL12Alto == "L2MA"|| 
+// ALTA1 PARA ALTA2
+if(conexacaoL11Alto == "L1MA" && conexacaoL12Alto == "L2MA" ||
+
+   //MEDIA1 PARA MEDIA2
    conexacaoL11Baixo == "L1MB" && conexacaoL12Baixo == "L2MB"|| 
+
+   //ALTA1 PARA MEDIA2
    conexacaoL11Alto == "L1MA" && conexacaoL12Baixo == "L2MB"|| 
-   conexacaoL12Alto == "L2MA" && conexacaoL11Baixo == "L1MB"||
-   conexacaoL11BaixoBaixo == "L1MBB" && conexacaoL12BaixoBaixo=="L2MBB"
+
+   //MEDIA2 PARA ALTA1
+   conexacaoL12Alto == "L2MA" && conexacaoL11Baixo == "L1MB" ||
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  == "L1MBB" && conexacaoL12BaixoBaixo == "L2MBB" ||
+
+   //ALTA1 PARA BAIXA2
+  conexacaoL11Alto == "L1MA" && conexacaoL12BaixoBaixo == "L2MBB" ||
+
+  //BAIXA1 PARA ALTA2
+  conexacaoL11BaixoBaixo  == "L1MBB" && conexacaoL12Alto == "L2MA"  || 
+
+  //MEDIA1 PARA BAIXA2
+conexacaoL11Baixo == "L1MB" && conexacaoL12BaixoBaixo == "L2MBB" || 
+
+
+ //BAIXA1 PARA MEDIA2
+ conexacaoL11BaixoBaixo  == "L1MBB"&& conexacaoL12Baixo == "L2MB"
+
 ){
    // conecao no mesmo fio preto alto
    console.log("dentro do if")
@@ -10082,6 +10176,49 @@ message.innerHTML = texto6
 }
 
 
+//CHUVEIRO
+// ALTA1 PARA ALTA2
+if(conexacaoL11Alto == "L1PA" && conexacaoL12Alto == "L2PA" ||
+
+   //MEDIA1 PARA MEDIA2
+   conexacaoL11Baixo == "L1PB" && conexacaoL12Baixo == "L2PB"|| 
+
+   //ALTA1 PARA MEDIA2
+   conexacaoL11Alto == "L1PA" && conexacaoL12Baixo == "L2PB"|| 
+
+   //MEDIA2 PARA ALTA1
+   conexacaoL12Alto == "L2PA" && conexacaoL11Baixo == "L1PB" ||
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  == "L1PBB" && conexacaoL12BaixoBaixo == "L2PBB" ||
+
+   //ALTA1 PARA BAIXA2
+  conexacaoL11Alto == "L1PA" && conexacaoL12BaixoBaixo == "L2PBB" ||
+
+  //BAIXA1 PARA ALTA2
+  conexacaoL11BaixoBaixo  == "L1PBB" && conexacaoL12Alto == "L2PA"  || 
+
+  //MEDIA1 PARA BAIXA2
+conexacaoL11Baixo == "L1PB" && conexacaoL12BaixoBaixo == "L2PBB" || 
+
+
+ //BAIXA1 PARA MEDIA2
+ conexacaoL11BaixoBaixo  == "L1PBB"&& conexacaoL12Baixo == "L2PB"
+
+
+
+
+
+){
+   // conecao no mesmo fio preto alto na lampada
+   console.log("dentro do if 2P CHUVEIRO")
+   console.log(texto2)
+   message.id = "message2"
+message.innerHTML = texto7
+
+  
+
+}
   
   // setInterval(resetButtom(), 3000);
   // setInterval(message.innerHTML = textoVasio, 6000);
