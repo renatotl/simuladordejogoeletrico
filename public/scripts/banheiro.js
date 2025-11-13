@@ -10173,37 +10173,37 @@ message.innerHTML = texto6
 
   
 
-}
+} else
 
 
 //CHUVEIRO
 // ALTA1 PARA ALTA2
-if(conexacaoL11Alto == "L1PA" && conexacaoL12Alto == "L2PA" ||
+if(conexacaoL11Alto == "L3PA" && conexacaoL12Alto == "L4PA" ||
 
    //MEDIA1 PARA MEDIA2
-   conexacaoL11Baixo == "L1PB" && conexacaoL12Baixo == "L2PB"|| 
+   conexacaoL11Baixo == "L3PB" && conexacaoL12Baixo == "L4PB"|| 
 
    //ALTA1 PARA MEDIA2
-   conexacaoL11Alto == "L1PA" && conexacaoL12Baixo == "L2PB"|| 
+   conexacaoL11Alto == "L3PA" && conexacaoL12Baixo == "L4PB"|| 
 
    //MEDIA2 PARA ALTA1
-   conexacaoL12Alto == "L2PA" && conexacaoL11Baixo == "L1PB" ||
+   conexacaoL12Alto == "L4PA" && conexacaoL11Baixo == "L3PB" ||
    
   //BAIXA1 PARA BAIXA2
-   conexacaoL11BaixoBaixo  == "L1PBB" && conexacaoL12BaixoBaixo == "L2PBB" ||
+   conexacaoL11BaixoBaixo  == "L3PBB" && conexacaoL12BaixoBaixo == "L4PBB" ||
 
    //ALTA1 PARA BAIXA2
-  conexacaoL11Alto == "L1PA" && conexacaoL12BaixoBaixo == "L2PBB" ||
+  conexacaoL11Alto == "L3PA" && conexacaoL12BaixoBaixo == "L4PBB" ||
 
   //BAIXA1 PARA ALTA2
-  conexacaoL11BaixoBaixo  == "L1PBB" && conexacaoL12Alto == "L2PA"  || 
+  conexacaoL11BaixoBaixo  == "L3PBB" && conexacaoL12Alto == "L4PA"  || 
 
   //MEDIA1 PARA BAIXA2
-conexacaoL11Baixo == "L1PB" && conexacaoL12BaixoBaixo == "L2PBB" || 
+conexacaoL11Baixo == "L3PB" && conexacaoL12BaixoBaixo == "L4PBB" || 
 
 
  //BAIXA1 PARA MEDIA2
- conexacaoL11BaixoBaixo  == "L1PBB"&& conexacaoL12Baixo == "L2PB"
+ conexacaoL11BaixoBaixo  == "L3PBB"&& conexacaoL12Baixo == "L4PB"
 
 
 
@@ -10212,7 +10212,7 @@ conexacaoL11Baixo == "L1PB" && conexacaoL12BaixoBaixo == "L2PBB" ||
 ){
    // conecao no mesmo fio preto alto na lampada
    console.log("dentro do if 2P CHUVEIRO")
-   console.log(texto2)
+   console.log(texto7)
    message.id = "message2"
 message.innerHTML = texto7
 
