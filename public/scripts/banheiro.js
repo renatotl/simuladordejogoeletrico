@@ -9678,11 +9678,13 @@ function abrirPopup(valor){
    idioma;
    let texto1 = " Voce fechou o circuito! tente de novo."
 
+
+   // LAMPADA
    let texto2 = ""
        texto2 += " Voce ligou dois fios pretos a ";
        texto2 +=  "lampada. neste caso se ela nao for ";
        texto2 +=   "bivolte 220 voltes ela queimara";
-       texto2 +=  " sem uma interruptor ela ficara";
+       texto2 +=  " sem um interruptor ela ficara";
        texto2 += "ligada o tempo todo.";
 
  
@@ -9717,7 +9719,100 @@ function abrirPopup(valor){
        texto6 +=  "lampada. neste caso, nao acendera";
        texto6 +=   "pois os fios nao tem energia";
        texto6 +=  " sao dois fios retorno iguais";
-       texto6 += " o fio branco";
+       texto6 += " o fio branco, como algumas regioes se usa marrom";
+ // LAMPADA
+
+
+  // CHUVEIRO
+   let texto7 = ""
+       texto7 += " Voce ligou dois fios pretos ao ";
+       texto7 +=  "chuveiro. Ele funcionara se  ";
+       texto7 +=   "na sua regiao o cuverio for";
+       texto7 +=  " 220V.";
+       texto7 += "";
+
+ 
+
+       let texto8 = ""
+       texto8 += " Voce ligou dois fios Verdes ao ";
+       texto8 +=  "chuveiro. neste caso nao funcionara";
+       texto8 +=   "pois os fios nao tem energia";
+       texto8 +=  " ";
+       texto8 += "";
+
+
+
+        let texto9 = ""
+       texto9 += " Voce ligou dois fios branos ao ";
+       texto9 +=  "chuveiro. neste caso, nao funcionara";
+       texto9 +=   "pois os fios nao tem energia";
+       texto9 +=  " sao dois fios retorno";
+       texto9 += "";
+
+
+         let texto10 = ""
+       texto10 += " Voce ligou dois fios azuis ao ";
+       texto10 +=  "chuveiro. neste caso, nao funcionara";
+       texto10 +=   "pois os fios nao tem energia";
+       texto10 +=  " sao dois fios neltros";
+       texto10 += "";
+
+
+          let texto11 = ""
+       texto11 += " Voce ligou dois fios marrom ao ";
+       texto11 +=  "chuveiro. neste caso, nao funcionara";
+       texto11 +=   "pois os fios nao tem energia";
+       texto11 +=  " sao dois fios retorno iguais";
+       texto11 += " o fio branco, como algumas regioes se usa marrom";
+ // CHUVEIRO
+
+
+
+  // TOMADA
+   let texto12 = ""
+       texto12 += " Voce ligou dois fios pretos a ";
+       texto12 +=  "tomda. 2 fios energizados  ";
+       texto12 +=   "vc provocou um curto circuito";
+       texto12 +=  " nunca faca isso.";
+       texto12 += "";
+
+ 
+
+       let texto13 = ""
+       texto13 += " Voce ligou dois fios Verdes a ";
+       texto13 +=  "tomada. nada acontecera";
+       texto13 +=   "pois os fios nao tem energia";
+       texto13 +=  " ";
+       texto13 += "";
+
+
+
+        let texto14 = ""
+       texto14 += " Voce ligou dois fios branos a ";
+       texto14 +=  "tomada. nao funciona";
+       texto14 +=   "pois os fios nao tem energia";
+       texto14 +=  " sao dois fios retorno";
+       texto14 += "";
+
+
+         let texto15 = ""
+       texto15 += " Voce ligou dois fios azuis a ";
+       texto15 +=  "tomada. neste caso, nao funcionara";
+       texto15 +=   "pois os fios nao tem energia";
+       texto15 +=  " sao dois fios neltros";
+       texto15 += "";
+
+
+          let texto16 = ""
+       texto16 += " Voce ligou dois fios marrom a ";
+       texto16 +=  "tomada. neste caso, nao funcionara";
+       texto16 +=   "pois os fios nao tem energia";
+       texto16 +=  " sao dois fios retorno iguais";
+       texto16 += " o fio branco, como algumas regioes se usa marrom";
+ // TOMADA
+
+
+
 
   let messageFio = "Fio preto fase 110V"
 
@@ -9856,6 +9951,7 @@ if(idioma == "portugues"){
   console.log(message)
  // message.id = "message2"
   console.log(valor)
+   
   if(valor == "1p2"  ){
    console.log(valor)
 message.id = "message2"
@@ -9871,15 +9967,43 @@ console.log(conexacaoL12Baixo)
 
 console.log(conexacaoL11BaixoBaixo)
 console.log(conexacaoL12BaixoBaixo)
+ 
 
-if(conexacaoL11Alto == "L1PA" && conexacaoL12Alto == "L2PA" || 
+// ALTA1 PARA ALTA2
+if(conexacaoL11Alto == "L1PA" && conexacaoL12Alto == "L2PA" ||
+
+   //MEDIA1 PARA MEDIA2
    conexacaoL11Baixo == "L1PB" && conexacaoL12Baixo == "L2PB"|| 
+
+   //ALTA1 PARA MEDIA2
    conexacaoL11Alto == "L1PA" && conexacaoL12Baixo == "L2PB"|| 
+
+   //MEDIA2 PARA ALTA1
    conexacaoL12Alto == "L2PA" && conexacaoL11Baixo == "L1PB" ||
-   conexacaoL11BaixoBaixo  == "L1PBB" && conexacaoL12BaixoBaixo == "L2PBB"
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  == "L1PBB" && conexacaoL12BaixoBaixo == "L2PBB" ||
+
+   //ALTA1 PARA BAIXA2
+  conexacaoL11Alto == "L1PA" && conexacaoL12BaixoBaixo == "L2PBB" ||
+
+  //BAIXA1 PARA ALTA2
+  conexacaoL11BaixoBaixo  == "L1PBB" && conexacaoL12Alto == "L2PA"  || 
+
+  //MEDIA1 PARA BAIXA2
+conexacaoL11Baixo == "L1PB" && conexacaoL12BaixoBaixo == "L2PBB" || 
+
+
+ //BAIXA1 PARA MEDIA2
+ conexacaoL11BaixoBaixo  == "L1PBB"&& conexacaoL12Baixo == "L2PB"
+
+
+
+
+
 ){
-   // conecao no mesmo fio preto alto
-   console.log("dentro do if")
+   // conecao no mesmo fio preto alto na lampada
+   console.log("dentro do if 2P LAMPADA")
    console.log(texto2)
    message.id = "message2"
 message.innerHTML = texto2
