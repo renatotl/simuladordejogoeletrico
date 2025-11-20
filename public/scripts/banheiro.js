@@ -10385,32 +10385,32 @@ message.innerHTML = texto11
 
 }
  else
-   if(conexacaoL11Alto == "L3PA" && conexacaoL12Alto == "L4PA" ||
+   if(conexacaoL11Alto == "L5PA" && conexacaoL12Alto == "L6PA" ||
 
    //MEDIA1 PARA MEDIA2
-   conexacaoL11Baixo == "L3PB" && conexacaoL12Baixo == "L4PB"|| 
+   conexacaoL11Baixo == "L5PB" && conexacaoL12Baixo == "L6PB"|| 
 
    //ALTA1 PARA MEDIA2
-   conexacaoL11Alto == "L3PA" && conexacaoL12Baixo == "L4PB"|| 
+   conexacaoL11Alto == "L5PA" && conexacaoL12Baixo == "L6PB"|| 
 
    //MEDIA2 PARA ALTA1
-   conexacaoL12Alto == "L4PA" && conexacaoL11Baixo == "L3PB" ||
+   conexacaoL12Alto == "L6PA" && conexacaoL11Baixo == "L5PB" ||
    
   //BAIXA1 PARA BAIXA2
-   conexacaoL11BaixoBaixo  == "L3PBB" && conexacaoL12BaixoBaixo == "L4PBB" ||
+   conexacaoL11BaixoBaixo  == "L5PBB" && conexacaoL12BaixoBaixo == "L6PBB" ||
 
    //ALTA1 PARA BAIXA2
-  conexacaoL11Alto == "L3PA" && conexacaoL12BaixoBaixo == "L4PBB" ||
+  conexacaoL11Alto == "L5PA" && conexacaoL12BaixoBaixo == "L6PBB" ||
 
   //BAIXA1 PARA ALTA2
-  conexacaoL11BaixoBaixo  == "L3PBB" && conexacaoL12Alto == "L4PA"  || 
+  conexacaoL11BaixoBaixo  == "L5PBB" && conexacaoL12Alto == "L6PA"  || 
 
   //MEDIA1 PARA BAIXA2
-conexacaoL11Baixo == "L3PB" && conexacaoL12BaixoBaixo == "L4PBB" || 
+conexacaoL11Baixo == "L5PB" && conexacaoL12BaixoBaixo == "L6PBB" || 
 
 
  //BAIXA1 PARA MEDIA2
- conexacaoL11BaixoBaixo  == "L3PBB"&& conexacaoL12Baixo == "L4PB"
+ conexacaoL11BaixoBaixo  == "L5PBB"&& conexacaoL12Baixo == "L6PB"
 
 
 
@@ -10426,32 +10426,32 @@ message.innerHTML = texto12
   
 
 } else
-   if(conexacaoL11Alto == "L3VA" && conexacaoL12Alto == "L4VA" ||
+   if(conexacaoL11Alto == "L5VA" && conexacaoL12Alto == "L6VA" ||
 
    //MEDIA1 PARA MEDIA2
-   conexacaoL11Baixo == "L3VB" && conexacaoL12Baixo == "L4VB"|| 
+   conexacaoL11Baixo == "L5VB" && conexacaoL12Baixo == "L6VB"|| 
 
    //ALTA1 PARA MEDIA2
-   conexacaoL11Alto == "L3VA" && conexacaoL12Baixo == "L4VB"|| 
+   conexacaoL11Alto == "L5VA" && conexacaoL12Baixo == "L6VB"|| 
 
    //MEDIA2 PARA ALTA1
-   conexacaoL12Alto == "L4VA" && conexacaoL11Baixo == "L3VB" ||
+   conexacaoL12Alto == "L6VA" && conexacaoL11Baixo == "L5VB" ||
    
   //BAIXA1 PARA BAIXA2
-   conexacaoL11BaixoBaixo  == "L3VBB" && conexacaoL12BaixoBaixo == "L4VBB" ||
+   conexacaoL11BaixoBaixo  == "L5VBB" && conexacaoL12BaixoBaixo == "L6VBB" ||
 
    //ALTA1 PARA BAIXA2
-  conexacaoL11Alto == "L3VA" && conexacaoL12BaixoBaixo == "L4VBB" ||
+  conexacaoL11Alto == "L5VA" && conexacaoL12BaixoBaixo == "L6VBB" ||
 
   //BAIXA1 PARA ALTA2
-  conexacaoL11BaixoBaixo  == "L3VBB" && conexacaoL12Alto == "L4VA"  || 
+  conexacaoL11BaixoBaixo  == "L5VBB" && conexacaoL12Alto == "L6VA"  || 
 
   //MEDIA1 PARA BAIXA2
-conexacaoL11Baixo == "L3VB" && conexacaoL12BaixoBaixo == "L4VBB" || 
+conexacaoL11Baixo == "L5VB" && conexacaoL12BaixoBaixo == "L6VBB" || 
 
 
  //BAIXA1 PARA MEDIA2
- conexacaoL11BaixoBaixo  == "L3VBB"&& conexacaoL12Baixo == "L4VB"
+ conexacaoL11BaixoBaixo  == "L5VBB"&& conexacaoL12Baixo == "L6VB"
 
 
 
@@ -10467,32 +10467,32 @@ message.innerHTML = texto13
   
 
 } else
-   if(conexacaoL11Alto == "L3BA" && conexacaoL12Alto == "L4BA" ||
+   if(conexacaoL11Alto == "L5BA" && conexacaoL12Alto == "L6BA" ||
 
    //MEDIA1 PARA MEDIA2
-   conexacaoL11Baixo == "L3BB" && conexacaoL12Baixo == "L4BB"|| 
+   conexacaoL11Baixo == "L5BB" && conexacaoL12Baixo == "L6BB"|| 
 
    //ALTA1 PARA MEDIA2
-   conexacaoL11Alto == "L3BA" && conexacaoL12Baixo == "L4BB"|| 
+   conexacaoL11Alto == "L5BA" && conexacaoL12Baixo == "L6BB"|| 
 
    //MEDIA2 PARA ALTA1
-   conexacaoL12Alto == "L4BA" && conexacaoL11Baixo == "L3BB" ||
+   conexacaoL12Alto == "L6BA" && conexacaoL11Baixo == "L5BB" ||
    
   //BAIXA1 PARA BAIXA2
-   conexacaoL11BaixoBaixo  == "L3BBB" && conexacaoL12BaixoBaixo == "L4BBB" ||
+   conexacaoL11BaixoBaixo  == "L5BBB" && conexacaoL12BaixoBaixo == "L6BBB" ||
 
    //ALTA1 PARA BAIXA2
-  conexacaoL11Alto == "L3BA" && conexacaoL12BaixoBaixo == "L4BBB" ||
+  conexacaoL11Alto == "L5BA" && conexacaoL12BaixoBaixo == "L6BBB" ||
 
   //BAIXA1 PARA ALTA2
-  conexacaoL11BaixoBaixo  == "L3BBB" && conexacaoL12Alto == "L4BA"  || 
+  conexacaoL11BaixoBaixo  == "L5BBB" && conexacaoL12Alto == "L6BA"  || 
 
   //MEDIA1 PARA BAIXA2
-conexacaoL11Baixo == "L3BB" && conexacaoL12BaixoBaixo == "L4BBB" || 
+conexacaoL11Baixo == "L5BB" && conexacaoL12BaixoBaixo == "L6BBB" || 
 
 
  //BAIXA1 PARA MEDIA2
- conexacaoL11BaixoBaixo  == "L3BBB"&& conexacaoL12Baixo == "L4BB"
+ conexacaoL11BaixoBaixo  == "L5BBB"&& conexacaoL12Baixo == "L6BB"
 
 
 
@@ -10508,32 +10508,32 @@ message.innerHTML = texto14
   
 
 } else
-   if(conexacaoL11Alto == "L3AA" && conexacaoL12Alto == "L4AA" ||
+   if(conexacaoL11Alto == "L5AA" && conexacaoL12Alto == "L6AA" ||
 
    //MEDIA1 PARA MEDIA2
-   conexacaoL11Baixo == "L3AB" && conexacaoL12Baixo == "L4AB"|| 
+   conexacaoL11Baixo == "L5AB" && conexacaoL12Baixo == "L6AB"|| 
 
    //ALTA1 PARA MEDIA2
-   conexacaoL11Alto == "L3AA" && conexacaoL12Baixo == "L4AB"|| 
+   conexacaoL11Alto == "L5AA" && conexacaoL12Baixo == "L6AB"|| 
 
    //MEDIA2 PARA ALTA1
-   conexacaoL12Alto == "L4AA" && conexacaoL11Baixo == "L3AB" ||
+   conexacaoL12Alto == "L6AA" && conexacaoL11Baixo == "L5AB" ||
    
   //BAIXA1 PARA BAIXA2
-   conexacaoL11BaixoBaixo  == "L3ABB" && conexacaoL12BaixoBaixo == "L4ABB" ||
+   conexacaoL11BaixoBaixo  == "L5ABB" && conexacaoL12BaixoBaixo == "L6ABB" ||
 
    //ALTA1 PARA BAIXA2
-  conexacaoL11Alto == "L3AA" && conexacaoL12BaixoBaixo == "L4ABB" ||
+  conexacaoL11Alto == "L5AA" && conexacaoL12BaixoBaixo == "L6ABB" ||
 
   //BAIXA1 PARA ALTA2
-  conexacaoL11BaixoBaixo  == "L3ABB" && conexacaoL12Alto == "L4AA"  || 
+  conexacaoL11BaixoBaixo  == "L5ABB" && conexacaoL12Alto == "L6AA"  || 
 
   //MEDIA1 PARA BAIXA2
-conexacaoL11Baixo == "L3AB" && conexacaoL12BaixoBaixo == "L4ABB" || 
+conexacaoL11Baixo == "L5AB" && conexacaoL12BaixoBaixo == "L6ABB" || 
 
 
  //BAIXA1 PARA MEDIA2
- conexacaoL11BaixoBaixo  == "L3ABB"&& conexacaoL12Baixo == "L4AB"
+ conexacaoL11BaixoBaixo  == "L5ABB"&& conexacaoL12Baixo == "L6AB"
 
 
 
@@ -10549,32 +10549,32 @@ message.innerHTML = texto15
   
 
 } else
-   if(conexacaoL11Alto == "L3MA" && conexacaoL12Alto == "L4MA" ||
+   if(conexacaoL11Alto == "L5MA" && conexacaoL12Alto == "L6MA" ||
 
    //MEDIA1 PARA MEDIA2
-   conexacaoL11Baixo == "L3MB" && conexacaoL12Baixo == "L4MB"|| 
+   conexacaoL11Baixo == "L5MB" && conexacaoL12Baixo == "L6MB"|| 
 
    //ALTA1 PARA MEDIA2
-   conexacaoL11Alto == "L3MA" && conexacaoL12Baixo == "L4MB"|| 
+   conexacaoL11Alto == "L5MA" && conexacaoL12Baixo == "L6MB"|| 
 
    //MEDIA2 PARA ALTA1
-   conexacaoL12Alto == "L4MA" && conexacaoL11Baixo == "L3MB" ||
+   conexacaoL12Alto == "L6MA" && conexacaoL11Baixo == "L5MB" ||
    
   //BAIXA1 PARA BAIXA2
-   conexacaoL11BaixoBaixo  == "L3MBB" && conexacaoL12BaixoBaixo == "L4MBB" ||
+   conexacaoL11BaixoBaixo  == "L5MBB" && conexacaoL12BaixoBaixo == "L6MBB" ||
 
    //ALTA1 PARA BAIXA2
-  conexacaoL11Alto == "L3MA" && conexacaoL12BaixoBaixo == "L4MBB" ||
+  conexacaoL11Alto == "L5MA" && conexacaoL12BaixoBaixo == "L6MBB" ||
 
   //BAIXA1 PARA ALTA2
-  conexacaoL11BaixoBaixo  == "L3MBB" && conexacaoL12Alto == "L4MA"  || 
+  conexacaoL11BaixoBaixo  == "L5MBB" && conexacaoL12Alto == "L6MA"  || 
 
   //MEDIA1 PARA BAIXA2
-conexacaoL11Baixo == "L3MB" && conexacaoL12BaixoBaixo == "L4MBB" || 
+conexacaoL11Baixo == "L5MB" && conexacaoL12BaixoBaixo == "L6MBB" || 
 
 
  //BAIXA1 PARA MEDIA2
- conexacaoL11BaixoBaixo  == "L3MBB"&& conexacaoL12Baixo == "L4MB"
+ conexacaoL11BaixoBaixo  == "L5MBB"&& conexacaoL12Baixo == "L6MB"
 
 
 
