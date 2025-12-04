@@ -9856,6 +9856,50 @@ function abrirPopup(valor){
        texto21 += " o fio branco, como algumas regioes se usa marrom";
  // TOMADA
 
+// TOMADA POLO DO MEIO
+let texto22 = ""
+       texto22 += " Voce ligou fio pretos ao polo do meio da ";
+       texto22 +=  "tomada. fio energizado  ";
+       texto22 +=   "vc provocou um curto circuito";
+       texto22 +=  " nunca faca isso.";
+       texto22 += "";
+
+ 
+
+       let texto23 = ""
+       texto23 += " Voce ligou fio Verde ao polo do meio da ";
+       texto23 +=  "tomada. nada acontecera";
+       texto23 +=   "pois os nao tem energia";
+       texto23 +=  " ";
+       texto23 += "";
+
+
+
+        let texto24 = ""
+       texto24 += " Voce ligou fio brano a ";
+       texto24 +=  "tomada no polo do meio. nao funciona";
+       texto24 +=   "pois o fio nao tem energia";
+       texto24 +=  " E um  fio retorno e nao pretege o circuito.";
+       texto24 += " Ele nao esta ligado ao terra";
+
+
+         let texto25 = ""
+       texto25 += " Voce ligou fio azul ao polo do meio da ";
+       texto25 +=  "tomada. neste caso, ira dar um cuirto circuito";
+       texto25 +=   "o polo do meio foi projetado apenas para o terra.";
+       texto25 +=  " nao faca isso";
+       texto25 += "";
+
+
+          let texto26 = ""
+       texto26 += " Voce ligou fio marrom ao polo do meio da ";
+       texto26 +=  "tomada. neste caso, nao funcionara";
+       texto26 +=   "pois o fio nao tem energia";
+       texto26 +=  " e nao protejo o circuito, uma vez que nao esta ";
+       texto26 += " ligado ao terra";
+ // TOMADA POLO DO MEIO
+
+
 
 
 
