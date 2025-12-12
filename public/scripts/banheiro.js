@@ -10046,6 +10046,8 @@ if(idioma == "portugues"){
 message.id = "message2"
    message.innerHTML = texto1
 
+
+
   }
   else
   console.log(conexacaoL11Alto)
@@ -10099,7 +10101,7 @@ conexacaoL11Baixo == "L1PB" && conexacaoL12BaixoBaixo == "L2PBB" ||
    message.id = "message2"
 message.innerHTML = texto2
 
-  
+  resetPopUp(message)
 
 }else 
 //LAMPADA
@@ -10139,7 +10141,7 @@ conexacaoL11Baixo == "L1VB" && conexacaoL12BaixoBaixo == "L2VBB" ||
    message.id = "message2"
 message.innerHTML = texto3
 
-  
+  resetPopUp(message)
 
 } else
 //LAMPADA
@@ -10178,7 +10180,7 @@ conexacaoL11Baixo == "L1BB" && conexacaoL12BaixoBaixo == "L2BBB" ||
    message.id = "message2"
 message.innerHTML = texto4
 
-  
+  resetPopUp(message)
 
 }
 
@@ -10220,7 +10222,7 @@ conexacaoL11Baixo == "L1AB" && conexacaoL12BaixoBaixo == "L2ABB" ||
 message.innerHTML = texto5
 //LAMPADA
   
-
+resetPopUp(message)
 }
 
 else
@@ -10260,7 +10262,7 @@ conexacaoL11Baixo == "L1MB" && conexacaoL12BaixoBaixo == "L2MBB" ||
    message.id = "message2"
 message.innerHTML = texto6
 
-  
+  resetPopUp(message)
 
 } else
 
@@ -10305,7 +10307,7 @@ conexacaoL11Baixo == "L3PB" && conexacaoL12BaixoBaixo == "L4PBB" ||
    message.id = "message2"
 message.innerHTML = texto7
 
-  
+  resetPopUp(message)
 
 }  else
 //CHUVEIRO
@@ -10347,7 +10349,7 @@ conexacaoL11Baixo == "L3VB" && conexacaoL12BaixoBaixo == "L4VBB" ||
    message.id = "message2"
 message.innerHTML = texto8
 
-  
+  resetPopUp(message)
 
 } else//CHUVEIRO
 if(conexacaoL11Alto == "L3BA" && conexacaoL12Alto == "L4BA" ||
@@ -10388,7 +10390,7 @@ conexacaoL11Baixo == "L3BB" && conexacaoL12BaixoBaixo == "L4BBB" ||
    message.id = "message2"
 message.innerHTML = texto9
 
-  
+  resetPopUp(message)
 
 }else//CHUVEIRO
 if(conexacaoL11Alto == "L3AA" && conexacaoL12Alto == "L4AA" ||
@@ -10429,7 +10431,7 @@ conexacaoL11Baixo == "L3AB" && conexacaoL12BaixoBaixo == "L4ABB" ||
    message.id = "message2"
 message.innerHTML = texto10
 
-  
+  resetPopUp(message)
 
 } else//CHUVEIRO
    if(conexacaoL11Alto == "L3MA" && conexacaoL12Alto == "L4MA" ||
@@ -10470,7 +10472,7 @@ conexacaoL11Baixo == "L3MB" && conexacaoL12BaixoBaixo == "L4MBB" ||
    message.id = "message2"
 message.innerHTML = texto11
 
-  
+  resetPopUp(message)
 
 }
  else
@@ -10514,7 +10516,7 @@ conexacaoL11Baixo == "L5PB" && conexacaoL12BaixoBaixo == "L6PBB" ||
    message.id = "message2"
 message.innerHTML = texto12
 
-  
+  resetPopUp(message)
 
 } else//INTERRUPTOR
    if(conexacaoL11Alto == "L5VA" && conexacaoL12Alto == "L6VA" ||
@@ -10555,7 +10557,7 @@ conexacaoL11Baixo == "L5VB" && conexacaoL12BaixoBaixo == "L6VBB" ||
    message.id = "message2"
 message.innerHTML = texto13
 
-  
+  resetPopUp(message)
 
 } else//INTERRUPTOR
    if(conexacaoL11Alto == "L5BA" && conexacaoL12Alto == "L6BA" ||
@@ -10596,7 +10598,7 @@ conexacaoL11Baixo == "L5BB" && conexacaoL12BaixoBaixo == "L6BBB" ||
    message.id = "message2"
 message.innerHTML = texto14
 
-  
+  resetPopUp(message)
 
 } else//INTERRUPTOR
    if(conexacaoL11Alto == "L5AA" && conexacaoL12Alto == "L6AA" ||
@@ -10637,7 +10639,7 @@ conexacaoL11Baixo == "L5AB" && conexacaoL12BaixoBaixo == "L6ABB" ||
    message.id = "message2"
 message.innerHTML = texto15
 
-  
+  resetPopUp(message)
 
 } else//INTERRUPTOR
    if(conexacaoL11Alto == "L5MA" && conexacaoL12Alto == "L6MA" ||
@@ -10679,7 +10681,7 @@ conexacaoL11Baixo == "L5MB" && conexacaoL12BaixoBaixo == "L6MBB" ||
 message.innerHTML = texto16
 
   //INTERRUPTOR
-
+resetPopUp(message)
 }
 
 else
@@ -10724,7 +10726,7 @@ conexacaoL11Baixo == "L7PB" && conexacaoL12BaixoBaixo == "L8PBB" ||
 message.innerHTML = texto17
 
   
-
+resetPopUp(message)
 } else//TOMADA
    if(conexacaoL11Alto == "L7VA" && conexacaoL12Alto == "L8VA" ||
 
@@ -10764,7 +10766,7 @@ conexacaoL11Baixo == "L7VB" && conexacaoL12BaixoBaixo == "L8VBB" ||
    message.id = "message2"
 message.innerHTML = texto18
 
-  
+  resetPopUp(message)
 
 } else//TOMADA
    if(conexacaoL11Alto == "L7BA" && conexacaoL12Alto == "L8BA" ||
@@ -10805,7 +10807,7 @@ conexacaoL11Baixo == "L7BB" && conexacaoL12BaixoBaixo == "L8BBB" ||
    message.id = "message2"
 message.innerHTML = texto19
 
-  
+  resetPopUp(message)
 
 } else//TOMADA
    if(conexacaoL11Alto == "L7AA" && conexacaoL12Alto == "L8AA" ||
@@ -10846,7 +10848,7 @@ conexacaoL11Baixo == "L7AB" && conexacaoL12BaixoBaixo == "L8ABB" ||
    message.id = "message2"
 message.innerHTML = texto20
 
-  
+  resetPopUp(message)
 
 } else//TOMADA
    if(conexacaoL11Alto == "L7MA" && conexacaoL12Alto == "L8MA" ||
@@ -10888,7 +10890,174 @@ conexacaoL11Baixo == "L7MB" && conexacaoL12BaixoBaixo == "L8MBB" ||
 message.innerHTML = texto21
 
   //TOMADA
+resetPopUp(message)
+}
 
+else
+   
+    //TOMADA POLO DO MEIO
+   if(   conexacaoL11Alto == "L9PA" ||
+
+   //MEDIA1 PARA MEDIA2
+   conexacaoL11Baixo == "L9PB" || 
+
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  == "L9PBB"  
+
+  
+
+
+
+
+
+){
+   // conecao no mesmo fio preto alto na lampada
+   console.log("dentro do if 2P TOMADA PO DO MEIO")
+   console.log(texto22)
+   message.id = "message2"
+message.innerHTML = texto22
+
+conexacaoL11Alto = undefined
+
+   //MEDIA1 PARA MEDIA2
+   conexacaoL11Baixo = undefined 
+
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  = undefined 
+
+  resetPopUp(message)
+
+} else //TOMADA POLO DO MEIO
+  if(conexacaoL11Alto == "L9VA" ||
+
+   //MEDIA1 PARA MEDIA2
+   conexacaoL11Baixo == "L9VB" || 
+
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  == "L9VBB"  
+
+
+
+
+){
+   // conecao no mesmo fio preto alto na lampada
+    console.log("dentro do if 2P TOMADA PO DO MEIO")
+   console.log(texto23)
+   message.id = "message2"
+message.innerHTML = texto23
+
+
+conexacaoL11Alto = undefined
+
+   //MEDIA1 PARA MEDIA2
+   conexacaoL11Baixo = undefined 
+
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  = undefined 
+
+  resetPopUp(message)
+
+} else //TOMADA POLO DO MEIO
+   if(conexacaoL11Alto == "L9BA" ||
+
+   //MEDIA1 PARA MEDIA2
+   conexacaoL11Baixo == "L9BB" || 
+
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  == "L9BBB" 
+
+
+
+
+
+){
+   // conecao no mesmo fio preto alto na lampada
+    console.log("dentro do if 2P TOMADA PO DO MEIO")
+   console.log(texto24)
+   message.id = "message2"
+message.innerHTML = texto24
+
+
+conexacaoL11Alto = undefined
+
+   //MEDIA1 PARA MEDIA2
+   conexacaoL11Baixo = undefined 
+
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  = undefined 
+
+  resetPopUp(message)
+
+} else //TOMADA POLO DO MEIO
+   if(conexacaoL11Alto == "L9AA" ||
+
+   //MEDIA1 PARA MEDIA2
+   conexacaoL11Baixo == "L9AB" || 
+
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  == "L9ABB"  
+
+
+
+
+){
+   // conecao no mesmo fio preto alto na lampada
+    console.log("dentro do if 2P TOMADA PO DO MEIO")
+   console.log(texto25)
+   message.id = "message2"
+message.innerHTML = texto25
+
+conexacaoL11Alto = undefined
+
+   //MEDIA1 PARA MEDIA2
+   conexacaoL11Baixo = undefined 
+
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  = undefined 
+
+
+  resetPopUp(message)
+
+} else //TOMADA POLO DO MEIO
+  if(conexacaoL11Alto == "L9MA" ||
+
+   //MEDIA1 PARA MEDIA2
+   conexacaoL11Baixo == "L9MB" || 
+
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  == "L9MBB"  
+
+
+
+
+
+){
+   // conecao no mesmo fio preto alto na lampada
+   console.log("dentro do if 2P TOMADA PO DO MEIO")
+   console.log(texto26)
+   message.id = "message2"
+message.innerHTML = texto26
+
+conexacaoL11Alto = undefined
+
+   //MEDIA1 PARA MEDIA2
+   conexacaoL11Baixo = undefined 
+
+   
+  //BAIXA1 PARA BAIXA2
+   conexacaoL11BaixoBaixo  = undefined 
+
+  //TOMADA POLO DO MEIO
+resetPopUp(message)
 }
   
   // setInterval(resetButtom(), 3000);
@@ -25926,6 +26095,28 @@ function ativarFiltro(id){
    
 
 }
+
+
+function resetPopUp(message){
+ let  textoVasio = ""
+console.log("fora  do resetPopUp")
+if(message ){
+   
+console.log("dentro do resetPopUp")
+setTimeout(() => {
+ message.innerHTML = textoVasio
+ message.id = "message"
+console.log("Executado após 3 segundos!");
+}, 3000);
+
+
+}
+
+}
+
+
+
+
 
 //chamando a funcao
 fioConectado();//=========PRIMEIRO FIO========
