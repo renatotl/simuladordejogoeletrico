@@ -20,33 +20,40 @@ body{
 #quadrado1 {
 width: 150px; /* largura do retângulo */
   height: 100px; /* altura do retângulo */
-
+ 
 }
 
 #quadrado5 {
 width: 200px; /* largura do retângulo */
   height: 150px; /* altura do retângulo */
-
+background-image:url("../../assets/img/projeto.jpg") ;
+background-size: 5cm;
+color: aliceblue;
 }
-
 
 #quadrado3 {
 width: 120px; /* largura do retângulo */
   height: 100px; /* altura do retângulo */
-
+background-image:url("../../assets/img/projeto.jpg") ;
+background-size: 3.5cm;
+color: aliceblue;
 }
 
 #quadrado2 {
 width: 200px; /* largura do retângulo */
   height: 100px; /* altura do retângulo */
-
+background-image:url("../../assets/img/projeto.jpg") ;
+background-size: 5cm;
+color: aliceblue;
 }
 
 
 #quadrado4 {
 width: 300px; /* largura do retângulo */
   height: 150px; /* altura do retângulo */
-
+background-image:url("../../assets/img/projeto.jpg") ;
+background-size: 7cm;
+color: aliceblue;
 }
 
 
