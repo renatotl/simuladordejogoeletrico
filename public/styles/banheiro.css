@@ -13,6 +13,16 @@ nav {
    display: flex;
   }
 
+  #ads {
+    position: fixed;
+    
+    width: 10%;
+    height: 35%;
+    
+    margin: 23% 0% 0% 0%;
+   
+  }
+
   footer {
     margin: 40% 0% 0% 0%;
     position: fixed;
