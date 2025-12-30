@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0; 
+    padding: 0vw;
+    margin: 0vw; 
 }
 
 nav {
@@ -16,8 +16,8 @@ nav {
   #ads {
     position: fixed;
     
-    width: 10%;
-    height: 35%;
+    width: 10vw;
+    height: 17vw;
     
     margin: 23% 0% 0% 0%;
    
